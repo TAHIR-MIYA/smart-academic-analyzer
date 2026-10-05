@@ -24,6 +24,9 @@ class Settings(BaseSettings):
     # Safety cap so one huge document cannot freeze the NLP pipeline on a laptop.
     max_analysis_chars: int = 500_000
 
+    # Document-frequency table built from the training dataset (created by the Module 4 training script).
+    reference_idf_path: Path = BASE_DIR / "app" / "ml" / "artifacts" / "reference_idf.json"
+
     log_level: str = "INFO"
     log_dir: Path = BASE_DIR / "logs"
 

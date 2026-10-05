@@ -85,3 +85,82 @@ class PreviewRequest(BaseModel):
 class PreviewResponse(BaseModel):
     preprocessing: PreprocessingResponse
     statistics: TextStatistics
+    keywords: "KeywordsResult"
+    ngrams: "NgramsResult"
+    entities: "EntitiesResult"
+
+
+# ---------------------------------------------------------------------------
+# Module 3: keywords, n-grams, entities
+# ---------------------------------------------------------------------------
+class KeywordItem(BaseModel):
+    term: str
+    count: int
+    tf: float
+    idf: float
+    score: float
+    relative_score: float
+
+
+class KeywordsResult(BaseModel):
+    idf_mode: str
+    idf_description: str
+    idf_n_documents: int
+    pos_filter: list[str]
+    formula: str
+    total_terms: int
+    vocabulary_size: int
+    keywords: list[KeywordItem]
+
+
+class KeywordsResponse(KeywordsResult):
+    document_id: int | None = None
+
+
+class NgramItem(BaseModel):
+    ngram: str
+    count: int
+
+
+class NgramLevel(BaseModel):
+    n: int
+    label: str
+    total: int
+    distinct: int
+    top: list[NgramItem]
+
+
+class NgramsResult(BaseModel):
+    levels: list[NgramLevel]
+    note: str
+
+
+class NgramsResponse(NgramsResult):
+    document_id: int | None = None
+
+
+class EntityItem(BaseModel):
+    text: str
+    count: int
+
+
+class EntityGroup(BaseModel):
+    label: str
+    description: str
+    total: int
+    unique: int
+    top: list[EntityItem]
+
+
+class EntitiesResult(BaseModel):
+    model: str
+    total_entities: int
+    unique_entities: int
+    groups: list[EntityGroup]
+
+
+class EntitiesResponse(EntitiesResult):
+    document_id: int | None = None
+
+
+PreviewResponse.model_rebuild()

@@ -8,3 +8,15 @@
 2026-10-05 15:41:21,227 | INFO     | app.main | Starting Smart Academic Document Analyzer v0.1.0
 2026-10-05 15:41:21,232 | INFO     | app.db.database | Database ready at sqlite:///./data/analyzer.db
 2026-10-05 15:44:42,591 | INFO     | app.main | Shutting down
+2026-10-05 17:05:34,337 | INFO     | app.main | Starting Smart Academic Document Analyzer v0.1.0
+2026-10-05 17:05:34,339 | INFO     | app.db.database | Database ready at sqlite:///./data/analyzer.db
+2026-10-05 17:06:31,683 | INFO     | app.nlp.resources | Loaded spaCy model en_core_web_sm (pipeline: ['tok2vec', 'tagger', 'parser', 'attribute_ruler', 'lemmatizer', 'ner'])
+2026-10-05 17:06:31,694 | INFO     | app.nlp.pipeline | Pipeline: 1 sentences, 1 tokens, 1 content lemmas
+2026-10-05 17:06:54,226 | INFO     | app.utils.file_validation | Validated upload 'MBIT_CE_TAHIR_MIYA.pdf' (pdf, 390298 bytes)
+2026-10-05 17:06:54,246 | INFO     | app.services.extraction | Extracted 2291 characters from pdf via pymupdf
+2026-10-05 17:06:54,264 | INFO     | app.services.document_service | Stored document id=1 name='MBIT_CE_TAHIR_MIYA.pdf'
+2026-10-05 17:06:55,892 | INFO     | app.utils.file_validation | Validated upload 'MBIT_CE_TAHIR_MIYA.pdf' (pdf, 390298 bytes)
+2026-10-05 17:06:55,910 | INFO     | app.services.extraction | Extracted 2291 characters from pdf via pymupdf
+2026-10-05 17:06:55,922 | INFO     | app.services.document_service | Stored document id=2 name='MBIT_CE_TAHIR_MIYA.pdf'
+2026-10-05 17:07:25,055 | INFO     | app.nlp.pipeline | Pipeline: 11 sentences, 343 tokens, 197 content lemmas
+2026-10-05 17:30:08,289 | INFO     | app.main | Shutting down

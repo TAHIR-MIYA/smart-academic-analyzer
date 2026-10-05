@@ -26,6 +26,7 @@ class TokenRecord:
     lemma: str  # dictionary form (lower-case)
     pos: str  # coarse part of speech from spaCy
     is_stopword: bool
+    sentence_index: int  # which sentence the token came from (n-grams must not cross sentences)
 
 
 @dataclass
@@ -53,6 +54,15 @@ class PreprocessedDocument:
     @property
     def lemma_text(self) -> str:
         return " ".join(self.content_lemmas)
+
+    def content_by_sentence(self, allowed_pos: tuple[str, ...] | None = None) -> list[list[str]]:
+        """Content lemmas grouped per sentence (sentences without content words are omitted)."""
+        groups: dict[int, list[str]] = {}
+        for r in self.records:
+            if r.is_stopword or (allowed_pos and r.pos not in allowed_pos):
+                continue
+            groups.setdefault(r.sentence_index, []).append(r.lemma)
+        return [groups[k] for k in sorted(groups)]
 
     # ---- API reports ----
     def statistics(self) -> dict:
@@ -136,13 +146,14 @@ def run_pipeline(text: str, max_chars: int = 500_000) -> PreprocessedDocument:
     if len(lemma_pos) != len(raw_tokens):  # defensive: alignment is essential
         raise RuntimeError("Lemmatiser output is not aligned with the tokens")
 
+    token_sentence = [i for i, toks in enumerate(sentence_tokens) for _ in toks]
     stopwords = get_stopwords()
     records: list[TokenRecord] = []
-    for token, (lemma, pos) in zip(raw_tokens, lemma_pos):
+    for token, (lemma, pos), sent_idx in zip(raw_tokens, lemma_pos, token_sentence):
         if not tokenization.is_word_token(token):
             continue
         lower = token.lower()
-        records.append(TokenRecord(token, lower, lemma.lower(), pos, lower in stopwords))
+        records.append(TokenRecord(token, lower, lemma.lower(), pos, lower in stopwords, sent_idx))
 
     if not any(not r.is_stopword for r in records):
         raise EmptyDocumentError("The document contains no analysable words after cleaning.")
