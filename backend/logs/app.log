@@ -1,0 +1,10 @@
+2026-10-05 12:26:53,011 | INFO     | app.main | Starting Smart Academic Document Analyzer v0.1.0
+2026-10-05 12:26:53,020 | INFO     | app.db.database | Database ready at sqlite:///./data/analyzer.db
+2026-10-05 12:28:41,104 | INFO     | app.utils.file_validation | Validated upload 'MBIT_CE_TAHIR_MIYA.pdf' (pdf, 390298 bytes)
+2026-10-05 12:28:41,130 | INFO     | app.services.extraction | Extracted 2291 characters from pdf via pymupdf
+2026-10-05 12:28:41,147 | INFO     | app.services.document_service | Stored document id=1 name='MBIT_CE_TAHIR_MIYA.pdf'
+2026-10-05 12:32:40,650 | INFO     | app.services.document_service | Deleted document id=1
+2026-10-05 12:32:42,423 | INFO     | app.main | DELETE /api/documents/1 -> not_found: Document 1 was not found.
+2026-10-05 15:41:21,227 | INFO     | app.main | Starting Smart Academic Document Analyzer v0.1.0
+2026-10-05 15:41:21,232 | INFO     | app.db.database | Database ready at sqlite:///./data/analyzer.db
+2026-10-05 15:44:42,591 | INFO     | app.main | Shutting down
