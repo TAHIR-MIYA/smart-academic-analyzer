@@ -13,9 +13,48 @@ MIN_WORD_LENGTH = 2
 _CLITIC_TOKENS = {"n't"}
 
 
+_END_PUNCT = (".", "!", "?", ":", ";", ",")
+_SMALL_WORDS = {"of", "and", "the", "in", "for", "to", "a", "an", "on", "with", "or", "vs", "by"}
+_MAX_HEADING_WORDS = 8
+
+
+def _is_heading(line: str, previous: str | None, following: str | None, previous_was_heading: bool) -> bool:
+    """A short, unpunctuated line standing alone between sentences: 'Introduction', '3.1 System Design'."""
+    s = line.strip()
+    words = s.split()
+    if not words or s.endswith(_END_PUNCT) or len(words) > _MAX_HEADING_WORDS:
+        return False
+    prev = (previous or "").strip()
+    nxt = (following or "").strip()
+    starts_unit = previous is None or not prev or prev.endswith((".", "!", "?", ":", ";")) or previous_was_heading
+    ends_unit = following is None or not nxt or nxt[0].isupper() or nxt[0].isdigit() or nxt[0] in "-*\u2022"
+    if not (starts_unit and ends_unit):
+        return False
+    title_like = all(w[0].isupper() or not w[0].isalpha() or w.lower() in _SMALL_WORDS for w in words)
+    return title_like or len(words) <= 3
+
+
+def mark_headings(text: str) -> str:
+    """Add a full stop to heading lines so the sentence splitter does not glue them to the next sentence.
+
+    Without this, 'PROBLEM STATEMENT\\nThe existing system ...' would become ONE sentence.
+    Wrapped fragments such as 'The system was implemented using' are not treated as headings
+    because they are not title-like and the line before them does not end a sentence.
+    """
+    lines = text.split("\n")
+    out: list[str] = []
+    was_heading = False
+    for i, line in enumerate(lines):
+        previous = lines[i - 1] if i > 0 else None
+        following = lines[i + 1] if i + 1 < len(lines) else None
+        was_heading = _is_heading(line, previous, following, was_heading)
+        out.append(line.rstrip() + "." if was_heading else line)
+    return "\n".join(out)
+
+
 def split_sentences(text: str) -> list[str]:
     try:
-        sentences = sent_tokenize(text)
+        sentences = sent_tokenize(mark_headings(text))
     except LookupError as exc:
         raise NLPResourceError(
             "NLTK 'punkt_tab' tokenizer data is not installed.",

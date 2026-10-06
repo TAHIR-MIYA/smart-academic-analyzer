@@ -1,0 +1,9 @@
+Database Management Systems.
+Normalization is the process of organising tables to reduce redundancy and update anomalies.
+Primary key is a column or set of columns that uniquely identifies every row in a table.
+Transaction is a sequence of database operations that must be executed as a single logical unit.
+Indexing is a structure that speeds up the retrieval of rows by searching on selected columns.
+Sql join is an operation that combines rows from two or more tables based on a related column.
+Er diagram is a diagram that models entities, attributes and the relationships between them.
+Deadlock is a situation in which two transactions wait for each other to release locks.
+Key terms: database, relational model, table, tuple, attribute, schema, query, SQL, relational algebra, functional dependency, ACID, concurrency control, locking, recovery, foreign key, constraint, stored procedure, trigger, view, entity, relationship, data redundancy, DBMS, index, B-tree.

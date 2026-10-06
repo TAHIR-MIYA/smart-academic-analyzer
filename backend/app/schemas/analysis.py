@@ -203,4 +203,165 @@ class ClassificationResponse(ClassificationResult):
     document_id: int | None = None
 
 
-PreviewResponse.model_rebuild()  # resolve forward references (must stay at the end of the file)
+# ---------------------------------------------------------------------------
+# Module 5: summary, readability, vocabulary, similarity
+# ---------------------------------------------------------------------------
+class SummarySentence(BaseModel):
+    index: int
+    text: str
+    score: float
+    relative_score: float
+    words: int
+
+
+class SentenceScore(BaseModel):
+    index: int
+    score: float
+    selected: bool
+    words: int
+
+
+class SummaryResult(BaseModel):
+    method: str
+    idf_mode: str
+    sentences_in_document: int
+    sentences_eligible: int
+    sentences_selected: int
+    compression_ratio: float
+    summary: list[SummarySentence]
+    summary_text: str
+    sentence_scores: list[SentenceScore]
+    parameters: dict[str, float | int]
+    note: str | None = None
+
+
+class SummaryResponse(SummaryResult):
+    document_id: int | None = None
+
+
+class ReadabilityScore(BaseModel):
+    name: str
+    value: float
+    interpretation: str
+    formula: str
+
+
+class ReadabilityResult(BaseModel):
+    reliable: bool
+    warning: str | None = None
+    counts: dict[str, int]
+    averages: dict[str, float]
+    scores: list[ReadabilityScore]
+    reading_level: str
+    note: str
+
+
+class ReadabilityResponse(ReadabilityResult):
+    document_id: int | None = None
+
+
+class VocabularyMeasure(BaseModel):
+    key: str
+    name: str
+    value: float
+    description: str
+
+
+class SpectrumBucket(BaseModel):
+    occurrences: str
+    count: int
+
+
+class ZipfPoint(BaseModel):
+    rank: int
+    word: str
+    count: int
+
+
+class VocabularyResult(BaseModel):
+    reliable: bool
+    warning: str | None = None
+    tokens: int
+    types: int
+    lemma_types: int
+    hapax_count: int
+    dis_legomena_count: int
+    measures: list[VocabularyMeasure]
+    frequency_spectrum: list[SpectrumBucket]
+    zipf: list[ZipfPoint]
+
+
+class VocabularyResponse(VocabularyResult):
+    document_id: int | None = None
+
+
+class TopicScore(BaseModel):
+    topic: str
+    similarity: float
+
+
+class SharedTerm(BaseModel):
+    term: str
+    weight: float
+
+
+class TopicSimilarityResult(BaseModel):
+    method: str
+    topics_compared: int
+    best_topic: str | None
+    best_similarity: float
+    is_weak_match: bool
+    weak_match_threshold: float
+    similarities: list[TopicScore]
+    matched_terms: list[SharedTerm]
+    note: str | None = None
+
+
+class TopicSimilarityResponse(TopicSimilarityResult):
+    document_id: int | None = None
+
+
+class SentencePair(BaseModel):
+    similarity: float
+    index_a: int
+    sentence_a: str
+    index_b: int
+    sentence_b: str
+
+
+class CompareRequest(BaseModel):
+    document_a: int
+    document_b: int
+
+
+class DocumentRef(BaseModel):
+    id: int
+    filename: str
+
+
+class ComparisonResponse(BaseModel):
+    document_a: DocumentRef
+    document_b: DocumentRef
+    method: str
+    cosine_similarity: float
+    vocabulary_overlap_jaccard: float
+    interpretation: str
+    interpretation_note: str
+    shared_terms: list[SharedTerm]
+    similar_sentence_pairs: list[SentencePair]
+    pair_threshold: float
+    note: str = (
+        "Cosine similarity measures shared wording, not shared subject: two documents about the same "
+        "subject but with different content can score low."
+    )
+
+
+class PreviewFull(PreviewResponse):
+    summary: SummaryResult | None = None
+    readability: ReadabilityResult | None = None
+    vocabulary: VocabularyResult | None = None
+    topic_similarity: TopicSimilarityResult | None = None
+    topic_similarity_error: str | None = None
+
+
+PreviewFull.model_rebuild()

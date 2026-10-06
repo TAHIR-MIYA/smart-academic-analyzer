@@ -5,7 +5,7 @@ keep word tokens -> case-fold -> remove stop words -> lemmas
 """
 import logging
 from collections import Counter
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from functools import lru_cache
 
 from app.nlp import cleaning, tokenization
@@ -39,6 +39,7 @@ class PreprocessedDocument:
     records: list[TokenRecord]
     stats: dict
     truncated: bool
+    sentence_tokens: list[list[str]] = field(default_factory=list)  # NLTK tokens per sentence
 
     # ---- views used by later modules (TF-IDF, n-grams, summariser, ...) ----
     @property
@@ -54,6 +55,14 @@ class PreprocessedDocument:
     @property
     def lemma_text(self) -> str:
         return " ".join(self.content_lemmas)
+
+    def lemma_texts_by_sentence(self) -> list[str]:
+        """One string of content lemmas per sentence, aligned with self.sentences ('' if none)."""
+        groups: list[list[str]] = [[] for _ in self.sentences]
+        for r in self.records:
+            if not r.is_stopword:
+                groups[r.sentence_index].append(r.lemma)
+        return [" ".join(g) for g in groups]
 
     def content_by_sentence(self, allowed_pos: tuple[str, ...] | None = None) -> list[list[str]]:
         """Content lemmas grouped per sentence (sentences without content words are omitted)."""
@@ -163,7 +172,7 @@ def run_pipeline(text: str, max_chars: int = 500_000) -> PreprocessedDocument:
         "Pipeline: %d sentences, %d tokens, %d content lemmas",
         len(sentences), len(raw_tokens), sum(1 for r in records if not r.is_stopword),
     )
-    return PreprocessedDocument(text, cleaned.text, cleaned, sentences, raw_tokens, records, stats, truncated)
+    return PreprocessedDocument(text, cleaned.text, cleaned, sentences, raw_tokens, records, stats, truncated, sentence_tokens)
 
 
 @lru_cache(maxsize=16)

@@ -4,18 +4,24 @@ from sqlalchemy.orm import Session
 from app.config import Settings, get_settings
 from app.db.database import get_db
 from app.schemas.analysis import (
+    CompareRequest,
+    ComparisonResponse,
+    PreviewFull,
+    ReadabilityResponse,
+    SummaryResponse,
+    TopicSimilarityResponse,
+    VocabularyResponse,
     ClassificationResponse,
     EntitiesResponse,
     KeywordsResponse,
     NgramsResponse,
     PreprocessingResponse,
     PreviewRequest,
-    PreviewResponse,
     StatisticsResponse,
 )
 from app.schemas.document import ErrorResponse
 from app.services import analysis_service as svc
-from app.utils.errors import ModelNotTrainedError
+from app.utils.errors import ModelNotTrainedError, NLPResourceError
 
 router = APIRouter(prefix="/api/analysis", tags=["analysis"])
 
@@ -76,7 +82,48 @@ def get_classification(
     return ClassificationResponse(document_id=doc_id, **svc.classification_for(result, settings))
 
 
-@router.post("/preview", response_model=PreviewResponse, responses=_errors)
+@router.get("/{document_id}/summary", response_model=SummaryResponse, responses=_errors)
+def get_summary(
+    document_id: int,
+    sentences: int | None = Query(None, ge=1, le=20, description="Number of sentences; default is about 25 % of the document"),
+    db: Session = Depends(get_db),
+    settings: Settings = Depends(get_settings),
+):
+    doc_id, result = svc.preprocess_document(db, document_id, settings)
+    return SummaryResponse(document_id=doc_id, **svc.summary_for(result, settings, sentences))
+
+
+@router.get("/{document_id}/readability", response_model=ReadabilityResponse, responses=_errors)
+def get_readability(
+    document_id: int, db: Session = Depends(get_db), settings: Settings = Depends(get_settings)
+):
+    doc_id, result = svc.preprocess_document(db, document_id, settings)
+    return ReadabilityResponse(document_id=doc_id, **svc.readability_for(result))
+
+
+@router.get("/{document_id}/vocabulary", response_model=VocabularyResponse, responses=_errors)
+def get_vocabulary(
+    document_id: int, db: Session = Depends(get_db), settings: Settings = Depends(get_settings)
+):
+    doc_id, result = svc.preprocess_document(db, document_id, settings)
+    return VocabularyResponse(document_id=doc_id, **svc.vocabulary_for(result))
+
+
+@router.get("/{document_id}/similarity", response_model=TopicSimilarityResponse, responses=_errors)
+def get_topic_similarity(
+    document_id: int, db: Session = Depends(get_db), settings: Settings = Depends(get_settings)
+):
+    doc_id, result = svc.preprocess_document(db, document_id, settings)
+    return TopicSimilarityResponse(document_id=doc_id, **svc.topic_similarity_for(result, settings))
+
+
+@router.post("/compare", response_model=ComparisonResponse, responses=_errors)
+def compare_documents(body: CompareRequest, db: Session = Depends(get_db), settings: Settings = Depends(get_settings)):
+    """Cosine similarity, vocabulary overlap and the most similar sentence pairs of two stored documents."""
+    return ComparisonResponse(**svc.compare_stored_documents(db, body.document_a, body.document_b, settings))
+
+
+@router.post("/preview", response_model=PreviewFull, responses=_errors)
 def preview_text(body: PreviewRequest, settings: Settings = Depends(get_settings)):
     """Run the analyses on pasted text (nothing is stored). Handy for live viva demos."""
     result = svc.preprocess_text(body.text, settings)
@@ -85,7 +132,12 @@ def preview_text(body: PreviewRequest, settings: Settings = Depends(get_settings
         classification = svc.classification_for(result, settings)
     except ModelNotTrainedError as exc:
         classification_error = exc.message
-    return PreviewResponse(
+    topic, topic_error = None, None
+    try:
+        topic = svc.topic_similarity_for(result, settings)
+    except NLPResourceError as exc:
+        topic_error = exc.message
+    return PreviewFull(
         preprocessing=PreprocessingResponse(**result.preprocessing_report()),
         statistics=result.statistics(),
         keywords=svc.keywords_for(result, settings),
@@ -93,4 +145,9 @@ def preview_text(body: PreviewRequest, settings: Settings = Depends(get_settings
         entities=svc.entities_for(result),
         classification=classification,
         classification_error=classification_error,
+        summary=svc.summary_for(result, settings),
+        readability=svc.readability_for(result),
+        vocabulary=svc.vocabulary_for(result),
+        topic_similarity=topic,
+        topic_similarity_error=topic_error,
     )

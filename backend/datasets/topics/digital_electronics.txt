@@ -1,0 +1,9 @@
+Digital Electronics.
+Flip-flop is a bistable circuit that stores one bit of information.
+Multiplexer is a combinational circuit that selects one of many inputs and forwards it to a single output.
+Karnaugh map is a graphical method for simplifying Boolean expressions.
+Counter is a sequential circuit that goes through a prescribed sequence of states on clock pulses.
+Decoder is a combinational circuit that converts binary input codes into distinct output lines.
+Logic gate is an elementary building block that performs a Boolean operation on one or more inputs.
+Shift register is a group of flip-flops that moves stored bits one position on every clock pulse.
+Key terms: digital, binary, Boolean algebra, circuit, truth table, combinational circuit, sequential circuit, adder, subtractor, encoder, register, memory, clock, state machine, latch, NAND gate, NOR gate, XOR, signal, voltage, logic level, ROM, RAM, microcontroller.

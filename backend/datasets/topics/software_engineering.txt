@@ -1,0 +1,9 @@
+Software Engineering.
+Waterfall model is a sequential development process in which each phase is completed before the next begins.
+Agile methodology is an iterative approach that delivers working software in short cycles with continuous feedback.
+Unit testing is the testing of individual components in isolation to verify that they behave correctly.
+Requirements specification is a document that describes what the software must do and the constraints it must satisfy.
+Uml diagram is a standard visual notation used to model the structure and behaviour of software.
+Version control is a system that records changes to files so that earlier versions can be recovered.
+Code review is a systematic examination of source code by peers to find defects and improve quality.
+Key terms: software, requirements, design, testing, maintenance, lifecycle, SDLC, project management, risk, scrum, sprint, user story, use case, architecture, design pattern, refactoring, debugging, integration testing, quality assurance, documentation, stakeholder, prototype, deployment, bug, release.

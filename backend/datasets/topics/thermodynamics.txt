@@ -1,0 +1,9 @@
+Thermodynamics.
+Entropy is a measure of the disorder or the unavailable energy of a system.
+Enthalpy is the total heat content of a system at constant pressure.
+Carnot cycle is an ideal reversible cycle that gives the maximum possible efficiency between two temperatures.
+Heat engine is a device that converts heat energy into useful mechanical work.
+Ideal gas is a hypothetical gas whose molecules have no volume and no mutual attraction.
+Isothermal process is a process that takes place at constant temperature.
+First law of thermodynamics is the statement that energy can be transformed but neither created nor destroyed.
+Key terms: heat, temperature, pressure, work, energy, system, surroundings, cycle, efficiency, refrigerator, second law, Kelvin, Joule, specific heat, adiabatic, reversible process, steam, turbine, compressor, internal energy, equilibrium, phase change, thermal, calorific value.

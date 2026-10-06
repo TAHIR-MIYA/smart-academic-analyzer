@@ -1,0 +1,9 @@
+Machine Learning.
+Linear regression is a supervised method that fits a straight line to predict a numeric target from input variables.
+Decision tree is a model that splits data using a sequence of feature tests arranged as a tree.
+Overfitting is a problem where a model memorises noise in the training data and performs poorly on new data.
+Cross-validation is a technique that repeatedly splits the data to estimate how well a model generalises.
+Gradient descent is an iterative optimisation algorithm that moves parameters in the direction of the steepest decrease of the loss.
+K-means clustering is an unsupervised algorithm that groups similar points around a fixed number of centroids.
+Confusion matrix is a table that compares predicted classes with actual classes to show the types of errors made.
+Key terms: supervised learning, unsupervised learning, classification, regression, training data, test data, features, labels, neural network, bias, variance, regularization, accuracy, precision, recall, loss function, model, algorithm, prediction, clustering, dimensionality reduction, ensemble, random forest, support vector machine, hyperparameter.

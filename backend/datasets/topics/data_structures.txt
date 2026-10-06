@@ -1,0 +1,9 @@
+Data Structures.
+Linked list is a linear collection of nodes where each node stores a value and a pointer to the next node.
+Stack is a linear structure that follows the last in first out principle.
+Binary search tree is a tree in which the left subtree holds smaller keys and the right subtree holds larger keys.
+Hash table is a structure that maps keys to positions using a hash function for fast lookup.
+Graph traversal is the systematic visiting of every vertex of a graph using breadth first or depth first search.
+Heap is a complete binary tree that satisfies the heap ordering property.
+Queue is a linear structure that follows the first in first out principle.
+Key terms: data structure, array, pointer, node, tree, graph, sorting, searching, complexity, recursion, algorithm, big O, traversal, insertion, deletion, balanced tree, AVL tree, priority queue, adjacency matrix, adjacency list, dynamic programming, binary search, memory, collision.

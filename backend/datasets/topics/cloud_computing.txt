@@ -1,0 +1,9 @@
+Cloud Computing.
+Virtualization is the creation of virtual versions of hardware so that many machines share one physical server.
+Load balancing is the distribution of incoming requests across several servers to avoid overload.
+Containers is lightweight packages that bundle an application with its dependencies.
+Auto scaling is the automatic adjustment of computing resources according to demand.
+Object storage is a storage model that keeps data as objects with metadata in a flat address space.
+Serverless computing is a model where the provider runs code on demand and manages the servers.
+Service level agreement is a contract that defines the availability and performance a provider must deliver.
+Key terms: cloud, server, data center, virtual machine, hypervisor, IaaS, PaaS, SaaS, scalability, elasticity, availability, deployment, orchestration, Kubernetes, Docker, microservices, API, storage, bandwidth, multi-tenancy, public cloud, private cloud, hybrid cloud, pay as you go, region.

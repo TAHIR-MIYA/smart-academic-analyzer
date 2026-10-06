@@ -33,6 +33,9 @@ class Settings(BaseSettings):
     # Below this probability the UI should flag the prediction as uncertain (chance level is 0.2).
     classification_min_confidence: float = 0.5
 
+    # Topic profile files (.txt) for document-to-topic similarity; edit or add your own.
+    topics_dir: Path = BASE_DIR / "datasets" / "topics"
+
     log_level: str = "INFO"
     log_dir: Path = BASE_DIR / "logs"
 

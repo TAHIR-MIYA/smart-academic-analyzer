@@ -1,0 +1,9 @@
+Operating Systems.
+Process scheduling is the method by which the operating system decides which process receives the processor next.
+Virtual memory is a technique that lets programs use more memory than is physically installed.
+Paging is a memory management scheme that divides memory into fixed size blocks called pages.
+Semaphore is a synchronisation variable used to control access to shared resources.
+Context switch is the saving and restoring of process state when the processor changes tasks.
+Thread is the smallest unit of execution that shares the resources of its parent process.
+File system is the part of the operating system that organises how data is stored and retrieved on disk.
+Key terms: operating system, kernel, process, thread, scheduler, CPU, memory management, page table, segmentation, deadlock, synchronization, mutex, interrupt, device driver, file allocation, disk scheduling, round robin, priority scheduling, multitasking, shell, system call, fragmentation, cache, boot.

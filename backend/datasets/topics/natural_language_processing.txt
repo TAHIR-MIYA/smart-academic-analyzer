@@ -1,0 +1,9 @@
+Natural Language Processing.
+Tokenization is the splitting of text into smaller units such as words or sentences.
+Stemming is a rule based reduction of words to a common root form by removing suffixes.
+Tf-idf is a weighting scheme that scores a term by its frequency in a document and its rarity across documents.
+Named entity recognition is the task of locating and classifying names of people, places and organisations in text.
+Language model is a model that assigns probabilities to sequences of words.
+Part-of-speech tagging is the assignment of grammatical categories such as noun or verb to each word.
+Cosine similarity is a measure of the angle between two vectors used to compare documents.
+Key terms: text, corpus, language, linguistics, parsing, syntax, semantics, sentiment analysis, machine translation, word embedding, n-gram, stop words, lemmatization, bag of words, vocabulary, named entity, classification, summarization, chatbot, speech, text mining, annotation, grammar, ambiguity, transformer.

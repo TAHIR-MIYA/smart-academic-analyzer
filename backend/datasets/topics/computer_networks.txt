@@ -1,0 +1,9 @@
+Computer Networks.
+Tcp is a connection oriented transport protocol that provides reliable ordered delivery of data.
+Ip addressing is the scheme used to identify every host and network on the internet.
+Routing is the process of selecting the best path for packets to travel between networks.
+Subnetting is the division of a large network into smaller logical networks.
+Dns is a distributed system that translates domain names into IP addresses.
+Firewall is a security device that filters incoming and outgoing traffic according to rules.
+Congestion control is a set of mechanisms that prevent too much data from overloading the network.
+Key terms: network, protocol, OSI model, TCP/IP, packet, router, switch, bandwidth, latency, ethernet, wireless, HTTP, UDP, socket, topology, LAN, WAN, gateway, MAC address, ARP, DHCP, encryption, throughput, error detection, flow control.

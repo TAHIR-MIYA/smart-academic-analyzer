@@ -8,7 +8,7 @@ pytestmark = pytest.mark.skipif(
 
 from app.nlp.pipeline import run_pipeline  # noqa: E402
 from app.nlp.preprocessing import lemmatize_sentences, stem  # noqa: E402
-from app.nlp.tokenization import is_word_token, split_sentences, tokenize_words  # noqa: E402
+from app.nlp.tokenization import is_word_token, mark_headings, split_sentences, tokenize_words  # noqa: E402
 from app.utils.errors import EmptyDocumentError  # noqa: E402
 
 TEXT = (
@@ -140,3 +140,33 @@ def test_pipeline_is_deterministic():
 def test_negation_clitic_not_a_content_word():
     lemmas = run_pipeline("The model doesn't overfit and the parser can't fail on long documents.").content_lemmas
     assert "n't" not in lemmas and "overfit" in lemmas
+
+
+# ---------- heading handling in sentence splitting ----------
+def test_heading_is_not_glued_to_next_sentence():
+    sents = split_sentences("PROBLEM STATEMENT\nThe existing system relies on manual effort. It is slow.")
+    assert sents == ["PROBLEM STATEMENT.", "The existing system relies on manual effort.", "It is slow."]
+
+
+def test_numbered_and_consecutive_headings():
+    sents = split_sentences("CHAPTER 3\nSystem Design\n3.1 Architecture\nThe application has three tiers.")
+    assert sents[:3] == ["CHAPTER 3.", "System Design.", "3.1 Architecture."]
+    assert sents[3] == "The application has three tiers."
+
+
+def test_sentence_case_short_heading():
+    assert split_sentences("Key points\n- Remember the definition.")[0] == "Key points."
+
+
+def test_wrapped_sentence_fragment_is_not_a_heading():
+    sents = split_sentences("Earlier work.\nThe system was implemented using\nPython and Flask for the web layer.")
+    assert any(s.startswith("The system was implemented using Python and Flask") for s in sents)
+
+
+def test_long_unpunctuated_line_is_not_a_heading():
+    line = "This line has far more than eight words in it and no final punctuation"
+    assert mark_headings(f"First sentence here.\n{line}\nNext sentence here.").count(".") == 2
+
+
+def test_prose_continuation_in_lowercase_is_not_a_heading():
+    assert mark_headings("Intro text here.\nShort line\nlowercase continues.") == "Intro text here.\nShort line\nlowercase continues."
