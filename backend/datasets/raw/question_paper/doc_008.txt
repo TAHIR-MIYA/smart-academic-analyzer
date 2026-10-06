@@ -1,0 +1,21 @@
+Riverside University
+End Semester Examination - January 2025
+Subject: Natural Language Processing (CS804)
+Time: 2 hours
+Maximum Marks: 30
+Seat No: ______________
+
+Instructions:
+1. Figures to the right indicate full marks.
+2. Use of a non programmable calculator is permitted.
+
+Section A (Answer the following. 1 marks each)
+Q1. Write the purpose of cosine similarity.
+Q2. List the advantages of language model.
+Q3. Name any two features of language model.
+Q4. Define cosine similarity.
+
+Part B (10 marks each)
+Q5. Write short notes on any two: part-of-speech tagging, tokenization, stemming. [5]
+Q6. Describe the working of part-of-speech tagging. Discuss its advantages and limitations. (2M)
+Q7. Differentiate between TF-IDF and part-of-speech tagging with suitable examples. (2 marks)

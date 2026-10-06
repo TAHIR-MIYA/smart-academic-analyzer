@@ -1,0 +1,9 @@
+Section A (2 marks each)
+1. What is normalization?
+2. Define a foreign key.
+3. List the ACID properties.
+4. What is a view in SQL?
+
+Section B (8 marks each)
+5. Explain the different types of joins with examples.
+6. Describe the two phase locking protocol. OR Explain deadlock detection in a database.

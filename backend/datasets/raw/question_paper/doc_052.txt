@@ -1,0 +1,16 @@
+Riverside University
+End Semester Examination - January 2024
+Subject: Natural Language Processing (CS804)
+Time: 2 hours
+Maximum Marks: 60
+
+Instructions:
+1. All questions are compulsory.
+2. Attempt any 4 questions from Section B.
+3. Use of a non programmable calculator is permitted.
+4. Figures to the right indicate full marks.
+
+Q1. Explain cosine similarity in detail with a neat diagram. (5M)
+Q2. What is named entity recognition? Explain the steps involved and compare it with language model. - 3 marks
+Q3. Write short notes on any two: cosine similarity, named entity recognition, language model. 6 marks
+Q4. Differentiate between stemming and part-of-speech tagging with suitable examples. (10M)

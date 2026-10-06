@@ -1,0 +1,14 @@
+Western Technical University
+Supplementary Examination - October 2025
+Subject: Computer Networks (CS503)
+Time: 2 hours
+Maximum Marks: 60
+Seat No: ______________
+
+Instructions:
+1. Figures to the right indicate full marks.
+2. Use of a non programmable calculator is permitted.
+
+Q1. Explain firewall in detail with a neat diagram. 2 marks
+Q2. Describe the working of routing. Discuss its advantages and limitations. - 10 marks
+Q3. What is congestion control? Explain the steps involved and compare it with IP addressing. - 5 marks

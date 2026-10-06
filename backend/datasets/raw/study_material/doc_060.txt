@@ -1,0 +1,25 @@
+Lecture Notes - Software Engineering
+
+Learning objectives
+- Define code review and explain where it is used.
+- Define UML diagram and explain where it is used.
+
+Code Review:
+Code review is a systematic examination of source code by peers to find defects and improve quality. A common mistake is to confuse code review with UML diagram. Note that code review depends on the assumptions made about the problem. The main advantage of code review is that it is simple to understand and efficient in practice.
+
+Uml Diagram
+Uml diagram is a standard visual notation used to model the structure and behaviour of software. Note that UML diagram depends on the assumptions made about the problem. This idea is widely used in real world systems.
+
+Requirements Specification
+Requirements specification is a document that describes what the software must do and the constraints it must satisfy. The main advantage of requirements specification is that it is simple to understand and efficient in practice.
+
+Key points
+- Remember the definition of code review.
+- Uml diagram is related to requirements specification.
+
+Summary
+In this unit we studied code review, UML diagram and requirements specification. These ideas form the foundation for further topics in Software Engineering.
+
+Review questions
+1. What is code review?
+2. Explain UML diagram with an example.

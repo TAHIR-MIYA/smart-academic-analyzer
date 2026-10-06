@@ -1,0 +1,30 @@
+LECTURE NOTES - COMPUTER NETWORKS
+
+Learning objectives
+- Define DNS and explain where it is used.
+- Define subnetting and explain where it is used.
+
+Dns
+Dns is a distributed system that translates domain names into
+IP addresses. A common mistake is to confuse DNS with TCP.
+
+Subnetting:
+Subnetting is the division of a large network into smaller
+logical networks. Students should remember that subnetting is
+closely related to TCP. The main advantage of subnetting is
+that it is simple to understand and efficient in practice.
+
+Firewall
+Firewall is a security device that filters incoming and
+outgoing traffic according to rules. The main advantage of
+firewall is that it is simple to understand and efficient in
+practice.
+
+Key points
+- Remember the definition of DNS.
+- Subnetting is related to firewall.
+
+Summary
+In this unit we studied DNS, subnetting and firewall. These
+ideas form the foundation for further topics in Computer
+Networks.

@@ -1,0 +1,15 @@
+Assignment No. 8
+Last date of submission: July 7, 2026
+Total marks: 10
+Faculty: Prof. Sana Iyer
+Semester: 5
+
+Instructions for students:
+- Upload a single PDF file on the college portal before the deadline.
+- Plagiarised work will not be accepted and will be awarded zero marks.
+
+Q1. Write a short note on virtualization and its applications in Cloud Computing. [5]
+Task 2: Prepare a one page summary of containers and attach it to your solved problems. (4M)
+Q3. Write a short note on containers and its applications in Cloud Computing. (10M)
+Q4. Collect two real world examples of object storage and discuss how serverless computing is related to them. [5]
+Q5. Implement a small program that demonstrates auto scaling and attach the output. [4]

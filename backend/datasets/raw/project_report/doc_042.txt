@@ -1,0 +1,28 @@
+File System Based Mobile Application for Library Management
+A project report submitted in partial fulfilment of the requirements for the degree of Bachelor of Engineering in Mechanical Engineering
+Submitted by: Arjun Patel
+Under the guidance of: Prof. Priya Shah
+Department of Mechanical Engineering, Western Technical University, 2026
+
+Abstract
+This project presents the design and implementation of a mobile application that applies file system and semaphore to improve accuracy and reduce manual effort. The system was developed using Android Studio and Firebase and tested on data collected from user surveys. Experimental results show that the system performs reliably compared with the existing approach. The report discusses the methodology, implementation, results and limitations of the work.
+
+1. Introduction
+In recent years Operating Systems has become an important part of modern engineering. Manual processes are slow, error prone and difficult to scale. This project aims to address these issues by using file system.
+
+2. LITERATURE SURVEY
+Several researchers have investigated file system in the context of Operating Systems. Earlier work proposed a method based on semaphore which improved results on benchmark data. However, most existing work does not address scalability and usability.
+
+3. Methodology
+The methodology follows requirement analysis, design, implementation and testing. The input data is first cleaned and prepared. Then file system is applied to extract the required information. Finally semaphore is used to produce the output which is displayed to the user.
+
+4. IMPLEMENTATION
+The system is implemented using Android Studio and Firebase. The main modules are the input module, the processing module and the output module. The file system component was implemented as a separate class so that it can be tested independently. Screenshots of the user interface are given in Figure 1.
+
+5. CONCLUSION
+The project successfully met its objectives. The system demonstrates that file system can be applied effectively to this problem. The work also highlighted the importance of careful testing.
+
+References
+[1] A. Kumar, Operating Systems: Principles and Practice, Tech Press, 2019.
+[2] R. Singh and P. Rao, "A study of file system", International Journal of Engineering Research, 2021.
+[3] Official documentation of Android Studio and Firebase.

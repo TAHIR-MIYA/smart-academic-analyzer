@@ -1,0 +1,17 @@
+Horizon Engineering College
+Final Examination - November 2025
+Subject: Computer Networks (CS503)
+Time: 1 hours
+Maximum Marks: 70
+
+Instructions:
+1. Attempt any 3 questions from Section B.
+2. Question 1 is compulsory. Solve any three from the remaining questions.
+3. Use of a non programmable calculator is permitted.
+4. Draw neat labelled diagrams wherever necessary.
+
+Q1. What is congestion control? Explain the steps involved and compare it with TCP. - 4 marks
+Q2. Write short notes on any two: TCP, subnetting, DNS. [2 marks]
+Q3. Differentiate between subnetting and TCP with suitable examples. 2 marks
+Q4. Write short notes on any two: subnetting, TCP, congestion control. - 10 marks
+Q5. What is IP addressing? Explain the steps involved and compare it with subnetting. [3 marks]

@@ -1,0 +1,16 @@
+National Institute of Applied Sciences
+Supplementary Examination - July 2025
+Subject: Operating Systems (CS402)
+Time: 3 hours
+Maximum Marks: 50
+
+Instructions:
+1. Draw neat labelled diagrams wherever necessary.
+2. Use of a non programmable calculator is permitted.
+3. Question 1 is compulsory. Solve any three from the remaining questions.
+
+Q1. Write short notes on any two: context switch, file system, thread. - 5 marks
+Q2. Explain paging in detail with a neat diagram. - 4 marks
+Q3. Describe the working of virtual memory. Discuss its advantages and limitations. (4M)
+Q4. Describe the working of thread. Discuss its advantages and limitations. (5 marks)
+Q5. Write short notes on any two: semaphore, process scheduling, file system. - 3 marks

@@ -1,0 +1,21 @@
+Enthalpy:
+Enthalpy is the total heat content of a system at constant pressure. This idea is widely used in academic research.
+
+Entropy
+Entropy is a measure of the disorder or the unavailable energy of a system. Note that entropy depends on the assumptions made about the problem. This idea is widely used in everyday software. Students should remember that entropy is closely related to isothermal process.
+
+Ideal Gas
+Ideal gas is a hypothetical gas whose molecules have no volume and no mutual attraction. Note that ideal gas depends on the assumptions made about the problem. For example, consider a small case in Thermodynamics where ideal gas is applied step by step.
+
+First Law Of Thermodynamics
+First law of thermodynamics is the statement that energy can be transformed but neither created nor destroyed. Students should remember that first law of thermodynamics is closely related to Carnot cycle. In practice, first law of thermodynamics is combined with Carnot cycle to solve larger problems. The main advantage of first law of thermodynamics is that it is simple to understand and efficient in practice.
+
+Isothermal Process
+Isothermal process is a process that takes place at constant temperature. For example, consider a small case in Thermodynamics where isothermal process is applied step by step.
+
+Key points
+- Remember the definition of enthalpy.
+- Entropy is related to isothermal process.
+
+Summary
+In this unit we studied enthalpy, entropy, ideal gas, first law of thermodynamics and isothermal process. These ideas form the foundation for further topics in Thermodynamics.

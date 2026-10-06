@@ -1,0 +1,25 @@
+Multiplexer - Study Notes
+
+Learning objectives
+- Define multiplexer and explain where it is used.
+- Define counter and explain where it is used.
+
+Multiplexer
+Multiplexer is a combinational circuit that selects one of many inputs and forwards it to a single output. Note that multiplexer depends on the assumptions made about the problem. Students should remember that multiplexer is closely related to decoder. In practice, multiplexer is combined with decoder to solve larger problems.
+
+Counter
+Counter is a sequential circuit that goes through a prescribed sequence of states on clock pulses. Note that counter depends on the assumptions made about the problem. A common mistake is to confuse counter with shift register. This idea is widely used in engineering design.
+
+Flip-Flop:
+Flip-flop is a bistable circuit that stores one bit of information. In practice, flip-flop is combined with shift register to solve larger problems. This idea is widely used in industry. Students should remember that flip-flop is closely related to shift register.
+
+Key points
+- Remember the definition of multiplexer.
+- Counter is related to flip-flop.
+
+Summary
+In this unit we studied multiplexer, counter and flip-flop. These ideas form the foundation for further topics in Digital Electronics.
+
+Review questions
+1. What is multiplexer?
+2. Explain counter with an example.

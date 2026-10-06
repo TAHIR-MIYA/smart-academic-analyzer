@@ -1,0 +1,23 @@
+Chapter 5: Uml Diagram
+
+Uml Diagram
+Uml diagram is a standard visual notation used to model the structure and behaviour of software. For example, consider a small case in Software Engineering where UML diagram is applied step by step. The main advantage of UML diagram is that it is simple to understand and efficient in practice. A common mistake is to confuse UML diagram with version control.
+
+Version Control:
+Version control is a system that records changes to files so that earlier versions can be recovered. A common mistake is to confuse version control with code review. Students should remember that version control is closely related to code review. Note that version control depends on the assumptions made about the problem.
+
+Agile Methodology
+Agile methodology is an iterative approach that delivers working software in short cycles with continuous feedback. Students should remember that agile methodology is closely related to unit testing. For example, consider a small case in Software Engineering where agile methodology is applied step by step. The main advantage of agile methodology is that it is simple to understand and efficient in practice.
+
+Requirements Specification
+Requirements specification is a document that describes what the software must do and the constraints it must satisfy. Note that requirements specification depends on the assumptions made about the problem.
+
+Code Review
+Code review is a systematic examination of source code by peers to find defects and improve quality. This idea is widely used in everyday software. The main advantage of code review is that it is simple to understand and efficient in practice.
+
+Key points
+- Remember the definition of UML diagram.
+- Version control is related to code review.
+
+Summary
+In this unit we studied UML diagram, version control, agile methodology, requirements specification and code review. These ideas form the foundation for further topics in Software Engineering.

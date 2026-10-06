@@ -1,0 +1,23 @@
+Chapter 6: Heat Engine
+
+Heat Engine:
+Heat engine is a device that converts heat energy into useful mechanical work. The main advantage of heat engine is that it is simple to understand and efficient in practice.
+
+Enthalpy
+Enthalpy is the total heat content of a system at constant pressure. For example, consider a small case in Thermodynamics where enthalpy is applied step by step.
+
+Carnot Cycle
+Carnot cycle is an ideal reversible cycle that gives the maximum possible efficiency between two temperatures. A common mistake is to confuse Carnot cycle with first law of thermodynamics.
+
+Entropy
+Entropy is a measure of the disorder or the unavailable energy of a system. The main advantage of entropy is that it is simple to understand and efficient in practice. For example, consider a small case in Thermodynamics where entropy is applied step by step. Students should remember that entropy is closely related to enthalpy.
+
+Isothermal Process
+Isothermal process is a process that takes place at constant temperature. For example, consider a small case in Thermodynamics where isothermal process is applied step by step. A common mistake is to confuse isothermal process with entropy. In practice, isothermal process is combined with entropy to solve larger problems.
+
+Summary
+In this unit we studied heat engine, enthalpy, Carnot cycle, entropy and isothermal process. These ideas form the foundation for further topics in Thermodynamics.
+
+Review questions
+1. What is heat engine?
+2. Explain enthalpy with an example.

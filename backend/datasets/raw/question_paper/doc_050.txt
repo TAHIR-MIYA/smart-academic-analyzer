@@ -1,0 +1,16 @@
+Riverside University
+Final Examination - November 2025
+Subject: Machine Learning (CS701)
+Time: 3 hours
+Maximum Marks: 80
+Seat No: ______________
+
+Instructions:
+1. Draw neat labelled diagrams wherever necessary.
+2. All questions are compulsory.
+3. Question 1 is compulsory. Solve any three from the remaining questions.
+
+Q1. Differentiate between cross-validation and confusion matrix with suitable examples. (5 marks)
+Q2. Differentiate between confusion matrix and k-means clustering with suitable examples. 5 marks
+Q3. Describe the working of cross-validation. Discuss its advantages and limitations. - 5 marks
+Q4. Differentiate between overfitting and k-means clustering with suitable examples. 6 marks

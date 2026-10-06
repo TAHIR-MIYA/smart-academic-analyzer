@@ -1,0 +1,40 @@
+Lecture Notes - Thermodynamics
+
+Learning objectives
+- Define first law of thermodynamics and explain where it is used.
+- Define isothermal process and explain where it is used.
+
+First Law Of Thermodynamics
+First law of thermodynamics is the statement that energy can be transformed but neither
+created nor destroyed. For example, consider a small case in Thermodynamics where first law
+of thermodynamics is applied step by step. Students should remember that first law of
+thermodynamics is closely related to entropy. This idea is widely used in academic
+research.
+
+Isothermal Process:
+Isothermal process is a process that takes place at constant temperature. Note that
+isothermal process depends on the assumptions made about the problem.
+
+Enthalpy
+Enthalpy is the total heat content of a system at constant pressure. Note that enthalpy
+depends on the assumptions made about the problem. For example, consider a small case in
+Thermodynamics where enthalpy is applied step by step. A common mistake is to confuse
+enthalpy with heat engine.
+
+Entropy
+Entropy is a measure of the disorder or the unavailable energy of a system. In practice,
+entropy is combined with enthalpy to solve larger problems. Students should remember that
+entropy is closely related to enthalpy. Note that entropy depends on the assumptions made
+about the problem.
+
+Key points
+- Remember the definition of first law of thermodynamics.
+- Isothermal process is related to entropy.
+
+Summary
+In this unit we studied first law of thermodynamics, isothermal process, enthalpy and
+entropy. These ideas form the foundation for further topics in Thermodynamics.
+
+Review questions
+1. What is first law of thermodynamics?
+2. Explain isothermal process with an example.

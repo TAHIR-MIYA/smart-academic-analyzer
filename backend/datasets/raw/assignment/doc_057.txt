@@ -1,0 +1,14 @@
+ASSIGNMENT 5
+Total marks: 15
+Subject: Digital Electronics (EC302)
+Last date of submission: 18 October 2026
+
+Instructions for students:
+- Group submissions are not allowed; every student must submit individually.
+- Write your name, roll number and division on the first page.
+
+Q1. Explain decoder with a suitable example. [4 marks]
+Q2. Differentiate between decoder and multiplexer. (4M)
+Q3. Write a short note on multiplexer and its applications in Digital Electronics. [2]
+Q4. Write a short note on logic gate and its applications in Digital Electronics. 2 marks
+Q5. Write a short note on counter and its applications in Digital Electronics. 3 marks

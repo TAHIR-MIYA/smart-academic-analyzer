@@ -1,0 +1,15 @@
+Assignment 5: Natural Language Processing
+Last date of submission: 15 August 2025
+Faculty: Prof. Rohan Khan
+Semester: 8
+Subject: Natural Language Processing (CS804)
+
+Instructions for students:
+- Late submissions will lose two marks for every day of delay.
+- Group submissions are not allowed; every student must submit individually.
+- Hand over the completed assignment to the subject teacher in the lecture.
+- Write your name, roll number and division on the first page.
+
+Q1. Differentiate between stemming and TF-IDF. - 4 marks
+Q2. Explain part-of-speech tagging with a suitable example. (10M)
+3. Solve the problems on part-of-speech tagging given in the textbook exercise and show all steps. (5M)

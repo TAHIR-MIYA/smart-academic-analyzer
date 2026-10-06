@@ -1,0 +1,5 @@
+Operating Systems Lab - Assignment 5
+Objective: understand process synchronization.
+
+Write a C program that solves the producer consumer problem using semaphores. Run it with 2 producers and 3 consumers, record the output in your journal and write a short conclusion.
+Submission: journal to be shown on the next lab day.

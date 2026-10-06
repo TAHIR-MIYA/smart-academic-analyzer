@@ -1,0 +1,19 @@
+ASSIGNMENT 6
+Semester: 4
+Last date of submission: 18 September 2026
+Faculty: Prof. Kabir Mehta
+Total marks: 25
+Subject: Thermodynamics (ME301)
+
+Instructions:
+- Upload a single PDF file on the college portal before the deadline.
+- Attach the printed output wherever a program is required.
+
+1. Solve the problems on isothermal process given in the textbook
+exercise and show all steps. - 10 marks
+2. Solve the problems on heat engine given in the textbook exercise
+and show all steps. [6]
+Q3. Write a short note on ideal gas and its applications in
+Thermodynamics. [10 marks]
+Q4. Differentiate between enthalpy and ideal gas. [2]
+Q5. Explain Carnot cycle with a suitable example. - 3 marks

@@ -1,0 +1,27 @@
+Lecture Notes - Computer Networks
+
+Learning objectives
+- Define IP addressing and explain where it is used.
+- Define congestion control and explain where it is used.
+
+Ip Addressing
+Ip addressing is the scheme used to identify every host and network on the internet. A common mistake is to confuse IP addressing with subnetting. The main advantage of IP addressing is that it is simple to understand and efficient in practice.
+
+Congestion Control:
+Congestion control is a set of mechanisms that prevent too much data from overloading the network. For example, consider a small case in Computer Networks where congestion control is applied step by step. Note that congestion control depends on the assumptions made about the problem. The main advantage of congestion control is that it is simple to understand and efficient in practice.
+
+Tcp
+Tcp is a connection oriented transport protocol that provides reliable ordered delivery of data. This idea is widely used in industry. Students should remember that TCP is closely related to IP addressing.
+
+Subnetting:
+Subnetting is the division of a large network into smaller logical networks. Students should remember that subnetting is closely related to congestion control. This idea is widely used in real world systems. A common mistake is to confuse subnetting with congestion control.
+
+Firewall
+Firewall is a security device that filters incoming and outgoing traffic according to rules. In practice, firewall is combined with routing to solve larger problems. A common mistake is to confuse firewall with routing.
+
+Key points
+- Remember the definition of IP addressing.
+- Congestion control is related to firewall.
+
+Summary
+In this unit we studied IP addressing, congestion control, TCP, subnetting and firewall. These ideas form the foundation for further topics in Computer Networks.

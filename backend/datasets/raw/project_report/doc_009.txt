@@ -1,0 +1,47 @@
+Queue Based Automated Analysis Tool for Campus Services
+A project report submitted in partial fulfilment of the requirements for the degree of Bachelor
+of Engineering in Electronics Engineering
+Submitted by: Anita Verma
+Under the guidance of: Prof. Vikram Reddy
+Department of Electronics Engineering, Greenfield College of Engineering, 2025
+
+1. Introduction
+In recent years Data Structures has become an important part of modern engineering. Manual
+processes are slow, error prone and difficult to scale. This project aims to address these
+issues by using queue.
+
+2. Problem Statement
+The existing system relies on manual effort and does not use queue. As a result, users face
+delays and inconsistent results. There is a need for a reliable system that applies binary
+search tree effectively.
+
+3. Literature Survey
+Several researchers have investigated queue in the context of Data Structures. Earlier work
+proposed a method based on binary search tree which improved results on benchmark data.
+However, most existing work does not address scalability and usability.
+
+4. Implementation
+The system is implemented using Java and MySQL. The main modules are the input module, the
+processing module and the output module. The queue component was implemented as a separate
+class so that it can be tested independently. Screenshots of the user interface are given in
+Figure 7.
+
+5. RESULTS AND DISCUSSION
+The system was tested on 261 sample inputs and produced correct output in most cases. The
+results are summarised in Table 7. The proposed approach performs better than the baseline.
+Some errors occurred when the input data was incomplete.
+
+6. Future Scope
+In future the system can be extended with more data and additional features. A mobile version
+and cloud deployment can be developed. Integration of binary search tree may further improve
+accuracy.
+
+7. Conclusion
+The project successfully met its objectives. The system demonstrates that queue can be applied
+effectively to this problem. The work also highlighted the importance of careful testing.
+
+References
+[1] A. Kumar, Data Structures: Principles and Practice, Tech Press, 2019.
+[2] R. Singh and P. Rao, "A study of queue", International Journal of Engineering Research,
+2021.
+[3] Official documentation of Java and MySQL.

@@ -1,0 +1,15 @@
+Assignment No. 1
+Total marks: 15
+Last date of submission: 24 July 2025
+Subject: Software Engineering (CS601)
+
+Instructions for students:
+- Write your name, roll number and division on the first page.
+- Late submissions will lose two marks for every day of delay.
+- Attach the printed output wherever a program is required.
+- Plagiarised work will not be accepted and will be awarded zero marks.
+
+Q1. Differentiate between agile methodology and requirements specification. [10 marks]
+Q2. Explain UML diagram with a suitable example. [4 marks]
+Q3. Collect two real world examples of version control and discuss how agile methodology is related to them. (10 marks)
+Q4. Write a short note on waterfall model and its applications in Software Engineering. (8M)

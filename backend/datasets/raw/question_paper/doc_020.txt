@@ -1,0 +1,16 @@
+WESTERN TECHNICAL UNIVERSITY
+Final Examination - November 2026
+Subject: Database Management Systems (CS502)
+Time: 1 hours
+Maximum Marks: 50
+Seat No: ______________
+
+Instructions:
+1. Figures to the right indicate full marks.
+2. All questions are compulsory.
+3. Attempt any 3 questions from Section B.
+4. Draw neat labelled diagrams wherever necessary.
+
+Q1. Describe the working of SQL join. Discuss its advantages and limitations. (5M)
+Q2. Derive the necessary expressions for normalization and solve a numerical example. 5 marks
+Q3. Differentiate between indexing and normalization with suitable examples. 4 marks

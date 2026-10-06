@@ -1,0 +1,66 @@
+Counter Based Monitoring System for Traffic Analysis
+A project report submitted in partial fulfilment of the requirements for the
+degree of Bachelor of Engineering in Electrical Engineering
+Submitted by: Isha Verma
+Under the guidance of: Prof. Rohan Shah
+Department of Electrical Engineering, Riverside University, 2024
+
+Abstract
+This project presents the design and implementation of a monitoring system that
+applies counter and shift register to analyse large volumes of data efficiently.
+The system was developed using Python and Flask and tested on data collected from
+sensors installed in the laboratory. Experimental results show that the system
+performs faster and more accurately compared with the existing approach. The
+report discusses the methodology, implementation, results and limitations of the
+work.
+
+Introduction
+In recent years Digital Electronics has become an important part of modern
+engineering. Manual processes are slow, error prone and difficult to scale. This
+project aims to address these issues by using counter.
+
+PROBLEM STATEMENT
+The existing system relies on manual effort and does not use counter. As a
+result, users face delays and inconsistent results. There is a need for a
+reliable system that applies shift register effectively.
+
+OBJECTIVES
+- To study existing approaches based on counter.
+- To design a system architecture that integrates shift register.
+- To implement and test the proposed system.
+- To evaluate performance and document the results.
+
+Literature Survey
+Several researchers have investigated counter in the context of Digital
+Electronics. Earlier work proposed a method based on shift register which
+improved results on benchmark data. However, most existing work does not address
+scalability and usability.
+
+METHODOLOGY
+The methodology follows requirement analysis, design, implementation and testing.
+The input data is first cleaned and prepared. Then counter is applied to extract
+the required information. Finally shift register is used to produce the output
+which is displayed to the user.
+
+IMPLEMENTATION
+The system is implemented using Python and Flask. The main modules are the input
+module, the processing module and the output module. The counter component was
+implemented as a separate class so that it can be tested independently.
+Screenshots of the user interface are given in Figure 7.
+
+Results and Discussion
+The system was tested on 297 sample inputs and produced correct output in most
+cases. The results are summarised in Table 7. The proposed approach performs
+better than the baseline. Some errors occurred when the input data was
+incomplete.
+
+Conclusion
+The project successfully met its objectives. The system demonstrates that counter
+can be applied effectively to this problem. The work also highlighted the
+importance of careful testing.
+
+References
+[1] A. Kumar, Digital Electronics: Principles and Practice, Tech Press, 2019.
+[2] R. Singh and P. Rao, "A study of counter", International Journal of
+Engineering Research, 2021.
+[3] Official documentation of Python and Flask.

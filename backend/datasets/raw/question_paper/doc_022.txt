@@ -1,0 +1,28 @@
+National Institute of Applied Sciences
+Mid Semester Examination - April 2024
+Subject: Computer Networks (CS503)
+Time: 2 hours
+Maximum Marks: 50
+
+Instructions:
+1. Draw neat labelled diagrams wherever necessary.
+2. Assume suitable data if required and state it clearly.
+
+SECTION A (Answer the following. 2 marks each)
+Q1. Write the purpose of routing.
+Q2. Write the purpose of routing.
+Q3. Name any two features of TCP.
+Q4. Define DNS.
+Q5. State two applications of DNS.
+
+SECTION B (5 marks each)
+Q6. What is DNS? Explain the steps involved and compare it
+with congestion control. 6 marks
+Q7. Write short notes on any two: firewall, routing, DNS. 2
+marks
+Q8. Describe the working of subnetting. Discuss its advantages
+and limitations. 10 marks
+Q9. What is routing? Explain the steps involved and compare it
+with subnetting. (3 marks)
+Q10. Derive the necessary expressions for DNS and solve a
+numerical example. [10 marks]

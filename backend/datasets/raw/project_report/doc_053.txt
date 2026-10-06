@@ -1,0 +1,55 @@
+Graph Traversal Based Mobile Application for Smart Agriculture
+A project report submitted in partial fulfilment of the requirements for the degree of
+Bachelor of Engineering in Computer Engineering
+Submitted by: Meera Shah
+Under the guidance of: Prof. Sana Sharma
+Department of Computer Engineering, National Institute of Applied Sciences, 2026
+
+Abstract
+This project presents the design and implementation of a mobile application that applies
+graph traversal and heap to improve accuracy and reduce manual effort. The system was
+developed using Android Studio and Firebase and tested on data collected from public
+repositories. Experimental results show that the system performs reliably compared with the
+existing approach. The report discusses the methodology, implementation, results and
+limitations of the work.
+
+1. Introduction
+In recent years Data Structures has become an important part of modern engineering. Manual
+processes are slow, error prone and difficult to scale. This project aims to address these
+issues by using graph traversal.
+
+2. Problem Statement
+The existing system relies on manual effort and does not use graph traversal. As a result,
+users face delays and inconsistent results. There is a need for a reliable system that
+applies heap effectively.
+
+3. OBJECTIVES
+- To study existing approaches based on graph traversal.
+- To design a system architecture that integrates heap.
+- To implement and test the proposed system.
+- To evaluate performance and document the results.
+
+4. Literature Survey
+Several researchers have investigated graph traversal in the context of Data Structures.
+Earlier work proposed a method based on heap which improved results on benchmark data.
+However, most existing work does not address scalability and usability.
+
+5. Methodology
+The methodology follows requirement analysis, design, implementation and testing. The input
+data is first cleaned and prepared. Then graph traversal is applied to extract the required
+information. Finally heap is used to produce the output which is displayed to the user.
+
+6. FUTURE SCOPE
+In future the system can be extended with more data and additional features. A mobile version
+and cloud deployment can be developed. Integration of heap may further improve accuracy.
+
+7. Conclusion
+The project successfully met its objectives. The system demonstrates that graph traversal can
+be applied effectively to this problem. The work also highlighted the importance of careful
+testing.
+
+References
+[1] A. Kumar, Data Structures: Principles and Practice, Tech Press, 2019.
+[2] R. Singh and P. Rao, "A study of graph traversal", International Journal of Engineering
+Research, 2021.
+[3] Official documentation of Android Studio and Firebase.

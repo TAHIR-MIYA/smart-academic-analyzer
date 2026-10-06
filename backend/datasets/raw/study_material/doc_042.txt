@@ -1,0 +1,24 @@
+UNIT 4: NATURAL LANGUAGE PROCESSING
+
+Cosine Similarity
+Cosine similarity is a measure of the angle between two vectors used to compare documents. A common mistake is to confuse cosine similarity with TF-IDF. Students should remember that cosine similarity is closely related to TF-IDF.
+
+Tokenization
+Tokenization is the splitting of text into smaller units such as words or sentences. For example, consider a small case in Natural Language Processing where tokenization is applied step by step.
+
+Tf-Idf
+Tf-idf is a weighting scheme that scores a term by its frequency in a document and its rarity across documents. This idea is widely used in academic research. In practice, TF-IDF is combined with language model to solve larger problems.
+
+Named Entity Recognition
+Named entity recognition is the task of locating and classifying names of people, places and organisations in text. For example, consider a small case in Natural Language Processing where named entity recognition is applied step by step. This idea is widely used in engineering design. A common mistake is to confuse named entity recognition with tokenization.
+
+Key points
+- Remember the definition of cosine similarity.
+- Tokenization is related to named entity recognition.
+
+Summary
+In this unit we studied cosine similarity, tokenization, TF-IDF and named entity recognition. These ideas form the foundation for further topics in Natural Language Processing.
+
+Review questions
+1. What is cosine similarity?
+2. Explain tokenization with an example.

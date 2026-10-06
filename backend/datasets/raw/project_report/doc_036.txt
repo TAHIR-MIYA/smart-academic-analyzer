@@ -1,0 +1,31 @@
+Paging Based Mobile Application for Healthcare Monitoring
+A project report submitted in partial fulfilment of the requirements for the degree of Bachelor of Engineering in Mechanical Engineering
+Submitted by: Divya Nair
+Under the guidance of: Prof. Sana Sharma
+Department of Mechanical Engineering, Western Technical University, 2026
+
+Abstract
+This project presents the design and implementation of a mobile application that applies paging and context switch to improve accuracy and reduce manual effort. The system was developed using Python and scikit-learn and tested on data collected from sensors installed in the laboratory. Experimental results show that the system performs with acceptable accuracy compared with the existing approach. The report discusses the methodology, implementation, results and limitations of the work.
+
+1. Introduction
+In recent years Operating Systems has become an important part of modern engineering. Manual processes are slow, error prone and difficult to scale. This project aims to address these issues by using paging.
+
+2. Objectives
+- To study existing approaches based on paging.
+- To design a system architecture that integrates context switch.
+- To implement and test the proposed system.
+- To evaluate performance and document the results.
+
+3. RESULTS AND DISCUSSION
+The system was tested on 479 sample inputs and produced correct output in most cases. The results are summarised in Table 8. The proposed approach performs better than the baseline. Some errors occurred when the input data was incomplete.
+
+4. Future Scope
+In future the system can be extended with more data and additional features. A mobile version and cloud deployment can be developed. Integration of context switch may further improve accuracy.
+
+5. Conclusion
+The project successfully met its objectives. The system demonstrates that paging can be applied effectively to this problem. The work also highlighted the importance of careful testing.
+
+References
+[1] A. Kumar, Operating Systems: Principles and Practice, Tech Press, 2019.
+[2] R. Singh and P. Rao, "A study of paging", International Journal of Engineering Research, 2021.
+[3] Official documentation of Python and scikit-learn.

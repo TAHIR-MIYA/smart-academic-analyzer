@@ -1,0 +1,28 @@
+Horizon Engineering College
+Supplementary Examination - November 2025
+Subject: Machine Learning (CS701)
+Time: 2 hours
+Maximum Marks: 40
+Seat No: ______________
+
+Instructions:
+1. Attempt any 3 questions from Section B.
+2. Assume suitable data if required and state it clearly.
+
+Section A (Answer the following. 1 marks each)
+Q1. Write the purpose of gradient descent.
+Q2. Define decision tree.
+Q3. What is overfitting?
+Q4. Differentiate between cross-validation and linear regression in one line.
+Q5. Differentiate between confusion matrix and cross-validation in one line.
+
+Section B (5 marks each)
+Q6. Explain gradient descent in detail with a neat diagram. - 5 marks
+Q7. Differentiate between k-means clustering and cross-validation with suitable
+examples. (2 marks)
+Q8. Write short notes on any two: gradient descent, cross-validation, decision
+tree. 3 marks
+Q9. Write short notes on any two: overfitting, k-means clustering, confusion
+matrix. (3M)
+Q10. What is overfitting? Explain the steps involved and compare it with
+decision tree. - 5 marks

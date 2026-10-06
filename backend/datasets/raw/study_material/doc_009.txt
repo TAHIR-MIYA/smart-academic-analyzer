@@ -1,0 +1,34 @@
+Unit 1: Digital Electronics
+
+Learning objectives
+- Define flip-flop and explain where it is used.
+- Define Karnaugh map and explain where it is used.
+
+Flip-Flop
+Flip-flop is a bistable circuit that stores one bit of information. Students
+should remember that flip-flop is closely related to Karnaugh map. In practice,
+flip-flop is combined with Karnaugh map to solve larger problems. The main
+advantage of flip-flop is that it is simple to understand and efficient in
+practice.
+
+Karnaugh Map
+Karnaugh map is a graphical method for simplifying Boolean expressions. Students
+should remember that Karnaugh map is closely related to counter.
+
+Logic Gate
+Logic gate is an elementary building block that performs a Boolean operation on
+one or more inputs. In practice, logic gate is combined with Karnaugh map to
+solve larger problems.
+
+Shift Register
+Shift register is a group of flip-flops that moves stored bits one position on
+every clock pulse. In practice, shift register is combined with multiplexer to
+solve larger problems. This idea is widely used in everyday software.
+
+Summary
+In this unit we studied flip-flop, Karnaugh map, logic gate and shift register.
+These ideas form the foundation for further topics in Digital Electronics.
+
+Review questions
+1. What is flip-flop?
+2. Explain Karnaugh map with an example.

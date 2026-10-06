@@ -1,0 +1,37 @@
+Cross-Validation Based Decision Support System for Smart Agriculture
+A project report submitted in partial fulfilment of the requirements for the degree of Bachelor of Engineering in Mechanical Engineering
+Submitted by: Neha Nair
+Under the guidance of: Prof. Karan Reddy
+Department of Mechanical Engineering, Greenfield College of Engineering, 2025
+
+Abstract
+This project presents the design and implementation of a decision support system that applies cross-validation and confusion matrix to improve accuracy and reduce manual effort. The system was developed using Java and MySQL and tested on data collected from college records. Experimental results show that the system performs reliably compared with the existing approach. The report discusses the methodology, implementation, results and limitations of the work.
+
+1. Introduction
+In recent years Machine Learning has become an important part of modern engineering. Manual processes are slow, error prone and difficult to scale. This project aims to address these issues by using cross-validation.
+
+2. Problem Statement
+The existing system relies on manual effort and does not use cross-validation. As a result, users face delays and inconsistent results. There is a need for a reliable system that applies confusion matrix effectively.
+
+3. Objectives
+- To study existing approaches based on cross-validation.
+- To design a system architecture that integrates confusion matrix.
+- To implement and test the proposed system.
+- To evaluate performance and document the results.
+
+4. Methodology
+The methodology follows requirement analysis, design, implementation and testing. The input data is first cleaned and prepared. Then cross-validation is applied to extract the required information. Finally confusion matrix is used to produce the output which is displayed to the user.
+
+5. Implementation
+The system is implemented using Java and MySQL. The main modules are the input module, the processing module and the output module. The cross-validation component was implemented as a separate class so that it can be tested independently. Screenshots of the user interface are given in Figure 3.
+
+6. Future Scope
+In future the system can be extended with more data and additional features. A mobile version and cloud deployment can be developed. Integration of confusion matrix may further improve accuracy.
+
+7. CONCLUSION
+The project successfully met its objectives. The system demonstrates that cross-validation can be applied effectively to this problem. The work also highlighted the importance of careful testing.
+
+References
+[1] A. Kumar, Machine Learning: Principles and Practice, Tech Press, 2019.
+[2] R. Singh and P. Rao, "A study of cross-validation", International Journal of Engineering Research, 2021.
+[3] Official documentation of Java and MySQL.

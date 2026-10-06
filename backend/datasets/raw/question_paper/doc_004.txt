@@ -1,0 +1,16 @@
+National Institute of Applied Sciences
+Final Examination - June 2026
+Subject: Database Management Systems (CS502)
+Time: 2 hours
+Maximum Marks: 60
+
+Instructions:
+1. Draw neat labelled diagrams wherever necessary.
+2. Use of a non programmable calculator is permitted.
+3. All questions are compulsory.
+
+Q1. Explain SQL join in detail with a neat diagram. (3 marks)
+Q2. Discuss how normalization is used in Database Management Systems.
+Support your answer with an example. [5 marks]
+Q3. Derive the necessary expressions for SQL join and solve a
+numerical example. [5 marks]

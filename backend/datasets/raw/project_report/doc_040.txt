@@ -1,0 +1,37 @@
+Agile Methodology Based Mobile Application for Campus Services
+A project report submitted in partial fulfilment of the requirements for the degree of Bachelor of Engineering in Information Technology
+Submitted by: Nikhil Khan
+Under the guidance of: Prof. Priya Verma
+Department of Information Technology, National Institute of Applied Sciences, 2025
+
+Abstract
+This project presents the design and implementation of a mobile application that applies agile methodology and unit testing to automate routine tasks. The system was developed using Android Studio and Firebase and tested on data collected from user surveys. Experimental results show that the system performs reliably compared with the existing approach. The report discusses the methodology, implementation, results and limitations of the work.
+
+INTRODUCTION
+In recent years Software Engineering has become an important part of modern engineering. Manual processes are slow, error prone and difficult to scale. This project aims to address these issues by using agile methodology.
+
+Problem Statement
+The existing system relies on manual effort and does not use agile methodology. As a result, users face delays and inconsistent results. There is a need for a reliable system that applies unit testing effectively.
+
+OBJECTIVES
+- To study existing approaches based on agile methodology.
+- To design a system architecture that integrates unit testing.
+- To implement and test the proposed system.
+- To evaluate performance and document the results.
+
+LITERATURE SURVEY
+Several researchers have investigated agile methodology in the context of Software Engineering. Earlier work proposed a method based on unit testing which improved results on benchmark data. However, most existing work does not address scalability and usability.
+
+Methodology
+The methodology follows requirement analysis, design, implementation and testing. The input data is first cleaned and prepared. Then agile methodology is applied to extract the required information. Finally unit testing is used to produce the output which is displayed to the user.
+
+Implementation
+The system is implemented using Android Studio and Firebase. The main modules are the input module, the processing module and the output module. The agile methodology component was implemented as a separate class so that it can be tested independently. Screenshots of the user interface are given in Figure 7.
+
+Conclusion
+The project successfully met its objectives. The system demonstrates that agile methodology can be applied effectively to this problem. The work also highlighted the importance of careful testing.
+
+References
+[1] A. Kumar, Software Engineering: Principles and Practice, Tech Press, 2019.
+[2] R. Singh and P. Rao, "A study of agile methodology", International Journal of Engineering Research, 2021.
+[3] Official documentation of Android Studio and Firebase.

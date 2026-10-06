@@ -1,0 +1,8 @@
+Mid Semester Test - Operating Systems
+Time: 1 hour    Marks: 30
+Answer all questions.
+
+Q1. Define a process. How does it differ from a program? (4)
+Q2. Explain round robin scheduling with an example. Calculate the average waiting time for three processes. (8)
+Q3. What is a page fault? Describe how the operating system handles it. (8)
+Q4. Write short notes on: (a) semaphore (b) deadlock (10)

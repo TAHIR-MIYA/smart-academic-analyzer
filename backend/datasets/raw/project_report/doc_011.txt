@@ -1,0 +1,23 @@
+Requirements Specification Based Automated Analysis Tool for Library Management
+A project report submitted in partial fulfilment of the requirements for the degree of Bachelor of Engineering in Computer Engineering
+Submitted by: Anita Nair
+Under the guidance of: Prof. Sneha Bose
+Department of Computer Engineering, Greenfield College of Engineering, 2026
+
+Abstract
+This project presents the design and implementation of a automated analysis tool that applies requirements specification and waterfall model to support faster decisions. The system was developed using Java and MySQL and tested on data collected from college records. Experimental results show that the system performs with acceptable accuracy compared with the existing approach. The report discusses the methodology, implementation, results and limitations of the work.
+
+1. Introduction
+In recent years Software Engineering has become an important part of modern engineering. Manual processes are slow, error prone and difficult to scale. This project aims to address these issues by using requirements specification.
+
+2. Problem Statement
+The existing system relies on manual effort and does not use requirements specification. As a result, users face delays and inconsistent results. There is a need for a reliable system that applies waterfall model effectively.
+
+3. Implementation
+The system is implemented using Java and MySQL. The main modules are the input module, the processing module and the output module. The requirements specification component was implemented as a separate class so that it can be tested independently. Screenshots of the user interface are given in Figure 6.
+
+4. Future Scope
+In future the system can be extended with more data and additional features. A mobile version and cloud deployment can be developed. Integration of waterfall model may further improve accuracy.
+
+5. Conclusion
+The project successfully met its objectives. The system demonstrates that requirements specification can be applied effectively to this problem. The work also highlighted the importance of careful testing.

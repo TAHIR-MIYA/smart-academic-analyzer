@@ -1,0 +1,16 @@
+ASSIGNMENT NO. 1
+Semester: 4
+Total marks: 25
+Faculty: Prof. Divya Bose
+Last date of submission: 22 July 2026
+Subject: Computer Networks (CS503)
+
+Instructions:
+- Plagiarised work will not be accepted and will be awarded zero marks.
+- Write your name, roll number and division on the first page.
+
+Task 1: Prepare a one page summary of TCP and attach it to your solved problems. - 8 marks
+Task 2: Prepare a one page summary of routing and attach it to your solved problems. - 5 marks
+Task 3: Prepare a one page summary of TCP and attach it to your solved problems. [4]
+
+Assignments must be submitted to the subject teacher on or before the due date.

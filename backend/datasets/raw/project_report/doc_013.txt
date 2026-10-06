@@ -1,0 +1,51 @@
+Congestion Control Based Decision Support System for Student Performance
+Analysis
+A project report submitted in partial fulfilment of the requirements for the
+degree of Bachelor of Engineering in Electronics Engineering
+Submitted by: Nikhil Verma
+Under the guidance of: Prof. Sneha Khan
+Department of Electronics Engineering, National Institute of Applied Sciences,
+2024
+
+Abstract
+This project presents the design and implementation of a decision support system
+that applies congestion control and subnetting to improve accuracy and reduce
+manual effort. The system was developed using Python and scikit-learn and tested
+on data collected from public repositories. Experimental results show that the
+system performs with acceptable accuracy compared with the existing approach.
+The report discusses the methodology, implementation, results and limitations of
+the work.
+
+1. Objectives
+- To study existing approaches based on congestion control.
+- To design a system architecture that integrates subnetting.
+- To implement and test the proposed system.
+- To evaluate performance and document the results.
+
+2. Literature Survey
+Several researchers have investigated congestion control in the context of
+Computer Networks. Earlier work proposed a method based on subnetting which
+improved results on benchmark data. However, most existing work does not address
+scalability and usability.
+
+3. Implementation
+The system is implemented using Python and scikit-learn. The main modules are
+the input module, the processing module and the output module. The congestion
+control component was implemented as a separate class so that it can be tested
+independently. Screenshots of the user interface are given in Figure 1.
+
+4. Results and Discussion
+The system was tested on 68 sample inputs and produced correct output in most
+cases. The results are summarised in Table 1. The proposed approach performs
+better than the baseline. Some errors occurred when the input data was
+incomplete.
+
+5. Future Scope
+In future the system can be extended with more data and additional features. A
+mobile version and cloud deployment can be developed. Integration of subnetting
+may further improve accuracy.
+
+6. Conclusion
+The project successfully met its objectives. The system demonstrates that
+congestion control can be applied effectively to this problem. The work also
+highlighted the importance of careful testing.

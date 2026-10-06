@@ -1,0 +1,41 @@
+Entropy Based Monitoring System for Traffic Analysis
+A project report submitted in partial fulfilment of the requirements for the degree of
+Bachelor of Engineering in Mechanical Engineering
+Submitted by: Anita Iyer
+Under the guidance of: Prof. Rohan Khan
+Department of Mechanical Engineering, Riverside University, 2024
+
+Abstract
+This project presents the design and implementation of a monitoring system that applies
+entropy and enthalpy to analyse large volumes of data efficiently. The system was developed
+using Android Studio and Firebase and tested on data collected from user surveys.
+Experimental results show that the system performs with acceptable accuracy compared with
+the existing approach. The report discusses the methodology, implementation, results and
+limitations of the work.
+
+1. OBJECTIVES
+- To study existing approaches based on entropy.
+- To design a system architecture that integrates enthalpy.
+- To implement and test the proposed system.
+- To evaluate performance and document the results.
+
+2. Methodology
+The methodology follows requirement analysis, design, implementation and testing. The input
+data is first cleaned and prepared. Then entropy is applied to extract the required
+information. Finally enthalpy is used to produce the output which is displayed to the user.
+
+3. Implementation
+The system is implemented using Android Studio and Firebase. The main modules are the input
+module, the processing module and the output module. The entropy component was implemented
+as a separate class so that it can be tested independently. Screenshots of the user
+interface are given in Figure 6.
+
+4. Results and Discussion
+The system was tested on 192 sample inputs and produced correct output in most cases. The
+results are summarised in Table 6. The proposed approach performs better than the baseline.
+Some errors occurred when the input data was incomplete.
+
+5. Conclusion
+The project successfully met its objectives. The system demonstrates that entropy can be
+applied effectively to this problem. The work also highlighted the importance of careful
+testing.

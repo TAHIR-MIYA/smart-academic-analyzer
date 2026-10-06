@@ -1,0 +1,14 @@
+Horizon Engineering College
+End Semester Examination - March 2024
+Subject: Natural Language Processing (CS804)
+Time: 2 hours
+Maximum Marks: 80
+Seat No: ______________
+
+Instructions:
+1. Figures to the right indicate full marks.
+2. Assume suitable data if required and state it clearly.
+
+Q1. Describe the working of stemming. Discuss its advantages and limitations. 5 marks
+Q2. Write short notes on any two: TF-IDF, cosine similarity, part-of-speech tagging. (2 marks)
+Q3. Differentiate between stemming and language model with suitable examples. (2 marks)

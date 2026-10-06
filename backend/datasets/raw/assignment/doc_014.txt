@@ -1,0 +1,16 @@
+Thermodynamics - Assignment 7
+Last date of submission: 14/05/2025
+Subject: Thermodynamics (ME301)
+Faculty: Prof. Anita Desai
+Semester: 6
+
+Instructions for students:
+- Answers should be in your own words and should not be copied from the textbook.
+- Submit the assignment in neat handwriting on A4 sheets.
+
+Q1. Differentiate between first law of thermodynamics and heat engine. - 10 marks
+Q2. Explain heat engine with a suitable example. - 3 marks
+Q3. Write a short note on ideal gas and its applications in Thermodynamics. [10]
+Q4. Implement a small program that demonstrates first law of thermodynamics and attach the output. - 2 marks
+5. Solve the problems on enthalpy given in the textbook exercise and show all steps. - 6 marks
+Q6. Prepare a report on enthalpy covering definition, working and limitations. [2]

@@ -1,0 +1,10 @@
+DBMS Assignment 2 - due Friday
+
+Hi everyone, as discussed in class please solve the following and mail me the PDF by Friday midnight.
+
+1. Draw the ER diagram for a hospital management system.
+2. Convert it into relational tables up to 3NF, showing every step.
+3. Write SQL queries to list the patients treated by each doctor, and the doctors who have more than 10 patients.
+
+Group work is not allowed. Copied answers will get zero.
+- Prof. Mehta

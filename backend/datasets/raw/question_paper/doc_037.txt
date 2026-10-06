@@ -1,0 +1,21 @@
+City Institute of Technology
+End Semester Examination - August 2024
+Subject: Thermodynamics (ME301)
+Time: 3 hours
+Maximum Marks: 70
+
+Instructions:
+1. Assume suitable data if required and state it clearly.
+2. Question 1 is compulsory. Solve any three from the remaining questions.
+
+Part A (Answer the following. 2 marks each)
+Q1. What is entropy?
+Q2. State two applications of enthalpy.
+Q3. Differentiate between first law of thermodynamics and Carnot cycle in one line.
+
+Section B (8 marks each)
+Q4. Explain Carnot cycle in detail with a neat diagram. [3]
+Q5. Discuss how first law of thermodynamics is used in Thermodynamics. Support your answer with an example. - 8 marks
+Q6. Derive the necessary expressions for isothermal process and solve a numerical example. (4M)
+Q7. Derive the necessary expressions for entropy and solve a numerical example. [3 marks]
+Q8. Derive the necessary expressions for first law of thermodynamics and solve a numerical example. - 4 marks

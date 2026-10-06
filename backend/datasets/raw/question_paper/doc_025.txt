@@ -1,0 +1,20 @@
+Greenfield College of Engineering
+Supplementary Examination - February 2026
+Subject: Cloud Computing (CS805)
+Time: 2 hours
+Maximum Marks: 80
+
+Instructions:
+1. Attempt any 3 questions from Section B.
+2. Draw neat labelled diagrams wherever necessary.
+
+Section A (Answer the following. 1 marks each)
+Q1. Name any two features of service level agreement.
+Q2. Write the purpose of service level agreement.
+Q3. What is serverless computing?
+
+Part B (8 marks each)
+Q4. Explain load balancing in detail with a neat diagram. [6 marks]
+Q5. Derive the necessary expressions for containers and solve a numerical example. [8 marks]
+Q6. Write short notes on any two: object storage, service level agreement, auto scaling. [4 marks]
+Q7. Explain containers in detail with a neat diagram. 3 marks

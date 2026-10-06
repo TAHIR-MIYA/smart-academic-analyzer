@@ -1,0 +1,8 @@
+UNIVERSITY EXAMINATION 2024 - ENGINEERING PHYSICS
+Max. Marks: 70                                   Duration: 3 Hrs
+
+Note: Q.1 is compulsory. Solve any four from the remaining six questions.
+
+Q.1 Attempt any five: (a) State Heisenberg's uncertainty principle (b) What is a laser? (c) Define numerical aperture (d) Write Bragg's law (e) What is superconductivity? (2 marks each)
+Q.2 Derive the expression for the energy of a particle in a one dimensional box. (10)
+Q.3 Explain the working of a Ruby laser with a neat energy level diagram. (10)

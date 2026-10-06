@@ -1,0 +1,19 @@
+ASSIGNMENT 2
+Total marks: 25
+Faculty: Prof. Aarav Bose
+Subject: Data Structures (CS301)
+Last date of submission: June 12, 2026
+
+Instructions for students:
+- Plagiarised work will not be accepted and will be awarded zero marks.
+- Group submissions are not allowed; every student must submit individually.
+- Attach the printed output wherever a program is required.
+
+Q1. Differentiate between heap and graph traversal. (5M)
+Q2. Collect two real world examples of graph traversal and discuss how stack is
+related to them. [5 marks]
+Q3. Prepare a report on graph traversal covering definition, working and
+limitations. (4M)
+Q4. Explain graph traversal with a suitable example. (4M)
+Q5. Collect two real world examples of queue and discuss how heap is related to
+them. - 5 marks

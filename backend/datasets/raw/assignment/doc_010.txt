@@ -1,0 +1,15 @@
+Assignment 8: Operating Systems
+Last date of submission: March 10, 2025
+Total marks: 20
+Semester: 3
+Subject: Operating Systems (CS402)
+
+Note:
+- Hand over the completed assignment to the subject teacher in the lecture.
+- Submit the assignment in neat handwriting on A4 sheets.
+- Answers should be in your own words and should not be copied from the textbook.
+- Late submissions will lose two marks for every day of delay.
+
+Q1. Explain thread with a suitable example. (10 marks)
+Q2. Explain semaphore with a suitable example. 4 marks
+Q3. Implement a small program that demonstrates context switch and attach the output. [3 marks]

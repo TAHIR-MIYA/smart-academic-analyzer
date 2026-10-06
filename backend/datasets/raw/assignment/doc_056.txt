@@ -1,0 +1,20 @@
+Computer Networks - Assignment 5
+Subject: Computer Networks (CS503)
+Last date of submission: June 14, 2026
+Faculty: Prof. Meera Shah
+
+Instructions:
+- Plagiarised work will not be accepted and will be awarded zero marks.
+- Upload a single PDF file on the college portal before the deadline.
+- Attach the printed output wherever a program is required.
+
+1. Solve the problems on routing given in the textbook exercise and show all steps.
+(10M)
+2. Solve the problems on TCP given in the textbook exercise and show all steps. (10
+marks)
+Q3. Differentiate between TCP and routing. [3]
+Q4. Collect two real world examples of DNS and discuss how IP addressing is related
+to them. (4M)
+Task 5: Prepare a one page summary of DNS and attach it to your solved problems.
+[2]
+Q6. Explain routing with a suitable example. (4M)

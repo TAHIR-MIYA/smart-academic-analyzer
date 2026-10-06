@@ -1,0 +1,14 @@
+Thermodynamics - Assignment 7
+Last date of submission: 13/02/2025
+Faculty: Prof. Neha Desai
+Subject: Thermodynamics (ME301)
+Semester: 6
+
+Instructions:
+- Late submissions will lose two marks for every day of delay.
+- Plagiarised work will not be accepted and will be awarded zero marks.
+
+Q1. Prepare a report on enthalpy covering definition, working and limitations. [6 marks]
+2. Solve the problems on isothermal process given in the textbook exercise and show all steps. (6M)
+Q3. Collect two real world examples of ideal gas and discuss how enthalpy is related to them. - 3 marks
+Q4. Prepare a report on heat engine covering definition, working and limitations. [5]

@@ -1,0 +1,5 @@
+Normalization in DBMS
+
+Normalization is the process of organising data in a database to reduce redundancy. First normal form requires every column to hold atomic values. Second normal form removes partial dependency on the primary key. Third normal form removes transitive dependency.
+
+Key point: higher normal forms reduce anomalies but may increase the number of joins needed to answer a query.

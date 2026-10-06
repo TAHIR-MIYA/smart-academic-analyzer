@@ -1,0 +1,10 @@
+CHAPTER 3: SYSTEM DESIGN
+
+3.1 Architecture
+The application follows a three tier architecture consisting of a React front end, a Flask REST API and a MySQL database.
+
+3.2 Database Design
+The database has four tables: users, products, orders and payments, related through foreign keys.
+
+3.3 Module Description
+The authentication module handles registration and login using hashed passwords. The order module manages the cart and the checkout process.

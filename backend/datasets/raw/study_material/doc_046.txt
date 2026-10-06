@@ -1,0 +1,24 @@
+Unit 9: Machine Learning
+
+Learning objectives
+- Define cross-validation and explain where it is used.
+- Define gradient descent and explain where it is used.
+
+Cross-Validation
+Cross-validation is a technique that repeatedly splits the data to estimate how well a model generalises. The main advantage of cross-validation is that it is simple to understand and efficient in practice.
+
+Gradient Descent:
+Gradient descent is an iterative optimisation algorithm that moves parameters in the direction of the steepest decrease of the loss. A common mistake is to confuse gradient descent with confusion matrix.
+
+K-Means Clustering:
+K-means clustering is an unsupervised algorithm that groups similar points around a fixed number of centroids. This idea is widely used in real world systems. For example, consider a small case in Machine Learning where k-means clustering is applied step by step.
+
+Decision Tree
+Decision tree is a model that splits data using a sequence of feature tests arranged as a tree. A common mistake is to confuse decision tree with k-means clustering.
+
+Key points
+- Remember the definition of cross-validation.
+- Gradient descent is related to decision tree.
+
+Summary
+In this unit we studied cross-validation, gradient descent, k-means clustering and decision tree. These ideas form the foundation for further topics in Machine Learning.

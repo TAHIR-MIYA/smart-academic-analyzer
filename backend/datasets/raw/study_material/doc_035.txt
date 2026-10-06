@@ -1,0 +1,29 @@
+Karnaugh Map - Study Notes
+
+Learning objectives
+- Define Karnaugh map and explain where it is used.
+- Define multiplexer and explain where it is used.
+
+Karnaugh Map
+Karnaugh map is a graphical method for simplifying Boolean
+expressions. Students should remember that Karnaugh map is
+closely related to multiplexer.
+
+Multiplexer
+Multiplexer is a combinational circuit that selects one of
+many inputs and forwards it to a single output. A common
+mistake is to confuse multiplexer with flip-flop. Students
+should remember that multiplexer is closely related to flip-
+flop.
+
+Flip-Flop
+Flip-flop is a bistable circuit that stores one bit of
+information. This idea is widely used in everyday software. A
+common mistake is to confuse flip-flop with shift register.
+Students should remember that flip-flop is closely related to
+shift register.
+
+Summary
+In this unit we studied Karnaugh map, multiplexer and flip-
+flop. These ideas form the foundation for further topics in
+Digital Electronics.

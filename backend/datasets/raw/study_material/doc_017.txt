@@ -1,0 +1,20 @@
+Chapter 6: Flip-Flop
+
+Flip-Flop:
+Flip-flop is a bistable circuit that stores one bit of information. For example, consider a small case in Digital Electronics where flip-flop is applied step by step. A common mistake is to confuse flip-flop with multiplexer.
+
+Shift Register
+Shift register is a group of flip-flops that moves stored bits one position on every clock pulse. This idea is widely used in industry.
+
+Counter:
+Counter is a sequential circuit that goes through a prescribed sequence of states on clock pulses. Note that counter depends on the assumptions made about the problem. For example, consider a small case in Digital Electronics where counter is applied step by step.
+
+Decoder:
+Decoder is a combinational circuit that converts binary input codes into distinct output lines. The main advantage of decoder is that it is simple to understand and efficient in practice. For example, consider a small case in Digital Electronics where decoder is applied step by step. In practice, decoder is combined with shift register to solve larger problems.
+
+Summary
+In this unit we studied flip-flop, shift register, counter and decoder. These ideas form the foundation for further topics in Digital Electronics.
+
+Review questions
+1. What is flip-flop?
+2. Explain shift register with an example.

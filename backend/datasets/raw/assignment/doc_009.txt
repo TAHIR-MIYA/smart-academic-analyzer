@@ -1,0 +1,19 @@
+ASSIGNMENT 4
+Faculty: Prof. Sneha Shah
+Semester: 4
+Subject: Digital Electronics (EC302)
+Total marks: 10
+
+Instructions for students:
+- Plagiarised work will not be accepted and will be awarded zero marks.
+- Submit the assignment in neat handwriting on A4 sheets.
+
+1. Solve the problems on logic gate given in the textbook exercise and show all
+steps. [6 marks]
+Q2. Explain decoder with a suitable example. 6 marks
+Q3. Implement a small program that demonstrates Karnaugh map and attach the output.
+10 marks
+Q4. Write a short note on shift register and its applications in Digital
+Electronics. 8 marks
+Q5. Implement a small program that demonstrates decoder and attach the output. [6]
+Q6. Explain decoder with a suitable example. - 10 marks

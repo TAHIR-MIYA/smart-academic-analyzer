@@ -1,0 +1,29 @@
+SERVICE LEVEL AGREEMENT BASED DECISION SUPPORT SYSTEM FOR ONLINE EXAMINATION
+A project report submitted in partial fulfilment of the requirements for the degree of Bachelor of Engineering in Information Technology
+Submitted by: Arjun Patel
+Under the guidance of: Prof. Neha Desai
+Department of Information Technology, Greenfield College of Engineering, 2025
+
+Introduction
+In recent years Cloud Computing has become an important part of modern engineering. Manual processes are slow, error prone and difficult to scale. This project aims to address these issues by using service level agreement.
+
+PROBLEM STATEMENT
+The existing system relies on manual effort and does not use service level agreement. As a result, users face delays and inconsistent results. There is a need for a reliable system that applies load balancing effectively.
+
+Literature Survey
+Several researchers have investigated service level agreement in the context of Cloud Computing. Earlier work proposed a method based on load balancing which improved results on benchmark data. However, most existing work does not address scalability and usability.
+
+METHODOLOGY
+The methodology follows requirement analysis, design, implementation and testing. The input data is first cleaned and prepared. Then service level agreement is applied to extract the required information. Finally load balancing is used to produce the output which is displayed to the user.
+
+Implementation
+The system is implemented using Python and Flask. The main modules are the input module, the processing module and the output module. The service level agreement component was implemented as a separate class so that it can be tested independently. Screenshots of the user interface are given in Figure 3.
+
+Results and Discussion
+The system was tested on 374 sample inputs and produced correct output in most cases. The results are summarised in Table 3. The proposed approach performs better than the baseline. Some errors occurred when the input data was incomplete.
+
+Future Scope
+In future the system can be extended with more data and additional features. A mobile version and cloud deployment can be developed. Integration of load balancing may further improve accuracy.
+
+Conclusion
+The project successfully met its objectives. The system demonstrates that service level agreement can be applied effectively to this problem. The work also highlighted the importance of careful testing.

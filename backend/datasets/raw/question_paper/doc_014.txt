@@ -1,0 +1,22 @@
+National Institute of Applied Sciences
+Supplementary Examination - March 2025
+Subject: Natural Language Processing (CS804)
+Time: 2 hours
+Maximum Marks: 70
+
+Instructions:
+1. Use of a non programmable calculator is permitted.
+2. Assume suitable data if required and state it clearly.
+3. Question 1 is compulsory. Solve any three from the remaining questions.
+
+Section A (Answer the following. 2 marks each)
+Q1. What is stemming?
+Q2. Define language model.
+Q3. State two applications of TF-IDF.
+Q4. State two applications of stemming.
+Q5. Differentiate between named entity recognition and stemming in one line.
+
+Part B (5 marks each)
+Q6. Derive the necessary expressions for cosine similarity and solve a numerical example. 6 marks
+Q7. Derive the necessary expressions for stemming and solve a numerical example. (8M)
+Q8. Derive the necessary expressions for stemming and solve a numerical example. (3M)

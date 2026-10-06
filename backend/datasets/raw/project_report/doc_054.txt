@@ -1,0 +1,23 @@
+Hash Table Based Mobile Application for Healthcare Monitoring
+A project report submitted in partial fulfilment of the requirements for the degree of Bachelor of Engineering in Mechanical Engineering
+Submitted by: Imran Mehta
+Under the guidance of: Prof. Aarav Reddy
+Department of Mechanical Engineering, National Institute of Applied Sciences, 2024
+
+Abstract
+This project presents the design and implementation of a mobile application that applies hash table and binary search tree to support faster decisions. The system was developed using Python and scikit-learn and tested on data collected from public repositories. Experimental results show that the system performs with acceptable accuracy compared with the existing approach. The report discusses the methodology, implementation, results and limitations of the work.
+
+1. Problem Statement
+The existing system relies on manual effort and does not use hash table. As a result, users face delays and inconsistent results. There is a need for a reliable system that applies binary search tree effectively.
+
+2. Literature Survey
+Several researchers have investigated hash table in the context of Data Structures. Earlier work proposed a method based on binary search tree which improved results on benchmark data. However, most existing work does not address scalability and usability.
+
+3. Methodology
+The methodology follows requirement analysis, design, implementation and testing. The input data is first cleaned and prepared. Then hash table is applied to extract the required information. Finally binary search tree is used to produce the output which is displayed to the user.
+
+4. Future Scope
+In future the system can be extended with more data and additional features. A mobile version and cloud deployment can be developed. Integration of binary search tree may further improve accuracy.
+
+5. Conclusion
+The project successfully met its objectives. The system demonstrates that hash table can be applied effectively to this problem. The work also highlighted the importance of careful testing.

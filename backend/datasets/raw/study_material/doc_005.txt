@@ -1,0 +1,50 @@
+Chapter 7: Agile Methodology
+
+Learning objectives
+- Define agile methodology and explain where it is used.
+- Define requirements specification and explain where it is used.
+
+Agile Methodology:
+Agile methodology is an iterative approach that delivers working software in short cycles
+with continuous feedback. Note that agile methodology depends on the assumptions made
+about the problem. For example, consider a small case in Software Engineering where agile
+methodology is applied step by step. In practice, agile methodology is combined with
+requirements specification to solve larger problems.
+
+Requirements Specification
+Requirements specification is a document that describes what the software must do and the
+constraints it must satisfy. Students should remember that requirements specification is
+closely related to UML diagram. For example, consider a small case in Software
+Engineering where requirements specification is applied step by step. This idea is widely
+used in engineering design.
+
+Version Control
+Version control is a system that records changes to files so that earlier versions can be
+recovered. In practice, version control is combined with agile methodology to solve
+larger problems. A common mistake is to confuse version control with agile methodology.
+Students should remember that version control is closely related to agile methodology.
+
+Waterfall Model:
+Waterfall model is a sequential development process in which each phase is completed
+before the next begins. Students should remember that waterfall model is closely related
+to unit testing. Note that waterfall model depends on the assumptions made about the
+problem. For example, consider a small case in Software Engineering where waterfall model
+is applied step by step.
+
+Code Review
+Code review is a systematic examination of source code by peers to find defects and
+improve quality. The main advantage of code review is that it is simple to understand and
+efficient in practice.
+
+Key points
+- Remember the definition of agile methodology.
+- Requirements specification is related to code review.
+
+Summary
+In this unit we studied agile methodology, requirements specification, version control,
+waterfall model and code review. These ideas form the foundation for further topics in
+Software Engineering.
+
+Review questions
+1. What is agile methodology?
+2. Explain requirements specification with an example.

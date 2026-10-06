@@ -1,0 +1,22 @@
+Learning objectives
+- Define language model and explain where it is used.
+- Define named entity recognition and explain where it is used.
+
+Language Model
+Language model is a model that assigns probabilities to sequences of words. A common
+mistake is to confuse language model with part-of-speech tagging.
+
+Named Entity Recognition:
+Named entity recognition is the task of locating and classifying names of people,
+places and organisations in text. Students should remember that named entity
+recognition is closely related to cosine similarity.
+
+Cosine Similarity:
+Cosine similarity is a measure of the angle between two vectors used to compare
+documents. For example, consider a small case in Natural Language Processing where
+cosine similarity is applied step by step.
+
+Summary
+In this unit we studied language model, named entity recognition and cosine
+similarity. These ideas form the foundation for further topics in Natural Language
+Processing.

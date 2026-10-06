@@ -1,0 +1,17 @@
+Riverside University
+Mid Semester Examination - March 2025
+Subject: Cloud Computing (CS805)
+Time: 3 hours
+Maximum Marks: 30
+Seat No: ______________
+
+Instructions:
+1. Use of a non programmable calculator is permitted.
+2. Question 1 is compulsory. Solve any three from the remaining questions.
+3. Assume suitable data if required and state it clearly.
+
+Q1. What is containers? Explain the steps involved and compare it with load balancing. - 4 marks
+Q2. Derive the necessary expressions for serverless computing and solve a numerical example. - 3 marks
+Q3. Explain service level agreement in detail with a neat diagram. 8 marks
+Q4. Describe the working of object storage. Discuss its advantages and limitations. - 6 marks
+Q5. What is service level agreement? Explain the steps involved and compare it with load balancing. 10 marks

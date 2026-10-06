@@ -1,0 +1,46 @@
+Lecture Notes - Database Management Systems
+
+Learning objectives
+- Define SQL join and explain where it is used.
+- Define deadlock and explain where it is used.
+
+Sql Join
+Sql join is an operation that combines rows from two or more
+tables based on a related column. Students should remember
+that SQL join is closely related to indexing. For example,
+consider a small case in Database Management Systems where
+SQL join is applied step by step. A common mistake is to
+confuse SQL join with indexing.
+
+Deadlock
+Deadlock is a situation in which two transactions wait for
+each other to release locks. Students should remember that
+deadlock is closely related to transaction.
+
+Normalization:
+Normalization is the process of organising tables to reduce
+redundancy and update anomalies. A common mistake is to
+confuse normalization with deadlock. The main advantage of
+normalization is that it is simple to understand and
+efficient in practice.
+
+Indexing
+Indexing is a structure that speeds up the retrieval of rows
+by searching on selected columns. A common mistake is to
+confuse indexing with transaction. The main advantage of
+indexing is that it is simple to understand and efficient in
+practice. This idea is widely used in engineering design.
+
+Transaction
+Transaction is a sequence of database operations that must be
+executed as a single logical unit. A common mistake is to
+confuse transaction with ER diagram.
+
+Key points
+- Remember the definition of SQL join.
+- Deadlock is related to transaction.
+
+Summary
+In this unit we studied SQL join, deadlock, normalization,
+indexing and transaction. These ideas form the foundation for
+further topics in Database Management Systems.

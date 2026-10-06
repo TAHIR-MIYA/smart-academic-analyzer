@@ -1,0 +1,21 @@
+National Institute of Applied Sciences
+End Semester Examination - May 2026
+Subject: Operating Systems (CS402)
+Time: 2 hours
+Maximum Marks: 30
+Seat No: ______________
+
+Instructions:
+1. Question 1 is compulsory. Solve any three from the remaining questions.
+2. Draw neat labelled diagrams wherever necessary.
+3. All questions are compulsory.
+
+Part A (Answer the following. 2 marks each)
+Q1. Write the purpose of file system.
+Q2. Define semaphore.
+Q3. Differentiate between virtual memory and context switch in one line.
+
+SECTION B (5 marks each)
+Q4. Discuss how semaphore is used in Operating Systems. Support your answer with an example. (5 marks)
+Q5. Differentiate between semaphore and file system with suitable examples. (2 marks)
+Q6. Derive the necessary expressions for virtual memory and solve a numerical example. - 5 marks

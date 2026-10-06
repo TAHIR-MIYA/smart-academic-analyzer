@@ -1,0 +1,14 @@
+Cloud Computing - Assignment 7
+Faculty: Prof. Kabir Sharma
+Subject: Cloud Computing (CS805)
+Total marks: 10
+
+Instructions:
+- Late submissions will lose two marks for every day of delay.
+- Attach the printed output wherever a program is required.
+- Write your name, roll number and division on the first page.
+
+Q1. Differentiate between containers and serverless computing. [10]
+Q2. Implement a small program that demonstrates load balancing and attach the output. (4M)
+Q3. Explain serverless computing with a suitable example. [10 marks]
+Q4. Differentiate between load balancing and containers. 6 marks

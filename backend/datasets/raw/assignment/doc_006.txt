@@ -1,0 +1,20 @@
+Assignment 2: Data Structures
+Last date of submission: April 27, 2024
+Total marks: 15
+Subject: Data Structures (CS301)
+Faculty: Prof. Rahul Bose
+
+Note:
+- Answers should be in your own words and should not be copied from the textbook.
+- Hand over the completed assignment to the subject teacher in the lecture.
+- Late submissions will lose two marks for every day of delay.
+
+Task 1: Prepare a one page summary of graph traversal and attach it to your solved
+problems. (10 marks)
+Q2. Write a short note on heap and its applications in Data Structures. - 6 marks
+Task 3: Prepare a one page summary of graph traversal and attach it to your solved
+problems. - 3 marks
+Task 4: Prepare a one page summary of graph traversal and attach it to your solved
+problems. [10]
+Q5. Collect two real world examples of binary search tree and discuss how stack is
+related to them. (10 marks)

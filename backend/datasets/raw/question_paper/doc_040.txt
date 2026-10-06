@@ -1,0 +1,22 @@
+Horizon Engineering College
+End Semester Examination - May 2025
+Subject: Database Management Systems (CS502)
+Time: 2 hours
+Maximum Marks: 50
+
+Instructions:
+1. Use of a non programmable calculator is permitted.
+2. Attempt any 4 questions from Section B.
+3. Assume suitable data if required and state it clearly.
+
+Section A (Answer the following. 1 marks each)
+Q1. List the advantages of SQL join.
+Q2. Define transaction.
+Q3. Differentiate between deadlock and SQL join in one line.
+Q4. Name any two features of deadlock.
+
+SECTION B (5 marks each)
+Q5. Describe the working of ER diagram. Discuss its advantages and limitations. 3 marks
+Q6. What is deadlock? Explain the steps involved and compare it with indexing. [2 marks]
+Q7. Differentiate between transaction and normalization with suitable examples. (6 marks)
+Q8. Write short notes on any two: deadlock, normalization, transaction. 3 marks

@@ -1,0 +1,17 @@
+Flip-Flop - Study Notes
+
+Learning objectives
+- Define flip-flop and explain where it is used.
+- Define shift register and explain where it is used.
+
+Flip-Flop:
+Flip-flop is a bistable circuit that stores one bit of information. This idea is widely used in industry. The main advantage of flip-flop is that it is simple to understand and efficient in practice.
+
+Shift Register
+Shift register is a group of flip-flops that moves stored bits one position on every clock pulse. The main advantage of shift register is that it is simple to understand and efficient in practice. This idea is widely used in real world systems.
+
+Logic Gate
+Logic gate is an elementary building block that performs a Boolean operation on one or more inputs. Students should remember that logic gate is closely related to shift register.
+
+Summary
+In this unit we studied flip-flop, shift register and logic gate. These ideas form the foundation for further topics in Digital Electronics.

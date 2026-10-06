@@ -1,0 +1,31 @@
+VIRTUALIZATION BASED MOBILE APPLICATION FOR STUDENT PERFORMANCE ANALYSIS
+A project report submitted in partial fulfilment of the requirements for the degree of Bachelor of Engineering in Electrical Engineering
+Submitted by: Imran Desai
+Under the guidance of: Prof. Aarav Patel
+Department of Electrical Engineering, Horizon Engineering College, 2024
+
+Abstract
+This project presents the design and implementation of a mobile application that applies virtualization and service level agreement to automate routine tasks. The system was developed using React and Node.js and tested on data collected from sensors installed in the laboratory. Experimental results show that the system performs reliably compared with the existing approach. The report discusses the methodology, implementation, results and limitations of the work.
+
+1. INTRODUCTION
+In recent years Cloud Computing has become an important part of modern engineering. Manual processes are slow, error prone and difficult to scale. This project aims to address these issues by using virtualization.
+
+2. PROBLEM STATEMENT
+The existing system relies on manual effort and does not use virtualization. As a result, users face delays and inconsistent results. There is a need for a reliable system that applies service level agreement effectively.
+
+3. Methodology
+The methodology follows requirement analysis, design, implementation and testing. The input data is first cleaned and prepared. Then virtualization is applied to extract the required information. Finally service level agreement is used to produce the output which is displayed to the user.
+
+4. IMPLEMENTATION
+The system is implemented using React and Node.js. The main modules are the input module, the processing module and the output module. The virtualization component was implemented as a separate class so that it can be tested independently. Screenshots of the user interface are given in Figure 1.
+
+5. Results and Discussion
+The system was tested on 62 sample inputs and produced correct output in most cases. The results are summarised in Table 1. The proposed approach performs better than the baseline. Some errors occurred when the input data was incomplete.
+
+6. CONCLUSION
+The project successfully met its objectives. The system demonstrates that virtualization can be applied effectively to this problem. The work also highlighted the importance of careful testing.
+
+References
+[1] A. Kumar, Cloud Computing: Principles and Practice, Tech Press, 2019.
+[2] R. Singh and P. Rao, "A study of virtualization", International Journal of Engineering Research, 2021.
+[3] Official documentation of React and Node.js.

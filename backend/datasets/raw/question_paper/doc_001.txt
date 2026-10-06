@@ -1,0 +1,15 @@
+National Institute of Applied Sciences
+Mid Semester Examination - November 2025
+Subject: Machine Learning (CS701)
+Time: 2 hours
+Maximum Marks: 100
+
+Instructions:
+1. Draw neat labelled diagrams wherever necessary.
+2. Figures to the right indicate full marks.
+3. Use of a non programmable calculator is permitted.
+4. Assume suitable data if required and state it clearly.
+
+Q1. Discuss how cross-validation is used in Machine Learning. Support your answer with an example. [4 marks]
+Q2. What is linear regression? Explain the steps involved and compare it with cross-validation. [10 marks]
+Q3. What is confusion matrix? Explain the steps involved and compare it with decision tree. [5]

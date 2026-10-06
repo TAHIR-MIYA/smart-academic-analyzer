@@ -1,0 +1,17 @@
+Assignment No. 8
+Total marks: 15
+Last date of submission: 14 March 2024
+Subject: Natural Language Processing (CS804)
+Faculty: Prof. Arjun Reddy
+Semester: 4
+
+Instructions:
+- Late submissions will lose two marks for every day of delay.
+- Submit the assignment in neat handwriting on A4 sheets.
+- Answers should be in your own words and should not be copied from the textbook.
+- Group submissions are not allowed; every student must submit individually.
+
+1. Solve the problems on cosine similarity given in the textbook exercise and show all steps. [10]
+Q2. Write a short note on language model and its applications in Natural Language Processing. [5 marks]
+Task 3: Prepare a one page summary of TF-IDF and attach it to your solved problems. [6]
+Q4. Explain part-of-speech tagging with a suitable example. (2 marks)

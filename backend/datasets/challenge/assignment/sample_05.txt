@@ -1,0 +1,4 @@
+Software Engineering - Case study assignment
+
+Choose any real world application, for example an online food delivery app, and prepare a two page report covering functional requirements, a use case diagram and a test plan with at least five test cases.
+Submit it through the classroom portal. Marks will be deducted for late submission.

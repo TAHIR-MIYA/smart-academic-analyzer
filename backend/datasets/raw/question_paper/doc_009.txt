@@ -1,0 +1,17 @@
+Greenfield College of Engineering
+Supplementary Examination - April 2026
+Subject: Software Engineering (CS601)
+Time: 3 hours
+Maximum Marks: 100
+
+Instructions:
+1. Figures to the right indicate full marks.
+2. Attempt any 2 questions from Section B.
+3. Question 1 is compulsory. Solve any three from the remaining questions.
+4. Assume suitable data if required and state it clearly.
+
+Q1. Describe the working of version control. Discuss its advantages and limitations. [8]
+Q2. What is UML diagram? Explain the steps involved and compare it with requirements specification. - 5 marks
+Q3. Write short notes on any two: requirements specification, version control, code review. [4]
+Q4. Discuss how code review is used in Software Engineering. Support your answer with an example. [3 marks]
+Q5. Describe the working of requirements specification. Discuss its advantages and limitations. [5 marks]

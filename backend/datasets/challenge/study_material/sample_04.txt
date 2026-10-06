@@ -1,0 +1,5 @@
+Notes: the TCP/IP model
+
+The TCP/IP model has four layers: application, transport, internet and network access. Each layer provides services to the layer above it. The transport layer is responsible for end to end delivery of data.
+
+Important: do not confuse the OSI model with the TCP/IP model. The OSI model has seven layers.

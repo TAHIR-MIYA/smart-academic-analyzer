@@ -1,0 +1,27 @@
+Chapter 2: Service Level Agreement
+
+Learning objectives
+- Define service level agreement and explain where it is used.
+- Define load balancing and explain where it is used.
+
+Service Level Agreement
+Service level agreement is a contract that defines the availability and performance
+a provider must deliver. This idea is widely used in everyday software. A common
+mistake is to confuse service level agreement with virtualization. For example,
+consider a small case in Cloud Computing where service level agreement is applied
+step by step.
+
+Load Balancing
+Load balancing is the distribution of incoming requests across several servers to
+avoid overload. The main advantage of load balancing is that it is simple to
+understand and efficient in practice. Note that load balancing depends on the
+assumptions made about the problem.
+
+Object Storage
+Object storage is a storage model that keeps data as objects with metadata in a flat
+address space. This idea is widely used in industry. Note that object storage
+depends on the assumptions made about the problem.
+
+Summary
+In this unit we studied service level agreement, load balancing and object storage.
+These ideas form the foundation for further topics in Cloud Computing.

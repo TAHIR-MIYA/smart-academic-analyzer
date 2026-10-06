@@ -1,0 +1,23 @@
+Unit 9: Operating Systems
+
+Process Scheduling
+Process scheduling is the method by which the operating system decides which process receives the processor next. The main advantage of process scheduling is that it is simple to understand and efficient in practice. For example, consider a small case in Operating Systems where process scheduling is applied step by step.
+
+Paging
+Paging is a memory management scheme that divides memory into fixed size blocks called pages. For example, consider a small case in Operating Systems where paging is applied step by step. A common mistake is to confuse paging with virtual memory.
+
+File System:
+File system is the part of the operating system that organises how data is stored and retrieved on disk. Students should remember that file system is closely related to context switch.
+
+Semaphore
+Semaphore is a synchronisation variable used to control access to shared resources. Note that semaphore depends on the assumptions made about the problem. In practice, semaphore is combined with context switch to solve larger problems. This idea is widely used in industry.
+
+Thread
+Thread is the smallest unit of execution that shares the resources of its parent process. Students should remember that thread is closely related to process scheduling. A common mistake is to confuse thread with process scheduling. In practice, thread is combined with process scheduling to solve larger problems.
+
+Summary
+In this unit we studied process scheduling, paging, file system, semaphore and thread. These ideas form the foundation for further topics in Operating Systems.
+
+Review questions
+1. What is process scheduling?
+2. Explain paging with an example.

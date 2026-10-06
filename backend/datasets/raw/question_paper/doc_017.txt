@@ -1,0 +1,13 @@
+End Semester Examination - May 2026
+Subject: Digital Electronics (EC302)
+Time: 2 hours
+Maximum Marks: 30
+
+Instructions:
+1. Use of a non programmable calculator is permitted.
+2. Question 1 is compulsory. Solve any three from the remaining questions.
+
+Q1. What is counter? Explain the steps involved and compare it with flip-flop. 8 marks
+Q2. Differentiate between logic gate and decoder with suitable examples. [5]
+Q3. Describe the working of shift register. Discuss its advantages and limitations. - 4 marks
+Q4. What is multiplexer? Explain the steps involved and compare it with Karnaugh map. (5 marks)

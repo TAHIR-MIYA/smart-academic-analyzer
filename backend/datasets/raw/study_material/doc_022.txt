@@ -1,0 +1,21 @@
+Learning objectives
+- Define TF-IDF and explain where it is used.
+- Define part-of-speech tagging and explain where it is used.
+
+Tf-Idf
+Tf-idf is a weighting scheme that scores a term by its frequency in a document and its rarity across documents. For example, consider a small case in Natural Language Processing where TF-IDF is applied step by step.
+
+Part-Of-Speech Tagging
+Part-of-speech tagging is the assignment of grammatical categories such as noun or verb to each word. Note that part-of-speech tagging depends on the assumptions made about the problem. For example, consider a small case in Natural Language Processing where part-of-speech tagging is applied step by step. Students should remember that part-of-speech tagging is closely related to stemming.
+
+Cosine Similarity
+Cosine similarity is a measure of the angle between two vectors used to compare documents. The main advantage of cosine similarity is that it is simple to understand and efficient in practice. Students should remember that cosine similarity is closely related to TF-IDF.
+
+Tokenization
+Tokenization is the splitting of text into smaller units such as words or sentences. This idea is widely used in everyday software. Note that tokenization depends on the assumptions made about the problem.
+
+Language Model
+Language model is a model that assigns probabilities to sequences of words. Students should remember that language model is closely related to stemming.
+
+Summary
+In this unit we studied TF-IDF, part-of-speech tagging, cosine similarity, tokenization and language model. These ideas form the foundation for further topics in Natural Language Processing.

@@ -1,0 +1,37 @@
+Stemming Based Mobile Application for Student Performance Analysis
+A project report submitted in partial fulfilment of the requirements for the degree of Bachelor of Engineering in Computer Engineering
+Submitted by: Vikram Verma
+Under the guidance of: Prof. Imran Nair
+Department of Computer Engineering, Greenfield College of Engineering, 2026
+
+Abstract
+This project presents the design and implementation of a mobile application that applies stemming and TF-IDF to analyse large volumes of data efficiently. The system was developed using Python and Flask and tested on data collected from user surveys. Experimental results show that the system performs reliably compared with the existing approach. The report discusses the methodology, implementation, results and limitations of the work.
+
+Problem Statement
+The existing system relies on manual effort and does not use stemming. As a result, users face delays and inconsistent results. There is a need for a reliable system that applies TF-IDF effectively.
+
+OBJECTIVES
+- To study existing approaches based on stemming.
+- To design a system architecture that integrates TF-IDF.
+- To implement and test the proposed system.
+- To evaluate performance and document the results.
+
+Literature Survey
+Several researchers have investigated stemming in the context of Natural Language Processing. Earlier work proposed a method based on TF-IDF which improved results on benchmark data. However, most existing work does not address scalability and usability.
+
+METHODOLOGY
+The methodology follows requirement analysis, design, implementation and testing. The input data is first cleaned and prepared. Then stemming is applied to extract the required information. Finally TF-IDF is used to produce the output which is displayed to the user.
+
+Implementation
+The system is implemented using Python and Flask. The main modules are the input module, the processing module and the output module. The stemming component was implemented as a separate class so that it can be tested independently. Screenshots of the user interface are given in Figure 5.
+
+Future Scope
+In future the system can be extended with more data and additional features. A mobile version and cloud deployment can be developed. Integration of TF-IDF may further improve accuracy.
+
+CONCLUSION
+The project successfully met its objectives. The system demonstrates that stemming can be applied effectively to this problem. The work also highlighted the importance of careful testing.
+
+References
+[1] A. Kumar, Natural Language Processing: Principles and Practice, Tech Press, 2019.
+[2] R. Singh and P. Rao, "A study of stemming", International Journal of Engineering Research, 2021.
+[3] Official documentation of Python and Flask.

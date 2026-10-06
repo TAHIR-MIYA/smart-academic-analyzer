@@ -1,0 +1,28 @@
+Heat Engine Based Mobile Application for Healthcare Monitoring
+A project report submitted in partial fulfilment of the requirements for the degree of Bachelor of Engineering in Electronics Engineering
+Submitted by: Kabir Desai
+Under the guidance of: Prof. Aarav Shah
+Department of Electronics Engineering, National Institute of Applied Sciences, 2025
+
+1. Objectives
+- To study existing approaches based on heat engine.
+- To design a system architecture that integrates ideal gas.
+- To implement and test the proposed system.
+- To evaluate performance and document the results.
+
+2. Methodology
+The methodology follows requirement analysis, design, implementation and testing. The input data is first cleaned and prepared. Then heat engine is applied to extract the required information. Finally ideal gas is used to produce the output which is displayed to the user.
+
+3. Implementation
+The system is implemented using Java and MySQL. The main modules are the input module, the processing module and the output module. The heat engine component was implemented as a separate class so that it can be tested independently. Screenshots of the user interface are given in Figure 1.
+
+4. Results and Discussion
+The system was tested on 437 sample inputs and produced correct output in most cases. The results are summarised in Table 1. The proposed approach performs better than the baseline. Some errors occurred when the input data was incomplete.
+
+5. Conclusion
+The project successfully met its objectives. The system demonstrates that heat engine can be applied effectively to this problem. The work also highlighted the importance of careful testing.
+
+References
+[1] A. Kumar, Thermodynamics: Principles and Practice, Tech Press, 2019.
+[2] R. Singh and P. Rao, "A study of heat engine", International Journal of Engineering Research, 2021.
+[3] Official documentation of Java and MySQL.

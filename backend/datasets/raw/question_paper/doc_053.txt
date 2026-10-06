@@ -1,0 +1,20 @@
+City Institute of Technology
+Mid Semester Examination - February 2024
+Subject: Digital Electronics (EC302)
+Time: 3 hours
+Maximum Marks: 100
+
+Instructions:
+1. All questions are compulsory.
+2. Draw neat labelled diagrams wherever necessary.
+
+Q1. Differentiate between counter and multiplexer with suitable examples. (4
+marks)
+Q2. What is decoder? Explain the steps involved and compare it with flip-flop.
+- 6 marks
+Q3. Write short notes on any two: Karnaugh map, shift register, decoder. - 2
+marks
+Q4. Describe the working of decoder. Discuss its advantages and limitations.
+(8 marks)
+Q5. Differentiate between multiplexer and counter with suitable examples. (10
+marks)

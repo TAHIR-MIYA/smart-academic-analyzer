@@ -1,0 +1,22 @@
+National Institute of Applied Sciences
+End Semester Examination - March 2024
+Subject: Data Structures (CS301)
+Time: 2 hours
+Maximum Marks: 40
+
+Instructions:
+1. Question 1 is compulsory. Solve any three from the remaining questions.
+2. Attempt any 2 questions from Section B.
+3. Use of a non programmable calculator is permitted.
+
+Part A (Answer the following. 2 marks each)
+Q1. Differentiate between heap and linked list in one line.
+Q2. Name any two features of graph traversal.
+Q3. Define heap.
+Q4. List the advantages of linked list.
+
+Section B (8 marks each)
+Q5. Discuss how heap is used in Data Structures. Support your answer with an example. - 6 marks
+Q6. Discuss how queue is used in Data Structures. Support your answer with an example. [3]
+Q7. Write short notes on any two: queue, linked list, heap. 4 marks
+Q8. Describe the working of graph traversal. Discuss its advantages and limitations. [10]

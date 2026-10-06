@@ -1,0 +1,34 @@
+Dns Based Automated Analysis Tool for Student Performance Analysis
+A project report submitted in partial fulfilment of the requirements for the degree of Bachelor of Engineering in Mechanical Engineering
+Submitted by: Aarav Mehta
+Under the guidance of: Prof. Anita Mehta
+Department of Mechanical Engineering, City Institute of Technology, 2026
+
+Abstract
+This project presents the design and implementation of a automated analysis tool that applies DNS and subnetting to analyse large volumes of data efficiently. The system was developed using Python and Flask and tested on data collected from user surveys. Experimental results show that the system performs reliably compared with the existing approach. The report discusses the methodology, implementation, results and limitations of the work.
+
+1. Introduction
+In recent years Computer Networks has become an important part of modern engineering. Manual processes are slow, error prone and difficult to scale. This project aims to address these issues by using DNS.
+
+2. Objectives
+- To study existing approaches based on DNS.
+- To design a system architecture that integrates subnetting.
+- To implement and test the proposed system.
+- To evaluate performance and document the results.
+
+3. Literature Survey
+Several researchers have investigated DNS in the context of Computer Networks. Earlier work proposed a method based on subnetting which improved results on benchmark data. However, most existing work does not address scalability and usability.
+
+4. Methodology
+The methodology follows requirement analysis, design, implementation and testing. The input data is first cleaned and prepared. Then DNS is applied to extract the required information. Finally subnetting is used to produce the output which is displayed to the user.
+
+5. Results and Discussion
+The system was tested on 71 sample inputs and produced correct output in most cases. The results are summarised in Table 9. The proposed approach performs better than the baseline. Some errors occurred when the input data was incomplete.
+
+6. Conclusion
+The project successfully met its objectives. The system demonstrates that DNS can be applied effectively to this problem. The work also highlighted the importance of careful testing.
+
+References
+[1] A. Kumar, Computer Networks: Principles and Practice, Tech Press, 2019.
+[2] R. Singh and P. Rao, "A study of DNS", International Journal of Engineering Research, 2021.
+[3] Official documentation of Python and Flask.

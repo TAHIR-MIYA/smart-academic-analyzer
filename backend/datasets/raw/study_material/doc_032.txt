@@ -1,0 +1,22 @@
+Cross-Validation - Study Notes
+
+Cross-Validation
+Cross-validation is a technique that repeatedly splits the data
+to estimate how well a model generalises. Note that cross-
+validation depends on the assumptions made about the problem.
+
+Overfitting:
+Overfitting is a problem where a model memorises noise in the
+training data and performs poorly on new data. For example,
+consider a small case in Machine Learning where overfitting is
+applied step by step.
+
+Decision Tree
+Decision tree is a model that splits data using a sequence of
+feature tests arranged as a tree. In practice, decision tree is
+combined with confusion matrix to solve larger problems.
+
+Summary
+In this unit we studied cross-validation, overfitting and
+decision tree. These ideas form the foundation for further topics
+in Machine Learning.

@@ -1,0 +1,28 @@
+Heap - Study Notes
+
+Learning objectives
+- Define heap and explain where it is used.
+- Define stack and explain where it is used.
+
+Heap
+Heap is a complete binary tree that satisfies the heap ordering property. This idea is widely used in engineering design. The main advantage of heap is that it is simple to understand and efficient in practice. In practice, heap is combined with binary search tree to solve larger problems.
+
+Stack
+Stack is a linear structure that follows the last in first out principle. For example, consider a small case in Data Structures where stack is applied step by step. A common mistake is to confuse stack with graph traversal. Students should remember that stack is closely related to graph traversal.
+
+Linked List:
+Linked list is a linear collection of nodes where each node stores a value and a pointer to the next node. In practice, linked list is combined with binary search tree to solve larger problems. Note that linked list depends on the assumptions made about the problem. A common mistake is to confuse linked list with binary search tree.
+
+Queue:
+Queue is a linear structure that follows the first in first out principle. Note that queue depends on the assumptions made about the problem.
+
+Key points
+- Remember the definition of heap.
+- Stack is related to queue.
+
+Summary
+In this unit we studied heap, stack, linked list and queue. These ideas form the foundation for further topics in Data Structures.
+
+Review questions
+1. What is heap?
+2. Explain stack with an example.

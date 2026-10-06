@@ -1,0 +1,14 @@
+Last date of submission: 12/12/2026
+Subject: Software Engineering (CS601)
+Semester: 3
+
+Instructions:
+- Answers should be in your own words and should not be copied from the textbook.
+- Submit the assignment in neat handwriting on A4 sheets.
+
+Q1. Explain version control with a suitable example. [5 marks]
+Q2. Differentiate between requirements specification and version control. 8 marks
+Q3. Write a short note on waterfall model and its applications in Software Engineering. (5M)
+Q4. Implement a small program that demonstrates code review and attach the output. 4 marks
+
+Assignments must be submitted to the subject teacher on or before the due date.

@@ -1,0 +1,14 @@
+Horizon Engineering College
+Mid Semester Examination - May 2025
+Subject: Machine Learning (CS701)
+Time: 1 hours
+Maximum Marks: 40
+
+Instructions:
+1. Draw neat labelled diagrams wherever necessary.
+2. Assume suitable data if required and state it clearly.
+3. All questions are compulsory.
+
+Q1. Derive the necessary expressions for decision tree and solve a numerical example. [2 marks]
+Q2. Discuss how gradient descent is used in Machine Learning. Support your answer with an example. [2]
+Q3. Differentiate between decision tree and cross-validation with suitable examples. (6M)

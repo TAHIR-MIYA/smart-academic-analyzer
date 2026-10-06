@@ -1,0 +1,28 @@
+Unit 6: Software Engineering
+
+Learning objectives
+- Define version control and explain where it is used.
+- Define requirements specification and explain where it is used.
+
+Version Control:
+Version control is a system that records changes to files so that earlier versions can be recovered. Students should remember that version control is closely related to requirements specification. This idea is widely used in engineering design.
+
+Requirements Specification:
+Requirements specification is a document that describes what the software must do and the constraints it must satisfy. For example, consider a small case in Software Engineering where requirements specification is applied step by step. A common mistake is to confuse requirements specification with unit testing.
+
+Waterfall Model:
+Waterfall model is a sequential development process in which each phase is completed before the next begins. Students should remember that waterfall model is closely related to unit testing.
+
+Agile Methodology:
+Agile methodology is an iterative approach that delivers working software in short cycles with continuous feedback. This idea is widely used in industry. The main advantage of agile methodology is that it is simple to understand and efficient in practice. Students should remember that agile methodology is closely related to code review.
+
+Key points
+- Remember the definition of version control.
+- Requirements specification is related to agile methodology.
+
+Summary
+In this unit we studied version control, requirements specification, waterfall model and agile methodology. These ideas form the foundation for further topics in Software Engineering.
+
+Review questions
+1. What is version control?
+2. Explain requirements specification with an example.

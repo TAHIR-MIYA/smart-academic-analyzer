@@ -1,0 +1,23 @@
+Horizon Engineering College
+End Semester Examination - August 2024
+Subject: Data Structures (CS301)
+Time: 2 hours
+Maximum Marks: 30
+
+Instructions:
+1. Attempt any 3 questions from Section B.
+2. Draw neat labelled diagrams wherever necessary.
+3. All questions are compulsory.
+4. Use of a non programmable calculator is permitted.
+
+Part A (Answer the following. 1 marks each)
+Q1. Name any two features of heap.
+Q2. What is binary search tree?
+Q3. Write the purpose of queue.
+Q4. Differentiate between binary search tree and heap in one line.
+Q5. Name any two features of graph traversal.
+
+Part B (5 marks each)
+Q6. Differentiate between heap and binary search tree with suitable examples. (10 marks)
+Q7. Differentiate between hash table and linked list with suitable examples. (3 marks)
+Q8. Explain stack in detail with a neat diagram. (10M)

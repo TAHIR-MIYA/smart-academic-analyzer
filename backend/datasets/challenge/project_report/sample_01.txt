@@ -1,0 +1,3 @@
+Abstract
+
+This report describes the design and development of an attendance management system that uses face recognition. The system captures images through a webcam, detects faces using a Haar cascade classifier and matches them against stored encodings. The prototype was tested with forty students and recorded attendance automatically. The report covers the literature survey, system design, implementation and results, and concludes with limitations and future scope.

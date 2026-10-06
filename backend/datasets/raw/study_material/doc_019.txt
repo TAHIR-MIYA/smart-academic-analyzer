@@ -1,0 +1,27 @@
+Chapter 2: Heat Engine
+
+Heat Engine:
+Heat engine is a device that converts heat energy into useful mechanical work. The main advantage of heat engine is that it is simple to understand and efficient in practice.
+
+Entropy
+Entropy is a measure of the disorder or the unavailable energy of a system. The main advantage of entropy is that it is simple to understand and efficient in practice. In practice, entropy is combined with first law of thermodynamics to solve larger problems.
+
+Carnot Cycle
+Carnot cycle is an ideal reversible cycle that gives the maximum possible efficiency between two temperatures. In practice, Carnot cycle is combined with ideal gas to solve larger problems. A common mistake is to confuse Carnot cycle with ideal gas. Students should remember that Carnot cycle is closely related to ideal gas.
+
+Ideal Gas:
+Ideal gas is a hypothetical gas whose molecules have no volume and no mutual attraction. Students should remember that ideal gas is closely related to first law of thermodynamics. This idea is widely used in industry.
+
+First Law Of Thermodynamics
+First law of thermodynamics is the statement that energy can be transformed but neither created nor destroyed. The main advantage of first law of thermodynamics is that it is simple to understand and efficient in practice.
+
+Key points
+- Remember the definition of heat engine.
+- Entropy is related to first law of thermodynamics.
+
+Summary
+In this unit we studied heat engine, entropy, Carnot cycle, ideal gas and first law of thermodynamics. These ideas form the foundation for further topics in Thermodynamics.
+
+Review questions
+1. What is heat engine?
+2. Explain entropy with an example.

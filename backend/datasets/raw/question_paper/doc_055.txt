@@ -1,0 +1,18 @@
+End Semester Examination - November 2025
+Subject: Digital Electronics (EC302)
+Time: 2 hours
+Maximum Marks: 30
+
+Instructions:
+1. Question 1 is compulsory. Solve any three from the remaining
+questions.
+2. Assume suitable data if required and state it clearly.
+
+Q1. Discuss how shift register is used in Digital Electronics. Support
+your answer with an example. [10]
+Q2. Discuss how counter is used in Digital Electronics. Support your
+answer with an example. 5 marks
+Q3. Differentiate between logic gate and decoder with suitable examples.
+- 6 marks
+Q4. Discuss how logic gate is used in Digital Electronics. Support your
+answer with an example. [3]

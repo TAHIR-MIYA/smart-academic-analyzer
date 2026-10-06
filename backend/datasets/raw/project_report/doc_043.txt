@@ -1,0 +1,61 @@
+Multiplexer Based Mobile Application for Library Management
+A project report submitted in partial fulfilment of the requirements for the degree of
+Bachelor of Engineering in Mechanical Engineering
+Submitted by: Anita Joshi
+Under the guidance of: Prof. Divya Bose
+Department of Mechanical Engineering, Riverside University, 2024
+
+Abstract
+This project presents the design and implementation of a mobile application that applies
+multiplexer and counter to support faster decisions. The system was developed using Python and
+scikit-learn and tested on data collected from user surveys. Experimental results show that
+the system performs with acceptable accuracy compared with the existing approach. The report
+discusses the methodology, implementation, results and limitations of the work.
+
+Introduction
+In recent years Digital Electronics has become an important part of modern engineering. Manual
+processes are slow, error prone and difficult to scale. This project aims to address these
+issues by using multiplexer.
+
+Problem Statement
+The existing system relies on manual effort and does not use multiplexer. As a result, users
+face delays and inconsistent results. There is a need for a reliable system that applies
+counter effectively.
+
+Objectives
+- To study existing approaches based on multiplexer.
+- To design a system architecture that integrates counter.
+- To implement and test the proposed system.
+- To evaluate performance and document the results.
+
+Literature Survey
+Several researchers have investigated multiplexer in the context of Digital Electronics.
+Earlier work proposed a method based on counter which improved results on benchmark data.
+However, most existing work does not address scalability and usability.
+
+METHODOLOGY
+The methodology follows requirement analysis, design, implementation and testing. The input
+data is first cleaned and prepared. Then multiplexer is applied to extract the required
+information. Finally counter is used to produce the output which is displayed to the user.
+
+IMPLEMENTATION
+The system is implemented using Python and scikit-learn. The main modules are the input
+module, the processing module and the output module. The multiplexer component was implemented
+as a separate class so that it can be tested independently. Screenshots of the user interface
+are given in Figure 6.
+
+RESULTS AND DISCUSSION
+The system was tested on 118 sample inputs and produced correct output in most cases. The
+results are summarised in Table 6. The proposed approach performs better than the baseline.
+Some errors occurred when the input data was incomplete.
+
+Conclusion
+The project successfully met its objectives. The system demonstrates that multiplexer can be
+applied effectively to this problem. The work also highlighted the importance of careful
+testing.
+
+References
+[1] A. Kumar, Digital Electronics: Principles and Practice, Tech Press, 2019.
+[2] R. Singh and P. Rao, "A study of multiplexer", International Journal of Engineering
+Research, 2021.
+[3] Official documentation of Python and scikit-learn.

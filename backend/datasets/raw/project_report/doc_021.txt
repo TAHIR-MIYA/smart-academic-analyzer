@@ -1,0 +1,37 @@
+Object Storage Based Automated Analysis Tool for Campus Services
+A project report submitted in partial fulfilment of the requirements for the degree of Bachelor of Engineering in Computer Engineering
+Submitted by: Neha Sharma
+Under the guidance of: Prof. Aarav Gupta
+Department of Computer Engineering, Riverside University, 2026
+
+Abstract
+This project presents the design and implementation of a automated analysis tool that applies object storage and auto scaling to analyse large volumes of data efficiently. The system was developed using React and Node.js and tested on data collected from user surveys. Experimental results show that the system performs faster and more accurately compared with the existing approach. The report discusses the methodology, implementation, results and limitations of the work.
+
+Introduction
+In recent years Cloud Computing has become an important part of modern engineering. Manual processes are slow, error prone and difficult to scale. This project aims to address these issues by using object storage.
+
+OBJECTIVES
+- To study existing approaches based on object storage.
+- To design a system architecture that integrates auto scaling.
+- To implement and test the proposed system.
+- To evaluate performance and document the results.
+
+METHODOLOGY
+The methodology follows requirement analysis, design, implementation and testing. The input data is first cleaned and prepared. Then object storage is applied to extract the required information. Finally auto scaling is used to produce the output which is displayed to the user.
+
+IMPLEMENTATION
+The system is implemented using React and Node.js. The main modules are the input module, the processing module and the output module. The object storage component was implemented as a separate class so that it can be tested independently. Screenshots of the user interface are given in Figure 3.
+
+Results and Discussion
+The system was tested on 298 sample inputs and produced correct output in most cases. The results are summarised in Table 3. The proposed approach performs better than the baseline. Some errors occurred when the input data was incomplete.
+
+Future Scope
+In future the system can be extended with more data and additional features. A mobile version and cloud deployment can be developed. Integration of auto scaling may further improve accuracy.
+
+Conclusion
+The project successfully met its objectives. The system demonstrates that object storage can be applied effectively to this problem. The work also highlighted the importance of careful testing.
+
+References
+[1] A. Kumar, Cloud Computing: Principles and Practice, Tech Press, 2019.
+[2] R. Singh and P. Rao, "A study of object storage", International Journal of Engineering Research, 2021.
+[3] Official documentation of React and Node.js.

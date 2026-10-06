@@ -1,0 +1,25 @@
+Chapter 9: Linear Regression
+
+Learning objectives
+- Define linear regression and explain where it is used.
+- Define overfitting and explain where it is used.
+
+Linear Regression:
+Linear regression is a supervised method that fits a straight line to predict a numeric target from input variables. Students should remember that linear regression is closely related to overfitting. The main advantage of linear regression is that it is simple to understand and efficient in practice.
+
+Overfitting:
+Overfitting is a problem where a model memorises noise in the training data and performs poorly on new data. For example, consider a small case in Machine Learning where overfitting is applied step by step. This idea is widely used in industry. The main advantage of overfitting is that it is simple to understand and efficient in practice.
+
+Decision Tree
+Decision tree is a model that splits data using a sequence of feature tests arranged as a tree. Note that decision tree depends on the assumptions made about the problem. Students should remember that decision tree is closely related to gradient descent. For example, consider a small case in Machine Learning where decision tree is applied step by step.
+
+Key points
+- Remember the definition of linear regression.
+- Overfitting is related to decision tree.
+
+Summary
+In this unit we studied linear regression, overfitting and decision tree. These ideas form the foundation for further topics in Machine Learning.
+
+Review questions
+1. What is linear regression?
+2. Explain overfitting with an example.

@@ -1,0 +1,25 @@
+Learning objectives
+- Define ideal gas and explain where it is used.
+- Define isothermal process and explain where it is used.
+
+Ideal Gas
+Ideal gas is a hypothetical gas whose molecules have no volume and no mutual attraction. In practice, ideal gas is combined with isothermal process to solve larger problems. A common mistake is to confuse ideal gas with isothermal process.
+
+Isothermal Process
+Isothermal process is a process that takes place at constant temperature. Students should remember that isothermal process is closely related to ideal gas. Note that isothermal process depends on the assumptions made about the problem. For example, consider a small case in Thermodynamics where isothermal process is applied step by step.
+
+Entropy
+Entropy is a measure of the disorder or the unavailable energy of a system. A common mistake is to confuse entropy with heat engine. In practice, entropy is combined with heat engine to solve larger problems.
+
+Carnot Cycle:
+Carnot cycle is an ideal reversible cycle that gives the maximum possible efficiency between two temperatures. Students should remember that Carnot cycle is closely related to entropy. The main advantage of Carnot cycle is that it is simple to understand and efficient in practice.
+
+Heat Engine
+Heat engine is a device that converts heat energy into useful mechanical work. Note that heat engine depends on the assumptions made about the problem.
+
+Summary
+In this unit we studied ideal gas, isothermal process, entropy, Carnot cycle and heat engine. These ideas form the foundation for further topics in Thermodynamics.
+
+Review questions
+1. What is ideal gas?
+2. Explain isothermal process with an example.

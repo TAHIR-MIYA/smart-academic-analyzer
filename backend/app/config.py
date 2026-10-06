@@ -27,6 +27,12 @@ class Settings(BaseSettings):
     # Document-frequency table built from the training dataset (created by the Module 4 training script).
     reference_idf_path: Path = BASE_DIR / "app" / "ml" / "artifacts" / "reference_idf.json"
 
+    # Trained classifier + metrics (created by:  python -m app.ml.train)
+    model_path: Path = BASE_DIR / "app" / "ml" / "artifacts" / "model.joblib"
+    metrics_path: Path = BASE_DIR / "app" / "ml" / "artifacts" / "metrics.json"
+    # Below this probability the UI should flag the prediction as uncertain (chance level is 0.2).
+    classification_min_confidence: float = 0.5
+
     log_level: str = "INFO"
     log_dir: Path = BASE_DIR / "logs"
 

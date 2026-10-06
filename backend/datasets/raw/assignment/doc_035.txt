@@ -1,0 +1,16 @@
+Assignment No. 5
+Faculty: Prof. Aarav Mehta
+Last date of submission: 19/02/2024
+Subject: Data Structures (CS301)
+
+Instructions:
+- Upload a single PDF file on the college portal before the deadline.
+- Hand over the completed assignment to the subject teacher in the lecture.
+- Group submissions are not allowed; every student must submit individually.
+
+Q1. Implement a small program that demonstrates queue and attach the output. - 10 marks
+Q2. Write a short note on linked list and its applications in Data Structures. [5]
+3. Solve the problems on graph traversal given in the textbook exercise and show all steps. 6 marks
+Q4. Differentiate between queue and graph traversal. 10 marks
+Q5. Write a short note on heap and its applications in Data Structures. (5 marks)
+Q6. Collect two real world examples of stack and discuss how heap is related to them. (10 marks)

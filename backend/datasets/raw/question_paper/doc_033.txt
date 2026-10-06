@@ -1,0 +1,23 @@
+National Institute of Applied Sciences
+End Semester Examination - April 2024
+Subject: Database Management Systems (CS502)
+Time: 3 hours
+Maximum Marks: 100
+
+Instructions:
+1. Draw neat labelled diagrams wherever necessary.
+2. Figures to the right indicate full marks.
+3. Assume suitable data if required and state it clearly.
+
+Section A (Answer the following. 2 marks each)
+Q1. Define ER diagram.
+Q2. Write the purpose of ER diagram.
+Q3. Differentiate between deadlock and normalization in one line.
+Q4. Define SQL join.
+
+SECTION B (8 marks each)
+Q5. Describe the working of SQL join. Discuss its advantages and limitations. (2 marks)
+Q6. Explain primary key in detail with a neat diagram. [6]
+Q7. Differentiate between transaction and SQL join with suitable examples. [2]
+Q8. Discuss how ER diagram is used in Database Management Systems. Support your answer with an example. 5 marks
+Q9. Derive the necessary expressions for primary key and solve a numerical example. - 5 marks

@@ -1,0 +1,20 @@
+1. PROBLEM STATEMENT
+The existing system relies on manual effort and does not use TF-IDF. As a result, users face delays and inconsistent results. There is a need for a reliable system that applies language model effectively.
+
+2. LITERATURE SURVEY
+Several researchers have investigated TF-IDF in the context of Natural Language Processing. Earlier work proposed a method based on language model which improved results on benchmark data. However, most existing work does not address scalability and usability.
+
+3. Methodology
+The methodology follows requirement analysis, design, implementation and testing. The input data is first cleaned and prepared. Then TF-IDF is applied to extract the required information. Finally language model is used to produce the output which is displayed to the user.
+
+4. Implementation
+The system is implemented using React and Node.js. The main modules are the input module, the processing module and the output module. The TF-IDF component was implemented as a separate class so that it can be tested independently. Screenshots of the user interface are given in Figure 2.
+
+5. RESULTS AND DISCUSSION
+The system was tested on 208 sample inputs and produced correct output in most cases. The results are summarised in Table 2. The proposed approach performs better than the baseline. Some errors occurred when the input data was incomplete.
+
+6. Future Scope
+In future the system can be extended with more data and additional features. A mobile version and cloud deployment can be developed. Integration of language model may further improve accuracy.
+
+7. Conclusion
+The project successfully met its objectives. The system demonstrates that TF-IDF can be applied effectively to this problem. The work also highlighted the importance of careful testing.

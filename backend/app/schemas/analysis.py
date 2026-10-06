@@ -88,6 +88,8 @@ class PreviewResponse(BaseModel):
     keywords: "KeywordsResult"
     ngrams: "NgramsResult"
     entities: "EntitiesResult"
+    classification: "ClassificationResult | None" = None
+    classification_error: str | None = None
 
 
 # ---------------------------------------------------------------------------
@@ -163,4 +165,42 @@ class EntitiesResponse(EntitiesResult):
     document_id: int | None = None
 
 
-PreviewResponse.model_rebuild()
+
+# ---------------------------------------------------------------------------
+# Module 4: classification
+# ---------------------------------------------------------------------------
+class ClassProbability(BaseModel):
+    label: str
+    display_name: str
+    probability: float
+
+
+class ExplanationTerm(BaseModel):
+    term: str
+    contribution: float
+
+
+class ModelInfo(BaseModel):
+    classifier: str
+    feature_set: str
+    trained_at: str
+    n_training_documents: int
+
+
+class ClassificationResult(BaseModel):
+    label: str
+    display_name: str
+    confidence: float
+    is_confident: bool
+    confidence_threshold: float
+    probabilities: list[ClassProbability]
+    explanation: list[ExplanationTerm]
+    model: ModelInfo
+    disclaimer: str
+
+
+class ClassificationResponse(ClassificationResult):
+    document_id: int | None = None
+
+
+PreviewResponse.model_rebuild()  # resolve forward references (must stay at the end of the file)

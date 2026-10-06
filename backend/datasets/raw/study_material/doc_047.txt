@@ -1,0 +1,31 @@
+Chapter 5: Carnot Cycle
+
+Learning objectives
+- Define Carnot cycle and explain where it is used.
+- Define first law of thermodynamics and explain where it is used.
+
+Carnot Cycle
+Carnot cycle is an ideal reversible cycle that gives the maximum possible efficiency between
+two temperatures. In practice, Carnot cycle is combined with isothermal process to solve
+larger problems. The main advantage of Carnot cycle is that it is simple to understand and
+efficient in practice. For example, consider a small case in Thermodynamics where Carnot
+cycle is applied step by step.
+
+First Law Of Thermodynamics:
+First law of thermodynamics is the statement that energy can be transformed but neither
+created nor destroyed. For example, consider a small case in Thermodynamics where first law
+of thermodynamics is applied step by step. In practice, first law of thermodynamics is
+combined with Carnot cycle to solve larger problems. Note that first law of thermodynamics
+depends on the assumptions made about the problem.
+
+Isothermal Process
+Isothermal process is a process that takes place at constant temperature. The main advantage
+of isothermal process is that it is simple to understand and efficient in practice.
+
+Key points
+- Remember the definition of Carnot cycle.
+- First law of thermodynamics is related to isothermal process.
+
+Summary
+In this unit we studied Carnot cycle, first law of thermodynamics and isothermal process.
+These ideas form the foundation for further topics in Thermodynamics.

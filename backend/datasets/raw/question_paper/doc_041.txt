@@ -1,0 +1,21 @@
+National Institute of Applied Sciences
+End Semester Examination - February 2025
+Subject: Digital Electronics (EC302)
+Time: 2 hours
+Maximum Marks: 60
+
+Instructions:
+1. Assume suitable data if required and state it clearly.
+2. All questions are compulsory.
+3. Draw neat labelled diagrams wherever necessary.
+4. Use of a non programmable calculator is permitted.
+
+Part A (Answer the following. 1 marks each)
+Q1. Differentiate between multiplexer and Karnaugh map in one line.
+Q2. Name any two features of Karnaugh map.
+Q3. What is counter?
+
+Part B (5 marks each)
+Q4. Derive the necessary expressions for logic gate and solve a numerical example. (3M)
+Q5. Differentiate between Karnaugh map and decoder with suitable examples. (2M)
+Q6. Derive the necessary expressions for counter and solve a numerical example. [8 marks]

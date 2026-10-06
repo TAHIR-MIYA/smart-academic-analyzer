@@ -1,0 +1,20 @@
+Unit Testing - Study Notes
+
+Unit Testing
+Unit testing is the testing of individual components in isolation to verify that they behave correctly. Note that unit testing depends on the assumptions made about the problem.
+
+Requirements Specification
+Requirements specification is a document that describes what the software must do and the constraints it must satisfy. Students should remember that requirements specification is closely related to code review. This idea is widely used in real world systems. A common mistake is to confuse requirements specification with code review.
+
+Code Review
+Code review is a systematic examination of source code by peers to find defects and improve quality. This idea is widely used in industry.
+
+Uml Diagram
+Uml diagram is a standard visual notation used to model the structure and behaviour of software. The main advantage of UML diagram is that it is simple to understand and efficient in practice.
+
+Key points
+- Remember the definition of unit testing.
+- Requirements specification is related to UML diagram.
+
+Summary
+In this unit we studied unit testing, requirements specification, code review and UML diagram. These ideas form the foundation for further topics in Software Engineering.

@@ -1,0 +1,52 @@
+Decoder Based Automated Analysis Tool for Student Performance Analysis
+A project report submitted in partial fulfilment of the requirements for the
+degree of Bachelor of Engineering in Electrical Engineering
+Submitted by: Anita Desai
+Under the guidance of: Prof. Nikhil Kulkarni
+Department of Electrical Engineering, Horizon Engineering College, 2026
+
+Abstract
+This project presents the design and implementation of a automated analysis tool
+that applies decoder and shift register to support faster decisions. The system
+was developed using Python and Flask and tested on data collected from sensors
+installed in the laboratory. Experimental results show that the system performs
+faster and more accurately compared with the existing approach. The report
+discusses the methodology, implementation, results and limitations of the work.
+
+1. Introduction
+In recent years Digital Electronics has become an important part of modern
+engineering. Manual processes are slow, error prone and difficult to scale. This
+project aims to address these issues by using decoder.
+
+2. Problem Statement
+The existing system relies on manual effort and does not use decoder. As a result,
+users face delays and inconsistent results. There is a need for a reliable system
+that applies shift register effectively.
+
+3. Literature Survey
+Several researchers have investigated decoder in the context of Digital
+Electronics. Earlier work proposed a method based on shift register which improved
+results on benchmark data. However, most existing work does not address
+scalability and usability.
+
+4. Methodology
+The methodology follows requirement analysis, design, implementation and testing.
+The input data is first cleaned and prepared. Then decoder is applied to extract
+the required information. Finally shift register is used to produce the output
+which is displayed to the user.
+
+5. Implementation
+The system is implemented using Python and Flask. The main modules are the input
+module, the processing module and the output module. The decoder component was
+implemented as a separate class so that it can be tested independently.
+Screenshots of the user interface are given in Figure 8.
+
+6. RESULTS AND DISCUSSION
+The system was tested on 369 sample inputs and produced correct output in most
+cases. The results are summarised in Table 8. The proposed approach performs
+better than the baseline. Some errors occurred when the input data was incomplete.
+
+7. Conclusion
+The project successfully met its objectives. The system demonstrates that decoder
+can be applied effectively to this problem. The work also highlighted the
+importance of careful testing.

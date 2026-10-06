@@ -1,0 +1,36 @@
+AGILE METHODOLOGY - STUDY NOTES
+
+Agile Methodology
+Agile methodology is an iterative approach that delivers working software in short
+cycles with continuous feedback. In practice, agile methodology is combined with
+version control to solve larger problems.
+
+Requirements Specification:
+Requirements specification is a document that describes what the software must do and
+the constraints it must satisfy. For example, consider a small case in Software
+Engineering where requirements specification is applied step by step. The main
+advantage of requirements specification is that it is simple to understand and
+efficient in practice.
+
+Uml Diagram:
+Uml diagram is a standard visual notation used to model the structure and behaviour
+of software. In practice, UML diagram is combined with waterfall model to solve
+larger problems.
+
+Version Control:
+Version control is a system that records changes to files so that earlier versions
+can be recovered. For example, consider a small case in Software Engineering where
+version control is applied step by step.
+
+Key points
+- Remember the definition of agile methodology.
+- Requirements specification is related to version control.
+
+Summary
+In this unit we studied agile methodology, requirements specification, UML diagram
+and version control. These ideas form the foundation for further topics in Software
+Engineering.
+
+Review questions
+1. What is agile methodology?
+2. Explain requirements specification with an example.

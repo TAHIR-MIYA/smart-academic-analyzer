@@ -1,0 +1,36 @@
+Chapter 5: Binary Search Tree
+
+Binary Search Tree
+Binary search tree is a tree in which the left subtree holds smaller keys
+and the right subtree holds larger keys. The main advantage of binary search
+tree is that it is simple to understand and efficient in practice. In
+practice, binary search tree is combined with linked list to solve larger
+problems. This idea is widely used in real world systems.
+
+Queue:
+Queue is a linear structure that follows the first in first out principle.
+This idea is widely used in everyday software. For example, consider a small
+case in Data Structures where queue is applied step by step. Note that queue
+depends on the assumptions made about the problem.
+
+Stack
+Stack is a linear structure that follows the last in first out principle. A
+common mistake is to confuse stack with binary search tree. The main
+advantage of stack is that it is simple to understand and efficient in
+practice.
+
+Graph Traversal
+Graph traversal is the systematic visiting of every vertex of a graph using
+breadth first or depth first search. The main advantage of graph traversal
+is that it is simple to understand and efficient in practice. Note that
+graph traversal depends on the assumptions made about the problem. Students
+should remember that graph traversal is closely related to stack.
+
+Summary
+In this unit we studied binary search tree, queue, stack and graph
+traversal. These ideas form the foundation for further topics in Data
+Structures.
+
+Review questions
+1. What is binary search tree?
+2. Explain queue with an example.

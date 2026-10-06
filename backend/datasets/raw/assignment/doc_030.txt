@@ -1,0 +1,25 @@
+ASSIGNMENT 7
+Last date of submission: 18/04/2024
+Total marks: 20
+Faculty: Prof. Rahul Shah
+Subject: Data Structures (CS301)
+Semester: 3
+
+Instructions:
+- Late submissions will lose two marks for every day of delay.
+- Write your name, roll number and division on the first page.
+- Upload a single PDF file on the college portal before the
+deadline.
+- Submit the assignment in neat handwriting on A4 sheets.
+
+Q1. Write a short note on binary search tree and its applications
+in Data Structures. - 4 marks
+2. Solve the problems on graph traversal given in the textbook
+exercise and show all steps. 10 marks
+Q3. Prepare a report on queue covering definition, working and
+limitations. [6]
+Task 4: Prepare a one page summary of stack and attach it to your
+solved problems. [10]
+
+Assignments must be submitted to the subject teacher on or before
+the due date.

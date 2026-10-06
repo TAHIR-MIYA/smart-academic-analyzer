@@ -1,0 +1,16 @@
+CITY INSTITUTE OF TECHNOLOGY
+Final Examination - October 2026
+Subject: Natural Language Processing (CS804)
+Time: 3 hours
+Maximum Marks: 60
+
+Instructions:
+1. Figures to the right indicate full marks.
+2. Assume suitable data if required and state it clearly.
+3. Question 1 is compulsory. Solve any three from the remaining questions.
+4. Attempt any 3 questions from Section B.
+
+Q1. Write short notes on any two: language model, TF-IDF, stemming. (3 marks)
+Q2. Describe the working of cosine similarity. Discuss its advantages and limitations. (6M)
+Q3. Write short notes on any two: stemming, part-of-speech tagging, named entity recognition. - 5 marks
+Q4. Discuss how language model is used in Natural Language Processing. Support your answer with an example. (3 marks)

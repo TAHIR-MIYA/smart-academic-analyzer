@@ -1,0 +1,20 @@
+Assignment No. 3
+Total marks: 20
+Last date of submission: 21 June 2025
+Subject: Software Engineering (CS601)
+Faculty: Prof. Anita Mehta
+
+Note:
+- Group submissions are not allowed; every student must submit individually.
+- Answers should be in your own words and should not be copied from the textbook.
+
+Q1. Implement a small program that demonstrates unit testing and attach the
+output. - 5 marks
+Task 2: Prepare a one page summary of UML diagram and attach it to your solved
+problems. - 5 marks
+Task 3: Prepare a one page summary of unit testing and attach it to your solved
+problems. - 10 marks
+Q4. Implement a small program that demonstrates code review and attach the
+output. (8M)
+Q5. Implement a small program that demonstrates requirements specification and
+attach the output. (4 marks)

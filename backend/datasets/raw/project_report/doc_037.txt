@@ -1,0 +1,43 @@
+Abstract
+This project presents the design and implementation of a mobile
+application that applies primary key and normalization to improve
+accuracy and reduce manual effort. The system was developed using
+Python and scikit-learn and tested on data collected from sensors
+installed in the laboratory. Experimental results show that the
+system performs reliably compared with the existing approach. The
+report discusses the methodology, implementation, results and
+limitations of the work.
+
+1. Introduction
+In recent years Database Management Systems has become an important
+part of modern engineering. Manual processes are slow, error prone
+and difficult to scale. This project aims to address these issues by
+using primary key.
+
+2. Objectives
+- To study existing approaches based on primary key.
+- To design a system architecture that integrates normalization.
+- To implement and test the proposed system.
+- To evaluate performance and document the results.
+
+3. LITERATURE SURVEY
+Several researchers have investigated primary key in the context of
+Database Management Systems. Earlier work proposed a method based on
+normalization which improved results on benchmark data. However, most
+existing work does not address scalability and usability.
+
+4. RESULTS AND DISCUSSION
+The system was tested on 446 sample inputs and produced correct
+output in most cases. The results are summarised in Table 8. The
+proposed approach performs better than the baseline. Some errors
+occurred when the input data was incomplete.
+
+5. Future Scope
+In future the system can be extended with more data and additional
+features. A mobile version and cloud deployment can be developed.
+Integration of normalization may further improve accuracy.
+
+6. CONCLUSION
+The project successfully met its objectives. The system demonstrates
+that primary key can be applied effectively to this problem. The work
+also highlighted the importance of careful testing.

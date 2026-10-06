@@ -1,0 +1,15 @@
+Assignment No. 2
+Subject: Database Management Systems (CS502)
+Faculty: Prof. Sneha Reddy
+Last date of submission: 7 September 2025
+
+Note:
+- Answers should be in your own words and should not be copied from the textbook.
+- Attach the printed output wherever a program is required.
+- Submit the assignment in neat handwriting on A4 sheets.
+- Write your name, roll number and division on the first page.
+
+Q1. Implement a small program that demonstrates deadlock and attach the output. [10 marks]
+Q2. Differentiate between deadlock and transaction. [3 marks]
+Q3. Write a short note on SQL join and its applications in Database Management Systems. (3 marks)
+Q4. Explain SQL join with a suitable example. [8]

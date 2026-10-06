@@ -1,0 +1,28 @@
+K-Means Clustering - Study Notes
+
+Learning objectives
+- Define k-means clustering and explain where it is used.
+- Define linear regression and explain where it is used.
+
+K-Means Clustering
+K-means clustering is an unsupervised algorithm that groups similar points around a fixed number of centroids. Note that k-means clustering depends on the assumptions made about the problem. The main advantage of k-means clustering is that it is simple to understand and efficient in practice. This idea is widely used in academic research.
+
+Linear Regression
+Linear regression is a supervised method that fits a straight line to predict a numeric target from input variables. Note that linear regression depends on the assumptions made about the problem. A common mistake is to confuse linear regression with decision tree. The main advantage of linear regression is that it is simple to understand and efficient in practice.
+
+Confusion Matrix
+Confusion matrix is a table that compares predicted classes with actual classes to show the types of errors made. A common mistake is to confuse confusion matrix with cross-validation. Students should remember that confusion matrix is closely related to cross-validation. In practice, confusion matrix is combined with cross-validation to solve larger problems.
+
+Gradient Descent:
+Gradient descent is an iterative optimisation algorithm that moves parameters in the direction of the steepest decrease of the loss. Note that gradient descent depends on the assumptions made about the problem. Students should remember that gradient descent is closely related to decision tree.
+
+Key points
+- Remember the definition of k-means clustering.
+- Linear regression is related to gradient descent.
+
+Summary
+In this unit we studied k-means clustering, linear regression, confusion matrix and gradient descent. These ideas form the foundation for further topics in Machine Learning.
+
+Review questions
+1. What is k-means clustering?
+2. Explain linear regression with an example.

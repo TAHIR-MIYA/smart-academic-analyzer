@@ -1,0 +1,18 @@
+ASSIGNMENT 8: DATABASE MANAGEMENT SYSTEMS
+Last date of submission: December 17, 2026
+Total marks: 20
+Faculty: Prof. Anita Joshi
+Subject: Database Management Systems (CS502)
+Semester: 6
+
+Instructions for students:
+- Submit the assignment in neat handwriting on A4 sheets.
+- Attach the printed output wherever a program is required.
+- Write your name, roll number and division on the first page.
+- Late submissions will lose two marks for every day of delay.
+
+Q1. Differentiate between ER diagram and normalization. (6 marks)
+Q2. Differentiate between transaction and indexing. [3]
+Q3. Explain primary key with a suitable example. - 5 marks
+Q4. Implement a small program that demonstrates SQL join and attach the output. 3 marks
+Task 5: Prepare a one page summary of indexing and attach it to your solved problems. [6]

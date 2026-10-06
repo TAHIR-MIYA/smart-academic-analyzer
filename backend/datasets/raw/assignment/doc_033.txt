@@ -1,0 +1,15 @@
+Assignment No. 7
+Semester: 4
+Faculty: Prof. Pooja Sharma
+Last date of submission: December 8, 2024
+Subject: Operating Systems (CS402)
+
+Instructions:
+- Late submissions will lose two marks for every day of delay.
+- Hand over the completed assignment to the subject teacher in the lecture.
+
+Q1. Explain context switch with a suitable example. - 2 marks
+Task 2: Prepare a one page summary of context switch and attach it to your solved problems. [4
+marks]
+Q3. Explain virtual memory with a suitable example. (3M)
+Q4. Differentiate between process scheduling and paging. [3 marks]

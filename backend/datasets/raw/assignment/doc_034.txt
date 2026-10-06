@@ -1,0 +1,15 @@
+ASSIGNMENT 8
+Total marks: 10
+Faculty: Prof. Meera Bose
+Last date of submission: 19 July 2025
+
+Instructions:
+- Write your name, roll number and division on the first page.
+- Hand over the completed assignment to the subject teacher in the lecture.
+
+1. Solve the problems on hash table given in the textbook exercise and show all steps. 10 marks
+Q2. Collect two real world examples of stack and discuss how binary search tree is related to them. [3 marks]
+Q3. Implement a small program that demonstrates stack and attach the output. - 3 marks
+Q4. Explain queue with a suitable example. (10M)
+Q5. Collect two real world examples of linked list and discuss how heap is related to them. 4 marks
+Q6. Implement a small program that demonstrates queue and attach the output. (10M)

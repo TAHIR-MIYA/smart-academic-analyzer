@@ -1,0 +1,23 @@
+Lecture Notes - Software Engineering
+
+Version Control
+Version control is a system that records changes to files so that earlier versions can be recovered. The main advantage of version control is that it is simple to understand and efficient in practice. This idea is widely used in real world systems.
+
+Agile Methodology:
+Agile methodology is an iterative approach that delivers working software in short cycles with continuous feedback. Note that agile methodology depends on the assumptions made about the problem. For example, consider a small case in Software Engineering where agile methodology is applied step by step. Students should remember that agile methodology is closely related to code review.
+
+Requirements Specification
+Requirements specification is a document that describes what the software must do and the constraints it must satisfy. For example, consider a small case in Software Engineering where requirements specification is applied step by step. Note that requirements specification depends on the assumptions made about the problem.
+
+Waterfall Model
+Waterfall model is a sequential development process in which each phase is completed before the next begins. In practice, waterfall model is combined with UML diagram to solve larger problems.
+
+Code Review:
+Code review is a systematic examination of source code by peers to find defects and improve quality. This idea is widely used in engineering design. A common mistake is to confuse code review with agile methodology. In practice, code review is combined with agile methodology to solve larger problems.
+
+Summary
+In this unit we studied version control, agile methodology, requirements specification, waterfall model and code review. These ideas form the foundation for further topics in Software Engineering.
+
+Review questions
+1. What is version control?
+2. Explain agile methodology with an example.

@@ -1,0 +1,25 @@
+1. PROBLEM STATEMENT
+The existing system relies on manual effort and does not use paging. As a result, users face delays and inconsistent results. There is a need for a reliable system that applies virtual memory effectively.
+
+2. LITERATURE SURVEY
+Several researchers have investigated paging in the context of Operating Systems. Earlier work proposed a method based on virtual memory which improved results on benchmark data. However, most existing work does not address scalability and usability.
+
+3. METHODOLOGY
+The methodology follows requirement analysis, design, implementation and testing. The input data is first cleaned and prepared. Then paging is applied to extract the required information. Finally virtual memory is used to produce the output which is displayed to the user.
+
+4. Implementation
+The system is implemented using Java and MySQL. The main modules are the input module, the processing module and the output module. The paging component was implemented as a separate class so that it can be tested independently. Screenshots of the user interface are given in Figure 5.
+
+5. Results and Discussion
+The system was tested on 278 sample inputs and produced correct output in most cases. The results are summarised in Table 5. The proposed approach performs better than the baseline. Some errors occurred when the input data was incomplete.
+
+6. Future Scope
+In future the system can be extended with more data and additional features. A mobile version and cloud deployment can be developed. Integration of virtual memory may further improve accuracy.
+
+7. CONCLUSION
+The project successfully met its objectives. The system demonstrates that paging can be applied effectively to this problem. The work also highlighted the importance of careful testing.
+
+References
+[1] A. Kumar, Operating Systems: Principles and Practice, Tech Press, 2019.
+[2] R. Singh and P. Rao, "A study of paging", International Journal of Engineering Research, 2021.
+[3] Official documentation of Java and MySQL.

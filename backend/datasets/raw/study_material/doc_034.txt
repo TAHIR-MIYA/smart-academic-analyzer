@@ -1,0 +1,31 @@
+Lecture Notes - Natural Language Processing
+
+Learning objectives
+- Define part-of-speech tagging and explain where it is used.
+- Define tokenization and explain where it is used.
+
+Part-Of-Speech Tagging
+Part-of-speech tagging is the assignment of grammatical categories such as noun or verb to each word. For example, consider a small case in Natural Language Processing where part-of-speech tagging is applied step by step.
+
+Tokenization:
+Tokenization is the splitting of text into smaller units such as words or sentences. A common mistake is to confuse tokenization with part-of-speech tagging. The main advantage of tokenization is that it is simple to understand and efficient in practice. Note that tokenization depends on the assumptions made about the problem.
+
+Language Model:
+Language model is a model that assigns probabilities to sequences of words. This idea is widely used in engineering design. A common mistake is to confuse language model with TF-IDF. The main advantage of language model is that it is simple to understand and efficient in practice.
+
+Named Entity Recognition:
+Named entity recognition is the task of locating and classifying names of people, places and organisations in text. Students should remember that named entity recognition is closely related to cosine similarity.
+
+Tf-Idf:
+Tf-idf is a weighting scheme that scores a term by its frequency in a document and its rarity across documents. For example, consider a small case in Natural Language Processing where TF-IDF is applied step by step. Note that TF-IDF depends on the assumptions made about the problem. In practice, TF-IDF is combined with named entity recognition to solve larger problems.
+
+Key points
+- Remember the definition of part-of-speech tagging.
+- Tokenization is related to TF-IDF.
+
+Summary
+In this unit we studied part-of-speech tagging, tokenization, language model, named entity recognition and TF-IDF. These ideas form the foundation for further topics in Natural Language Processing.
+
+Review questions
+1. What is part-of-speech tagging?
+2. Explain tokenization with an example.

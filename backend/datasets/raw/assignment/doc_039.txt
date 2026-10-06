@@ -1,0 +1,19 @@
+Assignment 6: Thermodynamics
+Total marks: 15
+Semester: 5
+Last date of submission: November 10, 2024
+Faculty: Prof. Arjun Shah
+
+Instructions:
+- Attach the printed output wherever a program is required.
+- Answers should be in your own words and should not be copied from the textbook.
+
+Q1. Prepare a report on enthalpy covering definition, working and limitations. - 3
+marks
+Q2. Explain ideal gas with a suitable example. (10 marks)
+Q3. Write a short note on first law of thermodynamics and its applications in
+Thermodynamics. - 5 marks
+4. Solve the problems on ideal gas given in the textbook exercise and show all
+steps. (4 marks)
+5. Solve the problems on Carnot cycle given in the textbook exercise and show all
+steps. (5 marks)

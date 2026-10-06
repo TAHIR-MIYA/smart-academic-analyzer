@@ -1,0 +1,21 @@
+Lecture Notes - Machine Learning
+
+Learning objectives
+- Define overfitting and explain where it is used.
+- Define confusion matrix and explain where it is used.
+
+Overfitting
+Overfitting is a problem where a model memorises noise in the training data and performs poorly on new data. In practice, overfitting is combined with k-means clustering to solve larger problems.
+
+Confusion Matrix
+Confusion matrix is a table that compares predicted classes with actual classes to show the types of errors made. This idea is widely used in industry. Note that confusion matrix depends on the assumptions made about the problem.
+
+Cross-Validation:
+Cross-validation is a technique that repeatedly splits the data to estimate how well a model generalises. Students should remember that cross-validation is closely related to linear regression. This idea is widely used in academic research. A common mistake is to confuse cross-validation with linear regression.
+
+Key points
+- Remember the definition of overfitting.
+- Confusion matrix is related to cross-validation.
+
+Summary
+In this unit we studied overfitting, confusion matrix and cross-validation. These ideas form the foundation for further topics in Machine Learning.

@@ -45,3 +45,12 @@ class NotFoundError(AppError):
 class NLPResourceError(AppError):
     status_code = 503
     code = "nlp_resources_missing"
+
+
+class ModelNotTrainedError(AppError):
+    status_code = 503
+    code = "model_not_trained"
+
+
+class DatasetError(Exception):
+    """Raised by the training code for a missing or invalid dataset (not an HTTP error)."""

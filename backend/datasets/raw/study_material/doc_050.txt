@@ -1,0 +1,28 @@
+Chapter 7: Er Diagram
+
+Learning objectives
+- Define ER diagram and explain where it is used.
+- Define indexing and explain where it is used.
+
+Er Diagram:
+Er diagram is a diagram that models entities, attributes and the relationships between them. Students should remember that ER diagram is closely related to SQL join. A common mistake is to confuse ER diagram with SQL join. Note that ER diagram depends on the assumptions made about the problem.
+
+Indexing
+Indexing is a structure that speeds up the retrieval of rows by searching on selected columns. A common mistake is to confuse indexing with primary key. The main advantage of indexing is that it is simple to understand and efficient in practice.
+
+Transaction:
+Transaction is a sequence of database operations that must be executed as a single logical unit. Students should remember that transaction is closely related to indexing. For example, consider a small case in Database Management Systems where transaction is applied step by step. This idea is widely used in real world systems.
+
+Normalization
+Normalization is the process of organising tables to reduce redundancy and update anomalies. A common mistake is to confuse normalization with ER diagram. Students should remember that normalization is closely related to ER diagram. Note that normalization depends on the assumptions made about the problem.
+
+Key points
+- Remember the definition of ER diagram.
+- Indexing is related to normalization.
+
+Summary
+In this unit we studied ER diagram, indexing, transaction and normalization. These ideas form the foundation for further topics in Database Management Systems.
+
+Review questions
+1. What is ER diagram?
+2. Explain indexing with an example.

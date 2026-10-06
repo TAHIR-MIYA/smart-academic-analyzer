@@ -1,0 +1,12 @@
+Assignment 7: Thermodynamics
+Semester: 6
+Faculty: Prof. Divya Shah
+Last date of submission: 15/01/2025
+Total marks: 15
+
+Q1. Implement a small program that demonstrates heat engine and attach the output. [6]
+Task 2: Prepare a one page summary of entropy and attach it to your solved problems. (4 marks)
+Q3. Differentiate between ideal gas and isothermal process. (8 marks)
+Q4. Explain isothermal process with a suitable example. [10 marks]
+
+Assignments must be submitted to the subject teacher on or before the due date.

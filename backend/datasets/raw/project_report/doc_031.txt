@@ -1,0 +1,37 @@
+Tcp Based Monitoring System for Campus Services
+A project report submitted in partial fulfilment of the requirements for the degree of Bachelor of Engineering in Electronics Engineering
+Submitted by: Kabir Patel
+Under the guidance of: Prof. Sneha Mehta
+Department of Electronics Engineering, Western Technical University, 2026
+
+Abstract
+This project presents the design and implementation of a monitoring system that applies TCP and DNS to improve accuracy and reduce manual effort. The system was developed using Java and MySQL and tested on data collected from user surveys. Experimental results show that the system performs faster and more accurately compared with the existing approach. The report discusses the methodology, implementation, results and limitations of the work.
+
+1. Objectives
+- To study existing approaches based on TCP.
+- To design a system architecture that integrates DNS.
+- To implement and test the proposed system.
+- To evaluate performance and document the results.
+
+2. Literature Survey
+Several researchers have investigated TCP in the context of Computer Networks. Earlier work proposed a method based on DNS which improved results on benchmark data. However, most existing work does not address scalability and usability.
+
+3. Methodology
+The methodology follows requirement analysis, design, implementation and testing. The input data is first cleaned and prepared. Then TCP is applied to extract the required information. Finally DNS is used to produce the output which is displayed to the user.
+
+4. Implementation
+The system is implemented using Java and MySQL. The main modules are the input module, the processing module and the output module. The TCP component was implemented as a separate class so that it can be tested independently. Screenshots of the user interface are given in Figure 5.
+
+5. Results and Discussion
+The system was tested on 86 sample inputs and produced correct output in most cases. The results are summarised in Table 5. The proposed approach performs better than the baseline. Some errors occurred when the input data was incomplete.
+
+6. Future Scope
+In future the system can be extended with more data and additional features. A mobile version and cloud deployment can be developed. Integration of DNS may further improve accuracy.
+
+7. Conclusion
+The project successfully met its objectives. The system demonstrates that TCP can be applied effectively to this problem. The work also highlighted the importance of careful testing.
+
+References
+[1] A. Kumar, Computer Networks: Principles and Practice, Tech Press, 2019.
+[2] R. Singh and P. Rao, "A study of TCP", International Journal of Engineering Research, 2021.
+[3] Official documentation of Java and MySQL.

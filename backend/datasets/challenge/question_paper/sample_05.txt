@@ -1,0 +1,7 @@
+Machine Learning End Term Paper
+Total marks 50. Time allowed 2 hours. Use of a calculator is permitted.
+
+Q1 (a) Differentiate between supervised and unsupervised learning. (b) Explain the bias and variance tradeoff. [10]
+Q2 Describe the k nearest neighbour algorithm and discuss its limitations. [10]
+Q3 Compute the Gini index for the following split and decide the best attribute. [15]
+Q4 Write short notes on any three: regularization, ROC curve, PCA, ensemble methods. [15]

@@ -1,0 +1,20 @@
+Assignment 6: Operating Systems
+Total marks: 25
+Subject: Operating Systems (CS402)
+Semester: 8
+
+Instructions for students:
+- Plagiarised work will not be accepted and will be awarded zero marks.
+- Write your name, roll number and division on the first page.
+- Attach the printed output wherever a program is required.
+
+Q1. Prepare a report on file system covering definition, working and
+limitations. 8 marks
+Q2. Collect two real world examples of process scheduling and discuss how
+file system is related to them. [3 marks]
+Q3. Write a short note on virtual memory and its applications in Operating
+Systems. [6 marks]
+Q4. Prepare a report on file system covering definition, working and
+limitations. - 5 marks
+Q5. Collect two real world examples of thread and discuss how process
+scheduling is related to them. [3 marks]

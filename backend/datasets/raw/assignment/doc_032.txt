@@ -1,0 +1,15 @@
+Natural Language Processing - Assignment 2
+Semester: 6
+Last date of submission: 12/02/2024
+Faculty: Prof. Imran Shah
+Total marks: 10
+
+Note:
+- Upload a single PDF file on the college portal before the deadline.
+- Submit the assignment in neat handwriting on A4 sheets.
+
+Task 1: Prepare a one page summary of language model and attach it to your solved problems. (4M)
+Q2. Explain named entity recognition with a suitable example. - 5 marks
+Q3. Collect two real world examples of language model and discuss how TF-IDF is related to them. (10 marks)
+
+Assignments must be submitted to the subject teacher on or before the due date.

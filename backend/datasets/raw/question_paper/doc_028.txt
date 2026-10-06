@@ -1,0 +1,18 @@
+National Institute of Applied Sciences
+Supplementary Examination - April 2024
+Subject: Operating Systems (CS402)
+Time: 2 hours
+Maximum Marks: 70
+Seat No: ______________
+
+Instructions:
+1. Use of a non programmable calculator is permitted.
+2. Assume suitable data if required and state it clearly.
+3. Figures to the right indicate full marks.
+
+Q1. What is paging? Explain the steps involved and compare it
+with context switch. (6 marks)
+Q2. Differentiate between paging and semaphore with suitable
+examples. 6 marks
+Q3. Differentiate between paging and file system with suitable
+examples. (10M)

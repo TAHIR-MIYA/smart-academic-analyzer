@@ -6,7 +6,7 @@ from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 
-from app.api import routes_analysis, routes_documents, routes_health
+from app.api import routes_analysis, routes_documents, routes_health, routes_model
 from app.config import get_settings
 from app.db.database import init_db
 from app.logging_config import setup_logging
@@ -60,6 +60,7 @@ def create_app() -> FastAPI:
     app.include_router(routes_health.router)
     app.include_router(routes_documents.router)
     app.include_router(routes_analysis.router)
+    app.include_router(routes_model.router)
     return app
 
 

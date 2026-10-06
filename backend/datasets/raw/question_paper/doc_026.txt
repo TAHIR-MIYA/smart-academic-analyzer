@@ -1,0 +1,22 @@
+GREENFIELD COLLEGE OF ENGINEERING
+Mid Semester Examination - January 2026
+Subject: Database Management Systems (CS502)
+Time: 2 hours
+Maximum Marks: 50
+
+Instructions:
+1. Assume suitable data if required and state it clearly.
+2. Attempt any 3 questions from Section B.
+3. Draw neat labelled diagrams wherever necessary.
+
+Section A (Answer the following. 1 marks each)
+Q1. Differentiate between indexing and transaction in one line.
+Q2. What is SQL join?
+Q3. Write the purpose of SQL join.
+
+Section B (5 marks each)
+Q4. Write short notes on any two: SQL join, deadlock, normalization. - 4 marks
+Q5. Write short notes on any two: indexing, ER diagram, deadlock. 6 marks
+Q6. Write short notes on any two: indexing, SQL join, transaction. (4M)
+Q7. What is transaction? Explain the steps involved and compare it with indexing. 4 marks
+Q8. Discuss how transaction is used in Database Management Systems. Support your answer with an example. (2M)

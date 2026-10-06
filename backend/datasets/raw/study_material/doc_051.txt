@@ -1,0 +1,23 @@
+Chapter 8: Transaction
+
+Transaction:
+Transaction is a sequence of database operations that must be executed as a single logical unit. Students should remember that transaction is closely related to indexing. This idea is widely used in everyday software. The main advantage of transaction is that it is simple to understand and efficient in practice.
+
+Indexing
+Indexing is a structure that speeds up the retrieval of rows by searching on selected columns. A common mistake is to confuse indexing with transaction. This idea is widely used in academic research.
+
+Deadlock
+Deadlock is a situation in which two transactions wait for each other to release locks. In practice, deadlock is combined with SQL join to solve larger problems. Note that deadlock depends on the assumptions made about the problem. This idea is widely used in industry.
+
+Primary Key:
+Primary key is a column or set of columns that uniquely identifies every row in a table. In practice, primary key is combined with ER diagram to solve larger problems. Students should remember that primary key is closely related to ER diagram. The main advantage of primary key is that it is simple to understand and efficient in practice.
+
+Er Diagram:
+Er diagram is a diagram that models entities, attributes and the relationships between them. The main advantage of ER diagram is that it is simple to understand and efficient in practice. Note that ER diagram depends on the assumptions made about the problem.
+
+Key points
+- Remember the definition of transaction.
+- Indexing is related to ER diagram.
+
+Summary
+In this unit we studied transaction, indexing, deadlock, primary key and ER diagram. These ideas form the foundation for further topics in Database Management Systems.

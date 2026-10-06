@@ -1,0 +1,25 @@
+Western Technical University
+End Semester Examination - December 2024
+Subject: Computer Networks (CS503)
+Time: 3 hours
+Maximum Marks: 80
+Seat No: ______________
+
+Instructions:
+1. All questions are compulsory.
+2. Assume suitable data if required and state it clearly.
+3. Question 1 is compulsory. Solve any three from the remaining questions.
+4. Attempt any 4 questions from Section B.
+
+Part A (Answer the following. 1 marks each)
+Q1. State two applications of DNS.
+Q2. Write the purpose of subnetting.
+Q3. State two applications of DNS.
+Q4. Name any two features of IP addressing.
+
+Section B (5 marks each)
+Q5. Discuss how TCP is used in Computer Networks. Support your answer with an example. 3 marks
+Q6. Discuss how TCP is used in Computer Networks. Support your answer with an example. (6 marks)
+Q7. Differentiate between congestion control and IP addressing with suitable examples. - 3 marks
+Q8. Discuss how TCP is used in Computer Networks. Support your answer with an example. (4 marks)
+Q9. Write short notes on any two: subnetting, TCP, routing. 3 marks

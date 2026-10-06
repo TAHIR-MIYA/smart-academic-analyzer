@@ -1,0 +1,16 @@
+End Semester Examination - February 2025
+Subject: Database Management Systems (CS502)
+Time: 2 hours
+Maximum Marks: 70
+Seat No: ______________
+
+Instructions:
+1. Draw neat labelled diagrams wherever necessary.
+2. Question 1 is compulsory. Solve any three from the remaining questions.
+3. Assume suitable data if required and state it clearly.
+4. Use of a non programmable calculator is permitted.
+
+Q1. Differentiate between primary key and ER diagram with suitable examples. [2]
+Q2. Discuss how indexing is used in Database Management Systems. Support your answer with an example. [8 marks]
+Q3. Explain ER diagram in detail with a neat diagram. - 8 marks
+Q4. Derive the necessary expressions for deadlock and solve a numerical example. [8 marks]

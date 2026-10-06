@@ -1,0 +1,16 @@
+Mid Semester Examination - November 2026
+Subject: Cloud Computing (CS805)
+Time: 1 hours
+Maximum Marks: 60
+
+Instructions:
+1. Attempt any 2 questions from Section B.
+2. Use of a non programmable calculator is permitted.
+3. Figures to the right indicate full marks.
+4. Assume suitable data if required and state it clearly.
+
+Q1. Discuss how serverless computing is used in Cloud Computing. Support your answer with an
+example. [4]
+Q2. Discuss how service level agreement is used in Cloud Computing. Support your answer with
+an example. [4 marks]
+Q3. Differentiate between containers and serverless computing with suitable examples. 6 marks

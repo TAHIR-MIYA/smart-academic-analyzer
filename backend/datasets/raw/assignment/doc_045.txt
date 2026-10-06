@@ -1,0 +1,15 @@
+Total marks: 10
+Semester: 4
+Faculty: Prof. Anita Khan
+
+Instructions for students:
+- Submit the assignment in neat handwriting on A4 sheets.
+- Late submissions will lose two marks for every day of delay.
+
+Q1. Differentiate between indexing and normalization. [3]
+Q2. Write a short note on transaction and its applications in Database Management Systems. 2 marks
+Q3. Write a short note on SQL join and its applications in Database Management Systems. - 3 marks
+Q4. Prepare a report on indexing covering definition, working and limitations. - 8 marks
+Q5. Differentiate between indexing and ER diagram. (6 marks)
+
+Assignments must be submitted to the subject teacher on or before the due date.

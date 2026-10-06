@@ -1,0 +1,22 @@
+GREENFIELD COLLEGE OF ENGINEERING
+End Semester Examination - November 2026
+Subject: Digital Electronics (EC302)
+Time: 1 hours
+Maximum Marks: 40
+Seat No: ______________
+
+Instructions:
+1. All questions are compulsory.
+2. Assume suitable data if required and state it clearly.
+3. Use of a non programmable calculator is permitted.
+4. Figures to the right indicate full marks.
+
+Section A (Answer the following. 2 marks each)
+Q1. What is counter?
+Q2. Name any two features of flip-flop.
+Q3. Differentiate between counter and multiplexer in one line.
+
+Part B (5 marks each)
+Q4. Derive the necessary expressions for shift register and solve a numerical example. [4 marks]
+Q5. Discuss how Karnaugh map is used in Digital Electronics. Support your answer with an example. - 8 marks
+Q6. Describe the working of multiplexer. Discuss its advantages and limitations. [4 marks]

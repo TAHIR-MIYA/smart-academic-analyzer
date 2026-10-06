@@ -1,0 +1,13 @@
+Assignment No. 2
+Faculty: Prof. Rahul Gupta
+Semester: 7
+Last date of submission: 17 June 2025
+Subject: Cloud Computing (CS805)
+
+Instructions for students:
+- Plagiarised work will not be accepted and will be awarded zero marks.
+- Write your name, roll number and division on the first page.
+
+Q1. Prepare a report on virtualization covering definition, working and limitations. 4 marks
+Q2. Write a short note on serverless computing and its applications in Cloud Computing. [2 marks]
+Q3. Implement a small program that demonstrates service level agreement and attach the output. - 10 marks

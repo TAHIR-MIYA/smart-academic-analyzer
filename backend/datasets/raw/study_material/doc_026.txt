@@ -1,0 +1,39 @@
+Unit 7: Machine Learning
+
+Linear Regression
+Linear regression is a supervised method that fits a straight line to
+predict a numeric target from input variables. For example, consider a
+small case in Machine Learning where linear regression is applied step
+by step.
+
+Confusion Matrix
+Confusion matrix is a table that compares predicted classes with actual
+classes to show the types of errors made. For example, consider a small
+case in Machine Learning where confusion matrix is applied step by step.
+This idea is widely used in academic research.
+
+K-Means Clustering
+K-means clustering is an unsupervised algorithm that groups similar
+points around a fixed number of centroids. Note that k-means clustering
+depends on the assumptions made about the problem. For example, consider
+a small case in Machine Learning where k-means clustering is applied
+step by step.
+
+Decision Tree:
+Decision tree is a model that splits data using a sequence of feature
+tests arranged as a tree. The main advantage of decision tree is that it
+is simple to understand and efficient in practice. Students should
+remember that decision tree is closely related to cross-validation. A
+common mistake is to confuse decision tree with cross-validation.
+
+Cross-Validation:
+Cross-validation is a technique that repeatedly splits the data to
+estimate how well a model generalises. The main advantage of cross-
+validation is that it is simple to understand and efficient in practice.
+In practice, cross-validation is combined with gradient descent to solve
+larger problems.
+
+Summary
+In this unit we studied linear regression, confusion matrix, k-means
+clustering, decision tree and cross-validation. These ideas form the
+foundation for further topics in Machine Learning.

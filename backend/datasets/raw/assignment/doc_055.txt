@@ -1,0 +1,15 @@
+Assignment No. 8
+Subject: Software Engineering (CS601)
+Total marks: 25
+Semester: 8
+Faculty: Prof. Sneha Reddy
+
+Q1. Prepare a report on unit testing covering definition, working and limitations. (2
+marks)
+Q2. Implement a small program that demonstrates version control and attach the output.
+10 marks
+Q3. Explain code review with a suitable example. (6 marks)
+Q4. Write a short note on agile methodology and its applications in Software
+Engineering. - 6 marks
+5. Solve the problems on version control given in the textbook exercise and show all
+steps. - 2 marks

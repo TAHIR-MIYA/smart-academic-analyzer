@@ -1,0 +1,15 @@
+WESTERN TECHNICAL UNIVERSITY
+Supplementary Examination - October 2025
+Subject: Data Structures (CS301)
+Time: 2 hours
+Maximum Marks: 30
+Seat No: ______________
+
+Instructions:
+1. Use of a non programmable calculator is permitted.
+2. Draw neat labelled diagrams wherever necessary.
+3. All questions are compulsory.
+
+Q1. Write short notes on any two: queue, binary search tree, hash table. 8 marks
+Q2. Describe the working of queue. Discuss its advantages and limitations. [10 marks]
+Q3. Derive the necessary expressions for hash table and solve a numerical example. (3M)

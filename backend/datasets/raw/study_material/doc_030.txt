@@ -1,0 +1,32 @@
+Unit 5: Data Structures
+
+Stack
+Stack is a linear structure that follows the last in first
+out principle. Note that stack depends on the assumptions
+made about the problem.
+
+Linked List
+Linked list is a linear collection of nodes where each node
+stores a value and a pointer to the next node. A common
+mistake is to confuse linked list with stack. In practice,
+linked list is combined with stack to solve larger problems.
+For example, consider a small case in Data Structures where
+linked list is applied step by step.
+
+Binary Search Tree
+Binary search tree is a tree in which the left subtree holds
+smaller keys and the right subtree holds larger keys. A
+common mistake is to confuse binary search tree with queue.
+For example, consider a small case in Data Structures where
+binary search tree is applied step by step. The main
+advantage of binary search tree is that it is simple to
+understand and efficient in practice.
+
+Key points
+- Remember the definition of stack.
+- Linked list is related to binary search tree.
+
+Summary
+In this unit we studied stack, linked list and binary search
+tree. These ideas form the foundation for further topics in
+Data Structures.

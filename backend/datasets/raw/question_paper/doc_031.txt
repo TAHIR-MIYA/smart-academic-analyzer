@@ -1,0 +1,14 @@
+Final Examination - March 2024
+Subject: Cloud Computing (CS805)
+Time: 1 hours
+Maximum Marks: 40
+Seat No: ______________
+
+Instructions:
+1. Use of a non programmable calculator is permitted.
+2. Draw neat labelled diagrams wherever necessary.
+
+Q1. Describe the working of serverless computing. Discuss its advantages and limitations. (4M)
+Q2. Derive the necessary expressions for containers and solve a numerical example. [2]
+Q3. Derive the necessary expressions for serverless computing and solve a numerical example. [4 marks]
+Q4. Explain virtualization in detail with a neat diagram. - 3 marks

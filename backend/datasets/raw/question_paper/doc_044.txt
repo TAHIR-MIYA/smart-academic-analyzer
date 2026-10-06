@@ -1,0 +1,21 @@
+National Institute of Applied Sciences
+Supplementary Examination - November 2026
+Subject: Computer Networks (CS503)
+Time: 1 hours
+Maximum Marks: 40
+Seat No: ______________
+
+Instructions:
+1. Question 1 is compulsory. Solve any three from the remaining questions.
+2. Assume suitable data if required and state it clearly.
+
+Part A (Answer the following. 1 marks each)
+Q1. Name any two features of firewall.
+Q2. Differentiate between congestion control and TCP in one line.
+Q3. List the advantages of congestion control.
+
+Section B (8 marks each)
+Q4. What is firewall? Explain the steps involved and compare it with IP addressing. 5 marks
+Q5. Derive the necessary expressions for TCP and solve a numerical example. [3]
+Q6. Write short notes on any two: TCP, routing, subnetting. - 4 marks
+Q7. Write short notes on any two: subnetting, DNS, IP addressing. (6M)

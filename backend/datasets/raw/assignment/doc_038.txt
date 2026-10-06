@@ -1,0 +1,16 @@
+Software Engineering - Assignment 2
+Semester: 7
+Total marks: 20
+Faculty: Prof. Neha Mehta
+
+Instructions for students:
+- Attach the printed output wherever a program is required.
+- Group submissions are not allowed; every student must submit individually.
+- Upload a single PDF file on the college portal before the deadline.
+
+Q1. Prepare a report on UML diagram covering definition, working and limitations.
+- 2 marks
+Q2. Implement a small program that demonstrates agile methodology and attach the
+output. 8 marks
+Q3. Prepare a report on requirements specification covering definition, working
+and limitations. [3 marks]

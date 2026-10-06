@@ -27,5 +27,6 @@ def health(db: Session = Depends(get_db), settings: Settings = Depends(get_setti
         "version": settings.app_version,
         "database": db_status,
         "nlp_resources": nlp,
+        "model": {"trained": settings.model_path.exists(), "fix": None if settings.model_path.exists() else "python -m app.ml.train"},
         "max_upload_mb": settings.max_upload_mb,
     }

@@ -1,0 +1,24 @@
+Chapter 8: Entropy
+
+Learning objectives
+- Define entropy and explain where it is used.
+- Define first law of thermodynamics and explain where it is used.
+
+Entropy
+Entropy is a measure of the disorder or the unavailable energy of a system. Note that entropy depends on the assumptions made about the problem.
+
+First Law Of Thermodynamics
+First law of thermodynamics is the statement that energy can be transformed but neither created nor destroyed. In practice, first law of thermodynamics is combined with entropy to solve larger problems. The main advantage of first law of thermodynamics is that it is simple to understand and efficient in practice. For example, consider a small case in Thermodynamics where first law of thermodynamics is applied step by step.
+
+Enthalpy
+Enthalpy is the total heat content of a system at constant pressure. The main advantage of enthalpy is that it is simple to understand and efficient in practice. A common mistake is to confuse enthalpy with entropy.
+
+Ideal Gas:
+Ideal gas is a hypothetical gas whose molecules have no volume and no mutual attraction. This idea is widely used in real world systems.
+
+Summary
+In this unit we studied entropy, first law of thermodynamics, enthalpy and ideal gas. These ideas form the foundation for further topics in Thermodynamics.
+
+Review questions
+1. What is entropy?
+2. Explain first law of thermodynamics with an example.

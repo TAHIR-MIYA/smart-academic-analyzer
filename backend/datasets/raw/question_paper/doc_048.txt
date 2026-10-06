@@ -1,0 +1,15 @@
+City Institute of Technology
+Mid Semester Examination - October 2025
+Subject: Computer Networks (CS503)
+Time: 2 hours
+Maximum Marks: 80
+
+Instructions:
+1. All questions are compulsory.
+2. Use of a non programmable calculator is permitted.
+
+Q1. What is congestion control? Explain the steps involved and compare it with TCP. (5 marks)
+Q2. Describe the working of subnetting. Discuss its advantages and limitations. (10M)
+Q3. Derive the necessary expressions for DNS and solve a numerical example. [3]
+Q4. Write short notes on any two: congestion control, routing, DNS. (2M)
+Q5. Explain subnetting in detail with a neat diagram. - 2 marks

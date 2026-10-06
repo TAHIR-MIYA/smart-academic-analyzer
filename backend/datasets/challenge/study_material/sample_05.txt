@@ -1,0 +1,5 @@
+Understanding overfitting
+
+Overfitting happens when a model learns the noise in the training data instead of the underlying pattern. Typical signs are a very low training error but a high validation error. Common remedies are collecting more data, regularization and early stopping.
+
+Think about it: why does a deeper tree overfit more easily than a shallow one?

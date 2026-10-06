@@ -1,0 +1,8 @@
+6. Results and Discussion
+The proposed model was trained on 8,000 labelled images and evaluated on a separate test set. The confusion matrix shows that most errors occur between visually similar classes. Compared with the baseline, the proposed approach improved the F1 score.
+
+7. Conclusion
+The project met its objectives. Future work includes deploying the model on a mobile device.
+
+References
+[1] I. Goodfellow, Y. Bengio and A. Courville, Deep Learning, MIT Press, 2016.

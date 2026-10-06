@@ -1,0 +1,25 @@
+City Institute of Technology
+Final Examination - January 2024
+Subject: Database Management Systems (CS502)
+Time: 1 hours
+Maximum Marks: 100
+
+Instructions:
+1. Use of a non programmable calculator is permitted.
+2. Question 1 is compulsory. Solve any three from the remaining questions.
+3. Draw neat labelled diagrams wherever necessary.
+4. Attempt any 4 questions from Section B.
+
+SECTION A (Answer the following. 1 marks each)
+Q1. State two applications of transaction.
+Q2. Name any two features of SQL join.
+Q3. Differentiate between deadlock and normalization in one line.
+Q4. What is primary key?
+
+Section B (10 marks each)
+Q5. Differentiate between ER diagram and SQL join with suitable examples. [8]
+Q6. Explain indexing in detail with a neat diagram. - 4 marks
+Q7. Describe the working of indexing. Discuss its advantages and limitations. [6]
+Q8. What is normalization? Explain the steps involved and compare it with ER diagram.
+- 6 marks
+Q9. Write short notes on any two: primary key, indexing, deadlock. 3 marks

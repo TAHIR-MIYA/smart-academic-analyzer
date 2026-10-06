@@ -1,0 +1,15 @@
+Assignment 7: Thermodynamics
+Total marks: 10
+Semester: 8
+Last date of submission: February 16, 2026
+
+Instructions:
+- Upload a single PDF file on the college portal before the deadline.
+- Hand over the completed assignment to the subject teacher in the lecture.
+- Attach the printed output wherever a program is required.
+
+Task 1: Prepare a one page summary of enthalpy and attach it to your solved problems. 4 marks
+Q2. Differentiate between first law of thermodynamics and entropy. - 8 marks
+Task 3: Prepare a one page summary of Carnot cycle and attach it to your solved problems. - 10 marks
+
+Assignments must be submitted to the subject teacher on or before the due date.

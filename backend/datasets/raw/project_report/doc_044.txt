@@ -1,0 +1,27 @@
+A project report submitted in partial fulfilment of the requirements for the degree of Bachelor of Engineering in Electrical Engineering
+Submitted by: Isha Joshi
+Under the guidance of: Prof. Imran Mehta
+Department of Electrical Engineering, City Institute of Technology, 2026
+
+1. Objectives
+- To study existing approaches based on agile methodology.
+- To design a system architecture that integrates waterfall model.
+- To implement and test the proposed system.
+- To evaluate performance and document the results.
+
+2. Literature Survey
+Several researchers have investigated agile methodology in the context of Software Engineering. Earlier work proposed a method based on waterfall model which improved results on benchmark data. However, most existing work does not address scalability and usability.
+
+3. Implementation
+The system is implemented using Java and MySQL. The main modules are the input module, the processing module and the output module. The agile methodology component was implemented as a separate class so that it can be tested independently. Screenshots of the user interface are given in Figure 6.
+
+4. Future Scope
+In future the system can be extended with more data and additional features. A mobile version and cloud deployment can be developed. Integration of waterfall model may further improve accuracy.
+
+5. Conclusion
+The project successfully met its objectives. The system demonstrates that agile methodology can be applied effectively to this problem. The work also highlighted the importance of careful testing.
+
+References
+[1] A. Kumar, Software Engineering: Principles and Practice, Tech Press, 2019.
+[2] R. Singh and P. Rao, "A study of agile methodology", International Journal of Engineering Research, 2021.
+[3] Official documentation of Java and MySQL.

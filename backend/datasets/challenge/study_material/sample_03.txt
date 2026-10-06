@@ -1,0 +1,5 @@
+Chapter 4: Stacks and Queues
+
+A stack is a linear data structure that follows the last in first out principle. The two basic operations are push and pop. Applications include expression evaluation and recursion. A queue follows the first in first out principle and is used in scheduling.
+
+Summary: stacks and queues restrict how elements are accessed, which makes many algorithms simpler.

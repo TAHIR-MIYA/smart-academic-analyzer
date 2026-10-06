@@ -1,0 +1,23 @@
+Horizon Engineering College
+Final Examination - July 2024
+Subject: Natural Language Processing (CS804)
+Time: 2 hours
+Maximum Marks: 70
+
+Instructions:
+1. Attempt any 2 questions from Section B.
+2. Draw neat labelled diagrams wherever necessary.
+
+Part A (Answer the following. 2 marks each)
+Q1. List the advantages of named entity recognition.
+Q2. State two applications of cosine similarity.
+Q3. List the advantages of tokenization.
+Q4. Write the purpose of language model.
+Q5. Define cosine similarity.
+
+SECTION B (8 marks each)
+Q6. Write short notes on any two: cosine similarity, language model, named entity recognition. [6 marks]
+Q7. Discuss how language model is used in Natural Language Processing. Support your answer with an example. [8]
+Q8. What is named entity recognition? Explain the steps involved and compare it with cosine similarity. (4 marks)
+Q9. Derive the necessary expressions for TF-IDF and solve a numerical example. (8 marks)
+Q10. Explain stemming in detail with a neat diagram. - 2 marks

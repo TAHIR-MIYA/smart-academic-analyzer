@@ -1,0 +1,23 @@
+Enthalpy Based Web Based Application for Campus Services
+A project report submitted in partial fulfilment of the requirements for the degree of Bachelor of Engineering in Electronics Engineering
+Submitted by: Meera Khan
+Under the guidance of: Prof. Imran Reddy
+Department of Electronics Engineering, Greenfield College of Engineering, 2025
+
+PROBLEM STATEMENT
+The existing system relies on manual effort and does not use enthalpy. As a result, users face delays and inconsistent results. There is a need for a reliable system that applies Carnot cycle effectively.
+
+Objectives
+- To study existing approaches based on enthalpy.
+- To design a system architecture that integrates Carnot cycle.
+- To implement and test the proposed system.
+- To evaluate performance and document the results.
+
+RESULTS AND DISCUSSION
+The system was tested on 60 sample inputs and produced correct output in most cases. The results are summarised in Table 2. The proposed approach performs better than the baseline. Some errors occurred when the input data was incomplete.
+
+Future Scope
+In future the system can be extended with more data and additional features. A mobile version and cloud deployment can be developed. Integration of Carnot cycle may further improve accuracy.
+
+CONCLUSION
+The project successfully met its objectives. The system demonstrates that enthalpy can be applied effectively to this problem. The work also highlighted the importance of careful testing.

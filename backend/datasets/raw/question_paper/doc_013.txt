@@ -1,0 +1,22 @@
+City Institute of Technology
+Mid Semester Examination - July 2025
+Subject: Natural Language Processing (CS804)
+Time: 1 hours
+Maximum Marks: 30
+Seat No: ______________
+
+Instructions:
+1. Question 1 is compulsory. Solve any three from the remaining questions.
+2. Draw neat labelled diagrams wherever necessary.
+
+Part A (Answer the following. 2 marks each)
+Q1. Differentiate between tokenization and cosine similarity in one line.
+Q2. Name any two features of tokenization.
+Q3. What is named entity recognition?
+Q4. Write the purpose of stemming.
+Q5. State two applications of TF-IDF.
+
+Section B (10 marks each)
+Q6. Describe the working of tokenization. Discuss its advantages and limitations. 4 marks
+Q7. Write short notes on any two: named entity recognition, cosine similarity, part-of-speech tagging. [8 marks]
+Q8. Derive the necessary expressions for stemming and solve a numerical example. [10 marks]

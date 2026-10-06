@@ -1,0 +1,48 @@
+Congestion Control Based Monitoring System for Smart Agriculture
+A project report submitted in partial fulfilment of the requirements for the
+degree of Bachelor of Engineering in Electrical Engineering
+Submitted by: Rahul Desai
+Under the guidance of: Prof. Meera Sharma
+Department of Electrical Engineering, City Institute of Technology, 2026
+
+Abstract
+This project presents the design and implementation of a monitoring system
+that applies congestion control and routing to automate routine tasks. The
+system was developed using Java and MySQL and tested on data collected from
+sensors installed in the laboratory. Experimental results show that the system
+performs faster and more accurately compared with the existing approach. The
+report discusses the methodology, implementation, results and limitations of
+the work.
+
+1. Problem Statement
+The existing system relies on manual effort and does not use congestion
+control. As a result, users face delays and inconsistent results. There is a
+need for a reliable system that applies routing effectively.
+
+2. OBJECTIVES
+- To study existing approaches based on congestion control.
+- To design a system architecture that integrates routing.
+- To implement and test the proposed system.
+- To evaluate performance and document the results.
+
+3. Literature Survey
+Several researchers have investigated congestion control in the context of
+Computer Networks. Earlier work proposed a method based on routing which
+improved results on benchmark data. However, most existing work does not
+address scalability and usability.
+
+4. Implementation
+The system is implemented using Java and MySQL. The main modules are the input
+module, the processing module and the output module. The congestion control
+component was implemented as a separate class so that it can be tested
+independently. Screenshots of the user interface are given in Figure 8.
+
+5. Future Scope
+In future the system can be extended with more data and additional features. A
+mobile version and cloud deployment can be developed. Integration of routing
+may further improve accuracy.
+
+6. CONCLUSION
+The project successfully met its objectives. The system demonstrates that
+congestion control can be applied effectively to this problem. The work also
+highlighted the importance of careful testing.

@@ -1,0 +1,14 @@
+Assignment 8: Thermodynamics
+Semester: 8
+Subject: Thermodynamics (ME301)
+Faculty: Prof. Divya Khan
+Total marks: 15
+Last date of submission: 20/01/2025
+
+Note:
+- Submit the assignment in neat handwriting on A4 sheets.
+- Hand over the completed assignment to the subject teacher in the lecture.
+
+1. Solve the problems on heat engine given in the textbook exercise and show all steps. - 10 marks
+Q2. Differentiate between ideal gas and enthalpy. [10]
+Q3. Write a short note on first law of thermodynamics and its applications in Thermodynamics. [3]

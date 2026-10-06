@@ -1,0 +1,5 @@
+Introduction to Thermodynamics - Lecture Notes
+
+Thermodynamics is the study of energy and its transformations. The first law states that energy can neither be created nor destroyed, only converted from one form to another. The second law introduces entropy and tells us the direction in which processes occur naturally.
+
+Example: when a gas expands against a piston, part of its internal energy is converted into work.

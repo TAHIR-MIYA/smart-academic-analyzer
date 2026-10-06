@@ -1,0 +1,24 @@
+Load Balancing - Study Notes
+
+Learning objectives
+- Define load balancing and explain where it is used.
+- Define containers and explain where it is used.
+
+Load Balancing
+Load balancing is the distribution of incoming requests across several servers to avoid overload. A common mistake is to confuse load balancing with service level agreement.
+
+Containers
+Containers is lightweight packages that bundle an application with its dependencies. The main advantage of containers is that it is simple to understand and efficient in practice. For example, consider a small case in Cloud Computing where containers is applied step by step.
+
+Auto Scaling
+Auto scaling is the automatic adjustment of computing resources according to demand. This idea is widely used in academic research. In practice, auto scaling is combined with serverless computing to solve larger problems.
+
+Virtualization
+Virtualization is the creation of virtual versions of hardware so that many machines share one physical server. A common mistake is to confuse virtualization with auto scaling. Students should remember that virtualization is closely related to auto scaling.
+
+Key points
+- Remember the definition of load balancing.
+- Containers is related to virtualization.
+
+Summary
+In this unit we studied load balancing, containers, auto scaling and virtualization. These ideas form the foundation for further topics in Cloud Computing.

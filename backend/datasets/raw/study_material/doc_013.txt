@@ -1,0 +1,20 @@
+Chapter 7: Firewall
+
+Firewall:
+Firewall is a security device that filters incoming and outgoing traffic according to rules. In practice, firewall is combined with DNS to solve larger problems. This idea is widely used in engineering design.
+
+Ip Addressing
+Ip addressing is the scheme used to identify every host and network on the internet. This idea is widely used in real world systems.
+
+Dns
+Dns is a distributed system that translates domain names into IP addresses. For example, consider a small case in Computer Networks where DNS is applied step by step. A common mistake is to confuse DNS with routing.
+
+Subnetting
+Subnetting is the division of a large network into smaller logical networks. The main advantage of subnetting is that it is simple to understand and efficient in practice.
+
+Summary
+In this unit we studied firewall, IP addressing, DNS and subnetting. These ideas form the foundation for further topics in Computer Networks.
+
+Review questions
+1. What is firewall?
+2. Explain IP addressing with an example.

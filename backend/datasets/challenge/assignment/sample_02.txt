@@ -1,0 +1,9 @@
+Engineering Mathematics II
+Problem Set 4 (to be submitted in the next tutorial)
+
+Solve all problems and show complete working.
+(a) Evaluate the double integral of xy over the region bounded by y = x and y = x^2.
+(b) Find the Laplace transform of t sin 2t.
+(c) Solve the differential equation dy/dx + 2y = e^(-x).
+
+Write your roll number on every sheet. Each problem carries 4 marks.

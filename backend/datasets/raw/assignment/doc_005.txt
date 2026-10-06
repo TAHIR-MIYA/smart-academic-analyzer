@@ -1,0 +1,16 @@
+Data Structures - Assignment 3
+Subject: Data Structures (CS301)
+Total marks: 10
+Faculty: Prof. Imran Kulkarni
+
+Instructions:
+- Late submissions will lose two marks for every day of delay.
+- Attach the printed output wherever a program is required.
+- Upload a single PDF file on the college portal before the deadline.
+
+Q1. Write a short note on queue and its applications in Data Structures. (4 marks)
+2. Solve the problems on queue given in the textbook exercise and show all steps. [4 marks]
+Task 3: Prepare a one page summary of stack and attach it to your solved problems. [3]
+4. Solve the problems on binary search tree given in the textbook exercise and show all steps. (2 marks)
+
+Assignments must be submitted to the subject teacher on or before the due date.

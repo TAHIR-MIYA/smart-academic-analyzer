@@ -1,0 +1,17 @@
+Assignment No. 6
+Faculty: Prof. Pooja Khan
+Subject: Natural Language Processing (CS804)
+Total marks: 10
+
+Note:
+- Submit the assignment in neat handwriting on A4 sheets.
+- Attach the printed output wherever a program is required.
+- Write your name, roll number and division on the first page.
+- Group submissions are not allowed; every student must submit individually.
+
+Q1. Collect two real world examples of tokenization and discuss how stemming is related to them. 2 marks
+Q2. Explain cosine similarity with a suitable example. (6M)
+Q3. Write a short note on language model and its applications in Natural Language Processing. - 8 marks
+Q4. Write a short note on named entity recognition and its applications in Natural Language Processing. - 5 marks
+
+Assignments must be submitted to the subject teacher on or before the due date.

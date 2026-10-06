@@ -1,0 +1,34 @@
+ISOTHERMAL PROCESS BASED MONITORING SYSTEM FOR TRAFFIC ANALYSIS
+A project report submitted in partial fulfilment of the requirements for the degree of Bachelor of Engineering in Electronics Engineering
+Submitted by: Neha Khan
+Under the guidance of: Prof. Kabir Patel
+Department of Electronics Engineering, City Institute of Technology, 2026
+
+Introduction
+In recent years Thermodynamics has become an important part of modern engineering. Manual processes are slow, error prone and difficult to scale. This project aims to address these issues by using isothermal process.
+
+Problem Statement
+The existing system relies on manual effort and does not use isothermal process. As a result, users face delays and inconsistent results. There is a need for a reliable system that applies ideal gas effectively.
+
+Objectives
+- To study existing approaches based on isothermal process.
+- To design a system architecture that integrates ideal gas.
+- To implement and test the proposed system.
+- To evaluate performance and document the results.
+
+Methodology
+The methodology follows requirement analysis, design, implementation and testing. The input data is first cleaned and prepared. Then isothermal process is applied to extract the required information. Finally ideal gas is used to produce the output which is displayed to the user.
+
+Implementation
+The system is implemented using Python and scikit-learn. The main modules are the input module, the processing module and the output module. The isothermal process component was implemented as a separate class so that it can be tested independently. Screenshots of the user interface are given in Figure 9.
+
+Results and Discussion
+The system was tested on 255 sample inputs and produced correct output in most cases. The results are summarised in Table 9. The proposed approach performs better than the baseline. Some errors occurred when the input data was incomplete.
+
+Conclusion
+The project successfully met its objectives. The system demonstrates that isothermal process can be applied effectively to this problem. The work also highlighted the importance of careful testing.
+
+References
+[1] A. Kumar, Thermodynamics: Principles and Practice, Tech Press, 2019.
+[2] R. Singh and P. Rao, "A study of isothermal process", International Journal of Engineering Research, 2021.
+[3] Official documentation of Python and scikit-learn.

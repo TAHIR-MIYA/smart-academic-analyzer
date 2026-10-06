@@ -1,0 +1,27 @@
+National Institute of Applied Sciences
+Supplementary Examination - September 2026
+Subject: Data Structures (CS301)
+Time: 3 hours
+Maximum Marks: 100
+Seat No: ______________
+
+Instructions:
+1. Figures to the right indicate full marks.
+2. Use of a non programmable calculator is permitted.
+3. Draw neat labelled diagrams wherever necessary.
+4. Attempt any 4 questions from Section B.
+
+Part A (Answer the following. 1 marks each)
+Q1. Define heap.
+Q2. Differentiate between heap and hash table in one line.
+Q3. What is stack?
+Q4. Name any two features of binary search tree.
+Q5. Define binary search tree.
+
+SECTION B (5 marks each)
+Q6. Differentiate between stack and graph traversal with suitable examples. (6 marks)
+Q7. Differentiate between graph traversal and queue with suitable examples. (4 marks)
+Q8. Differentiate between hash table and heap with suitable examples. (3M)
+Q9. Describe the working of stack. Discuss its advantages and limitations. - 10 marks
+Q10. Derive the necessary expressions for graph traversal and solve a numerical example. -
+3 marks

@@ -1,0 +1,20 @@
+Chapter 9: Requirements Specification
+
+Requirements Specification
+Requirements specification is a document that describes what the software must do and the constraints it must satisfy. For example, consider a small case in Software Engineering where requirements specification is applied step by step.
+
+Waterfall Model:
+Waterfall model is a sequential development process in which each phase is completed before the next begins. A common mistake is to confuse waterfall model with code review. The main advantage of waterfall model is that it is simple to understand and efficient in practice. This idea is widely used in everyday software.
+
+Unit Testing
+Unit testing is the testing of individual components in isolation to verify that they behave correctly. A common mistake is to confuse unit testing with agile methodology. Students should remember that unit testing is closely related to agile methodology.
+
+Uml Diagram:
+Uml diagram is a standard visual notation used to model the structure and behaviour of software. The main advantage of UML diagram is that it is simple to understand and efficient in practice. A common mistake is to confuse UML diagram with unit testing.
+
+Key points
+- Remember the definition of requirements specification.
+- Waterfall model is related to UML diagram.
+
+Summary
+In this unit we studied requirements specification, waterfall model, unit testing and UML diagram. These ideas form the foundation for further topics in Software Engineering.

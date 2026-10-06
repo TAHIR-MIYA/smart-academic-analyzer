@@ -1,0 +1,31 @@
+PROCESS SCHEDULING BASED WEB BASED APPLICATION FOR LIBRARY MANAGEMENT
+A project report submitted in partial fulfilment of the requirements for the degree of Bachelor of Engineering in Electrical Engineering
+Submitted by: Sneha Patel
+Under the guidance of: Prof. Sneha Joshi
+Department of Electrical Engineering, City Institute of Technology, 2026
+
+Abstract
+This project presents the design and implementation of a web based application that applies process scheduling and file system to support faster decisions. The system was developed using React and Node.js and tested on data collected from user surveys. Experimental results show that the system performs reliably compared with the existing approach. The report discusses the methodology, implementation, results and limitations of the work.
+
+1. Problem Statement
+The existing system relies on manual effort and does not use process scheduling. As a result, users face delays and inconsistent results. There is a need for a reliable system that applies file system effectively.
+
+2. LITERATURE SURVEY
+Several researchers have investigated process scheduling in the context of Operating Systems. Earlier work proposed a method based on file system which improved results on benchmark data. However, most existing work does not address scalability and usability.
+
+3. Methodology
+The methodology follows requirement analysis, design, implementation and testing. The input data is first cleaned and prepared. Then process scheduling is applied to extract the required information. Finally file system is used to produce the output which is displayed to the user.
+
+4. Implementation
+The system is implemented using React and Node.js. The main modules are the input module, the processing module and the output module. The process scheduling component was implemented as a separate class so that it can be tested independently. Screenshots of the user interface are given in Figure 9.
+
+5. Results and Discussion
+The system was tested on 367 sample inputs and produced correct output in most cases. The results are summarised in Table 9. The proposed approach performs better than the baseline. Some errors occurred when the input data was incomplete.
+
+6. Conclusion
+The project successfully met its objectives. The system demonstrates that process scheduling can be applied effectively to this problem. The work also highlighted the importance of careful testing.
+
+References
+[1] A. Kumar, Operating Systems: Principles and Practice, Tech Press, 2019.
+[2] R. Singh and P. Rao, "A study of process scheduling", International Journal of Engineering Research, 2021.
+[3] Official documentation of React and Node.js.

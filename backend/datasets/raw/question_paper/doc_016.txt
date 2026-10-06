@@ -1,0 +1,29 @@
+City Institute of Technology
+End Semester Examination - October 2026
+Subject: Computer Networks (CS503)
+Time: 1 hours
+Maximum Marks: 30
+Seat No: ______________
+
+Instructions:
+1. Use of a non programmable calculator is permitted.
+2. Draw neat labelled diagrams wherever necessary.
+3. Question 1 is compulsory. Solve any three from the remaining questions.
+4. Attempt any 2 questions from Section B.
+
+Part A (Answer the following. 1 marks each)
+Q1. Write the purpose of firewall.
+Q2. Write the purpose of subnetting.
+Q3. Differentiate between IP addressing and subnetting in one line.
+Q4. Name any two features of firewall.
+
+SECTION B (10 marks each)
+Q5. Explain TCP in detail with a neat diagram. [10 marks]
+Q6. Write short notes on any two: IP addressing, subnetting, routing. (8
+marks)
+Q7. What is IP addressing? Explain the steps involved and compare it with
+subnetting. [10]
+Q8. What is subnetting? Explain the steps involved and compare it with
+firewall. (8 marks)
+Q9. Derive the necessary expressions for firewall and solve a numerical
+example. (4M)

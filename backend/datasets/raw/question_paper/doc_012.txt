@@ -1,0 +1,21 @@
+Western Technical University
+Mid Semester Examination - January 2026
+Subject: Thermodynamics (ME301)
+Time: 1 hours
+Maximum Marks: 40
+Seat No: ______________
+
+Instructions:
+1. Assume suitable data if required and state it clearly.
+2. Draw neat labelled diagrams wherever necessary.
+
+SECTION A (Answer the following. 2 marks each)
+Q1. Write the purpose of entropy.
+Q2. List the advantages of enthalpy.
+Q3. Define heat engine.
+Q4. Write the purpose of enthalpy.
+
+Part B (10 marks each)
+Q5. Differentiate between ideal gas and enthalpy with suitable examples. - 6 marks
+Q6. Discuss how enthalpy is used in Thermodynamics. Support your answer with an example. (2M)
+Q7. Differentiate between enthalpy and Carnot cycle with suitable examples. [3]

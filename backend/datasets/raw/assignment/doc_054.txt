@@ -1,0 +1,17 @@
+Assignment No. 1
+Semester: 7
+Last date of submission: 05/06/2024
+Subject: Data Structures (CS301)
+Faculty: Prof. Priya Patel
+
+Instructions:
+- Hand over the completed assignment to the subject teacher in the lecture.
+- Attach the printed output wherever a program is required.
+- Group submissions are not allowed; every student must submit individually.
+
+1. Solve the problems on hash table given in the textbook exercise and show all steps. 4 marks
+Q2. Collect two real world examples of binary search tree and discuss how heap is related to them. [4]
+3. Solve the problems on hash table given in the textbook exercise and show all steps. - 2 marks
+Q4. Implement a small program that demonstrates graph traversal and attach the output. [8 marks]
+
+Assignments must be submitted to the subject teacher on or before the due date.

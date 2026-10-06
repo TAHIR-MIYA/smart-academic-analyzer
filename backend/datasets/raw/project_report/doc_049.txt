@@ -1,0 +1,40 @@
+Multiplexer Based Mobile Application for Student Performance Analysis
+A project report submitted in partial fulfilment of the requirements for the degree of Bachelor of Engineering in Computer Engineering
+Submitted by: Sana Mehta
+Under the guidance of: Prof. Vikram Shah
+Department of Computer Engineering, Greenfield College of Engineering, 2025
+
+Abstract
+This project presents the design and implementation of a mobile application that applies multiplexer and counter to automate routine tasks. The system was developed using Java and MySQL and tested on data collected from college records. Experimental results show that the system performs with acceptable accuracy compared with the existing approach. The report discusses the methodology, implementation, results and limitations of the work.
+
+1. Introduction
+In recent years Digital Electronics has become an important part of modern engineering. Manual processes are slow, error prone and difficult to scale. This project aims to address these issues by using multiplexer.
+
+2. Problem Statement
+The existing system relies on manual effort and does not use multiplexer. As a result, users face delays and inconsistent results. There is a need for a reliable system that applies counter effectively.
+
+3. OBJECTIVES
+- To study existing approaches based on multiplexer.
+- To design a system architecture that integrates counter.
+- To implement and test the proposed system.
+- To evaluate performance and document the results.
+
+4. Literature Survey
+Several researchers have investigated multiplexer in the context of Digital Electronics. Earlier work proposed a method based on counter which improved results on benchmark data. However, most existing work does not address scalability and usability.
+
+5. Methodology
+The methodology follows requirement analysis, design, implementation and testing. The input data is first cleaned and prepared. Then multiplexer is applied to extract the required information. Finally counter is used to produce the output which is displayed to the user.
+
+6. Implementation
+The system is implemented using Java and MySQL. The main modules are the input module, the processing module and the output module. The multiplexer component was implemented as a separate class so that it can be tested independently. Screenshots of the user interface are given in Figure 7.
+
+7. Results and Discussion
+The system was tested on 338 sample inputs and produced correct output in most cases. The results are summarised in Table 7. The proposed approach performs better than the baseline. Some errors occurred when the input data was incomplete.
+
+8. CONCLUSION
+The project successfully met its objectives. The system demonstrates that multiplexer can be applied effectively to this problem. The work also highlighted the importance of careful testing.
+
+References
+[1] A. Kumar, Digital Electronics: Principles and Practice, Tech Press, 2019.
+[2] R. Singh and P. Rao, "A study of multiplexer", International Journal of Engineering Research, 2021.
+[3] Official documentation of Java and MySQL.

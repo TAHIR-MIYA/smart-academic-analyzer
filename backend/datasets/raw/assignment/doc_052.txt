@@ -1,0 +1,11 @@
+Digital Electronics - Assignment 8
+Subject: Digital Electronics (EC302)
+Total marks: 15
+Semester: 7
+
+1. Solve the problems on multiplexer given in the textbook exercise and show all steps. 4 marks
+Q2. Write a short note on shift register and its applications in Digital Electronics. 6 marks
+Q3. Explain logic gate with a suitable example. 5 marks
+Q4. Write a short note on counter and its applications in Digital Electronics. 6 marks
+Q5. Differentiate between counter and decoder. [6 marks]
+Q6. Write a short note on Karnaugh map and its applications in Digital Electronics. - 6 marks

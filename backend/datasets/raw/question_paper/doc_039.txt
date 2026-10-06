@@ -1,0 +1,21 @@
+City Institute of Technology
+Mid Semester Examination - November 2024
+Subject: Digital Electronics (EC302)
+Time: 1 hours
+Maximum Marks: 60
+Seat No: ______________
+
+Instructions:
+1. Use of a non programmable calculator is permitted.
+2. Question 1 is compulsory. Solve any three from the remaining
+questions.
+
+Q1. Describe the working of multiplexer. Discuss its advantages
+and limitations. [2]
+Q2. Differentiate between flip-flop and shift register with
+suitable examples. (3M)
+Q3. Describe the working of flip-flop. Discuss its advantages and
+limitations. [3]
+Q4. Explain decoder in detail with a neat diagram. [3]
+Q5. What is shift register? Explain the steps involved and
+compare it with multiplexer. 2 marks

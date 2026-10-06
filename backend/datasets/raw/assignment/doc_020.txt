@@ -1,0 +1,17 @@
+Total marks: 20
+Faculty: Prof. Pooja Nair
+Subject: Machine Learning (CS701)
+
+Note:
+- Hand over the completed assignment to the subject teacher in the lecture.
+- Write your name, roll number and division on the first page.
+- Group submissions are not allowed; every student must submit individually.
+
+Q1. Implement a small program that demonstrates gradient descent and attach the output. [3 marks]
+Q2. Implement a small program that demonstrates overfitting and attach the output. - 10 marks
+Q3. Collect two real world examples of linear regression and discuss how overfitting is related to them. 5 marks
+4. Solve the problems on decision tree given in the textbook exercise and show all steps. 2 marks
+Q5. Explain gradient descent with a suitable example. 2 marks
+Task 6: Prepare a one page summary of gradient descent and attach it to your solved problems. 5 marks
+
+Assignments must be submitted to the subject teacher on or before the due date.

@@ -1,0 +1,13 @@
+UNIT 3: COMPUTER NETWORKS
+
+Routing
+Routing is the process of selecting the best path for packets to travel between networks. This idea is widely used in everyday software. In practice, routing is combined with IP addressing to solve larger problems. The main advantage of routing is that it is simple to understand and efficient in practice.
+
+Ip Addressing:
+Ip addressing is the scheme used to identify every host and network on the internet. A common mistake is to confuse IP addressing with congestion control.
+
+Firewall:
+Firewall is a security device that filters incoming and outgoing traffic according to rules. This idea is widely used in everyday software. In practice, firewall is combined with DNS to solve larger problems.
+
+Summary
+In this unit we studied routing, IP addressing and firewall. These ideas form the foundation for further topics in Computer Networks.

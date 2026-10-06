@@ -1,0 +1,21 @@
+Western Technical University
+Mid Semester Examination - March 2024
+Subject: Thermodynamics (ME301)
+Time: 1 hours
+Maximum Marks: 100
+
+Instructions:
+1. Draw neat labelled diagrams wherever necessary.
+2. Assume suitable data if required and state it clearly.
+
+Section A (Answer the following. 1 marks each)
+Q1. State two applications of entropy.
+Q2. List the advantages of first law of thermodynamics.
+Q3. Write the purpose of ideal gas.
+
+Part B (10 marks each)
+Q4. Explain first law of thermodynamics in detail with a neat diagram. - 5 marks
+Q5. Write short notes on any two: first law of thermodynamics, entropy, isothermal process. (4 marks)
+Q6. Derive the necessary expressions for entropy and solve a numerical example. [6]
+Q7. What is ideal gas? Explain the steps involved and compare it with first law of thermodynamics. - 10 marks
+Q8. Derive the necessary expressions for entropy and solve a numerical example. 2 marks

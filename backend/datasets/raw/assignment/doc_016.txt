@@ -1,0 +1,15 @@
+Assignment No. 3
+Subject: Natural Language Processing (CS804)
+Last date of submission: 27/02/2024
+Faculty: Prof. Arjun Reddy
+Semester: 4
+Total marks: 25
+
+Instructions for students:
+- Answers should be in your own words and should not be copied from the textbook.
+- Attach the printed output wherever a program is required.
+- Submit the assignment in neat handwriting on A4 sheets.
+
+1. Solve the problems on cosine similarity given in the textbook exercise and show all steps. [6]
+Q2. Write a short note on cosine similarity and its applications in Natural Language Processing. [3]
+Task 3: Prepare a one page summary of part-of-speech tagging and attach it to your solved problems. (6M)

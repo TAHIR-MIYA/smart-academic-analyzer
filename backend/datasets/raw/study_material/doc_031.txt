@@ -1,0 +1,24 @@
+UNIT 3: DIGITAL ELECTRONICS
+
+Karnaugh Map
+Karnaugh map is a graphical method for simplifying Boolean expressions. For example, consider a small case in Digital Electronics where Karnaugh map is applied step by step. A common mistake is to confuse Karnaugh map with flip-flop. In practice, Karnaugh map is combined with flip-flop to solve larger problems.
+
+Decoder
+Decoder is a combinational circuit that converts binary input codes into distinct output lines. For example, consider a small case in Digital Electronics where decoder is applied step by step.
+
+Logic Gate
+Logic gate is an elementary building block that performs a Boolean operation on one or more inputs. This idea is widely used in academic research. The main advantage of logic gate is that it is simple to understand and efficient in practice.
+
+Multiplexer:
+Multiplexer is a combinational circuit that selects one of many inputs and forwards it to a single output. This idea is widely used in everyday software. The main advantage of multiplexer is that it is simple to understand and efficient in practice. For example, consider a small case in Digital Electronics where multiplexer is applied step by step.
+
+Key points
+- Remember the definition of Karnaugh map.
+- Decoder is related to multiplexer.
+
+Summary
+In this unit we studied Karnaugh map, decoder, logic gate and multiplexer. These ideas form the foundation for further topics in Digital Electronics.
+
+Review questions
+1. What is Karnaugh map?
+2. Explain decoder with an example.

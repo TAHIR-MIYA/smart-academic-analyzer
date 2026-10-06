@@ -1,0 +1,5 @@
+Computer Networks home assignment
+
+Attempt the following questions and submit handwritten answers.
+What is the difference between TCP and UDP? Explain the three way handshake with a neat diagram. Calculate the subnet mask for a network that needs 50 hosts.
+Last date: 15 October. 10 marks.

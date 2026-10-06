@@ -1,0 +1,37 @@
+Process Scheduling Based Automated Analysis Tool for Smart Agriculture
+A project report submitted in partial fulfilment of the requirements for the degree of Bachelor of Engineering in Computer Engineering
+Submitted by: Priya Sharma
+Under the guidance of: Prof. Sneha Verma
+Department of Computer Engineering, National Institute of Applied Sciences, 2025
+
+Abstract
+This project presents the design and implementation of a automated analysis tool that applies process scheduling and context switch to support faster decisions. The system was developed using Android Studio and Firebase and tested on data collected from public repositories. Experimental results show that the system performs faster and more accurately compared with the existing approach. The report discusses the methodology, implementation, results and limitations of the work.
+
+1. Introduction
+In recent years Operating Systems has become an important part of modern engineering. Manual processes are slow, error prone and difficult to scale. This project aims to address these issues by using process scheduling.
+
+2. Problem Statement
+The existing system relies on manual effort and does not use process scheduling. As a result, users face delays and inconsistent results. There is a need for a reliable system that applies context switch effectively.
+
+3. OBJECTIVES
+- To study existing approaches based on process scheduling.
+- To design a system architecture that integrates context switch.
+- To implement and test the proposed system.
+- To evaluate performance and document the results.
+
+4. Methodology
+The methodology follows requirement analysis, design, implementation and testing. The input data is first cleaned and prepared. Then process scheduling is applied to extract the required information. Finally context switch is used to produce the output which is displayed to the user.
+
+5. Implementation
+The system is implemented using Android Studio and Firebase. The main modules are the input module, the processing module and the output module. The process scheduling component was implemented as a separate class so that it can be tested independently. Screenshots of the user interface are given in Figure 2.
+
+6. Future Scope
+In future the system can be extended with more data and additional features. A mobile version and cloud deployment can be developed. Integration of context switch may further improve accuracy.
+
+7. Conclusion
+The project successfully met its objectives. The system demonstrates that process scheduling can be applied effectively to this problem. The work also highlighted the importance of careful testing.
+
+References
+[1] A. Kumar, Operating Systems: Principles and Practice, Tech Press, 2019.
+[2] R. Singh and P. Rao, "A study of process scheduling", International Journal of Engineering Research, 2021.
+[3] Official documentation of Android Studio and Firebase.

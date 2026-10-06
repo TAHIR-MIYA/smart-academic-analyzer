@@ -1,0 +1,33 @@
+CHAPTER 4: PRIMARY KEY
+
+Primary Key
+Primary key is a column or set of columns that uniquely identifies
+every row in a table. Note that primary key depends on the
+assumptions made about the problem. A common mistake is to confuse
+primary key with deadlock.
+
+Indexing
+Indexing is a structure that speeds up the retrieval of rows by
+searching on selected columns. In practice, indexing is combined
+with deadlock to solve larger problems. The main advantage of
+indexing is that it is simple to understand and efficient in
+practice.
+
+Normalization:
+Normalization is the process of organising tables to reduce
+redundancy and update anomalies. Students should remember that
+normalization is closely related to transaction.
+
+Deadlock
+Deadlock is a situation in which two transactions wait for each
+other to release locks. For example, consider a small case in
+Database Management Systems where deadlock is applied step by step.
+
+Key points
+- Remember the definition of primary key.
+- Indexing is related to deadlock.
+
+Summary
+In this unit we studied primary key, indexing, normalization and
+deadlock. These ideas form the foundation for further topics in
+Database Management Systems.

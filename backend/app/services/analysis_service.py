@@ -4,6 +4,7 @@ import logging
 from sqlalchemy.orm import Session
 
 from app.config import Settings
+from app.ml.predict import classify, load_bundle
 from app.nlp.ner import extract_entities_cached
 from app.nlp.ngrams import analyse_ngrams
 from app.nlp.pipeline import PreprocessedDocument, run_pipeline_cached
@@ -34,3 +35,9 @@ def ngrams_for(result: PreprocessedDocument, top_k: int = 15) -> dict:
 
 def entities_for(result: PreprocessedDocument) -> dict:
     return extract_entities_cached(result.cleaned_text)
+
+
+def classification_for(result: PreprocessedDocument, settings: Settings) -> dict:
+    """Raises ModelNotTrainedError (HTTP 503) if the classifier has not been trained or cannot be loaded."""
+    bundle = load_bundle(settings.model_path)
+    return classify(result, bundle, settings.classification_min_confidence)

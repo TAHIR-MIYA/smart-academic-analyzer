@@ -1,0 +1,28 @@
+CITY INSTITUTE OF TECHNOLOGY
+Mid Semester Examination - November 2025
+Subject: Software Engineering (CS601)
+Time: 3 hours
+Maximum Marks: 60
+Seat No: ______________
+
+Instructions:
+1. All questions are compulsory.
+2. Attempt any 3 questions from Section B.
+3. Figures to the right indicate full marks.
+4. Question 1 is compulsory. Solve any three from the remaining questions.
+
+Section A (Answer the following. 2 marks each)
+Q1. Name any two features of version control.
+Q2. Define UML diagram.
+Q3. Define code review.
+Q4. Name any two features of requirements specification.
+
+SECTION B (8 marks each)
+Q5. Differentiate between waterfall model and requirements specification with suitable
+examples. (5 marks)
+Q6. Explain agile methodology in detail with a neat diagram. - 3 marks
+Q7. Discuss how version control is used in Software Engineering. Support your answer with an
+example. [4]
+Q8. Differentiate between code review and version control with suitable examples. [2]
+Q9. Write short notes on any two: agile methodology, waterfall model, version control. - 6
+marks

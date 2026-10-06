@@ -1,0 +1,13 @@
+Greenfield College of Engineering
+Supplementary Examination - June 2024
+Subject: Machine Learning (CS701)
+Time: 1 hours
+Maximum Marks: 30
+
+Instructions:
+1. Draw neat labelled diagrams wherever necessary.
+2. Assume suitable data if required and state it clearly.
+
+Q1. Explain confusion matrix in detail with a neat diagram. [5]
+Q2. Differentiate between overfitting and cross-validation with suitable examples. (10M)
+Q3. Describe the working of cross-validation. Discuss its advantages and limitations. - 8 marks

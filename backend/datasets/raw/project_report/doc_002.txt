@@ -1,0 +1,57 @@
+CROSS-VALIDATION BASED AUTOMATED ANALYSIS TOOL FOR TRAFFIC ANALYSIS
+A project report submitted in partial fulfilment of the requirements for the
+degree of Bachelor of Engineering in Information Technology
+Submitted by: Rohan Khan
+Under the guidance of: Prof. Arjun Nair
+Department of Information Technology, City Institute of Technology, 2024
+
+Introduction
+In recent years Machine Learning has become an important part of modern
+engineering. Manual processes are slow, error prone and difficult to scale.
+This project aims to address these issues by using cross-validation.
+
+PROBLEM STATEMENT
+The existing system relies on manual effort and does not use cross-
+validation. As a result, users face delays and inconsistent results. There is
+a need for a reliable system that applies k-means clustering effectively.
+
+Objectives
+- To study existing approaches based on cross-validation.
+- To design a system architecture that integrates k-means clustering.
+- To implement and test the proposed system.
+- To evaluate performance and document the results.
+
+Literature Survey
+Several researchers have investigated cross-validation in the context of
+Machine Learning. Earlier work proposed a method based on k-means clustering
+which improved results on benchmark data. However, most existing work does
+not address scalability and usability.
+
+Implementation
+The system is implemented using Android Studio and Firebase. The main modules
+are the input module, the processing module and the output module. The cross-
+validation component was implemented as a separate class so that it can be
+tested independently. Screenshots of the user interface are given in Figure
+2.
+
+Results and Discussion
+The system was tested on 278 sample inputs and produced correct output in
+most cases. The results are summarised in Table 2. The proposed approach
+performs better than the baseline. Some errors occurred when the input data
+was incomplete.
+
+Future Scope
+In future the system can be extended with more data and additional features.
+A mobile version and cloud deployment can be developed. Integration of
+k-means clustering may further improve accuracy.
+
+CONCLUSION
+The project successfully met its objectives. The system demonstrates that
+cross-validation can be applied effectively to this problem. The work also
+highlighted the importance of careful testing.
+
+References
+[1] A. Kumar, Machine Learning: Principles and Practice, Tech Press, 2019.
+[2] R. Singh and P. Rao, "A study of cross-validation", International Journal
+of Engineering Research, 2021.
+[3] Official documentation of Android Studio and Firebase.

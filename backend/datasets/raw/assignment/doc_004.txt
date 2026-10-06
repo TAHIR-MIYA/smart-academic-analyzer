@@ -1,0 +1,15 @@
+ASSIGNMENT 8
+Last date of submission: June 21, 2026
+Faculty: Prof. Sana Bose
+Semester: 8
+
+Note:
+- Hand over the completed assignment to the subject teacher in the lecture.
+- Submit the assignment in neat handwriting on A4 sheets.
+
+1. Solve the problems on linked list given in the textbook exercise and show all steps. (6 marks)
+Q2. Explain hash table with a suitable example. (5M)
+Q3. Write a short note on heap and its applications in Data Structures. - 4 marks
+Q4. Write a short note on hash table and its applications in Data Structures. [6]
+
+Assignments must be submitted to the subject teacher on or before the due date.

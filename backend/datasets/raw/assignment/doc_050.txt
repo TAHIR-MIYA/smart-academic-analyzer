@@ -1,0 +1,17 @@
+Assignment No. 3
+Faculty: Prof. Pooja Iyer
+Total marks: 15
+Last date of submission: 19 October 2025
+Semester: 6
+
+Instructions for students:
+- Answers should be in your own words and should not be copied from the
+textbook.
+- Hand over the completed assignment to the subject teacher in the lecture.
+
+1. Solve the problems on k-means clustering given in the textbook exercise and
+show all steps. (4 marks)
+Q2. Implement a small program that demonstrates gradient descent and attach the
+output. [10 marks]
+Q3. Collect two real world examples of overfitting and discuss how cross-
+validation is related to them. (8M)

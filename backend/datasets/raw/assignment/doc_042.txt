@@ -1,0 +1,16 @@
+ASSIGNMENT 5
+Faculty: Prof. Aarav Desai
+Last date of submission: October 20, 2024
+Total marks: 10
+Semester: 8
+
+Instructions for students:
+- Attach the printed output wherever a program is required.
+- Answers should be in your own words and should not be copied from the textbook.
+
+Q1. Explain agile methodology with a suitable example. (3 marks)
+Q2. Collect two real world examples of requirements specification and discuss how agile
+methodology is related to them. [10 marks]
+Q3. Prepare a report on agile methodology covering definition, working and limitations. 8
+marks
+Q4. Explain version control with a suitable example. 3 marks

@@ -1,0 +1,13 @@
+Digital Electronics - Assignment 4
+Semester: 5
+Last date of submission: March 6, 2024
+Total marks: 10
+Subject: Digital Electronics (EC302)
+Faculty: Prof. Isha Joshi
+
+Task 1: Prepare a one page summary of decoder and attach it to your solved problems. [2]
+Q2. Prepare a report on multiplexer covering definition, working and limitations. 8 marks
+Q3. Prepare a report on logic gate covering definition, working and limitations. (10M)
+Q4. Prepare a report on multiplexer covering definition, working and limitations. (3M)
+
+Assignments must be submitted to the subject teacher on or before the due date.

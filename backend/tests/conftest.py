@@ -60,8 +60,18 @@ def make_docx():
     return _make
 
 
+def isolated_settings(tmp_path, **overrides) -> Settings:
+    """Settings whose artifact paths point at an empty temp folder, so tests never depend on a trained model."""
+    values = dict(max_upload_mb=1, min_text_chars=20,
+                  reference_idf_path=tmp_path / "no_reference_idf.json",
+                  model_path=tmp_path / "no_model.joblib",
+                  metrics_path=tmp_path / "no_metrics.json")
+    values.update(overrides)
+    return Settings(**values)
+
+
 @pytest.fixture
-def client():
+def client(tmp_path):
     engine = create_engine(
         "sqlite://", connect_args={"check_same_thread": False}, poolclass=StaticPool
     )
@@ -76,12 +86,33 @@ def client():
             db.close()
 
     app.dependency_overrides[get_db] = override_get_db
-    app.dependency_overrides[get_settings] = lambda: Settings(max_upload_mb=1, min_text_chars=20)
+    app.dependency_overrides[get_settings] = lambda: isolated_settings(tmp_path)
     yield TestClient(app)  # no 'with' -> lifespan (real DB/log files) is not started
     app.dependency_overrides.clear()
 
 
 @pytest.fixture
-def tiny_limit_client(client):
-    app.dependency_overrides[get_settings] = lambda: Settings(max_upload_mb=0.001)
+def tiny_limit_client(client, tmp_path):
+    app.dependency_overrides[get_settings] = lambda: isolated_settings(tmp_path, max_upload_mb=0.001)
     return client
+
+
+@pytest.fixture(scope="session")
+def trained_artifacts(tmp_path_factory):
+    """Train a small model once per test session in a temp folder (skipped without NLP resources)."""
+    from app.nlp.resources import check_nlp_resources
+
+    if not check_nlp_resources()["ready"]:
+        pytest.skip("NLP resources not installed")
+    from datasets.generate_dataset import generate
+    from app.ml.train import train
+
+    root = tmp_path_factory.mktemp("mini_dataset")
+    generate(root / "raw", per_class=10, seed=1)
+    generate(root / "challenge", per_class=4, seed=2)
+    out = root / "artifacts"
+    ref = root / "reference_idf.json"
+    metrics = train(root / "raw", root / "challenge", root / "no_real_docs", out,
+                    reference_idf_path=ref, cv_folds=3, seed=42)
+    return {"root": root, "artifacts": out, "reference": ref, "metrics": metrics,
+            "model": out / "model.joblib", "metrics_path": out / "metrics.json"}

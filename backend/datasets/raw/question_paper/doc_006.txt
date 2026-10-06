@@ -1,0 +1,16 @@
+National Institute of Applied Sciences
+Supplementary Examination - August 2024
+Subject: Thermodynamics (ME301)
+Time: 1 hours
+Maximum Marks: 80
+
+Instructions:
+1. All questions are compulsory.
+2. Attempt any 4 questions from Section B.
+3. Figures to the right indicate full marks.
+
+Q1. Derive the necessary expressions for first law of thermodynamics and solve a numerical example. - 8 marks
+Q2. Describe the working of ideal gas. Discuss its advantages and limitations. [6]
+Q3. Discuss how entropy is used in Thermodynamics. Support your answer with an example. [5 marks]
+Q4. Explain isothermal process in detail with a neat diagram. [6 marks]
+Q5. Explain isothermal process in detail with a neat diagram. [10]

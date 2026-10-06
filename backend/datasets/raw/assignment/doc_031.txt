@@ -1,0 +1,12 @@
+DIGITAL ELECTRONICS - ASSIGNMENT 4
+Subject: Digital Electronics (EC302)
+Total marks: 20
+Last date of submission: 10/04/2024
+
+Instructions:
+- Write your name, roll number and division on the first page.
+- Group submissions are not allowed; every student must submit individually.
+
+Task 1: Prepare a one page summary of counter and attach it to your solved problems. [6]
+Q2. Explain shift register with a suitable example. 2 marks
+Q3. Differentiate between logic gate and multiplexer. (5M)

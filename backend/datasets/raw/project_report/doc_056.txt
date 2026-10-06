@@ -1,0 +1,39 @@
+Semaphore Based Web Based Application for Online Examination
+A project report submitted in partial fulfilment of the requirements for the degree of
+Bachelor of Engineering in Electronics Engineering
+Submitted by: Pooja Desai
+Under the guidance of: Prof. Sana Reddy
+Department of Electronics Engineering, City Institute of Technology, 2025
+
+INTRODUCTION
+In recent years Operating Systems has become an important part of modern engineering.
+Manual processes are slow, error prone and difficult to scale. This project aims to
+address these issues by using semaphore.
+
+Problem Statement
+The existing system relies on manual effort and does not use semaphore. As a result,
+users face delays and inconsistent results. There is a need for a reliable system that
+applies virtual memory effectively.
+
+Literature Survey
+Several researchers have investigated semaphore in the context of Operating Systems.
+Earlier work proposed a method based on virtual memory which improved results on
+benchmark data. However, most existing work does not address scalability and
+usability.
+
+IMPLEMENTATION
+The system is implemented using Java and MySQL. The main modules are the input module,
+the processing module and the output module. The semaphore component was implemented
+as a separate class so that it can be tested independently. Screenshots of the user
+interface are given in Figure 3.
+
+CONCLUSION
+The project successfully met its objectives. The system demonstrates that semaphore
+can be applied effectively to this problem. The work also highlighted the importance
+of careful testing.
+
+References
+[1] A. Kumar, Operating Systems: Principles and Practice, Tech Press, 2019.
+[2] R. Singh and P. Rao, "A study of semaphore", International Journal of Engineering
+Research, 2021.
+[3] Official documentation of Java and MySQL.

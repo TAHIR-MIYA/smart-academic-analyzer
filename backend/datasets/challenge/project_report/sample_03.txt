@@ -1,0 +1,8 @@
+Project Title: Smart Irrigation Using IoT
+Submitted by: Rahul Patil
+Guide: Dr. S. Kulkarni
+
+In partial fulfilment of the requirements for the award of the degree of Bachelor of Technology.
+
+Declaration
+I hereby declare that this project report is my original work and that it has not been submitted to any other university.

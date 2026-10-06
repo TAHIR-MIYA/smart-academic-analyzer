@@ -1,0 +1,57 @@
+Routing Based Decision Support System for Student Performance Analysis
+A project report submitted in partial fulfilment of the requirements for the degree of
+Bachelor of Engineering in Mechanical Engineering
+Submitted by: Nikhil Shah
+Under the guidance of: Prof. Sneha Patel
+Department of Mechanical Engineering, National Institute of Applied Sciences, 2025
+
+Abstract
+This project presents the design and implementation of a decision support system that
+applies routing and TCP to support faster decisions. The system was developed using
+Python and scikit-learn and tested on data collected from sensors installed in the
+laboratory. Experimental results show that the system performs faster and more
+accurately compared with the existing approach. The report discusses the methodology,
+implementation, results and limitations of the work.
+
+1. Problem Statement
+The existing system relies on manual effort and does not use routing. As a result,
+users face delays and inconsistent results. There is a need for a reliable system that
+applies TCP effectively.
+
+2. OBJECTIVES
+- To study existing approaches based on routing.
+- To design a system architecture that integrates TCP.
+- To implement and test the proposed system.
+- To evaluate performance and document the results.
+
+3. LITERATURE SURVEY
+Several researchers have investigated routing in the context of Computer Networks.
+Earlier work proposed a method based on TCP which improved results on benchmark data.
+However, most existing work does not address scalability and usability.
+
+4. IMPLEMENTATION
+The system is implemented using Python and scikit-learn. The main modules are the
+input module, the processing module and the output module. The routing component was
+implemented as a separate class so that it can be tested independently. Screenshots of
+the user interface are given in Figure 6.
+
+5. Results and Discussion
+The system was tested on 77 sample inputs and produced correct output in most cases.
+The results are summarised in Table 6. The proposed approach performs better than the
+baseline. Some errors occurred when the input data was incomplete.
+
+6. Future Scope
+In future the system can be extended with more data and additional features. A mobile
+version and cloud deployment can be developed. Integration of TCP may further improve
+accuracy.
+
+7. Conclusion
+The project successfully met its objectives. The system demonstrates that routing can
+be applied effectively to this problem. The work also highlighted the importance of
+careful testing.
+
+References
+[1] A. Kumar, Computer Networks: Principles and Practice, Tech Press, 2019.
+[2] R. Singh and P. Rao, "A study of routing", International Journal of Engineering
+Research, 2021.
+[3] Official documentation of Python and scikit-learn.

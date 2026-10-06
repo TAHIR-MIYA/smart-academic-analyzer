@@ -1,0 +1,50 @@
+A project report submitted in partial fulfilment of the requirements for
+the degree of Bachelor of Engineering in Computer Engineering
+Submitted by: Meera Nair
+Under the guidance of: Prof. Vikram Mehta
+Department of Computer Engineering, City Institute of Technology, 2024
+
+Abstract
+This project presents the design and implementation of a mobile application
+that applies isothermal process and first law of thermodynamics to analyse
+large volumes of data efficiently. The system was developed using Python
+and scikit-learn and tested on data collected from user surveys.
+Experimental results show that the system performs with acceptable accuracy
+compared with the existing approach. The report discusses the methodology,
+implementation, results and limitations of the work.
+
+1. Introduction
+In recent years Thermodynamics has become an important part of modern
+engineering. Manual processes are slow, error prone and difficult to scale.
+This project aims to address these issues by using isothermal process.
+
+2. Problem Statement
+The existing system relies on manual effort and does not use isothermal
+process. As a result, users face delays and inconsistent results. There is
+a need for a reliable system that applies first law of thermodynamics
+effectively.
+
+3. Objectives
+- To study existing approaches based on isothermal process.
+- To design a system architecture that integrates first law of
+thermodynamics.
+- To implement and test the proposed system.
+- To evaluate performance and document the results.
+
+4. Implementation
+The system is implemented using Python and scikit-learn. The main modules
+are the input module, the processing module and the output module. The
+isothermal process component was implemented as a separate class so that it
+can be tested independently. Screenshots of the user interface are given in
+Figure 6.
+
+5. Conclusion
+The project successfully met its objectives. The system demonstrates that
+isothermal process can be applied effectively to this problem. The work
+also highlighted the importance of careful testing.
+
+References
+[1] A. Kumar, Thermodynamics: Principles and Practice, Tech Press, 2019.
+[2] R. Singh and P. Rao, "A study of isothermal process", International
+Journal of Engineering Research, 2021.
+[3] Official documentation of Python and scikit-learn.

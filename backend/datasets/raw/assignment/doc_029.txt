@@ -1,0 +1,14 @@
+Assignment 7: Data Structures
+Total marks: 25
+Faculty: Prof. Imran Shah
+Semester: 6
+
+Instructions for students:
+- Attach the printed output wherever a program is required.
+- Upload a single PDF file on the college portal before the deadline.
+- Plagiarised work will not be accepted and will be awarded zero marks.
+
+Task 1: Prepare a one page summary of heap and attach it to your solved problems. [8 marks]
+Q2. Collect two real world examples of stack and discuss how hash table is related to them. [10 marks]
+3. Solve the problems on linked list given in the textbook exercise and show all steps. (8M)
+Q4. Differentiate between heap and graph traversal. (4M)

@@ -1,0 +1,20 @@
+Unit 6: Digital Electronics
+
+Karnaugh Map
+Karnaugh map is a graphical method for simplifying Boolean expressions. In practice, Karnaugh map is combined with shift register to solve larger problems.
+
+Counter:
+Counter is a sequential circuit that goes through a prescribed sequence of states on clock pulses. In practice, counter is combined with flip-flop to solve larger problems.
+
+Multiplexer
+Multiplexer is a combinational circuit that selects one of many inputs and forwards it to a single output. A common mistake is to confuse multiplexer with Karnaugh map.
+
+Decoder
+Decoder is a combinational circuit that converts binary input codes into distinct output lines. A common mistake is to confuse decoder with flip-flop. Students should remember that decoder is closely related to flip-flop.
+
+Key points
+- Remember the definition of Karnaugh map.
+- Counter is related to decoder.
+
+Summary
+In this unit we studied Karnaugh map, counter, multiplexer and decoder. These ideas form the foundation for further topics in Digital Electronics.

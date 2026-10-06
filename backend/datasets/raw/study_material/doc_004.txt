@@ -1,0 +1,38 @@
+Chapter 1: Cosine Similarity
+
+Cosine Similarity:
+Cosine similarity is a measure of the angle between two vectors used to compare
+documents. In practice, cosine similarity is combined with TF-IDF to solve larger
+problems.
+
+Named Entity Recognition
+Named entity recognition is the task of locating and classifying names of people,
+places and organisations in text. A common mistake is to confuse named entity
+recognition with cosine similarity.
+
+Part-Of-Speech Tagging
+Part-of-speech tagging is the assignment of grammatical categories such as noun
+or verb to each word. For example, consider a small case in Natural Language
+Processing where part-of-speech tagging is applied step by step. Students should
+remember that part-of-speech tagging is closely related to cosine similarity.
+
+Stemming
+Stemming is a rule based reduction of words to a common root form by removing
+suffixes. Note that stemming depends on the assumptions made about the problem.
+The main advantage of stemming is that it is simple to understand and efficient
+in practice.
+
+Language Model
+Language model is a model that assigns probabilities to sequences of words. In
+practice, language model is combined with named entity recognition to solve
+larger problems. A common mistake is to confuse language model with named entity
+recognition.
+
+Summary
+In this unit we studied cosine similarity, named entity recognition, part-of-
+speech tagging, stemming and language model. These ideas form the foundation for
+further topics in Natural Language Processing.
+
+Review questions
+1. What is cosine similarity?
+2. Explain named entity recognition with an example.

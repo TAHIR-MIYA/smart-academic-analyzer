@@ -1,0 +1,37 @@
+Virtual Memory Based Mobile Application for Campus Services
+A project report submitted in partial fulfilment of the requirements for the degree of Bachelor of Engineering in Electronics Engineering
+Submitted by: Karan Desai
+Under the guidance of: Prof. Karan Desai
+Department of Electronics Engineering, Western Technical University, 2024
+
+1. Introduction
+In recent years Operating Systems has become an important part of modern engineering. Manual processes are slow, error prone and difficult to scale. This project aims to address these issues by using virtual memory.
+
+2. OBJECTIVES
+- To study existing approaches based on virtual memory.
+- To design a system architecture that integrates file system.
+- To implement and test the proposed system.
+- To evaluate performance and document the results.
+
+3. Literature Survey
+Several researchers have investigated virtual memory in the context of Operating Systems. Earlier work proposed a method based on file system which improved results on benchmark data. However, most existing work does not address scalability and usability.
+
+4. Methodology
+The methodology follows requirement analysis, design, implementation and testing. The input data is first cleaned and prepared. Then virtual memory is applied to extract the required information. Finally file system is used to produce the output which is displayed to the user.
+
+5. IMPLEMENTATION
+The system is implemented using Java and MySQL. The main modules are the input module, the processing module and the output module. The virtual memory component was implemented as a separate class so that it can be tested independently. Screenshots of the user interface are given in Figure 5.
+
+6. Results and Discussion
+The system was tested on 118 sample inputs and produced correct output in most cases. The results are summarised in Table 5. The proposed approach performs better than the baseline. Some errors occurred when the input data was incomplete.
+
+7. Future Scope
+In future the system can be extended with more data and additional features. A mobile version and cloud deployment can be developed. Integration of file system may further improve accuracy.
+
+8. Conclusion
+The project successfully met its objectives. The system demonstrates that virtual memory can be applied effectively to this problem. The work also highlighted the importance of careful testing.
+
+References
+[1] A. Kumar, Operating Systems: Principles and Practice, Tech Press, 2019.
+[2] R. Singh and P. Rao, "A study of virtual memory", International Journal of Engineering Research, 2021.
+[3] Official documentation of Java and MySQL.

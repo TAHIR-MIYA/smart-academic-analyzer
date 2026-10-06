@@ -1,0 +1,37 @@
+ISOTHERMAL PROCESS BASED WEB BASED APPLICATION FOR STUDENT PERFORMANCE ANALYSIS
+A project report submitted in partial fulfilment of the requirements for the degree of Bachelor of Engineering in Mechanical Engineering
+Submitted by: Priya Kulkarni
+Under the guidance of: Prof. Pooja Verma
+Department of Mechanical Engineering, City Institute of Technology, 2026
+
+Abstract
+This project presents the design and implementation of a web based application that applies isothermal process and Carnot cycle to analyse large volumes of data efficiently. The system was developed using Python and scikit-learn and tested on data collected from college records. Experimental results show that the system performs with acceptable accuracy compared with the existing approach. The report discusses the methodology, implementation, results and limitations of the work.
+
+1. Problem Statement
+The existing system relies on manual effort and does not use isothermal process. As a result, users face delays and inconsistent results. There is a need for a reliable system that applies Carnot cycle effectively.
+
+2. Objectives
+- To study existing approaches based on isothermal process.
+- To design a system architecture that integrates Carnot cycle.
+- To implement and test the proposed system.
+- To evaluate performance and document the results.
+
+3. LITERATURE SURVEY
+Several researchers have investigated isothermal process in the context of Thermodynamics. Earlier work proposed a method based on Carnot cycle which improved results on benchmark data. However, most existing work does not address scalability and usability.
+
+4. Methodology
+The methodology follows requirement analysis, design, implementation and testing. The input data is first cleaned and prepared. Then isothermal process is applied to extract the required information. Finally Carnot cycle is used to produce the output which is displayed to the user.
+
+5. Results and Discussion
+The system was tested on 131 sample inputs and produced correct output in most cases. The results are summarised in Table 3. The proposed approach performs better than the baseline. Some errors occurred when the input data was incomplete.
+
+6. Future Scope
+In future the system can be extended with more data and additional features. A mobile version and cloud deployment can be developed. Integration of Carnot cycle may further improve accuracy.
+
+7. Conclusion
+The project successfully met its objectives. The system demonstrates that isothermal process can be applied effectively to this problem. The work also highlighted the importance of careful testing.
+
+References
+[1] A. Kumar, Thermodynamics: Principles and Practice, Tech Press, 2019.
+[2] R. Singh and P. Rao, "A study of isothermal process", International Journal of Engineering Research, 2021.
+[3] Official documentation of Python and scikit-learn.

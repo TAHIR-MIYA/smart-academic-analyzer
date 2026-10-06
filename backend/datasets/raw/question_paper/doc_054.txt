@@ -1,0 +1,22 @@
+Horizon Engineering College
+End Semester Examination - December 2024
+Subject: Cloud Computing (CS805)
+Time: 2 hours
+Maximum Marks: 60
+Seat No: ______________
+
+Instructions:
+1. Assume suitable data if required and state it clearly.
+2. Attempt any 2 questions from Section B.
+
+SECTION A (Answer the following. 2 marks each)
+Q1. List the advantages of auto scaling.
+Q2. State two applications of virtualization.
+Q3. Write the purpose of load balancing.
+
+Part B (8 marks each)
+Q4. What is load balancing? Explain the steps involved and compare it with auto scaling. (3M)
+Q5. Discuss how load balancing is used in Cloud Computing. Support your answer with an example. [8]
+Q6. Explain object storage in detail with a neat diagram. - 8 marks
+Q7. Differentiate between service level agreement and object storage with suitable examples. (4M)
+Q8. Derive the necessary expressions for containers and solve a numerical example. 6 marks

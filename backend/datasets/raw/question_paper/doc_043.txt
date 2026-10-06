@@ -1,0 +1,18 @@
+Western Technical University
+Mid Semester Examination - April 2026
+Subject: Operating Systems (CS402)
+Time: 2 hours
+Maximum Marks: 40
+Seat No: ______________
+
+Instructions:
+1. Figures to the right indicate full marks.
+2. Question 1 is compulsory. Solve any three from the remaining
+questions.
+3. Use of a non programmable calculator is permitted.
+
+Q1. What is file system? Explain the steps involved and compare it
+with paging. 3 marks
+Q2. What is file system? Explain the steps involved and compare it
+with process scheduling. - 4 marks
+Q3. Explain thread in detail with a neat diagram. [2]

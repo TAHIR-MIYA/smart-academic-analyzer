@@ -1,0 +1,13 @@
+1. Introduction
+In recent years online shopping has grown rapidly. Existing systems however lack personalised recommendations.
+
+1.1 Problem Statement
+To design a web based recommendation system that suggests products to users.
+
+1.2 Objectives
+- To study existing recommendation techniques
+- To implement collaborative filtering
+- To evaluate the system
+
+1.3 Scope
+The system is limited to books.

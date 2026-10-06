@@ -1,0 +1,18 @@
+Software Engineering - Assignment 2
+Subject: Software Engineering (CS601)
+Total marks: 10
+Last date of submission: June 7, 2025
+
+Note:
+- Group submissions are not allowed; every student must submit
+individually.
+- Answers should be in your own words and should not be copied
+from the textbook.
+
+Q1. Implement a small program that demonstrates code review and
+attach the output. (10 marks)
+Q2. Explain UML diagram with a suitable example. (4M)
+Q3. Explain waterfall model with a suitable example. [8 marks]
+
+Assignments must be submitted to the subject teacher on or before
+the due date.

@@ -1,0 +1,14 @@
+Natural Language Processing - Assignment 7
+Faculty: Prof. Rahul Khan
+Last date of submission: July 14, 2024
+Subject: Natural Language Processing (CS804)
+Semester: 5
+Total marks: 10
+
+Q1. Prepare a report on named entity recognition covering definition, working and limitations. [6]
+Q2. Explain named entity recognition with a suitable example. (8 marks)
+Q3. Differentiate between cosine similarity and tokenization. [10 marks]
+Q4. Prepare a report on stemming covering definition, working and limitations. - 4 marks
+Q5. Collect two real world examples of TF-IDF and discuss how cosine similarity is related to them. (6M)
+
+Assignments must be submitted to the subject teacher on or before the due date.

@@ -1,0 +1,13 @@
+Assignment 8: Digital Electronics
+Semester: 6
+Faculty: Prof. Priya Joshi
+Subject: Digital Electronics (EC302)
+Last date of submission: February 7, 2026
+Total marks: 10
+
+1. Solve the problems on logic gate given in the textbook exercise and show all steps. 4 marks
+Q2. Implement a small program that demonstrates decoder and attach the output. (2 marks)
+Q3. Explain flip-flop with a suitable example. [5 marks]
+Q4. Explain shift register with a suitable example. 3 marks
+Q5. Prepare a report on logic gate covering definition, working and limitations. (5 marks)
+Q6. Differentiate between shift register and logic gate. [8]

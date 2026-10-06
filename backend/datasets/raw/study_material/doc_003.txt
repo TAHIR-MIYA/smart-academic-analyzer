@@ -1,0 +1,23 @@
+Unit 7: Database Management Systems
+
+Transaction
+Transaction is a sequence of database operations that must be executed as a single logical unit. In practice, transaction is combined with primary key to solve larger problems. The main advantage of transaction is that it is simple to understand and efficient in practice. Students should remember that transaction is closely related to primary key.
+
+Normalization
+Normalization is the process of organising tables to reduce redundancy and update anomalies. In practice, normalization is combined with transaction to solve larger problems. This idea is widely used in real world systems.
+
+Deadlock:
+Deadlock is a situation in which two transactions wait for each other to release locks. This idea is widely used in everyday software.
+
+Primary Key
+Primary key is a column or set of columns that uniquely identifies every row in a table. Note that primary key depends on the assumptions made about the problem.
+
+Indexing:
+Indexing is a structure that speeds up the retrieval of rows by searching on selected columns. A common mistake is to confuse indexing with SQL join. The main advantage of indexing is that it is simple to understand and efficient in practice.
+
+Summary
+In this unit we studied transaction, normalization, deadlock, primary key and indexing. These ideas form the foundation for further topics in Database Management Systems.
+
+Review questions
+1. What is transaction?
+2. Explain normalization with an example.

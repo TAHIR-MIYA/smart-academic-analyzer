@@ -1,0 +1,20 @@
+Horizon Engineering College
+Supplementary Examination - September 2026
+Subject: Database Management Systems (CS502)
+Time: 2 hours
+Maximum Marks: 30
+Seat No: ______________
+
+Instructions:
+1. Use of a non programmable calculator is permitted.
+2. Figures to the right indicate full marks.
+
+SECTION A (Answer the following. 1 marks each)
+Q1. State two applications of deadlock.
+Q2. Define primary key.
+Q3. Write the purpose of SQL join.
+
+Part B (8 marks each)
+Q4. What is SQL join? Explain the steps involved and compare it with ER diagram. [3 marks]
+Q5. Write short notes on any two: transaction, deadlock, ER diagram. (2 marks)
+Q6. Derive the necessary expressions for ER diagram and solve a numerical example. [10]

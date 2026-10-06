@@ -20,3 +20,7 @@
 2026-10-05 17:06:55,922 | INFO     | app.services.document_service | Stored document id=2 name='MBIT_CE_TAHIR_MIYA.pdf'
 2026-10-05 17:07:25,055 | INFO     | app.nlp.pipeline | Pipeline: 11 sentences, 343 tokens, 197 content lemmas
 2026-10-05 17:30:08,289 | INFO     | app.main | Shutting down
+2026-10-05 17:39:34,602 | INFO     | app.main | Starting Smart Academic Document Analyzer v0.1.0
+2026-10-05 17:39:34,603 | INFO     | app.db.database | Database ready at sqlite:///./data/analyzer.db
+2026-10-05 17:40:20,460 | INFO     | app.nlp.resources | Loaded spaCy model en_core_web_sm (pipeline: ['tok2vec', 'tagger', 'parser', 'attribute_ruler', 'lemmatizer', 'ner'])
+2026-10-05 17:40:20,547 | INFO     | app.nlp.pipeline | Pipeline: 11 sentences, 343 tokens, 197 content lemmas

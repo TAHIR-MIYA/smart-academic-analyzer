@@ -1,0 +1,34 @@
+Heat Engine Based Web Based Application for Traffic Analysis
+A project report submitted in partial fulfilment of the requirements for the degree of Bachelor of Engineering in Electronics Engineering
+Submitted by: Arjun Verma
+Under the guidance of: Prof. Anita Gupta
+Department of Electronics Engineering, National Institute of Applied Sciences, 2025
+
+1. Introduction
+In recent years Thermodynamics has become an important part of modern engineering. Manual processes are slow, error prone and difficult to scale. This project aims to address these issues by using heat engine.
+
+2. Problem Statement
+The existing system relies on manual effort and does not use heat engine. As a result, users face delays and inconsistent results. There is a need for a reliable system that applies first law of thermodynamics effectively.
+
+3. Objectives
+- To study existing approaches based on heat engine.
+- To design a system architecture that integrates first law of thermodynamics.
+- To implement and test the proposed system.
+- To evaluate performance and document the results.
+
+4. Implementation
+The system is implemented using Python and Flask. The main modules are the input module, the processing module and the output module. The heat engine component was implemented as a separate class so that it can be tested independently. Screenshots of the user interface are given in Figure 8.
+
+5. Results and Discussion
+The system was tested on 205 sample inputs and produced correct output in most cases. The results are summarised in Table 8. The proposed approach performs better than the baseline. Some errors occurred when the input data was incomplete.
+
+6. FUTURE SCOPE
+In future the system can be extended with more data and additional features. A mobile version and cloud deployment can be developed. Integration of first law of thermodynamics may further improve accuracy.
+
+7. Conclusion
+The project successfully met its objectives. The system demonstrates that heat engine can be applied effectively to this problem. The work also highlighted the importance of careful testing.
+
+References
+[1] A. Kumar, Thermodynamics: Principles and Practice, Tech Press, 2019.
+[2] R. Singh and P. Rao, "A study of heat engine", International Journal of Engineering Research, 2021.
+[3] Official documentation of Python and Flask.

@@ -1,0 +1,20 @@
+Chapter 7: Cosine Similarity
+
+Cosine Similarity
+Cosine similarity is a measure of the angle between two vectors used to compare documents. The main advantage of cosine similarity is that it is simple to understand and efficient in practice.
+
+Part-Of-Speech Tagging:
+Part-of-speech tagging is the assignment of grammatical categories such as noun or verb to each word. For example, consider a small case in Natural Language Processing where part-of-speech tagging is applied step by step. The main advantage of part-of-speech tagging is that it is simple to understand and efficient in practice. A common mistake is to confuse part-of-speech tagging with named entity recognition.
+
+Tokenization:
+Tokenization is the splitting of text into smaller units such as words or sentences. The main advantage of tokenization is that it is simple to understand and efficient in practice.
+
+Named Entity Recognition:
+Named entity recognition is the task of locating and classifying names of people, places and organisations in text. Students should remember that named entity recognition is closely related to cosine similarity. For example, consider a small case in Natural Language Processing where named entity recognition is applied step by step. A common mistake is to confuse named entity recognition with cosine similarity.
+
+Key points
+- Remember the definition of cosine similarity.
+- Part-of-speech tagging is related to named entity recognition.
+
+Summary
+In this unit we studied cosine similarity, part-of-speech tagging, tokenization and named entity recognition. These ideas form the foundation for further topics in Natural Language Processing.

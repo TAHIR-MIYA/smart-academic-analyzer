@@ -1,0 +1,19 @@
+Lecture Notes - Database Management Systems
+
+Deadlock
+Deadlock is a situation in which two transactions wait for each other to release locks. In practice, deadlock is combined with normalization to solve larger problems.
+
+Er Diagram:
+Er diagram is a diagram that models entities, attributes and the relationships between them. In practice, ER diagram is combined with transaction to solve larger problems. Note that ER diagram depends on the assumptions made about the problem. The main advantage of ER diagram is that it is simple to understand and efficient in practice.
+
+Sql Join
+Sql join is an operation that combines rows from two or more tables based on a related column. For example, consider a small case in Database Management Systems where SQL join is applied step by step. In practice, SQL join is combined with transaction to solve larger problems. Students should remember that SQL join is closely related to transaction.
+
+Primary Key:
+Primary key is a column or set of columns that uniquely identifies every row in a table. Students should remember that primary key is closely related to transaction. For example, consider a small case in Database Management Systems where primary key is applied step by step.
+
+Indexing:
+Indexing is a structure that speeds up the retrieval of rows by searching on selected columns. This idea is widely used in engineering design. Students should remember that indexing is closely related to SQL join. For example, consider a small case in Database Management Systems where indexing is applied step by step.
+
+Summary
+In this unit we studied deadlock, ER diagram, SQL join, primary key and indexing. These ideas form the foundation for further topics in Database Management Systems.

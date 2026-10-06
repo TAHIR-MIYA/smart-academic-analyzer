@@ -1,0 +1,15 @@
+Assignment No. 8
+Subject: Data Structures (CS301)
+Total marks: 15
+Faculty: Prof. Divya Gupta
+Semester: 8
+Last date of submission: April 19, 2025
+
+Instructions for students:
+- Hand over the completed assignment to the subject teacher in the lecture.
+- Write your name, roll number and division on the first page.
+- Upload a single PDF file on the college portal before the deadline.
+
+Q1. Differentiate between queue and hash table. - 5 marks
+2. Solve the problems on linked list given in the textbook exercise and show all steps. (5 marks)
+Q3. Explain binary search tree with a suitable example. [10]

@@ -1,0 +1,44 @@
+Multiplexer - Study Notes
+
+Learning objectives
+- Define multiplexer and explain where it is used.
+- Define flip-flop and explain where it is used.
+
+Multiplexer
+Multiplexer is a combinational circuit that selects one of many
+inputs and forwards it to a single output. In practice,
+multiplexer is combined with decoder to solve larger problems.
+Students should remember that multiplexer is closely related to
+decoder. This idea is widely used in academic research.
+
+Flip-Flop:
+Flip-flop is a bistable circuit that stores one bit of
+information. The main advantage of flip-flop is that it is
+simple to understand and efficient in practice. This idea is
+widely used in real world systems. For example, consider a small
+case in Digital Electronics where flip-flop is applied step by
+step.
+
+Shift Register:
+Shift register is a group of flip-flops that moves stored bits
+one position on every clock pulse. Students should remember that
+shift register is closely related to flip-flop. In practice,
+shift register is combined with flip-flop to solve larger
+problems.
+
+Logic Gate
+Logic gate is an elementary building block that performs a
+Boolean operation on one or more inputs. In practice, logic gate
+is combined with decoder to solve larger problems.
+
+Counter
+Counter is a sequential circuit that goes through a prescribed
+sequence of states on clock pulses. A common mistake is to
+confuse counter with logic gate. For example, consider a small
+case in Digital Electronics where counter is applied step by
+step.
+
+Summary
+In this unit we studied multiplexer, flip-flop, shift register,
+logic gate and counter. These ideas form the foundation for
+further topics in Digital Electronics.

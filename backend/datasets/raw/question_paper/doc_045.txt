@@ -1,0 +1,24 @@
+City Institute of Technology
+Final Examination - May 2025
+Subject: Computer Networks (CS503)
+Time: 2 hours
+Maximum Marks: 30
+Seat No: ______________
+
+Instructions:
+1. Figures to the right indicate full marks.
+2. Question 1 is compulsory. Solve any three from the remaining questions.
+3. Assume suitable data if required and state it clearly.
+4. Draw neat labelled diagrams wherever necessary.
+
+Section A (Answer the following. 2 marks each)
+Q1. Write the purpose of DNS.
+Q2. List the advantages of IP addressing.
+Q3. Name any two features of TCP.
+Q4. Write the purpose of firewall.
+
+Section B (8 marks each)
+Q5. Differentiate between DNS and congestion control with suitable examples. (6M)
+Q6. Derive the necessary expressions for TCP and solve a numerical example. (2 marks)
+Q7. Describe the working of DNS. Discuss its advantages and limitations. [4 marks]
+Q8. Describe the working of DNS. Discuss its advantages and limitations. (3 marks)

@@ -1,0 +1,21 @@
+Lecture Notes - Data Structures
+
+Graph Traversal
+Graph traversal is the systematic visiting of every vertex of a graph using breadth first or depth first search. For example, consider a small case in Data Structures where graph traversal is applied step by step. This idea is widely used in engineering design.
+
+Stack
+Stack is a linear structure that follows the last in first out principle. The main advantage of stack is that it is simple to understand and efficient in practice. In practice, stack is combined with linked list to solve larger problems. For example, consider a small case in Data Structures where stack is applied step by step.
+
+Queue:
+Queue is a linear structure that follows the first in first out principle. For example, consider a small case in Data Structures where queue is applied step by step.
+
+Key points
+- Remember the definition of graph traversal.
+- Stack is related to queue.
+
+Summary
+In this unit we studied graph traversal, stack and queue. These ideas form the foundation for further topics in Data Structures.
+
+Review questions
+1. What is graph traversal?
+2. Explain stack with an example.

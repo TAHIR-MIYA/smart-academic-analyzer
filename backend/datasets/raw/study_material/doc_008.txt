@@ -1,0 +1,37 @@
+Isothermal Process - Study Notes
+
+Learning objectives
+- Define isothermal process and explain where it is used.
+- Define enthalpy and explain where it is used.
+
+Isothermal Process
+Isothermal process is a process that takes place at constant
+temperature. Note that isothermal process depends on the assumptions
+made about the problem. Students should remember that isothermal
+process is closely related to entropy. A common mistake is to confuse
+isothermal process with entropy.
+
+Enthalpy:
+Enthalpy is the total heat content of a system at constant pressure.
+A common mistake is to confuse enthalpy with isothermal process. Note
+that enthalpy depends on the assumptions made about the problem.
+Students should remember that enthalpy is closely related to
+isothermal process.
+
+Heat Engine:
+Heat engine is a device that converts heat energy into useful
+mechanical work. For example, consider a small case in Thermodynamics
+where heat engine is applied step by step. In practice, heat engine
+is combined with isothermal process to solve larger problems. A
+common mistake is to confuse heat engine with isothermal process.
+
+Ideal Gas:
+Ideal gas is a hypothetical gas whose molecules have no volume and no
+mutual attraction. In practice, ideal gas is combined with isothermal
+process to solve larger problems. Note that ideal gas depends on the
+assumptions made about the problem.
+
+Summary
+In this unit we studied isothermal process, enthalpy, heat engine and
+ideal gas. These ideas form the foundation for further topics in
+Thermodynamics.

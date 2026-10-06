@@ -1,0 +1,16 @@
+ASSIGNMENT 7
+Faculty: Prof. Karan Khan
+Last date of submission: 11/06/2024
+Subject: Operating Systems (CS402)
+Total marks: 10
+Semester: 5
+
+Instructions for students:
+- Plagiarised work will not be accepted and will be awarded zero marks.
+- Write your name, roll number and division on the first page.
+
+1. Solve the problems on semaphore given in the textbook exercise and show all steps. (6M)
+Q2. Write a short note on file system and its applications in Operating Systems. [2]
+Q3. Differentiate between context switch and file system. 4 marks
+
+Assignments must be submitted to the subject teacher on or before the due date.

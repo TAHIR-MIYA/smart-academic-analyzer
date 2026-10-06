@@ -1,0 +1,40 @@
+Linked List - Study Notes
+
+Linked List:
+Linked list is a linear collection of nodes where each node stores a value and
+a pointer to the next node. In practice, linked list is combined with stack to
+solve larger problems. Students should remember that linked list is closely
+related to stack. Note that linked list depends on the assumptions made about
+the problem.
+
+Heap
+Heap is a complete binary tree that satisfies the heap ordering property. A
+common mistake is to confuse heap with hash table. This idea is widely used in
+engineering design. In practice, heap is combined with hash table to solve
+larger problems.
+
+Binary Search Tree
+Binary search tree is a tree in which the left subtree holds smaller keys and
+the right subtree holds larger keys. The main advantage of binary search tree
+is that it is simple to understand and efficient in practice.
+
+Hash Table:
+Hash table is a structure that maps keys to positions using a hash function for
+fast lookup. For example, consider a small case in Data Structures where hash
+table is applied step by step.
+
+Stack
+Stack is a linear structure that follows the last in first out principle. This
+idea is widely used in industry.
+
+Key points
+- Remember the definition of linked list.
+- Heap is related to stack.
+
+Summary
+In this unit we studied linked list, heap, binary search tree, hash table and
+stack. These ideas form the foundation for further topics in Data Structures.
+
+Review questions
+1. What is linked list?
+2. Explain heap with an example.

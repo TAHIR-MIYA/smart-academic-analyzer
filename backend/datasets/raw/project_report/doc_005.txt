@@ -1,0 +1,37 @@
+Serverless Computing Based Automated Analysis Tool for Online Examination
+A project report submitted in partial fulfilment of the requirements for the degree of Bachelor of Engineering in Information Technology
+Submitted by: Nikhil Desai
+Under the guidance of: Prof. Anita Joshi
+Department of Information Technology, Western Technical University, 2024
+
+Abstract
+This project presents the design and implementation of a automated analysis tool that applies serverless computing and auto scaling to automate routine tasks. The system was developed using Java and MySQL and tested on data collected from user surveys. Experimental results show that the system performs with acceptable accuracy compared with the existing approach. The report discusses the methodology, implementation, results and limitations of the work.
+
+1. Introduction
+In recent years Cloud Computing has become an important part of modern engineering. Manual processes are slow, error prone and difficult to scale. This project aims to address these issues by using serverless computing.
+
+2. Objectives
+- To study existing approaches based on serverless computing.
+- To design a system architecture that integrates auto scaling.
+- To implement and test the proposed system.
+- To evaluate performance and document the results.
+
+3. Literature Survey
+Several researchers have investigated serverless computing in the context of Cloud Computing. Earlier work proposed a method based on auto scaling which improved results on benchmark data. However, most existing work does not address scalability and usability.
+
+4. Methodology
+The methodology follows requirement analysis, design, implementation and testing. The input data is first cleaned and prepared. Then serverless computing is applied to extract the required information. Finally auto scaling is used to produce the output which is displayed to the user.
+
+5. RESULTS AND DISCUSSION
+The system was tested on 372 sample inputs and produced correct output in most cases. The results are summarised in Table 8. The proposed approach performs better than the baseline. Some errors occurred when the input data was incomplete.
+
+6. Future Scope
+In future the system can be extended with more data and additional features. A mobile version and cloud deployment can be developed. Integration of auto scaling may further improve accuracy.
+
+7. Conclusion
+The project successfully met its objectives. The system demonstrates that serverless computing can be applied effectively to this problem. The work also highlighted the importance of careful testing.
+
+References
+[1] A. Kumar, Cloud Computing: Principles and Practice, Tech Press, 2019.
+[2] R. Singh and P. Rao, "A study of serverless computing", International Journal of Engineering Research, 2021.
+[3] Official documentation of Java and MySQL.

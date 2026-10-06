@@ -1,0 +1,27 @@
+Cloud Computing - Assignment 4
+Last date of submission: May 19, 2026
+Semester: 4
+Faculty: Prof. Neha Desai
+Total marks: 25
+
+Instructions:
+- Answers should be in your own words and should not be copied
+from the textbook.
+- Group submissions are not allowed; every student must submit
+individually.
+- Late submissions will lose two marks for every day of delay.
+- Write your name, roll number and division on the first page.
+
+Task 1: Prepare a one page summary of service level agreement and
+attach it to your solved problems. [2]
+Q2. Write a short note on serverless computing and its
+applications in Cloud Computing. - 4 marks
+Q3. Explain service level agreement with a suitable example. 10
+marks
+Q4. Differentiate between load balancing and object storage. 6
+marks
+Q5. Explain service level agreement with a suitable example. - 5
+marks
+
+Assignments must be submitted to the subject teacher on or before
+the due date.

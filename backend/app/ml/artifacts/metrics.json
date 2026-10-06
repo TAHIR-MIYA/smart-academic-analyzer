@@ -1,0 +1,495 @@
+{
+  "created_at": "2026-10-05T12:09:28+00:00",
+  "random_state": 42,
+  "environment": {
+    "python": "3.13.15",
+    "scikit_learn": "1.9.1"
+  },
+  "dataset": {
+    "path": "D:\\TAHIR CODE\\smart-academic-analyzer\\backend\\datasets\\raw",
+    "source": "synthetic (template-generated; see datasets/DATASET.md)",
+    "n_documents": 300,
+    "class_counts": {
+      "assignment": 60,
+      "notice": 60,
+      "project_report": 60,
+      "question_paper": 60,
+      "study_material": 60
+    },
+    "train_size": 240,
+    "test_size": 60,
+    "test_fraction": 0.2
+  },
+  "features": {
+    "vectorizer": "TF-IDF, word 1-2 grams, min_df=2, sublinear tf",
+    "chosen_feature_set": "cleaned_text"
+  },
+  "selection": {
+    "method": "5-fold stratified cross-validation on the training split only",
+    "criterion": "mean macro-F1",
+    "tie_rule": "candidates within 0.005 of the best are tied; the first in canonical order (logistic regression, linear SVM, naive Bayes; cleaned text before lemmas) wins",
+    "candidates": [
+      {
+        "feature_set": "cleaned_text",
+        "classifier": "logistic_regression",
+        "cv_accuracy_mean": 1.0,
+        "cv_macro_f1_mean": 1.0,
+        "cv_macro_f1_std": 0.0
+      },
+      {
+        "feature_set": "cleaned_text",
+        "classifier": "linear_svm",
+        "cv_accuracy_mean": 1.0,
+        "cv_macro_f1_mean": 1.0,
+        "cv_macro_f1_std": 0.0
+      },
+      {
+        "feature_set": "cleaned_text",
+        "classifier": "naive_bayes",
+        "cv_accuracy_mean": 1.0,
+        "cv_macro_f1_mean": 1.0,
+        "cv_macro_f1_std": 0.0
+      },
+      {
+        "feature_set": "lemma_text",
+        "classifier": "logistic_regression",
+        "cv_accuracy_mean": 1.0,
+        "cv_macro_f1_mean": 1.0,
+        "cv_macro_f1_std": 0.0
+      },
+      {
+        "feature_set": "lemma_text",
+        "classifier": "linear_svm",
+        "cv_accuracy_mean": 1.0,
+        "cv_macro_f1_mean": 1.0,
+        "cv_macro_f1_std": 0.0
+      },
+      {
+        "feature_set": "lemma_text",
+        "classifier": "naive_bayes",
+        "cv_accuracy_mean": 1.0,
+        "cv_macro_f1_mean": 1.0,
+        "cv_macro_f1_std": 0.0
+      }
+    ],
+    "chosen": {
+      "feature_set": "cleaned_text",
+      "classifier": "logistic_regression",
+      "cv_accuracy_mean": 1.0,
+      "cv_macro_f1_mean": 1.0,
+      "cv_macro_f1_std": 0.0
+    }
+  },
+  "train_accuracy": 1.0,
+  "evaluations": {
+    "test_split": {
+      "n": 60,
+      "accuracy": 1.0,
+      "macro_precision": 1.0,
+      "macro_recall": 1.0,
+      "macro_f1": 1.0,
+      "weighted_f1": 1.0,
+      "per_class": {
+        "assignment": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 12
+        },
+        "notice": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 12
+        },
+        "project_report": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 12
+        },
+        "question_paper": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 12
+        },
+        "study_material": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 12
+        }
+      },
+      "labels": [
+        "assignment",
+        "notice",
+        "project_report",
+        "question_paper",
+        "study_material"
+      ],
+      "confusion_matrix": [
+        [
+          12,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          12,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          12,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          12,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          12
+        ]
+      ],
+      "description": "Stratified hold-out split of the generated dataset (same source as training)",
+      "mean_max_similarity_to_train": 0.6162,
+      "misclassified": []
+    },
+    "challenge_set": {
+      "n": 25,
+      "accuracy": 0.88,
+      "macro_precision": 0.9029,
+      "macro_recall": 0.88,
+      "macro_f1": 0.8822,
+      "weighted_f1": 0.8822,
+      "per_class": {
+        "assignment": {
+          "precision": 1.0,
+          "recall": 0.8,
+          "f1": 0.8889,
+          "support": 5
+        },
+        "notice": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 5
+        },
+        "project_report": {
+          "precision": 1.0,
+          "recall": 0.8,
+          "f1": 0.8889,
+          "support": 5
+        },
+        "question_paper": {
+          "precision": 0.8,
+          "recall": 0.8,
+          "f1": 0.8,
+          "support": 5
+        },
+        "study_material": {
+          "precision": 0.7143,
+          "recall": 1.0,
+          "f1": 0.8333,
+          "support": 5
+        }
+      },
+      "labels": [
+        "assignment",
+        "notice",
+        "project_report",
+        "question_paper",
+        "study_material"
+      ],
+      "confusion_matrix": [
+        [
+          4,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          5,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          4,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          4,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          5
+        ]
+      ],
+      "description": "Independent hand-written documents in different styles",
+      "mean_max_similarity_to_train": 0.2773,
+      "misclassified": [
+        {
+          "file": "assignment/sample_04.txt",
+          "true": "assignment",
+          "predicted": "question_paper"
+        },
+        {
+          "file": "question_paper/sample_03.txt",
+          "true": "question_paper",
+          "predicted": "study_material"
+        },
+        {
+          "file": "project_report/sample_02.txt",
+          "true": "project_report",
+          "predicted": "study_material"
+        }
+      ]
+    },
+    "real_set": null
+  },
+  "top_features": {
+    "assignment": [
+      {
+        "term": "assignment",
+        "weight": 1.172
+      },
+      {
+        "term": "marks",
+        "weight": 1.063
+      },
+      {
+        "term": "attach",
+        "weight": 1.057
+      },
+      {
+        "term": "prepare",
+        "weight": 0.943
+      },
+      {
+        "term": "suitable example",
+        "weight": 0.879
+      },
+      {
+        "term": "and attach",
+        "weight": 0.862
+      },
+      {
+        "term": "total marks",
+        "weight": 0.831
+      },
+      {
+        "term": "date of",
+        "weight": 0.82
+      },
+      {
+        "term": "submission",
+        "weight": 0.82
+      },
+      {
+        "term": "of submission",
+        "weight": 0.82
+      }
+    ],
+    "notice": [
+      {
+        "term": "informed that",
+        "weight": 1.423
+      },
+      {
+        "term": "informed",
+        "weight": 1.423
+      },
+      {
+        "term": "hereby",
+        "weight": 1.202
+      },
+      {
+        "term": "are hereby",
+        "weight": 1.202
+      },
+      {
+        "term": "hereby informed",
+        "weight": 1.202
+      },
+      {
+        "term": "students",
+        "weight": 1.169
+      },
+      {
+        "term": "students are",
+        "weight": 1.105
+      },
+      {
+        "term": "all",
+        "weight": 1.053
+      },
+      {
+        "term": "notice",
+        "weight": 0.935
+      },
+      {
+        "term": "ref no",
+        "weight": 0.934
+      }
+    ],
+    "project_report": [
+      {
+        "term": "system",
+        "weight": 0.842
+      },
+      {
+        "term": "the system",
+        "weight": 0.824
+      },
+      {
+        "term": "results",
+        "weight": 0.782
+      },
+      {
+        "term": "project",
+        "weight": 0.713
+      },
+      {
+        "term": "was",
+        "weight": 0.647
+      },
+      {
+        "term": "implementation",
+        "weight": 0.646
+      },
+      {
+        "term": "existing",
+        "weight": 0.641
+      },
+      {
+        "term": "can be",
+        "weight": 0.631
+      },
+      {
+        "term": "can",
+        "weight": 0.631
+      },
+      {
+        "term": "module",
+        "weight": 0.574
+      }
+    ],
+    "question_paper": [
+      {
+        "term": "marks",
+        "weight": 1.076
+      },
+      {
+        "term": "any",
+        "weight": 0.89
+      },
+      {
+        "term": "hours maximum",
+        "weight": 0.874
+      },
+      {
+        "term": "time",
+        "weight": 0.874
+      },
+      {
+        "term": "maximum marks",
+        "weight": 0.874
+      },
+      {
+        "term": "time hours",
+        "weight": 0.874
+      },
+      {
+        "term": "necessary",
+        "weight": 0.873
+      },
+      {
+        "term": "maximum",
+        "weight": 0.835
+      },
+      {
+        "term": "answer",
+        "weight": 0.834
+      },
+      {
+        "term": "marks each",
+        "weight": 0.761
+      }
+    ],
+    "study_material": [
+      {
+        "term": "where",
+        "weight": 0.99
+      },
+      {
+        "term": "step",
+        "weight": 0.988
+      },
+      {
+        "term": "in practice",
+        "weight": 0.962
+      },
+      {
+        "term": "remember",
+        "weight": 0.822
+      },
+      {
+        "term": "unit",
+        "weight": 0.746
+      },
+      {
+        "term": "common",
+        "weight": 0.718
+      },
+      {
+        "term": "is to",
+        "weight": 0.713
+      },
+      {
+        "term": "common mistake",
+        "weight": 0.713
+      },
+      {
+        "term": "mistake",
+        "weight": 0.713
+      },
+      {
+        "term": "mistake is",
+        "weight": 0.713
+      }
+    ]
+  },
+  "notes": [
+    "train_accuracy is measured on data the model was fitted to and must not be quoted as performance.",
+    "test_split comes from the same generator as the training data, so it is an optimistic estimate.",
+    "challenge_set was written by hand in different styles; real_set (if present) is the most honest estimate.",
+    "A small evaluation set means every metric has wide uncertainty; one document changes accuracy by 1/n."
+  ]
+}

@@ -1,0 +1,23 @@
+Chapter 3: Decoder
+
+Decoder
+Decoder is a combinational circuit that converts binary input codes into distinct output lines. Students should remember that decoder is closely related to Karnaugh map.
+
+Logic Gate
+Logic gate is an elementary building block that performs a Boolean operation on one or more inputs. This idea is widely used in industry. The main advantage of logic gate is that it is simple to understand and efficient in practice.
+
+Flip-Flop:
+Flip-flop is a bistable circuit that stores one bit of information. This idea is widely used in real world systems. Note that flip-flop depends on the assumptions made about the problem. For example, consider a small case in Digital Electronics where flip-flop is applied step by step.
+
+Counter
+Counter is a sequential circuit that goes through a prescribed sequence of states on clock pulses. In practice, counter is combined with shift register to solve larger problems. Note that counter depends on the assumptions made about the problem.
+
+Shift Register
+Shift register is a group of flip-flops that moves stored bits one position on every clock pulse. Students should remember that shift register is closely related to decoder. For example, consider a small case in Digital Electronics where shift register is applied step by step. This idea is widely used in industry.
+
+Summary
+In this unit we studied decoder, logic gate, flip-flop, counter and shift register. These ideas form the foundation for further topics in Digital Electronics.
+
+Review questions
+1. What is decoder?
+2. Explain logic gate with an example.

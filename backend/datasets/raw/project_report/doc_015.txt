@@ -1,0 +1,49 @@
+Part-Of-Speech Tagging Based Monitoring System for Student Performance Analysis
+A project report submitted in partial fulfilment of the requirements for the
+degree of Bachelor of Engineering in Information Technology
+Submitted by: Neha Bose
+Under the guidance of: Prof. Karan Nair
+Department of Information Technology, City Institute of Technology, 2026
+
+Abstract
+This project presents the design and implementation of a monitoring system that
+applies part-of-speech tagging and language model to support faster decisions.
+The system was developed using Android Studio and Firebase and tested on data
+collected from sensors installed in the laboratory. Experimental results show
+that the system performs faster and more accurately compared with the existing
+approach. The report discusses the methodology, implementation, results and
+limitations of the work.
+
+1. Problem Statement
+The existing system relies on manual effort and does not use part-of-speech
+tagging. As a result, users face delays and inconsistent results. There is a
+need for a reliable system that applies language model effectively.
+
+2. Methodology
+The methodology follows requirement analysis, design, implementation and
+testing. The input data is first cleaned and prepared. Then part-of-speech
+tagging is applied to extract the required information. Finally language model
+is used to produce the output which is displayed to the user.
+
+3. RESULTS AND DISCUSSION
+The system was tested on 365 sample inputs and produced correct output in most
+cases. The results are summarised in Table 3. The proposed approach performs
+better than the baseline. Some errors occurred when the input data was
+incomplete.
+
+4. Future Scope
+In future the system can be extended with more data and additional features. A
+mobile version and cloud deployment can be developed. Integration of language
+model may further improve accuracy.
+
+5. Conclusion
+The project successfully met its objectives. The system demonstrates that part-
+of-speech tagging can be applied effectively to this problem. The work also
+highlighted the importance of careful testing.
+
+References
+[1] A. Kumar, Natural Language Processing: Principles and Practice, Tech Press,
+2019.
+[2] R. Singh and P. Rao, "A study of part-of-speech tagging", International
+Journal of Engineering Research, 2021.
+[3] Official documentation of Android Studio and Firebase.

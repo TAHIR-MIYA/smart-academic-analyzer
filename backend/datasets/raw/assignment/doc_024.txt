@@ -1,0 +1,18 @@
+Data Structures - Assignment 8
+Faculty: Prof. Vikram Nair
+Last date of submission: 14/12/2024
+Semester: 8
+Subject: Data Structures (CS301)
+
+Instructions for students:
+- Write your name, roll number and division on the first page.
+- Attach the printed output wherever a program is required.
+- Plagiarised work will not be accepted and will be awarded zero marks.
+- Upload a single PDF file on the college portal before the deadline.
+
+Q1. Collect two real world examples of binary search tree and discuss how graph traversal is related to them. - 5 marks
+Q2. Explain stack with a suitable example. (2M)
+Q3. Differentiate between linked list and queue. [6]
+4. Solve the problems on hash table given in the textbook exercise and show all steps. (2M)
+
+Assignments must be submitted to the subject teacher on or before the due date.

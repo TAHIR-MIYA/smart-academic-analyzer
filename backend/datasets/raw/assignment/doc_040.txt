@@ -1,0 +1,12 @@
+ASSIGNMENT 6
+Last date of submission: October 11, 2025
+Faculty: Prof. Nikhil Sharma
+Semester: 8
+Subject: Digital Electronics (EC302)
+
+Q1. Explain multiplexer with a suitable example. [5 marks]
+Q2. Prepare a report on flip-flop covering definition, working and limitations. 4 marks
+Q3. Explain shift register with a suitable example. [6]
+Task 4: Prepare a one page summary of counter and attach it to your solved problems. (4M)
+Q5. Implement a small program that demonstrates shift register and attach the output. [5]
+6. Solve the problems on decoder given in the textbook exercise and show all steps. 4 marks

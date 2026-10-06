@@ -1,0 +1,21 @@
+Unit 5: Cloud Computing
+
+Learning objectives
+- Define virtualization and explain where it is used.
+- Define service level agreement and explain where it is used.
+
+Virtualization
+Virtualization is the creation of virtual versions of hardware so that many machines share one physical server. In practice, virtualization is combined with object storage to solve larger problems. Students should remember that virtualization is closely related to object storage.
+
+Service Level Agreement:
+Service level agreement is a contract that defines the availability and performance a provider must deliver. This idea is widely used in academic research.
+
+Load Balancing
+Load balancing is the distribution of incoming requests across several servers to avoid overload. This idea is widely used in engineering design. Note that load balancing depends on the assumptions made about the problem. The main advantage of load balancing is that it is simple to understand and efficient in practice.
+
+Key points
+- Remember the definition of virtualization.
+- Service level agreement is related to load balancing.
+
+Summary
+In this unit we studied virtualization, service level agreement and load balancing. These ideas form the foundation for further topics in Cloud Computing.

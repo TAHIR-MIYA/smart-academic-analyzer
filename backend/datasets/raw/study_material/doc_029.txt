@@ -1,0 +1,35 @@
+Learning objectives
+- Define language model and explain where it is used.
+- Define stemming and explain where it is used.
+
+Language Model
+Language model is a model that assigns probabilities to sequences of
+words. This idea is widely used in industry. Note that language model
+depends on the assumptions made about the problem. A common mistake is
+to confuse language model with TF-IDF.
+
+Stemming
+Stemming is a rule based reduction of words to a common root form by
+removing suffixes. In practice, stemming is combined with tokenization
+to solve larger problems. For example, consider a small case in
+Natural Language Processing where stemming is applied step by step.
+
+Tokenization
+Tokenization is the splitting of text into smaller units such as words
+or sentences. In practice, tokenization is combined with part-of-
+speech tagging to solve larger problems. For example, consider a small
+case in Natural Language Processing where tokenization is applied step
+by step. This idea is widely used in everyday software.
+
+Key points
+- Remember the definition of language model.
+- Stemming is related to tokenization.
+
+Summary
+In this unit we studied language model, stemming and tokenization.
+These ideas form the foundation for further topics in Natural Language
+Processing.
+
+Review questions
+1. What is language model?
+2. Explain stemming with an example.

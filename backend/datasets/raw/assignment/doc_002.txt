@@ -1,0 +1,17 @@
+Assignment No. 1
+Total marks: 10
+Faculty: Prof. Sneha Sharma
+Subject: Operating Systems (CS402)
+Last date of submission: July 22, 2025
+Semester: 5
+
+Note:
+- Write your name, roll number and division on the first page.
+- Submit the assignment in neat handwriting on A4 sheets.
+
+Task 1: Prepare a one page summary of context switch and attach it to your solved
+problems. [6 marks]
+Q2. Collect two real world examples of file system and discuss how paging is related to
+them. (10 marks)
+Q3. Prepare a report on context switch covering definition, working and limitations. - 2
+marks

@@ -1,0 +1,15 @@
+ASSIGNMENT 5: CLOUD COMPUTING
+Faculty: Prof. Sana Nair
+Subject: Cloud Computing (CS805)
+Semester: 7
+Last date of submission: 2 May 2024
+
+Instructions for students:
+- Attach the printed output wherever a program is required.
+- Answers should be in your own words and should not be copied from the textbook.
+
+1. Solve the problems on service level agreement given in the textbook exercise and show all steps. (10M)
+2. Solve the problems on auto scaling given in the textbook exercise and show all steps. [10 marks]
+Q3. Implement a small program that demonstrates containers and attach the output. (10M)
+
+Assignments must be submitted to the subject teacher on or before the due date.

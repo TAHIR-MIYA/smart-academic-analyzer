@@ -1,0 +1,20 @@
+Horizon Engineering College
+Mid Semester Examination - November 2026
+Subject: Thermodynamics (ME301)
+Time: 1 hours
+Maximum Marks: 70
+
+Instructions:
+1. Question 1 is compulsory. Solve any three from the remaining questions.
+2. Figures to the right indicate full marks.
+
+SECTION A (Answer the following. 2 marks each)
+Q1. Name any two features of ideal gas.
+Q2. Name any two features of enthalpy.
+Q3. Name any two features of ideal gas.
+
+SECTION B (10 marks each)
+Q4. What is enthalpy? Explain the steps involved and compare it with isothermal process. [3]
+Q5. Discuss how ideal gas is used in Thermodynamics. Support your answer with an example. 10 marks
+Q6. Describe the working of first law of thermodynamics. Discuss its advantages and limitations. 3 marks
+Q7. What is Carnot cycle? Explain the steps involved and compare it with entropy. [2]

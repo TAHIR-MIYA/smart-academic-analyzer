@@ -1,0 +1,27 @@
+City Institute of Technology
+Mid Semester Examination - October 2024
+Subject: Database Management Systems (CS502)
+Time: 1 hours
+Maximum Marks: 30
+Seat No: ______________
+
+Instructions:
+1. Figures to the right indicate full marks.
+2. All questions are compulsory.
+3. Draw neat labelled diagrams wherever necessary.
+4. Assume suitable data if required and state it clearly.
+
+Part A (Answer the following. 2 marks each)
+Q1. Define indexing.
+Q2. List the advantages of SQL join.
+Q3. Differentiate between primary key and indexing in one line.
+Q4. What is deadlock?
+Q5. Define primary key.
+
+SECTION B (8 marks each)
+Q6. What is normalization? Explain the steps involved and compare it with ER
+diagram. (3M)
+Q7. Derive the necessary expressions for deadlock and solve a numerical
+example. (8M)
+Q8. Describe the working of deadlock. Discuss its advantages and limitations.
+- 5 marks
