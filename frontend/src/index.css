@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: "IBM Plex Sans", system-ui, sans-serif;
+    background: #f5f6f8;
+  }
+  body {
+    @apply bg-paper text-ink text-[15px] leading-relaxed antialiased;
+  }
+  h1,
+  h2,
+  h3 {
+    @apply font-serif text-ink;
+  }
+  :focus-visible {
+    outline: 2px solid #1f6f5c;
+    outline-offset: 2px;
+  }
+}

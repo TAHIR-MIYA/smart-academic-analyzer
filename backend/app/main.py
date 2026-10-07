@@ -40,6 +40,7 @@ def create_app() -> FastAPI:
         allow_origins=settings.cors_origins,
         allow_methods=["*"],
         allow_headers=["*"],
+        expose_headers=["Content-Disposition"],  # lets the browser read the download file name
     )
 
     @app.exception_handler(AppError)
