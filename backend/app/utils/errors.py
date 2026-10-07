@@ -54,3 +54,8 @@ class ModelNotTrainedError(AppError):
 
 class DatasetError(Exception):
     """Raised by the training code for a missing or invalid dataset (not an HTTP error)."""
+
+
+class OutdatedAnalysisError(AppError):
+    status_code = 409
+    code = "analysis_outdated"

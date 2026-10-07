@@ -116,3 +116,12 @@ def trained_artifacts(tmp_path_factory):
                     reference_idf_path=ref, cv_folds=3, seed=42)
     return {"root": root, "artifacts": out, "reference": ref, "metrics": metrics,
             "model": out / "model.joblib", "metrics_path": out / "metrics.json"}
+
+
+@pytest.fixture
+def trained_client(client, trained_artifacts, tmp_path):
+    """The API client, configured to use the small model trained by `trained_artifacts`."""
+    app.dependency_overrides[get_settings] = lambda: isolated_settings(
+        tmp_path, model_path=trained_artifacts["model"], metrics_path=trained_artifacts["metrics_path"],
+        reference_idf_path=trained_artifacts["reference"])
+    return client

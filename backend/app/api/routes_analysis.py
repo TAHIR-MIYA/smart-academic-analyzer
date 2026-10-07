@@ -4,6 +4,7 @@ from sqlalchemy.orm import Session
 from app.config import Settings, get_settings
 from app.db.database import get_db
 from app.schemas.analysis import (
+    FullAnalysisResponse,
     CompareRequest,
     ComparisonResponse,
     PreviewFull,
@@ -21,6 +22,7 @@ from app.schemas.analysis import (
 )
 from app.schemas.document import ErrorResponse
 from app.services import analysis_service as svc
+from app.services import analysis_store
 from app.utils.errors import ModelNotTrainedError, NLPResourceError
 
 router = APIRouter(prefix="/api/analysis", tags=["analysis"])
@@ -151,3 +153,17 @@ def preview_text(body: PreviewRequest, settings: Settings = Depends(get_settings
         topic_similarity=topic,
         topic_similarity_error=topic_error,
     )
+
+
+# NOTE: the two routes below take a bare {document_id}; they must stay AFTER the literal paths
+# /compare and /preview, otherwise "compare" would be matched as a document id.
+@router.post("/{document_id}", response_model=FullAnalysisResponse, responses={**_errors, 409: {"model": ErrorResponse}})
+def run_analysis(document_id: int, db: Session = Depends(get_db), settings: Settings = Depends(get_settings)):
+    """Run every analysis for a stored document and save the result (replacing any earlier one)."""
+    return analysis_store.run_and_store(db, document_id, settings)
+
+
+@router.get("/{document_id}", response_model=FullAnalysisResponse, responses={**_errors, 409: {"model": ErrorResponse}})
+def get_saved_analysis(document_id: int, db: Session = Depends(get_db)):
+    """The saved analysis; 404 if it has not been run yet, 409 if it was saved by an older version."""
+    return analysis_store.get_stored(db, document_id)

@@ -14,14 +14,6 @@ def _upload(client, text=NOTICE):
     return r.json()["id"]
 
 
-@pytest.fixture
-def trained_client(client, trained_artifacts, tmp_path):
-    app.dependency_overrides[get_settings] = lambda: isolated_settings(
-        tmp_path, model_path=trained_artifacts["model"], metrics_path=trained_artifacts["metrics_path"],
-        reference_idf_path=trained_artifacts["reference"])
-    return client
-
-
 # ---------- no model trained ----------
 def test_classification_503_when_model_missing(client):
     doc_id = _upload(client)

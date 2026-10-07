@@ -16,6 +16,7 @@ class DocumentSummary(BaseModel):
     extraction_method: str
     warnings: list[str]
     created_at: datetime
+    analyzed: bool = False  # a saved analysis exists for this document
 
 
 class DocumentDetail(DocumentSummary):

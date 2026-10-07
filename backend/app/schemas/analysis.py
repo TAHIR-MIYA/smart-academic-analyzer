@@ -365,3 +365,81 @@ class PreviewFull(PreviewResponse):
 
 
 PreviewFull.model_rebuild()
+
+
+# ---------------------------------------------------------------------------
+# Module 6: saved analysis + dashboard
+# ---------------------------------------------------------------------------
+class DocumentInfo(BaseModel):
+    id: int
+    filename: str
+    file_type: str
+    size_bytes: int
+    page_count: int | None
+    char_count: int
+    word_count: int
+    uploaded_at: str
+    extraction_warnings: list[str]
+
+
+class FullAnalysisResponse(BaseModel):
+    schema_version: int
+    generated_at: str
+    app_version: str
+    document: DocumentInfo
+    preprocessing: PreprocessingResponse
+    statistics: TextStatistics
+    keywords: KeywordsResult
+    ngrams: NgramsResult
+    entities: EntitiesResult
+    classification: ClassificationResult | None = None
+    classification_error: str | None = None
+    summary: SummaryResult | None = None
+    summary_error: str | None = None
+    readability: ReadabilityResult
+    vocabulary: VocabularyResult
+    topic_similarity: TopicSimilarityResult | None = None
+    topic_similarity_error: str | None = None
+
+
+class ClassCount(BaseModel):
+    label: str
+    display_name: str
+    count: int
+
+
+class DashboardModelEval(BaseModel):
+    name: str
+    description: str
+    n: int
+    accuracy: float
+    macro_f1: float
+
+
+class DashboardModel(BaseModel):
+    trained: bool
+    trained_at: str | None
+    classifier: str | None
+    feature_set: str | None
+    evaluations: list[DashboardModelEval]
+    note: str
+
+
+class RecentDocument(BaseModel):
+    id: int
+    filename: str
+    file_type: str
+    word_count: int
+    analyzed: bool
+    created_at: str
+
+
+class DashboardResponse(BaseModel):
+    total_documents: int
+    analyzed_documents: int
+    total_words: int
+    by_file_type: dict[str, int]
+    class_distribution: list[ClassCount]
+    uncertain_predictions: int
+    recent_documents: list[RecentDocument]
+    model: DashboardModel

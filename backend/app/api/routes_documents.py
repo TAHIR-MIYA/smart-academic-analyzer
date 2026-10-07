@@ -4,7 +4,7 @@ from sqlalchemy.orm import Session
 from app.config import Settings, get_settings
 from app.db.database import get_db
 from app.schemas.document import DocumentDetail, DocumentSummary, ErrorResponse
-from app.services import document_service
+from app.services import analysis_store, document_service
 
 router = APIRouter(prefix="/api/documents", tags=["documents"])
 
@@ -31,12 +31,18 @@ def upload_document(
 
 @router.get("", response_model=list[DocumentSummary])
 def list_documents(db: Session = Depends(get_db)):
-    return document_service.list_documents(db)
+    docs = document_service.list_documents(db)
+    analysed = analysis_store.analysed_document_ids(db)
+    for doc in docs:
+        doc.analyzed = doc.id in analysed  # plain attribute, not a column
+    return docs
 
 
 @router.get("/{document_id}", response_model=DocumentDetail, responses={404: {"model": ErrorResponse}})
 def get_document(document_id: int, db: Session = Depends(get_db)):
-    return document_service.get_document(db, document_id)
+    doc = document_service.get_document(db, document_id)
+    doc.analyzed = document_id in analysis_store.analysed_document_ids(db)
+    return doc
 
 
 @router.delete("/{document_id}", status_code=204, responses={404: {"model": ErrorResponse}})
