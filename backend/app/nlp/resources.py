@@ -1,5 +1,6 @@
 """Checks that required NLP resources are installed, without crashing the app if they are not."""
 import logging
+from functools import lru_cache
 from importlib.util import find_spec
 
 logger = logging.getLogger(__name__)
@@ -8,15 +9,28 @@ SPACY_MODEL = "en_core_web_sm"
 NLTK_RESOURCES = {"punkt_tab": "tokenizers/punkt_tab", "stopwords": "corpora/stopwords"}
 
 
+@lru_cache(maxsize=1)
+def spacy_load_problem() -> str | None:
+    """None if spaCy imports; otherwise why not (not installed, or installed but blocked, e.g. by Windows
+    Application Control refusing one of its compiled files). Cached so repeated health checks stay cheap."""
+    if find_spec("spacy") is None:
+        return "spaCy is not installed"
+    try:
+        import spacy  # noqa: F401
+    except Exception as exc:  # ImportError, OSError from a blocked DLL, ...
+        logger.warning("spaCy is installed but cannot be loaded: %s", exc)
+        return f"spaCy is installed but cannot be loaded: {exc}"
+    return None
+
+
 def check_nlp_resources() -> dict:
     missing: list[str] = []
     fixes: list[str] = []
-
-    spacy_ok = find_spec("spacy") is not None
+    spacy_problem = spacy_load_problem()
     model_ok = find_spec(SPACY_MODEL) is not None
-    if not spacy_ok:
-        missing.append("spacy")
-        fixes.append("pip install spacy")
+    if spacy_problem:
+        missing.append(spacy_problem)
+        fixes.append("pip install spacy" if "not installed" in spacy_problem else "see TROUBLESHOOTING.md")
     elif not model_ok:
         missing.append(f"spacy model {SPACY_MODEL}")
         fixes.append(f"python -m spacy download {SPACY_MODEL}")
@@ -44,6 +58,7 @@ def check_nlp_resources() -> dict:
     return {
         "ready": ready,
         "spacy_model": SPACY_MODEL,
+        "spacy_problem": spacy_problem,
         "nltk_data": nltk_data,
         "missing": missing,
         "fix": sorted(set(fixes)),
@@ -72,6 +87,11 @@ def get_spacy_model():
 
         nlp = spacy.load(SPACY_MODEL)
     except (ImportError, OSError) as exc:
+        if spacy_load_problem():  # spaCy itself is unusable, not just the model
+            raise NLPResourceError(
+                "spaCy is installed but cannot be loaded on this computer, so lemmatisation and entity recognition are unavailable.",
+                details={"cause": str(exc), "fix": "see TROUBLESHOOTING.md"},
+            ) from exc
         raise NLPResourceError(
             f"The spaCy model '{SPACY_MODEL}' is not installed.",
             details={"fix": "python -m scripts.setup_nlp"},

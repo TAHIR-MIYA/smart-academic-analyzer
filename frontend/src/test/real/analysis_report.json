@@ -1,0 +1,1900 @@
+{
+ "schema_version": 1,
+ "generated_at": "2026-10-07T01:55:48+00:00",
+ "app_version": "0.1.0",
+ "document": {
+  "id": 1,
+  "filename": "doc_007.txt",
+  "file_type": "txt",
+  "size_bytes": 2470,
+  "page_count": null,
+  "char_count": 2469,
+  "word_count": 371,
+  "uploaded_at": "2026-10-07T01:55:36",
+  "extraction_warnings": []
+ },
+ "preprocessing": {
+  "document_id": 1,
+  "truncated": false,
+  "warnings": [],
+  "cleaning": {
+   "operations": [
+    {
+     "name": "Invisible characters",
+     "description": "Removed soft hyphens and zero-width characters",
+     "count": 0
+    },
+    {
+     "name": "Unicode normalisation",
+     "description": "NFKC: ligatures and compatibility characters -> plain letters",
+     "count": 0
+    },
+    {
+     "name": "Typographic punctuation",
+     "description": "Curly quotes, long dashes and bullet symbols standardised",
+     "count": 0
+    },
+    {
+     "name": "Control characters",
+     "description": "Removed non-printable control characters",
+     "count": 0
+    },
+    {
+     "name": "Hyphenated line breaks",
+     "description": "Rejoined words split across lines with a hyphen",
+     "count": 0
+    },
+    {
+     "name": "URLs",
+     "description": "Removed web addresses",
+     "count": 0
+    },
+    {
+     "name": "E-mail addresses",
+     "description": "Removed e-mail addresses",
+     "count": 0
+    },
+    {
+     "name": "Page numbers",
+     "description": "Removed lines that contain only a page number",
+     "count": 0
+    },
+    {
+     "name": "Repeated headers/footers",
+     "description": "Removed multi-word lines repeated 3+ times (running headers)",
+     "count": 0
+    },
+    {
+     "name": "Line-wrap joins",
+     "description": "Merged lines broken in the middle of a sentence",
+     "count": 0
+    },
+    {
+     "name": "Whitespace",
+     "description": "Collapsed repeated spaces and blank lines",
+     "count": 0
+    }
+   ],
+   "original_characters": 2469,
+   "cleaned_characters": 2469
+  },
+  "stages": [
+   {
+    "name": "1. Tokenisation",
+    "description": "NLTK word_tokenize: words, numbers and punctuation",
+    "token_count": 437,
+    "unique_count": 222,
+    "sample": [
+     "Thread",
+     "Based",
+     "Decision",
+     "Support",
+     "System",
+     "for",
+     "Online",
+     "Examination",
+     ".",
+     "A",
+     "project",
+     "report",
+     "submitted",
+     "in",
+     "partial",
+     "fulfilment",
+     "of",
+     "the",
+     "requirements",
+     "for",
+     "the",
+     "degree",
+     "of",
+     "Bachelor",
+     "of"
+    ]
+   },
+   {
+    "name": "2. Word filtering",
+    "description": "Keep alphabetic tokens (length >= 2); drop punctuation and numbers",
+    "token_count": 345,
+    "unique_count": 198,
+    "sample": [
+     "Thread",
+     "Based",
+     "Decision",
+     "Support",
+     "System",
+     "for",
+     "Online",
+     "Examination",
+     "project",
+     "report",
+     "submitted",
+     "in",
+     "partial",
+     "fulfilment",
+     "of",
+     "the",
+     "requirements",
+     "for",
+     "the",
+     "degree",
+     "of",
+     "Bachelor",
+     "of",
+     "Engineering",
+     "in"
+    ]
+   },
+   {
+    "name": "3. Case folding",
+    "description": "Lower-case every token so 'The' and 'the' count as one type",
+    "token_count": 345,
+    "unique_count": 184,
+    "sample": [
+     "thread",
+     "based",
+     "decision",
+     "support",
+     "system",
+     "for",
+     "online",
+     "examination",
+     "project",
+     "report",
+     "submitted",
+     "in",
+     "partial",
+     "fulfilment",
+     "of",
+     "the",
+     "requirements",
+     "for",
+     "the",
+     "degree",
+     "of",
+     "bachelor",
+     "of",
+     "engineering",
+     "in"
+    ]
+   },
+   {
+    "name": "4. Stop-word removal",
+    "description": "Remove high-frequency function words (NLTK list + a few extras)",
+    "token_count": 222,
+    "unique_count": 150,
+    "sample": [
+     "thread",
+     "based",
+     "decision",
+     "support",
+     "system",
+     "online",
+     "examination",
+     "project",
+     "report",
+     "submitted",
+     "partial",
+     "fulfilment",
+     "requirements",
+     "degree",
+     "bachelor",
+     "engineering",
+     "electrical",
+     "engineering",
+     "submitted",
+     "vikram",
+     "sharma",
+     "guidance",
+     "imran",
+     "reddy",
+     "department"
+    ]
+   },
+   {
+    "name": "5. Lemmatisation",
+    "description": "Replace each word by its dictionary form using spaCy (POS-aware)",
+    "token_count": 222,
+    "unique_count": 142,
+    "sample": [
+     "thread",
+     "based",
+     "decision",
+     "support",
+     "system",
+     "online",
+     "examination",
+     "project",
+     "report",
+     "submit",
+     "partial",
+     "fulfilment",
+     "requirement",
+     "degree",
+     "bachelor",
+     "engineering",
+     "electrical",
+     "engineering",
+     "submit",
+     "vikram",
+     "sharma",
+     "guidance",
+     "imran",
+     "reddy",
+     "department"
+    ]
+   }
+  ],
+  "removed_stopwords": [
+   {
+    "term": "the",
+    "count": 27
+   },
+   {
+    "term": "and",
+    "count": 17
+   },
+   {
+    "term": "of",
+    "count": 13
+   },
+   {
+    "term": "in",
+    "count": 6
+   },
+   {
+    "term": "to",
+    "count": 5
+   },
+   {
+    "term": "on",
+    "count": 5
+   },
+   {
+    "term": "is",
+    "count": 5
+   },
+   {
+    "term": "that",
+    "count": 4
+   },
+   {
+    "term": "for",
+    "count": 3
+   },
+   {
+    "term": "was",
+    "count": 3
+   }
+  ],
+  "stopword_removal_rate": 0.3565,
+  "top_terms": [
+   {
+    "term": "system",
+    "count": 14
+   },
+   {
+    "term": "thread",
+    "count": 7
+   },
+   {
+    "term": "result",
+    "count": 7
+   },
+   {
+    "term": "file",
+    "count": 5
+   },
+   {
+    "term": "engineering",
+    "count": 4
+   },
+   {
+    "term": "apply",
+    "count": 4
+   },
+   {
+    "term": "datum",
+    "count": 4
+   },
+   {
+    "term": "work",
+    "count": 4
+   },
+   {
+    "term": "project",
+    "count": 3
+   },
+   {
+    "term": "implementation",
+    "count": 3
+   },
+   {
+    "term": "use",
+    "count": 3
+   },
+   {
+    "term": "user",
+    "count": 3
+   },
+   {
+    "term": "exist",
+    "count": 3
+   },
+   {
+    "term": "methodology",
+    "count": 3
+   },
+   {
+    "term": "input",
+    "count": 3
+   },
+   {
+    "term": "decision",
+    "count": 2
+   },
+   {
+    "term": "support",
+    "count": 2
+   },
+   {
+    "term": "report",
+    "count": 2
+   },
+   {
+    "term": "submit",
+    "count": 2
+   },
+   {
+    "term": "requirement",
+    "count": 2
+   }
+  ],
+  "stem_vs_lemma": [
+   {
+    "word": "data",
+    "stem": "data",
+    "lemma": "datum",
+    "pos": "NOUN"
+   },
+   {
+    "word": "engineering",
+    "stem": "engin",
+    "lemma": "engineering",
+    "pos": "PROPN"
+   },
+   {
+    "word": "implementation",
+    "stem": "implement",
+    "lemma": "implementation",
+    "pos": "NOUN"
+   },
+   {
+    "word": "methodology",
+    "stem": "methodolog",
+    "lemma": "methodology",
+    "pos": "NOUN"
+   },
+   {
+    "word": "based",
+    "stem": "base",
+    "lemma": "based",
+    "pos": "PROPN"
+   },
+   {
+    "word": "decision",
+    "stem": "decis",
+    "lemma": "decision",
+    "pos": "PROPN"
+   },
+   {
+    "word": "electrical",
+    "stem": "electr",
+    "lemma": "electrical",
+    "pos": "PROPN"
+   },
+   {
+    "word": "applies",
+    "stem": "appli",
+    "lemma": "apply",
+    "pos": "VERB"
+   },
+   {
+    "word": "accuracy",
+    "stem": "accuraci",
+    "lemma": "accuracy",
+    "pos": "NOUN"
+   },
+   {
+    "word": "effectively",
+    "stem": "effect",
+    "lemma": "effectively",
+    "pos": "ADV"
+   },
+   {
+    "word": "operating",
+    "stem": "oper",
+    "lemma": "operating",
+    "pos": "PROPN"
+   },
+   {
+    "word": "systems",
+    "stem": "system",
+    "lemma": "systems",
+    "pos": "PROPN"
+   },
+   {
+    "word": "proposed",
+    "stem": "propos",
+    "lemma": "propose",
+    "pos": "VERB"
+   },
+   {
+    "word": "testing",
+    "stem": "test",
+    "lemma": "testing",
+    "pos": "NOUN"
+   },
+   {
+    "word": "applied",
+    "stem": "appli",
+    "lemma": "apply",
+    "pos": "VERB"
+   }
+  ],
+  "original_sample": "Thread Based Decision Support System for Online Examination\nA project report submitted in partial fulfilment of the requirements for the degree of Bachelor of Engineering in Electrical Engineering\nSubmitted by: Vikram Sharma\nUnder the guidance of: Prof. Imran Reddy\nDepartment of Electrical Engineering, Riverside University, 2026\n\nAbstract\nThis project presents the design and implementation of a de",
+  "processed_sample": "thread based decision support system online examination project report submit partial fulfilment requirement degree bachelor engineering electrical engineering submit vikram sharma guidance imran reddy department electrical engineering riverside university abstract project present design implementation decision support system apply thread file system automate routine task system develop use java mysql test datum collect user survey experimental result show system perform acceptable",
+  "sentences_sample": [
+   "Thread Based Decision Support System for Online Examination.",
+   "A project report submitted in partial fulfilment of the requirements for the degree of Bachelor of Engineering in Electrical Engineering Submitted by: Vikram Sharma Under the guidance of: Prof. Imran Reddy Department of Electrical Engineering, Riverside University, 2026 Abstract.",
+   "This project presents the design and implementation of a decision support system that applies thread and file system to automate routine tasks.",
+   "The system was developed using Java and MySQL and tested on data collected from user surveys.",
+   "Experimental results show that the system performs with acceptable accuracy compared with the existing approach."
+  ]
+ },
+ "statistics": {
+  "characters": 2469,
+  "characters_no_spaces": 2091,
+  "words": 371,
+  "unique_words": 200,
+  "sentences": 41,
+  "paragraphs": 9,
+  "avg_word_length": 5.77,
+  "avg_sentence_length": 9.05,
+  "longest_sentence_words": 39,
+  "reading_time_minutes": 1.9,
+  "sentence_length_distribution": [
+   {
+    "range": "1-10",
+    "count": 26
+   },
+   {
+    "range": "11-20",
+    "count": 13
+   },
+   {
+    "range": "21-30",
+    "count": 1
+   },
+   {
+    "range": "31-40",
+    "count": 1
+   },
+   {
+    "range": "41-50",
+    "count": 0
+   },
+   {
+    "range": "51+",
+    "count": 0
+   }
+  ],
+  "word_length_distribution": [
+   {
+    "length": "2",
+    "count": 39
+   },
+   {
+    "length": "3",
+    "count": 61
+   },
+   {
+    "length": "4",
+    "count": 44
+   },
+   {
+    "length": "5",
+    "count": 24
+   },
+   {
+    "length": "6",
+    "count": 47
+   },
+   {
+    "length": "7",
+    "count": 40
+   },
+   {
+    "length": "8",
+    "count": 32
+   },
+   {
+    "length": "9",
+    "count": 13
+   },
+   {
+    "length": "10",
+    "count": 17
+   },
+   {
+    "length": "11",
+    "count": 17
+   },
+   {
+    "length": "12+",
+    "count": 11
+   }
+  ]
+ },
+ "keywords": {
+  "idf_mode": "reference_corpus",
+  "idf_description": "IDF computed over 300 reference documents (the training dataset) plus this document.",
+  "idf_n_documents": 301,
+  "pos_filter": [
+   "NOUN",
+   "PROPN",
+   "ADJ"
+  ],
+  "formula": "score = tf x idf;  tf = count / total terms;  idf = ln((1 + N) / (1 + df)) + 1",
+  "total_terms": 169,
+  "vocabulary_size": 104,
+  "keywords": [
+   {
+    "term": "thread",
+    "count": 7,
+    "tf": 0.04142,
+    "idf": 4.5132,
+    "score": 0.186937,
+    "relative_score": 1.0
+   },
+   {
+    "term": "system",
+    "count": 14,
+    "tf": 0.08284,
+    "idf": 2.1566,
+    "score": 0.178649,
+    "relative_score": 0.9557
+   },
+   {
+    "term": "result",
+    "count": 7,
+    "tf": 0.04142,
+    "idf": 2.4909,
+    "score": 0.103174,
+    "relative_score": 0.5519
+   },
+   {
+    "term": "file",
+    "count": 5,
+    "tf": 0.029586,
+    "idf": 3.1841,
+    "score": 0.094203,
+    "relative_score": 0.5039
+   },
+   {
+    "term": "work",
+    "count": 4,
+    "tf": 0.023669,
+    "idf": 2.2916,
+    "score": 0.054239,
+    "relative_score": 0.2901
+   },
+   {
+    "term": "support",
+    "count": 2,
+    "tf": 0.011834,
+    "idf": 4.4078,
+    "score": 0.052164,
+    "relative_score": 0.279
+   },
+   {
+    "term": "datum",
+    "count": 4,
+    "tf": 0.023669,
+    "idf": 2.1357,
+    "score": 0.050549,
+    "relative_score": 0.2704
+   },
+   {
+    "term": "operating",
+    "count": 2,
+    "tf": 0.011834,
+    "idf": 4.0714,
+    "score": 0.048182,
+    "relative_score": 0.2577
+   },
+   {
+    "term": "implementation",
+    "count": 3,
+    "tf": 0.017751,
+    "idf": 2.6329,
+    "score": 0.046738,
+    "relative_score": 0.25
+   },
+   {
+    "term": "user",
+    "count": 3,
+    "tf": 0.017751,
+    "idf": 2.6161,
+    "score": 0.046439,
+    "relative_score": 0.2484
+   },
+   {
+    "term": "engineering",
+    "count": 4,
+    "tf": 0.023669,
+    "idf": 1.9397,
+    "score": 0.045911,
+    "relative_score": 0.2456
+   },
+   {
+    "term": "project",
+    "count": 3,
+    "tf": 0.017751,
+    "idf": 2.5833,
+    "score": 0.045857,
+    "relative_score": 0.2453
+   },
+   {
+    "term": "electrical",
+    "count": 2,
+    "tf": 0.011834,
+    "idf": 3.8201,
+    "score": 0.045208,
+    "relative_score": 0.2418
+   },
+   {
+    "term": "methodology",
+    "count": 3,
+    "tf": 0.017751,
+    "idf": 2.4909,
+    "score": 0.044218,
+    "relative_score": 0.2365
+   },
+   {
+    "term": "java",
+    "count": 2,
+    "tf": 0.011834,
+    "idf": 3.7147,
+    "score": 0.043961,
+    "relative_score": 0.2352
+   },
+   {
+    "term": "mysql",
+    "count": 2,
+    "tf": 0.011834,
+    "idf": 3.7147,
+    "score": 0.043961,
+    "relative_score": 0.2352
+   },
+   {
+    "term": "input",
+    "count": 3,
+    "tf": 0.017751,
+    "idf": 2.3929,
+    "score": 0.042478,
+    "relative_score": 0.2272
+   },
+   {
+    "term": "decision",
+    "count": 2,
+    "tf": 0.011834,
+    "idf": 3.2764,
+    "score": 0.038774,
+    "relative_score": 0.2074
+   },
+   {
+    "term": "survey",
+    "count": 2,
+    "tf": 0.011834,
+    "idf": 3.0215,
+    "score": 0.035758,
+    "relative_score": 0.1913
+   },
+   {
+    "term": "future",
+    "count": 2,
+    "tf": 0.011834,
+    "idf": 2.9492,
+    "score": 0.034902,
+    "relative_score": 0.1867
+   },
+   {
+    "term": "systems",
+    "count": 2,
+    "tf": 0.011834,
+    "idf": 2.9262,
+    "score": 0.03463,
+    "relative_score": 0.1852
+   },
+   {
+    "term": "accuracy",
+    "count": 2,
+    "tf": 0.011834,
+    "idf": 2.8186,
+    "score": 0.033356,
+    "relative_score": 0.1784
+   },
+   {
+    "term": "approach",
+    "count": 2,
+    "tf": 0.011834,
+    "idf": 2.5208,
+    "score": 0.029832,
+    "relative_score": 0.1596
+   },
+   {
+    "term": "design",
+    "count": 2,
+    "tf": 0.011834,
+    "idf": 2.4619,
+    "score": 0.029135,
+    "relative_score": 0.1559
+   },
+   {
+    "term": "testing",
+    "count": 2,
+    "tf": 0.011834,
+    "idf": 2.4619,
+    "score": 0.029135,
+    "relative_score": 0.1559
+   },
+   {
+    "term": "requirement",
+    "count": 2,
+    "tf": 0.011834,
+    "idf": 2.42,
+    "score": 0.028639,
+    "relative_score": 0.1532
+   },
+   {
+    "term": "report",
+    "count": 2,
+    "tf": 0.011834,
+    "idf": 2.3284,
+    "score": 0.027555,
+    "relative_score": 0.1474
+   },
+   {
+    "term": "online",
+    "count": 1,
+    "tf": 0.005917,
+    "idf": 4.631,
+    "score": 0.027402,
+    "relative_score": 0.1466
+   },
+   {
+    "term": "vikram",
+    "count": 1,
+    "tf": 0.005917,
+    "idf": 4.631,
+    "score": 0.027402,
+    "relative_score": 0.1466
+   },
+   {
+    "term": "routine",
+    "count": 1,
+    "tf": 0.005917,
+    "idf": 4.4078,
+    "score": 0.026082,
+    "relative_score": 0.1395
+   }
+  ]
+ },
+ "ngrams": {
+  "levels": [
+   {
+    "n": 1,
+    "label": "Unigrams",
+    "total": 222,
+    "distinct": 142,
+    "top": [
+     {
+      "ngram": "system",
+      "count": 14
+     },
+     {
+      "ngram": "thread",
+      "count": 7
+     },
+     {
+      "ngram": "result",
+      "count": 7
+     },
+     {
+      "ngram": "file",
+      "count": 5
+     },
+     {
+      "ngram": "engineering",
+      "count": 4
+     },
+     {
+      "ngram": "apply",
+      "count": 4
+     },
+     {
+      "ngram": "datum",
+      "count": 4
+     },
+     {
+      "ngram": "work",
+      "count": 4
+     },
+     {
+      "ngram": "project",
+      "count": 3
+     },
+     {
+      "ngram": "implementation",
+      "count": 3
+     },
+     {
+      "ngram": "use",
+      "count": 3
+     },
+     {
+      "ngram": "user",
+      "count": 3
+     },
+     {
+      "ngram": "exist",
+      "count": 3
+     },
+     {
+      "ngram": "methodology",
+      "count": 3
+     },
+     {
+      "ngram": "input",
+      "count": 3
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "label": "Bigrams",
+    "total": 187,
+    "distinct": 174,
+    "top": [
+     {
+      "ngram": "file system",
+      "count": 5
+     },
+     {
+      "ngram": "decision support",
+      "count": 2
+     },
+     {
+      "ngram": "support system",
+      "count": 2
+     },
+     {
+      "ngram": "electrical engineering",
+      "count": 2
+     },
+     {
+      "ngram": "design implementation",
+      "count": 2
+     },
+     {
+      "ngram": "system apply",
+      "count": 2
+     },
+     {
+      "ngram": "java mysql",
+      "count": 2
+     },
+     {
+      "ngram": "operating systems",
+      "count": 2
+     },
+     {
+      "ngram": "system improve",
+      "count": 2
+     },
+     {
+      "ngram": "thread apply",
+      "count": 2
+     },
+     {
+      "ngram": "thread based",
+      "count": 1
+     },
+     {
+      "ngram": "based decision",
+      "count": 1
+     },
+     {
+      "ngram": "system online",
+      "count": 1
+     },
+     {
+      "ngram": "online examination",
+      "count": 1
+     },
+     {
+      "ngram": "project report",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "label": "Trigrams",
+    "total": 154,
+    "distinct": 152,
+    "top": [
+     {
+      "ngram": "decision support system",
+      "count": 2
+     },
+     {
+      "ngram": "file system improve",
+      "count": 2
+     },
+     {
+      "ngram": "thread based decision",
+      "count": 1
+     },
+     {
+      "ngram": "based decision support",
+      "count": 1
+     },
+     {
+      "ngram": "support system online",
+      "count": 1
+     },
+     {
+      "ngram": "system online examination",
+      "count": 1
+     },
+     {
+      "ngram": "project report submit",
+      "count": 1
+     },
+     {
+      "ngram": "report submit partial",
+      "count": 1
+     },
+     {
+      "ngram": "submit partial fulfilment",
+      "count": 1
+     },
+     {
+      "ngram": "partial fulfilment requirement",
+      "count": 1
+     },
+     {
+      "ngram": "fulfilment requirement degree",
+      "count": 1
+     },
+     {
+      "ngram": "requirement degree bachelor",
+      "count": 1
+     },
+     {
+      "ngram": "degree bachelor engineering",
+      "count": 1
+     },
+     {
+      "ngram": "bachelor engineering electrical",
+      "count": 1
+     },
+     {
+      "ngram": "engineering electrical engineering",
+      "count": 1
+     }
+    ]
+   }
+  ],
+  "note": "Built from lemmatised content words within sentences (stop words removed first)."
+ },
+ "entities": {
+  "model": "en_core_web_sm",
+  "total_entities": 20,
+  "unique_entities": 18,
+  "groups": [
+   {
+    "label": "ORG",
+    "description": "Companies, agencies, institutions, etc.",
+    "total": 8,
+    "unique": 7,
+    "top": [
+     {
+      "text": "Operating Systems",
+      "count": 2
+     },
+     {
+      "text": "Bachelor of Engineering",
+      "count": 1
+     },
+     {
+      "text": "Future Scope",
+      "count": 1
+     },
+     {
+      "text": "International Journal of Engineering Research",
+      "count": 1
+     },
+     {
+      "text": "RESULTS",
+      "count": 1
+     },
+     {
+      "text": "Riverside University",
+      "count": 1
+     },
+     {
+      "text": "Tech Press",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "label": "PERSON",
+    "description": "People, including fictional",
+    "total": 6,
+    "unique": 5,
+    "top": [
+     {
+      "text": "Java",
+      "count": 2
+     },
+     {
+      "text": "Imran Reddy",
+      "count": 1
+     },
+     {
+      "text": "P. Rao",
+      "count": 1
+     },
+     {
+      "text": "PROBLEM STATEMENT",
+      "count": 1
+     },
+     {
+      "text": "Vikram Sharma",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "label": "DATE",
+    "description": "Absolute or relative dates or periods",
+    "total": 3,
+    "unique": 3,
+    "top": [
+     {
+      "text": "2019",
+      "count": 1
+     },
+     {
+      "text": "2021",
+      "count": 1
+     },
+     {
+      "text": "2026",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "label": "CARDINAL",
+    "description": "Numerals that do not fall under another type",
+    "total": 1,
+    "unique": 1,
+    "top": [
+     {
+      "text": "284",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "label": "ORDINAL",
+    "description": "\"first\", \"second\", etc.",
+    "total": 1,
+    "unique": 1,
+    "top": [
+     {
+      "text": "first",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "label": "PRODUCT",
+    "description": "Objects, vehicles, foods, etc. (not services)",
+    "total": 1,
+    "unique": 1,
+    "top": [
+     {
+      "text": "Table 9",
+      "count": 1
+     }
+    ]
+   }
+  ]
+ },
+ "classification": {
+  "label": "project_report",
+  "display_name": "Project Report",
+  "confidence": 0.9819,
+  "is_confident": true,
+  "confidence_threshold": 0.5,
+  "probabilities": [
+   {
+    "label": "project_report",
+    "display_name": "Project Report",
+    "probability": 0.9819
+   },
+   {
+    "label": "assignment",
+    "display_name": "Assignment",
+    "probability": 0.0046
+   },
+   {
+    "label": "notice",
+    "display_name": "Notice",
+    "probability": 0.0046
+   },
+   {
+    "label": "study_material",
+    "display_name": "Study Material",
+    "probability": 0.0046
+   },
+   {
+    "label": "question_paper",
+    "display_name": "Question Paper",
+    "probability": 0.0042
+   }
+  ],
+  "explanation": [
+   {
+    "term": "system",
+    "contribution": 0.0897
+   },
+   {
+    "term": "the system",
+    "contribution": 0.0716
+   },
+   {
+    "term": "results",
+    "contribution": 0.0699
+   },
+   {
+    "term": "project",
+    "contribution": 0.0498
+   },
+   {
+    "term": "implementation",
+    "contribution": 0.0455
+   },
+   {
+    "term": "was",
+    "contribution": 0.0452
+   },
+   {
+    "term": "existing",
+    "contribution": 0.0448
+   },
+   {
+    "term": "can",
+    "contribution": 0.0415
+   }
+  ],
+  "model": {
+   "classifier": "logistic_regression",
+   "feature_set": "cleaned_text",
+   "trained_at": "2026-10-07T01:55:47+00:00",
+   "n_training_documents": 240
+  },
+  "disclaimer": "This is a single prediction for the uploaded document. Accuracy, precision, recall and F1 are measured on held-out test sets and are reported separately by /api/model/metrics."
+ },
+ "classification_error": null,
+ "summary": {
+  "method": "TF-IDF sentence scoring with position bonus and redundancy filter",
+  "idf_mode": "reference_corpus",
+  "sentences_in_document": 41,
+  "sentences_eligible": 29,
+  "sentences_selected": 8,
+  "compression_ratio": 0.2911,
+  "summary": [
+   {
+    "index": 0,
+    "text": "Thread Based Decision Support System for Online Examination.",
+    "score": 0.24604,
+    "relative_score": 1.0,
+    "words": 8
+   },
+   {
+    "index": 2,
+    "text": "This project presents the design and implementation of a decision support system that applies thread and file system to automate routine tasks.",
+    "score": 0.226505,
+    "relative_score": 0.9206,
+    "words": 22
+   },
+   {
+    "index": 3,
+    "text": "The system was developed using Java and MySQL and tested on data collected from user surveys.",
+    "score": 0.16302,
+    "relative_score": 0.6626,
+    "words": 16
+   },
+   {
+    "index": 8,
+    "text": "The existing system relies on manual effort and does not use thread.",
+    "score": 0.199023,
+    "relative_score": 0.8089,
+    "words": 12
+   },
+   {
+    "index": 14,
+    "text": "Earlier work proposed a method based on file system which improved results on benchmark data.",
+    "score": 0.188771,
+    "relative_score": 0.7672,
+    "words": 15
+   },
+   {
+    "index": 21,
+    "text": "Finally file system is used to produce the output which is displayed to the user.",
+    "score": 0.171648,
+    "relative_score": 0.6976,
+    "words": 15
+   },
+   {
+    "index": 32,
+    "text": "Integration of file system may further improve accuracy.",
+    "score": 0.161829,
+    "relative_score": 0.6577,
+    "words": 8
+   },
+   {
+    "index": 36,
+    "text": "The system demonstrates that thread can be applied effectively to this problem.",
+    "score": 0.222373,
+    "relative_score": 0.9038,
+    "words": 12
+   }
+  ],
+  "summary_text": "Thread Based Decision Support System for Online Examination. This project presents the design and implementation of a decision support system that applies thread and file system to automate routine tasks. The system was developed using Java and MySQL and tested on data collected from user surveys. The existing system relies on manual effort and does not use thread. Earlier work proposed a method based on file system which improved results on benchmark data. Finally file system is used to produce the output which is displayed to the user. Integration of file system may further improve accuracy. The system demonstrates that thread can be applied effectively to this problem.",
+  "sentence_scores": [
+   {
+    "index": 0,
+    "score": 0.24604,
+    "selected": true,
+    "words": 8
+   },
+   {
+    "index": 1,
+    "score": 0.104606,
+    "selected": false,
+    "words": 39
+   },
+   {
+    "index": 2,
+    "score": 0.226505,
+    "selected": true,
+    "words": 22
+   },
+   {
+    "index": 3,
+    "score": 0.16302,
+    "selected": true,
+    "words": 16
+   },
+   {
+    "index": 4,
+    "score": 0.15748,
+    "selected": false,
+    "words": 15
+   },
+   {
+    "index": 5,
+    "score": 0.11788,
+    "selected": false,
+    "words": 12
+   },
+   {
+    "index": 6,
+    "score": 0.0,
+    "selected": false,
+    "words": 1
+   },
+   {
+    "index": 7,
+    "score": 0.0,
+    "selected": false,
+    "words": 2
+   },
+   {
+    "index": 8,
+    "score": 0.199023,
+    "selected": true,
+    "words": 12
+   },
+   {
+    "index": 9,
+    "score": 0.091476,
+    "selected": false,
+    "words": 9
+   },
+   {
+    "index": 10,
+    "score": 0.153809,
+    "selected": false,
+    "words": 13
+   },
+   {
+    "index": 11,
+    "score": 0.0,
+    "selected": false,
+    "words": 1
+   },
+   {
+    "index": 12,
+    "score": 0.0,
+    "selected": false,
+    "words": 2
+   },
+   {
+    "index": 13,
+    "score": 0.131769,
+    "selected": false,
+    "words": 11
+   },
+   {
+    "index": 14,
+    "score": 0.188771,
+    "selected": true,
+    "words": 15
+   },
+   {
+    "index": 15,
+    "score": 0.052492,
+    "selected": false,
+    "words": 10
+   },
+   {
+    "index": 16,
+    "score": 0.0,
+    "selected": false,
+    "words": 1
+   },
+   {
+    "index": 17,
+    "score": 0.0,
+    "selected": false,
+    "words": 1
+   },
+   {
+    "index": 18,
+    "score": 0.079325,
+    "selected": false,
+    "words": 9
+   },
+   {
+    "index": 19,
+    "score": 0.040778,
+    "selected": false,
+    "words": 8
+   },
+   {
+    "index": 20,
+    "score": 0.143419,
+    "selected": false,
+    "words": 9
+   },
+   {
+    "index": 21,
+    "score": 0.171648,
+    "selected": true,
+    "words": 15
+   },
+   {
+    "index": 22,
+    "score": 0.0,
+    "selected": false,
+    "words": 1
+   },
+   {
+    "index": 23,
+    "score": 0.0,
+    "selected": false,
+    "words": 3
+   },
+   {
+    "index": 24,
+    "score": 0.118953,
+    "selected": false,
+    "words": 15
+   },
+   {
+    "index": 25,
+    "score": 0.083256,
+    "selected": false,
+    "words": 7
+   },
+   {
+    "index": 26,
+    "score": 0.036482,
+    "selected": false,
+    "words": 8
+   },
+   {
+    "index": 27,
+    "score": 0.062592,
+    "selected": false,
+    "words": 9
+   },
+   {
+    "index": 28,
+    "score": 0.0,
+    "selected": false,
+    "words": 1
+   },
+   {
+    "index": 29,
+    "score": 0.0,
+    "selected": false,
+    "words": 2
+   },
+   {
+    "index": 30,
+    "score": 0.132544,
+    "selected": false,
+    "words": 13
+   },
+   {
+    "index": 31,
+    "score": 0.032573,
+    "selected": false,
+    "words": 9
+   },
+   {
+    "index": 32,
+    "score": 0.161829,
+    "selected": true,
+    "words": 8
+   },
+   {
+    "index": 33,
+    "score": 0.0,
+    "selected": false,
+    "words": 1
+   },
+   {
+    "index": 34,
+    "score": 0.0,
+    "selected": false,
+    "words": 1
+   },
+   {
+    "index": 35,
+    "score": 0.041538,
+    "selected": false,
+    "words": 6
+   },
+   {
+    "index": 36,
+    "score": 0.222373,
+    "selected": true,
+    "words": 12
+   },
+   {
+    "index": 37,
+    "score": 0.056973,
+    "selected": false,
+    "words": 9
+   },
+   {
+    "index": 38,
+    "score": 0.063549,
+    "selected": false,
+    "words": 12
+   },
+   {
+    "index": 39,
+    "score": 0.117493,
+    "selected": false,
+    "words": 16
+   },
+   {
+    "index": 40,
+    "score": 0.061013,
+    "selected": false,
+    "words": 7
+   }
+  ],
+  "parameters": {
+   "position_bonus": 0.25,
+   "redundancy_threshold": 0.6,
+   "min_words": 5,
+   "max_words": 60
+  },
+  "note": null
+ },
+ "summary_error": null,
+ "readability": {
+  "reliable": true,
+  "warning": null,
+  "counts": {
+   "words": 353,
+   "sentences": 35,
+   "syllables": 670,
+   "complex_words": 74,
+   "letters": 1997
+  },
+  "averages": {
+   "words_per_sentence": 10.09,
+   "syllables_per_word": 1.898,
+   "letters_per_word": 5.66
+  },
+  "scores": [
+   {
+    "name": "Flesch Reading Ease",
+    "value": 36.03,
+    "interpretation": "Difficult (college level)",
+    "formula": "206.835 - 1.015 x (words/sentences) - 84.6 x (syllables/words); higher = easier"
+   },
+   {
+    "name": "Flesch-Kincaid Grade Level",
+    "value": 10.74,
+    "interpretation": "About US school grade 10.7",
+    "formula": "0.39 x (words/sentences) + 11.8 x (syllables/words) - 15.59"
+   },
+   {
+    "name": "Gunning Fog Index",
+    "value": 12.42,
+    "interpretation": "About 12.4 years of formal education",
+    "formula": "0.4 x ((words/sentences) + 100 x (words of 3+ syllables / words))"
+   },
+   {
+    "name": "Automated Readability Index",
+    "value": 10.26,
+    "interpretation": "About US school grade 10.3",
+    "formula": "4.71 x (letters/words) + 0.5 x (words/sentences) - 21.43"
+   }
+  ],
+  "reading_level": "Difficult (college level)",
+  "note": "Syllables are estimated with a vowel-group heuristic, so scores are approximate."
+ },
+ "vocabulary": {
+  "reliable": true,
+  "warning": null,
+  "tokens": 345,
+  "types": 184,
+  "lemma_types": 173,
+  "hapax_count": 129,
+  "dis_legomena_count": 31,
+  "measures": [
+   {
+    "key": "ttr",
+    "name": "Type-Token Ratio (TTR)",
+    "value": 0.5333,
+    "description": "Distinct words divided by total words. Falls as documents get longer."
+   },
+   {
+    "key": "root_ttr",
+    "name": "Root TTR (Guiraud)",
+    "value": 9.906,
+    "description": "Distinct words divided by the square root of total words; less sensitive to length."
+   },
+   {
+    "key": "corrected_ttr",
+    "name": "Corrected TTR (Carroll)",
+    "value": 7.005,
+    "description": "Distinct words divided by the square root of twice the total words."
+   },
+   {
+    "key": "mattr",
+    "name": "MATTR (window 50)",
+    "value": 0.7972,
+    "description": "Average TTR over every window of 50 consecutive words; comparable between documents of different length."
+   },
+   {
+    "key": "hapax_ratio",
+    "name": "Hapax legomena ratio",
+    "value": 0.7011,
+    "description": "Share of distinct words that occur exactly once."
+   },
+   {
+    "key": "lexical_density",
+    "name": "Lexical density",
+    "value": 0.6435,
+    "description": "Share of words that are content words (stop words excluded)."
+   }
+  ],
+  "frequency_spectrum": [
+   {
+    "occurrences": "1",
+    "count": 129
+   },
+   {
+    "occurrences": "2",
+    "count": 31
+   },
+   {
+    "occurrences": "3",
+    "count": 9
+   },
+   {
+    "occurrences": "4",
+    "count": 3
+   },
+   {
+    "occurrences": "5+",
+    "count": 12
+   }
+  ],
+  "zipf": [
+   {
+    "rank": 1,
+    "word": "the",
+    "count": 27
+   },
+   {
+    "rank": 2,
+    "word": "and",
+    "count": 17
+   },
+   {
+    "rank": 3,
+    "word": "system",
+    "count": 14
+   },
+   {
+    "rank": 4,
+    "word": "of",
+    "count": 13
+   },
+   {
+    "rank": 5,
+    "word": "thread",
+    "count": 7
+   },
+   {
+    "rank": 6,
+    "word": "in",
+    "count": 6
+   },
+   {
+    "rank": 7,
+    "word": "results",
+    "count": 6
+   },
+   {
+    "rank": 8,
+    "word": "data",
+    "count": 5
+   },
+   {
+    "rank": 9,
+    "word": "file",
+    "count": 5
+   },
+   {
+    "rank": 10,
+    "word": "is",
+    "count": 5
+   },
+   {
+    "rank": 11,
+    "word": "on",
+    "count": 5
+   },
+   {
+    "rank": 12,
+    "word": "to",
+    "count": 5
+   },
+   {
+    "rank": 13,
+    "word": "engineering",
+    "count": 4
+   },
+   {
+    "rank": 14,
+    "word": "that",
+    "count": 4
+   },
+   {
+    "rank": 15,
+    "word": "work",
+    "count": 4
+   },
+   {
+    "rank": 16,
+    "word": "be",
+    "count": 3
+   },
+   {
+    "rank": 17,
+    "word": "can",
+    "count": 3
+   },
+   {
+    "rank": 18,
+    "word": "existing",
+    "count": 3
+   },
+   {
+    "rank": 19,
+    "word": "for",
+    "count": 3
+   },
+   {
+    "rank": 20,
+    "word": "implementation",
+    "count": 3
+   },
+   {
+    "rank": 21,
+    "word": "methodology",
+    "count": 3
+   },
+   {
+    "rank": 22,
+    "word": "project",
+    "count": 3
+   },
+   {
+    "rank": 23,
+    "word": "was",
+    "count": 3
+   },
+   {
+    "rank": 24,
+    "word": "with",
+    "count": 3
+   },
+   {
+    "rank": 25,
+    "word": "accuracy",
+    "count": 2
+   },
+   {
+    "rank": 26,
+    "word": "applied",
+    "count": 2
+   },
+   {
+    "rank": 27,
+    "word": "applies",
+    "count": 2
+   },
+   {
+    "rank": 28,
+    "word": "approach",
+    "count": 2
+   },
+   {
+    "rank": 29,
+    "word": "based",
+    "count": 2
+   },
+   {
+    "rank": 30,
+    "word": "decision",
+    "count": 2
+   }
+  ]
+ },
+ "topic_similarity": {
+  "method": "Cosine similarity of TF-IDF vectors; IDF computed over 11 documents (10 topic profiles + this document)",
+  "topics_compared": 10,
+  "best_topic": "Software Engineering",
+  "best_similarity": 0.1903,
+  "is_weak_match": false,
+  "weak_match_threshold": 0.1,
+  "similarities": [
+   {
+    "topic": "Software Engineering",
+    "similarity": 0.1903
+   },
+   {
+    "topic": "Operating Systems",
+    "similarity": 0.1257
+   },
+   {
+    "topic": "Machine Learning",
+    "similarity": 0.1088
+   },
+   {
+    "topic": "Digital Electronics",
+    "similarity": 0.0478
+   },
+   {
+    "topic": "Thermodynamics",
+    "similarity": 0.045
+   },
+   {
+    "topic": "Cloud Computing",
+    "similarity": 0.0439
+   },
+   {
+    "topic": "Data Structures",
+    "similarity": 0.0434
+   },
+   {
+    "topic": "Computer Networks",
+    "similarity": 0.0425
+   },
+   {
+    "topic": "Natural Language Processing",
+    "similarity": 0.021
+   },
+   {
+    "topic": "Database Management Systems",
+    "similarity": 0.0204
+   }
+  ],
+  "matched_terms": [
+   {
+    "term": "testing",
+    "weight": 0.0214
+   },
+   {
+    "term": "design",
+    "weight": 0.0152
+   },
+   {
+    "term": "requirement",
+    "weight": 0.0152
+   },
+   {
+    "term": "engineering",
+    "weight": 0.0127
+   },
+   {
+    "term": "user",
+    "weight": 0.0111
+   },
+   {
+    "term": "project",
+    "weight": 0.0111
+   },
+   {
+    "term": "methodology",
+    "weight": 0.0111
+   },
+   {
+    "term": "file",
+    "weight": 0.0107
+   }
+  ],
+  "note": null
+ },
+ "topic_similarity_error": null
+}

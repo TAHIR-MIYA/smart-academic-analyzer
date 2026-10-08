@@ -82,6 +82,9 @@ export const api = {
       .then(data);
   },
 
+  getSummary: (id, sentences) =>
+    http.get(`/api/analysis/${id}/summary`, { params: sentences ? { sentences } : {} }).then(data),
+  compareDocuments: (a, b) => http.post("/api/analysis/compare", { document_a: a, document_b: b }).then(data),
   runAnalysis: (id) => http.post(`/api/analysis/${id}`).then(data),
   /** Resolves to the saved analysis, or null if none has been run (or it is out of date). */
   getAnalysis: async (id) => {

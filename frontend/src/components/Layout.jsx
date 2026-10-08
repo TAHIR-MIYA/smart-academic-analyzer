@@ -39,7 +39,14 @@ function SystemStatus() {
           </>
         )}
       </p>
-      {!nlpReady && (
+      {!nlpReady && health.nlp_resources?.spacy_problem && (
+        <p className="text-amber-200">
+          spaCy cannot be used
+          <br />
+          See TROUBLESHOOTING.md
+        </p>
+      )}
+      {!nlpReady && !health.nlp_resources?.spacy_problem && (
         <p className="text-amber-200">
           Language data missing
           <br />

@@ -2,7 +2,6 @@
 import logging
 
 from nltk.stem import PorterStemmer
-from spacy.tokens import Doc
 
 from app.nlp.resources import get_spacy_model
 
@@ -26,7 +25,9 @@ def lemmatize_sentences(sentence_tokens: list[list[str]]) -> list[tuple[str, str
     is needed because the lemma of 'saw' depends on whether it is a noun or a verb, and
     POS tagging needs the whole sentence (including stop words) as context.
     """
-    nlp = get_spacy_model()
+    nlp = get_spacy_model()  # raises NLPResourceError (HTTP 503) if spaCy cannot be used
+    from spacy.tokens import Doc  # imported here so a spaCy that cannot load never stops the app from starting
+
     pipeline = [proc for name, proc in nlp.pipeline if name not in _SKIPPED_COMPONENTS]
     results: list[tuple[str, str]] = []
 

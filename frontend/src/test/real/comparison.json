@@ -1,0 +1,19 @@
+{
+ "document_a": {
+  "id": 1,
+  "filename": "doc_007.txt"
+ },
+ "document_b": {
+  "id": 2,
+  "filename": "sample_02.txt"
+ },
+ "method": "Cosine similarity of TF-IDF vectors; IDF computed over 12 documents (10 topic profiles + the two documents)",
+ "cosine_similarity": 0.0,
+ "vocabulary_overlap_jaccard": 0.0,
+ "interpretation": "Mostly unrelated",
+ "interpretation_note": "Interpretation bands are rule-of-thumb values, not calibrated thresholds.",
+ "shared_terms": [],
+ "similar_sentence_pairs": [],
+ "pair_threshold": 0.5,
+ "note": "Cosine similarity measures shared wording, not shared subject: two documents about the same subject but with different content can score low."
+}

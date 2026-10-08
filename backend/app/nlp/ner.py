@@ -7,8 +7,6 @@ import logging
 from collections import Counter, defaultdict
 from functools import lru_cache
 
-import spacy
-
 from app.nlp.resources import SPACY_MODEL, get_spacy_model
 
 logger = logging.getLogger(__name__)
@@ -38,7 +36,9 @@ def _chunks(text: str, max_chars: int = CHUNK_CHARS) -> list[str]:
 
 
 def extract_entities(text: str, top_per_label: int = TOP_PER_LABEL) -> dict:
-    nlp = get_spacy_model()
+    nlp = get_spacy_model()  # raises NLPResourceError (HTTP 503) if spaCy cannot be used
+    import spacy  # imported here so a spaCy that cannot load never stops the app from starting
+
     by_label: dict[str, Counter] = defaultdict(Counter)  # label -> Counter of lower-case key
     casing: dict[tuple[str, str], Counter] = defaultdict(Counter)  # (label, key) -> surface forms
 

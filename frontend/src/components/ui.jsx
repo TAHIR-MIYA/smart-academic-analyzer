@@ -124,6 +124,39 @@ export function StatRow({ stats }) {
   );
 }
 
+/** Ruled list of label/value pairs. */
+export function Facts({ items }) {
+  return (
+    <dl className="grid gap-x-8 sm:grid-cols-2 lg:grid-cols-3">
+      {items.map(([label, value]) => (
+        <div key={label} className="flex items-baseline justify-between gap-4 border-b border-rule py-2.5">
+          <dt className="text-ink-muted">{label}</dt>
+          <dd className="text-right font-medium tabular-nums">{value}</dd>
+        </div>
+      ))}
+    </dl>
+  );
+}
+
+/** Small toggle group (e.g. choose Unigrams / Bigrams / Trigrams). */
+export function Segmented({ label, options, value, onChange }) {
+  return (
+    <div role="group" aria-label={label} className="inline-flex border border-rule bg-paper-raised">
+      {options.map((o) => (
+        <button
+          key={o.value}
+          type="button"
+          aria-pressed={o.value === value}
+          onClick={() => onChange(o.value)}
+          className={`px-3 py-1.5 text-sm font-medium ${o.value === value ? "bg-ink text-white" : "text-ink hover:bg-paper"}`}
+        >
+          {o.label}
+        </button>
+      ))}
+    </div>
+  );
+}
+
 export const buttonClass = {
   primary:
     "inline-flex items-center gap-2 rounded bg-brand px-4 py-2 text-sm font-medium text-white hover:bg-brand-dark disabled:cursor-not-allowed disabled:opacity-50",

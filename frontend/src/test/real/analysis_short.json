@@ -1,0 +1,1152 @@
+{
+ "schema_version": 1,
+ "generated_at": "2026-10-07T01:55:48+00:00",
+ "app_version": "0.1.0",
+ "document": {
+  "id": 3,
+  "filename": "sample_04.txt",
+  "file_type": "txt",
+  "size_bytes": 160,
+  "page_count": null,
+  "char_count": 159,
+  "word_count": 24,
+  "uploaded_at": "2026-10-07T01:55:36",
+  "extraction_warnings": []
+ },
+ "preprocessing": {
+  "document_id": 3,
+  "truncated": false,
+  "warnings": [],
+  "cleaning": {
+   "operations": [
+    {
+     "name": "Invisible characters",
+     "description": "Removed soft hyphens and zero-width characters",
+     "count": 0
+    },
+    {
+     "name": "Unicode normalisation",
+     "description": "NFKC: ligatures and compatibility characters -> plain letters",
+     "count": 0
+    },
+    {
+     "name": "Typographic punctuation",
+     "description": "Curly quotes, long dashes and bullet symbols standardised",
+     "count": 0
+    },
+    {
+     "name": "Control characters",
+     "description": "Removed non-printable control characters",
+     "count": 0
+    },
+    {
+     "name": "Hyphenated line breaks",
+     "description": "Rejoined words split across lines with a hyphen",
+     "count": 0
+    },
+    {
+     "name": "URLs",
+     "description": "Removed web addresses",
+     "count": 0
+    },
+    {
+     "name": "E-mail addresses",
+     "description": "Removed e-mail addresses",
+     "count": 0
+    },
+    {
+     "name": "Page numbers",
+     "description": "Removed lines that contain only a page number",
+     "count": 0
+    },
+    {
+     "name": "Repeated headers/footers",
+     "description": "Removed multi-word lines repeated 3+ times (running headers)",
+     "count": 0
+    },
+    {
+     "name": "Line-wrap joins",
+     "description": "Merged lines broken in the middle of a sentence",
+     "count": 0
+    },
+    {
+     "name": "Whitespace",
+     "description": "Collapsed repeated spaces and blank lines",
+     "count": 0
+    }
+   ],
+   "original_characters": 159,
+   "cleaned_characters": 159
+  },
+  "stages": [
+   {
+    "name": "1. Tokenisation",
+    "description": "NLTK word_tokenize: words, numbers and punctuation",
+    "token_count": 28,
+    "unique_count": 23,
+    "sample": [
+     "Holiday",
+     "announcement",
+     ".",
+     "The",
+     "institute",
+     "will",
+     "remain",
+     "closed",
+     "on",
+     "Monday",
+     "on",
+     "account",
+     "of",
+     "the",
+     "local",
+     "festival",
+     ".",
+     "Regular",
+     "classes",
+     "will",
+     "resume",
+     "on",
+     "Tuesday",
+     ".",
+     "By"
+    ]
+   },
+   {
+    "name": "2. Word filtering",
+    "description": "Keep alphabetic tokens (length >= 2); drop punctuation and numbers",
+    "token_count": 24,
+    "unique_count": 21,
+    "sample": [
+     "Holiday",
+     "announcement",
+     "The",
+     "institute",
+     "will",
+     "remain",
+     "closed",
+     "on",
+     "Monday",
+     "on",
+     "account",
+     "of",
+     "the",
+     "local",
+     "festival",
+     "Regular",
+     "classes",
+     "will",
+     "resume",
+     "on",
+     "Tuesday",
+     "By",
+     "order",
+     "Registrar"
+    ]
+   },
+   {
+    "name": "3. Case folding",
+    "description": "Lower-case every token so 'The' and 'the' count as one type",
+    "token_count": 24,
+    "unique_count": 20,
+    "sample": [
+     "holiday",
+     "announcement",
+     "the",
+     "institute",
+     "will",
+     "remain",
+     "closed",
+     "on",
+     "monday",
+     "on",
+     "account",
+     "of",
+     "the",
+     "local",
+     "festival",
+     "regular",
+     "classes",
+     "will",
+     "resume",
+     "on",
+     "tuesday",
+     "by",
+     "order",
+     "registrar"
+    ]
+   },
+   {
+    "name": "4. Stop-word removal",
+    "description": "Remove high-frequency function words (NLTK list + a few extras)",
+    "token_count": 15,
+    "unique_count": 15,
+    "sample": [
+     "holiday",
+     "announcement",
+     "institute",
+     "remain",
+     "closed",
+     "monday",
+     "account",
+     "local",
+     "festival",
+     "regular",
+     "classes",
+     "resume",
+     "tuesday",
+     "order",
+     "registrar"
+    ]
+   },
+   {
+    "name": "5. Lemmatisation",
+    "description": "Replace each word by its dictionary form using spaCy (POS-aware)",
+    "token_count": 15,
+    "unique_count": 15,
+    "sample": [
+     "holiday",
+     "announcement",
+     "institute",
+     "remain",
+     "closed",
+     "monday",
+     "account",
+     "local",
+     "festival",
+     "regular",
+     "class",
+     "resume",
+     "tuesday",
+     "order",
+     "registrar"
+    ]
+   }
+  ],
+  "removed_stopwords": [
+   {
+    "term": "on",
+    "count": 3
+   },
+   {
+    "term": "the",
+    "count": 2
+   },
+   {
+    "term": "will",
+    "count": 2
+   },
+   {
+    "term": "of",
+    "count": 1
+   },
+   {
+    "term": "by",
+    "count": 1
+   }
+  ],
+  "stopword_removal_rate": 0.375,
+  "top_terms": [
+   {
+    "term": "holiday",
+    "count": 1
+   },
+   {
+    "term": "announcement",
+    "count": 1
+   },
+   {
+    "term": "institute",
+    "count": 1
+   },
+   {
+    "term": "remain",
+    "count": 1
+   },
+   {
+    "term": "closed",
+    "count": 1
+   },
+   {
+    "term": "monday",
+    "count": 1
+   },
+   {
+    "term": "account",
+    "count": 1
+   },
+   {
+    "term": "local",
+    "count": 1
+   },
+   {
+    "term": "festival",
+    "count": 1
+   },
+   {
+    "term": "regular",
+    "count": 1
+   },
+   {
+    "term": "class",
+    "count": 1
+   },
+   {
+    "term": "resume",
+    "count": 1
+   },
+   {
+    "term": "tuesday",
+    "count": 1
+   },
+   {
+    "term": "order",
+    "count": 1
+   },
+   {
+    "term": "registrar",
+    "count": 1
+   }
+  ],
+  "stem_vs_lemma": [
+   {
+    "word": "announcement",
+    "stem": "announc",
+    "lemma": "announcement",
+    "pos": "NOUN"
+   },
+   {
+    "word": "institute",
+    "stem": "institut",
+    "lemma": "institute",
+    "pos": "NOUN"
+   },
+   {
+    "word": "closed",
+    "stem": "close",
+    "lemma": "closed",
+    "pos": "ADJ"
+   },
+   {
+    "word": "festival",
+    "stem": "festiv",
+    "lemma": "festival",
+    "pos": "NOUN"
+   },
+   {
+    "word": "resume",
+    "stem": "resum",
+    "lemma": "resume",
+    "pos": "VERB"
+   }
+  ],
+  "original_sample": "Holiday announcement\n\nThe institute will remain closed on Monday on account of the local festival. Regular classes will resume on Tuesday.\n\nBy order,\nRegistrar",
+  "processed_sample": "holiday announcement institute remain closed monday account local festival regular class resume tuesday order registrar",
+  "sentences_sample": [
+   "Holiday announcement.",
+   "The institute will remain closed on Monday on account of the local festival.",
+   "Regular classes will resume on Tuesday.",
+   "By order, Registrar"
+  ]
+ },
+ "statistics": {
+  "characters": 159,
+  "characters_no_spaces": 134,
+  "words": 24,
+  "unique_words": 20,
+  "sentences": 4,
+  "paragraphs": 3,
+  "avg_word_length": 5.46,
+  "avg_sentence_length": 6.0,
+  "longest_sentence_words": 13,
+  "reading_time_minutes": 0.1,
+  "sentence_length_distribution": [
+   {
+    "range": "1-10",
+    "count": 3
+   },
+   {
+    "range": "11-20",
+    "count": 1
+   },
+   {
+    "range": "21-30",
+    "count": 0
+   },
+   {
+    "range": "31-40",
+    "count": 0
+   },
+   {
+    "range": "41-50",
+    "count": 0
+   },
+   {
+    "range": "51+",
+    "count": 0
+   }
+  ],
+  "word_length_distribution": [
+   {
+    "length": "2",
+    "count": 5
+   },
+   {
+    "length": "3",
+    "count": 2
+   },
+   {
+    "length": "4",
+    "count": 2
+   },
+   {
+    "length": "5",
+    "count": 2
+   },
+   {
+    "length": "6",
+    "count": 4
+   },
+   {
+    "length": "7",
+    "count": 5
+   },
+   {
+    "length": "8",
+    "count": 1
+   },
+   {
+    "length": "9",
+    "count": 2
+   },
+   {
+    "length": "10",
+    "count": 0
+   },
+   {
+    "length": "11",
+    "count": 0
+   },
+   {
+    "length": "12+",
+    "count": 1
+   }
+  ]
+ },
+ "keywords": {
+  "idf_mode": "reference_corpus",
+  "idf_description": "IDF computed over 300 reference documents (the training dataset) plus this document.",
+  "idf_n_documents": 301,
+  "pos_filter": [
+   "NOUN",
+   "PROPN",
+   "ADJ"
+  ],
+  "formula": "score = tf x idf;  tf = count / total terms;  idf = ln((1 + N) / (1 + df)) + 1",
+  "total_terms": 13,
+  "vocabulary_size": 13,
+  "keywords": [
+   {
+    "term": "announcement",
+    "count": 1,
+    "tf": 0.076923,
+    "idf": 6.0173,
+    "score": 0.462868,
+    "relative_score": 1.0
+   },
+   {
+    "term": "festival",
+    "count": 1,
+    "tf": 0.076923,
+    "idf": 6.0173,
+    "score": 0.462868,
+    "relative_score": 1.0
+   },
+   {
+    "term": "local",
+    "count": 1,
+    "tf": 0.076923,
+    "idf": 6.0173,
+    "score": 0.462868,
+    "relative_score": 1.0
+   },
+   {
+    "term": "monday",
+    "count": 1,
+    "tf": 0.076923,
+    "idf": 6.0173,
+    "score": 0.462868,
+    "relative_score": 1.0
+   },
+   {
+    "term": "order",
+    "count": 1,
+    "tf": 0.076923,
+    "idf": 6.0173,
+    "score": 0.462868,
+    "relative_score": 1.0
+   },
+   {
+    "term": "regular",
+    "count": 1,
+    "tf": 0.076923,
+    "idf": 6.0173,
+    "score": 0.462868,
+    "relative_score": 1.0
+   },
+   {
+    "term": "tuesday",
+    "count": 1,
+    "tf": 0.076923,
+    "idf": 6.0173,
+    "score": 0.462868,
+    "relative_score": 1.0
+   },
+   {
+    "term": "holiday",
+    "count": 1,
+    "tf": 0.076923,
+    "idf": 4.4078,
+    "score": 0.339065,
+    "relative_score": 0.7325
+   },
+   {
+    "term": "registrar",
+    "count": 1,
+    "tf": 0.076923,
+    "idf": 4.2255,
+    "score": 0.32504,
+    "relative_score": 0.7022
+   },
+   {
+    "term": "closed",
+    "count": 1,
+    "tf": 0.076923,
+    "idf": 4.0714,
+    "score": 0.313182,
+    "relative_score": 0.6766
+   },
+   {
+    "term": "account",
+    "count": 1,
+    "tf": 0.076923,
+    "idf": 3.9378,
+    "score": 0.302911,
+    "relative_score": 0.6544
+   },
+   {
+    "term": "class",
+    "count": 1,
+    "tf": 0.076923,
+    "idf": 2.7592,
+    "score": 0.212245,
+    "relative_score": 0.4585
+   },
+   {
+    "term": "institute",
+    "count": 1,
+    "tf": 0.076923,
+    "idf": 2.6674,
+    "score": 0.205183,
+    "relative_score": 0.4433
+   }
+  ]
+ },
+ "ngrams": {
+  "levels": [
+   {
+    "n": 1,
+    "label": "Unigrams",
+    "total": 15,
+    "distinct": 15,
+    "top": [
+     {
+      "ngram": "holiday",
+      "count": 1
+     },
+     {
+      "ngram": "announcement",
+      "count": 1
+     },
+     {
+      "ngram": "institute",
+      "count": 1
+     },
+     {
+      "ngram": "remain",
+      "count": 1
+     },
+     {
+      "ngram": "closed",
+      "count": 1
+     },
+     {
+      "ngram": "monday",
+      "count": 1
+     },
+     {
+      "ngram": "account",
+      "count": 1
+     },
+     {
+      "ngram": "local",
+      "count": 1
+     },
+     {
+      "ngram": "festival",
+      "count": 1
+     },
+     {
+      "ngram": "regular",
+      "count": 1
+     },
+     {
+      "ngram": "class",
+      "count": 1
+     },
+     {
+      "ngram": "resume",
+      "count": 1
+     },
+     {
+      "ngram": "tuesday",
+      "count": 1
+     },
+     {
+      "ngram": "order",
+      "count": 1
+     },
+     {
+      "ngram": "registrar",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "label": "Bigrams",
+    "total": 11,
+    "distinct": 11,
+    "top": [
+     {
+      "ngram": "holiday announcement",
+      "count": 1
+     },
+     {
+      "ngram": "institute remain",
+      "count": 1
+     },
+     {
+      "ngram": "remain closed",
+      "count": 1
+     },
+     {
+      "ngram": "closed monday",
+      "count": 1
+     },
+     {
+      "ngram": "monday account",
+      "count": 1
+     },
+     {
+      "ngram": "account local",
+      "count": 1
+     },
+     {
+      "ngram": "local festival",
+      "count": 1
+     },
+     {
+      "ngram": "regular class",
+      "count": 1
+     },
+     {
+      "ngram": "class resume",
+      "count": 1
+     },
+     {
+      "ngram": "resume tuesday",
+      "count": 1
+     },
+     {
+      "ngram": "order registrar",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "label": "Trigrams",
+    "total": 7,
+    "distinct": 7,
+    "top": [
+     {
+      "ngram": "institute remain closed",
+      "count": 1
+     },
+     {
+      "ngram": "remain closed monday",
+      "count": 1
+     },
+     {
+      "ngram": "closed monday account",
+      "count": 1
+     },
+     {
+      "ngram": "monday account local",
+      "count": 1
+     },
+     {
+      "ngram": "account local festival",
+      "count": 1
+     },
+     {
+      "ngram": "regular class resume",
+      "count": 1
+     },
+     {
+      "ngram": "class resume tuesday",
+      "count": 1
+     }
+    ]
+   }
+  ],
+  "note": "Built from lemmatised content words within sentences (stop words removed first)."
+ },
+ "entities": {
+  "model": "en_core_web_sm",
+  "total_entities": 3,
+  "unique_entities": 3,
+  "groups": [
+   {
+    "label": "DATE",
+    "description": "Absolute or relative dates or periods",
+    "total": 2,
+    "unique": 2,
+    "top": [
+     {
+      "text": "Monday",
+      "count": 1
+     },
+     {
+      "text": "Tuesday",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "label": "ORG",
+    "description": "Companies, agencies, institutions, etc.",
+    "total": 1,
+    "unique": 1,
+    "top": [
+     {
+      "text": "Registrar",
+      "count": 1
+     }
+    ]
+   }
+  ]
+ },
+ "classification": {
+  "label": "notice",
+  "display_name": "Notice",
+  "confidence": 0.6293,
+  "is_confident": true,
+  "confidence_threshold": 0.5,
+  "probabilities": [
+   {
+    "label": "notice",
+    "display_name": "Notice",
+    "probability": 0.6293
+   },
+   {
+    "label": "study_material",
+    "display_name": "Study Material",
+    "probability": 0.1224
+   },
+   {
+    "label": "assignment",
+    "display_name": "Assignment",
+    "probability": 0.1092
+   },
+   {
+    "label": "question_paper",
+    "display_name": "Question Paper",
+    "probability": 0.088
+   },
+   {
+    "label": "project_report",
+    "display_name": "Project Report",
+    "probability": 0.0511
+   }
+  ],
+  "explanation": [
+   {
+    "term": "will",
+    "contribution": 0.1707
+   },
+   {
+    "term": "registrar",
+    "contribution": 0.0876
+   },
+   {
+    "term": "closed",
+    "contribution": 0.0866
+   },
+   {
+    "term": "closed on",
+    "contribution": 0.0866
+   },
+   {
+    "term": "remain",
+    "contribution": 0.0866
+   },
+   {
+    "term": "remain closed",
+    "contribution": 0.0866
+   },
+   {
+    "term": "will remain",
+    "contribution": 0.0866
+   },
+   {
+    "term": "account",
+    "contribution": 0.0661
+   }
+  ],
+  "model": {
+   "classifier": "logistic_regression",
+   "feature_set": "cleaned_text",
+   "trained_at": "2026-10-07T01:55:47+00:00",
+   "n_training_documents": 240
+  },
+  "disclaimer": "This is a single prediction for the uploaded document. Accuracy, precision, recall and F1 are measured on held-out test sets and are reported separately by /api/model/metrics."
+ },
+ "classification_error": null,
+ "summary": {
+  "method": "TF-IDF sentence scoring with position bonus and redundancy filter",
+  "idf_mode": "reference_corpus",
+  "sentences_in_document": 4,
+  "sentences_eligible": 2,
+  "sentences_selected": 1,
+  "compression_ratio": 0.5417,
+  "summary": [
+   {
+    "index": 1,
+    "text": "The institute will remain closed on Monday on account of the local festival.",
+    "score": 1.127725,
+    "relative_score": 1.0,
+    "words": 13
+   }
+  ],
+  "summary_text": "The institute will remain closed on Monday on account of the local festival.",
+  "sentence_scores": [
+   {
+    "index": 0,
+    "score": 0.0,
+    "selected": false,
+    "words": 2
+   },
+   {
+    "index": 1,
+    "score": 1.127725,
+    "selected": true,
+    "words": 13
+   },
+   {
+    "index": 2,
+    "score": 0.657014,
+    "selected": false,
+    "words": 6
+   },
+   {
+    "index": 3,
+    "score": 0.0,
+    "selected": false,
+    "words": 3
+   }
+  ],
+  "parameters": {
+   "position_bonus": 0.25,
+   "redundancy_threshold": 0.6,
+   "min_words": 5,
+   "max_words": 60
+  },
+  "note": null
+ },
+ "summary_error": null,
+ "readability": {
+  "reliable": false,
+  "warning": "Only 24 words in 4 sentence(s): readability formulas need at least 100 words and 3 sentences to be meaningful.",
+  "counts": {
+   "words": 24,
+   "sentences": 4,
+   "syllables": 45,
+   "complex_words": 6,
+   "letters": 131
+  },
+  "averages": {
+   "words_per_sentence": 6.0,
+   "syllables_per_word": 1.875,
+   "letters_per_word": 5.46
+  },
+  "scores": [
+   {
+    "name": "Flesch Reading Ease",
+    "value": 42.12,
+    "interpretation": "Difficult (college level)",
+    "formula": "206.835 - 1.015 x (words/sentences) - 84.6 x (syllables/words); higher = easier"
+   },
+   {
+    "name": "Flesch-Kincaid Grade Level",
+    "value": 8.88,
+    "interpretation": "About US school grade 8.9",
+    "formula": "0.39 x (words/sentences) + 11.8 x (syllables/words) - 15.59"
+   },
+   {
+    "name": "Gunning Fog Index",
+    "value": 12.4,
+    "interpretation": "About 12.4 years of formal education",
+    "formula": "0.4 x ((words/sentences) + 100 x (words of 3+ syllables / words))"
+   },
+   {
+    "name": "Automated Readability Index",
+    "value": 7.28,
+    "interpretation": "About US school grade 7.3",
+    "formula": "4.71 x (letters/words) + 0.5 x (words/sentences) - 21.43"
+   }
+  ],
+  "reading_level": "Difficult (college level)",
+  "note": "Syllables are estimated with a vowel-group heuristic, so scores are approximate."
+ },
+ "vocabulary": {
+  "reliable": false,
+  "warning": "Only 24 words: diversity measures depend strongly on length and are unstable below 100.",
+  "tokens": 24,
+  "types": 20,
+  "lemma_types": 20,
+  "hapax_count": 17,
+  "dis_legomena_count": 2,
+  "measures": [
+   {
+    "key": "ttr",
+    "name": "Type-Token Ratio (TTR)",
+    "value": 0.8333,
+    "description": "Distinct words divided by total words. Falls as documents get longer."
+   },
+   {
+    "key": "root_ttr",
+    "name": "Root TTR (Guiraud)",
+    "value": 4.082,
+    "description": "Distinct words divided by the square root of total words; less sensitive to length."
+   },
+   {
+    "key": "corrected_ttr",
+    "name": "Corrected TTR (Carroll)",
+    "value": 2.887,
+    "description": "Distinct words divided by the square root of twice the total words."
+   },
+   {
+    "key": "mattr",
+    "name": "MATTR (window 50)",
+    "value": 0.8333,
+    "description": "Average TTR over every window of 50 consecutive words; comparable between documents of different length."
+   },
+   {
+    "key": "hapax_ratio",
+    "name": "Hapax legomena ratio",
+    "value": 0.85,
+    "description": "Share of distinct words that occur exactly once."
+   },
+   {
+    "key": "lexical_density",
+    "name": "Lexical density",
+    "value": 0.625,
+    "description": "Share of words that are content words (stop words excluded)."
+   }
+  ],
+  "frequency_spectrum": [
+   {
+    "occurrences": "1",
+    "count": 17
+   },
+   {
+    "occurrences": "2",
+    "count": 2
+   },
+   {
+    "occurrences": "3",
+    "count": 1
+   },
+   {
+    "occurrences": "4",
+    "count": 0
+   },
+   {
+    "occurrences": "5+",
+    "count": 0
+   }
+  ],
+  "zipf": [
+   {
+    "rank": 1,
+    "word": "on",
+    "count": 3
+   },
+   {
+    "rank": 2,
+    "word": "the",
+    "count": 2
+   },
+   {
+    "rank": 3,
+    "word": "will",
+    "count": 2
+   },
+   {
+    "rank": 4,
+    "word": "account",
+    "count": 1
+   },
+   {
+    "rank": 5,
+    "word": "announcement",
+    "count": 1
+   },
+   {
+    "rank": 6,
+    "word": "by",
+    "count": 1
+   },
+   {
+    "rank": 7,
+    "word": "classes",
+    "count": 1
+   },
+   {
+    "rank": 8,
+    "word": "closed",
+    "count": 1
+   },
+   {
+    "rank": 9,
+    "word": "festival",
+    "count": 1
+   },
+   {
+    "rank": 10,
+    "word": "holiday",
+    "count": 1
+   },
+   {
+    "rank": 11,
+    "word": "institute",
+    "count": 1
+   },
+   {
+    "rank": 12,
+    "word": "local",
+    "count": 1
+   },
+   {
+    "rank": 13,
+    "word": "monday",
+    "count": 1
+   },
+   {
+    "rank": 14,
+    "word": "of",
+    "count": 1
+   },
+   {
+    "rank": 15,
+    "word": "order",
+    "count": 1
+   },
+   {
+    "rank": 16,
+    "word": "registrar",
+    "count": 1
+   },
+   {
+    "rank": 17,
+    "word": "regular",
+    "count": 1
+   },
+   {
+    "rank": 18,
+    "word": "remain",
+    "count": 1
+   },
+   {
+    "rank": 19,
+    "word": "resume",
+    "count": 1
+   },
+   {
+    "rank": 20,
+    "word": "tuesday",
+    "count": 1
+   }
+  ]
+ },
+ "topic_similarity": {
+  "method": "Cosine similarity of TF-IDF vectors; IDF computed over 11 documents (10 topic profiles + this document)",
+  "topics_compared": 10,
+  "best_topic": null,
+  "best_similarity": 0.0312,
+  "is_weak_match": true,
+  "weak_match_threshold": 0.1,
+  "similarities": [
+   {
+    "topic": "Machine Learning",
+    "similarity": 0.0312
+   },
+   {
+    "topic": "Computer Networks",
+    "similarity": 0.0165
+   },
+   {
+    "topic": "Data Structures",
+    "similarity": 0.0145
+   },
+   {
+    "topic": "Cloud Computing",
+    "similarity": 0.0
+   },
+   {
+    "topic": "Database Management Systems",
+    "similarity": 0.0
+   },
+   {
+    "topic": "Digital Electronics",
+    "similarity": 0.0
+   },
+   {
+    "topic": "Natural Language Processing",
+    "similarity": 0.0
+   },
+   {
+    "topic": "Operating Systems",
+    "similarity": 0.0
+   },
+   {
+    "topic": "Software Engineering",
+    "similarity": 0.0
+   },
+   {
+    "topic": "Thermodynamics",
+    "similarity": 0.0
+   }
+  ],
+  "matched_terms": [
+   {
+    "term": "class",
+    "weight": 0.0312
+   }
+  ],
+  "note": "Weak match: no topic profile resembles this document."
+ },
+ "topic_similarity_error": null
+}

@@ -1,0 +1,1429 @@
+{
+ "schema_version": 1,
+ "generated_at": "2026-10-07T01:55:48+00:00",
+ "app_version": "0.1.0",
+ "document": {
+  "id": 2,
+  "filename": "sample_02.txt",
+  "file_type": "txt",
+  "size_bytes": 284,
+  "page_count": null,
+  "char_count": 283,
+  "word_count": 45,
+  "uploaded_at": "2026-10-07T01:55:36",
+  "extraction_warnings": []
+ },
+ "preprocessing": {
+  "document_id": 2,
+  "truncated": false,
+  "warnings": [],
+  "cleaning": {
+   "operations": [
+    {
+     "name": "Invisible characters",
+     "description": "Removed soft hyphens and zero-width characters",
+     "count": 0
+    },
+    {
+     "name": "Unicode normalisation",
+     "description": "NFKC: ligatures and compatibility characters -> plain letters",
+     "count": 0
+    },
+    {
+     "name": "Typographic punctuation",
+     "description": "Curly quotes, long dashes and bullet symbols standardised",
+     "count": 0
+    },
+    {
+     "name": "Control characters",
+     "description": "Removed non-printable control characters",
+     "count": 0
+    },
+    {
+     "name": "Hyphenated line breaks",
+     "description": "Rejoined words split across lines with a hyphen",
+     "count": 0
+    },
+    {
+     "name": "URLs",
+     "description": "Removed web addresses",
+     "count": 0
+    },
+    {
+     "name": "E-mail addresses",
+     "description": "Removed e-mail addresses",
+     "count": 0
+    },
+    {
+     "name": "Page numbers",
+     "description": "Removed lines that contain only a page number",
+     "count": 0
+    },
+    {
+     "name": "Repeated headers/footers",
+     "description": "Removed multi-word lines repeated 3+ times (running headers)",
+     "count": 0
+    },
+    {
+     "name": "Line-wrap joins",
+     "description": "Merged lines broken in the middle of a sentence",
+     "count": 0
+    },
+    {
+     "name": "Whitespace",
+     "description": "Collapsed repeated spaces and blank lines",
+     "count": 0
+    }
+   ],
+   "original_characters": 283,
+   "cleaned_characters": 283
+  },
+  "stages": [
+   {
+    "name": "1. Tokenisation",
+    "description": "NLTK word_tokenize: words, numbers and punctuation",
+    "token_count": 48,
+    "unique_count": 42,
+    "sample": [
+     "Notice",
+     "to",
+     "all",
+     "third",
+     "year",
+     "students",
+     "The",
+     "campus",
+     "recruitment",
+     "drive",
+     "by",
+     "TechNova",
+     "Solutions",
+     "will",
+     "take",
+     "place",
+     "on",
+     "21",
+     "November",
+     "in",
+     "the",
+     "seminar",
+     "hall",
+     ".",
+     "Interested"
+    ]
+   },
+   {
+    "name": "2. Word filtering",
+    "description": "Keep alphabetic tokens (length >= 2); drop punctuation and numbers",
+    "token_count": 43,
+    "unique_count": 39,
+    "sample": [
+     "Notice",
+     "to",
+     "all",
+     "third",
+     "year",
+     "students",
+     "The",
+     "campus",
+     "recruitment",
+     "drive",
+     "by",
+     "TechNova",
+     "Solutions",
+     "will",
+     "take",
+     "place",
+     "on",
+     "November",
+     "in",
+     "the",
+     "seminar",
+     "hall",
+     "Interested",
+     "students",
+     "must"
+    ]
+   },
+   {
+    "name": "3. Case folding",
+    "description": "Lower-case every token so 'The' and 'the' count as one type",
+    "token_count": 43,
+    "unique_count": 37,
+    "sample": [
+     "notice",
+     "to",
+     "all",
+     "third",
+     "year",
+     "students",
+     "the",
+     "campus",
+     "recruitment",
+     "drive",
+     "by",
+     "technova",
+     "solutions",
+     "will",
+     "take",
+     "place",
+     "on",
+     "november",
+     "in",
+     "the",
+     "seminar",
+     "hall",
+     "interested",
+     "students",
+     "must"
+    ]
+   },
+   {
+    "name": "4. Stop-word removal",
+    "description": "Remove high-frequency function words (NLTK list + a few extras)",
+    "token_count": 28,
+    "unique_count": 25,
+    "sample": [
+     "notice",
+     "third",
+     "year",
+     "students",
+     "campus",
+     "recruitment",
+     "drive",
+     "technova",
+     "solutions",
+     "take",
+     "place",
+     "november",
+     "seminar",
+     "hall",
+     "interested",
+     "students",
+     "must",
+     "register",
+     "names",
+     "placement",
+     "cell",
+     "november",
+     "carry",
+     "two",
+     "copies"
+    ]
+   },
+   {
+    "name": "5. Lemmatisation",
+    "description": "Replace each word by its dictionary form using spaCy (POS-aware)",
+    "token_count": 28,
+    "unique_count": 25,
+    "sample": [
+     "notice",
+     "third",
+     "year",
+     "student",
+     "campus",
+     "recruitment",
+     "drive",
+     "technova",
+     "solutions",
+     "take",
+     "place",
+     "november",
+     "seminar",
+     "hall",
+     "interested",
+     "student",
+     "must",
+     "register",
+     "name",
+     "placement",
+     "cell",
+     "november",
+     "carry",
+     "two",
+     "copy"
+    ]
+   }
+  ],
+  "removed_stopwords": [
+   {
+    "term": "the",
+    "count": 3
+   },
+   {
+    "term": "their",
+    "count": 2
+   },
+   {
+    "term": "to",
+    "count": 1
+   },
+   {
+    "term": "all",
+    "count": 1
+   },
+   {
+    "term": "by",
+    "count": 1
+   },
+   {
+    "term": "will",
+    "count": 1
+   },
+   {
+    "term": "on",
+    "count": 1
+   },
+   {
+    "term": "in",
+    "count": 1
+   },
+   {
+    "term": "with",
+    "count": 1
+   },
+   {
+    "term": "before",
+    "count": 1
+   }
+  ],
+  "stopword_removal_rate": 0.3488,
+  "top_terms": [
+   {
+    "term": "student",
+    "count": 2
+   },
+   {
+    "term": "november",
+    "count": 2
+   },
+   {
+    "term": "placement",
+    "count": 2
+   },
+   {
+    "term": "notice",
+    "count": 1
+   },
+   {
+    "term": "third",
+    "count": 1
+   },
+   {
+    "term": "year",
+    "count": 1
+   },
+   {
+    "term": "campus",
+    "count": 1
+   },
+   {
+    "term": "recruitment",
+    "count": 1
+   },
+   {
+    "term": "drive",
+    "count": 1
+   },
+   {
+    "term": "technova",
+    "count": 1
+   },
+   {
+    "term": "solutions",
+    "count": 1
+   },
+   {
+    "term": "take",
+    "count": 1
+   },
+   {
+    "term": "place",
+    "count": 1
+   },
+   {
+    "term": "seminar",
+    "count": 1
+   },
+   {
+    "term": "hall",
+    "count": 1
+   },
+   {
+    "term": "interested",
+    "count": 1
+   },
+   {
+    "term": "must",
+    "count": 1
+   },
+   {
+    "term": "register",
+    "count": 1
+   },
+   {
+    "term": "name",
+    "count": 1
+   },
+   {
+    "term": "cell",
+    "count": 1
+   }
+  ],
+  "stem_vs_lemma": [
+   {
+    "word": "november",
+    "stem": "novemb",
+    "lemma": "november",
+    "pos": "PROPN"
+   },
+   {
+    "word": "notice",
+    "stem": "notic",
+    "lemma": "notice",
+    "pos": "NOUN"
+   },
+   {
+    "word": "campus",
+    "stem": "campu",
+    "lemma": "campus",
+    "pos": "NOUN"
+   },
+   {
+    "word": "recruitment",
+    "stem": "recruit",
+    "lemma": "recruitment",
+    "pos": "NOUN"
+   },
+   {
+    "word": "solutions",
+    "stem": "solut",
+    "lemma": "solutions",
+    "pos": "PROPN"
+   },
+   {
+    "word": "interested",
+    "stem": "interest",
+    "lemma": "interested",
+    "pos": "ADJ"
+   },
+   {
+    "word": "register",
+    "stem": "regist",
+    "lemma": "register",
+    "pos": "VERB"
+   },
+   {
+    "word": "carry",
+    "stem": "carri",
+    "lemma": "carry",
+    "pos": "VERB"
+   },
+   {
+    "word": "copies",
+    "stem": "copi",
+    "lemma": "copy",
+    "pos": "NOUN"
+   },
+   {
+    "word": "resume",
+    "stem": "resum",
+    "lemma": "resume",
+    "pos": "NOUN"
+   },
+   {
+    "word": "officer",
+    "stem": "offic",
+    "lemma": "officer",
+    "pos": "PROPN"
+   }
+  ],
+  "original_sample": "Notice to all third year students\n\nThe campus recruitment drive by TechNova Solutions will take place on 21 November in the seminar hall. Interested students must register their names with the placement cell before 12 November and carry two copies of their resume.\n\nPlacement Officer",
+  "processed_sample": "notice third year student campus recruitment drive technova solutions take place november seminar hall interested student must register name placement cell november carry two copy resume placement officer",
+  "sentences_sample": [
+   "Notice to all third year students The campus recruitment drive by TechNova Solutions will take place on 21 November in the seminar hall.",
+   "Interested students must register their names with the placement cell before 12 November and carry two copies of their resume.",
+   "Placement Officer."
+  ]
+ },
+ "statistics": {
+  "characters": 283,
+  "characters_no_spaces": 237,
+  "words": 45,
+  "unique_words": 39,
+  "sentences": 3,
+  "paragraphs": 3,
+  "avg_word_length": 5.37,
+  "avg_sentence_length": 15.0,
+  "longest_sentence_words": 23,
+  "reading_time_minutes": 0.2,
+  "sentence_length_distribution": [
+   {
+    "range": "1-10",
+    "count": 1
+   },
+   {
+    "range": "11-20",
+    "count": 1
+   },
+   {
+    "range": "21-30",
+    "count": 1
+   },
+   {
+    "range": "31-40",
+    "count": 0
+   },
+   {
+    "range": "41-50",
+    "count": 0
+   },
+   {
+    "range": "51+",
+    "count": 0
+   }
+  ],
+  "word_length_distribution": [
+   {
+    "length": "2",
+    "count": 5
+   },
+   {
+    "length": "3",
+    "count": 6
+   },
+   {
+    "length": "4",
+    "count": 7
+   },
+   {
+    "length": "5",
+    "count": 7
+   },
+   {
+    "length": "6",
+    "count": 5
+   },
+   {
+    "length": "7",
+    "count": 2
+   },
+   {
+    "length": "8",
+    "count": 6
+   },
+   {
+    "length": "9",
+    "count": 3
+   },
+   {
+    "length": "10",
+    "count": 1
+   },
+   {
+    "length": "11",
+    "count": 1
+   },
+   {
+    "length": "12+",
+    "count": 0
+   }
+  ]
+ },
+ "keywords": {
+  "idf_mode": "reference_corpus",
+  "idf_description": "IDF computed over 300 reference documents (the training dataset) plus this document.",
+  "idf_n_documents": 301,
+  "pos_filter": [
+   "NOUN",
+   "PROPN",
+   "ADJ"
+  ],
+  "formula": "score = tf x idf;  tf = count / total terms;  idf = ln((1 + N) / (1 + df)) + 1",
+  "total_terms": 23,
+  "vocabulary_size": 20,
+  "keywords": [
+   {
+    "term": "placement",
+    "count": 2,
+    "tf": 0.086957,
+    "idf": 4.9187,
+    "score": 0.42771,
+    "relative_score": 1.0
+   },
+   {
+    "term": "november",
+    "count": 2,
+    "tf": 0.086957,
+    "idf": 3.8201,
+    "score": 0.332179,
+    "relative_score": 0.7766
+   },
+   {
+    "term": "copy",
+    "count": 1,
+    "tf": 0.043478,
+    "idf": 6.0173,
+    "score": 0.261621,
+    "relative_score": 0.6117
+   },
+   {
+    "term": "hall",
+    "count": 1,
+    "tf": 0.043478,
+    "idf": 6.0173,
+    "score": 0.261621,
+    "relative_score": 0.6117
+   },
+   {
+    "term": "officer",
+    "count": 1,
+    "tf": 0.043478,
+    "idf": 6.0173,
+    "score": 0.261621,
+    "relative_score": 0.6117
+   },
+   {
+    "term": "recruitment",
+    "count": 1,
+    "tf": 0.043478,
+    "idf": 6.0173,
+    "score": 0.261621,
+    "relative_score": 0.6117
+   },
+   {
+    "term": "resume",
+    "count": 1,
+    "tf": 0.043478,
+    "idf": 6.0173,
+    "score": 0.261621,
+    "relative_score": 0.6117
+   },
+   {
+    "term": "seminar",
+    "count": 1,
+    "tf": 0.043478,
+    "idf": 6.0173,
+    "score": 0.261621,
+    "relative_score": 0.6117
+   },
+   {
+    "term": "solutions",
+    "count": 1,
+    "tf": 0.043478,
+    "idf": 6.0173,
+    "score": 0.261621,
+    "relative_score": 0.6117
+   },
+   {
+    "term": "technova",
+    "count": 1,
+    "tf": 0.043478,
+    "idf": 6.0173,
+    "score": 0.261621,
+    "relative_score": 0.6117
+   },
+   {
+    "term": "third",
+    "count": 1,
+    "tf": 0.043478,
+    "idf": 5.101,
+    "score": 0.221782,
+    "relative_score": 0.5185
+   },
+   {
+    "term": "drive",
+    "count": 1,
+    "tf": 0.043478,
+    "idf": 4.9187,
+    "score": 0.213855,
+    "relative_score": 0.5
+   },
+   {
+    "term": "campus",
+    "count": 1,
+    "tf": 0.043478,
+    "idf": 4.2255,
+    "score": 0.183718,
+    "relative_score": 0.4295
+   },
+   {
+    "term": "place",
+    "count": 1,
+    "tf": 0.043478,
+    "idf": 4.0714,
+    "score": 0.177016,
+    "relative_score": 0.4139
+   },
+   {
+    "term": "cell",
+    "count": 1,
+    "tf": 0.043478,
+    "idf": 4.0024,
+    "score": 0.174016,
+    "relative_score": 0.4069
+   },
+   {
+    "term": "interested",
+    "count": 1,
+    "tf": 0.043478,
+    "idf": 3.7147,
+    "score": 0.161508,
+    "relative_score": 0.3776
+   },
+   {
+    "term": "student",
+    "count": 2,
+    "tf": 0.086957,
+    "idf": 1.6998,
+    "score": 0.147808,
+    "relative_score": 0.3456
+   },
+   {
+    "term": "notice",
+    "count": 1,
+    "tf": 0.043478,
+    "idf": 2.9038,
+    "score": 0.126251,
+    "relative_score": 0.2952
+   },
+   {
+    "term": "name",
+    "count": 1,
+    "tf": 0.043478,
+    "idf": 2.8186,
+    "score": 0.122548,
+    "relative_score": 0.2865
+   },
+   {
+    "term": "year",
+    "count": 1,
+    "tf": 0.043478,
+    "idf": 2.6161,
+    "score": 0.113743,
+    "relative_score": 0.2659
+   }
+  ]
+ },
+ "ngrams": {
+  "levels": [
+   {
+    "n": 1,
+    "label": "Unigrams",
+    "total": 28,
+    "distinct": 25,
+    "top": [
+     {
+      "ngram": "student",
+      "count": 2
+     },
+     {
+      "ngram": "november",
+      "count": 2
+     },
+     {
+      "ngram": "placement",
+      "count": 2
+     },
+     {
+      "ngram": "notice",
+      "count": 1
+     },
+     {
+      "ngram": "third",
+      "count": 1
+     },
+     {
+      "ngram": "year",
+      "count": 1
+     },
+     {
+      "ngram": "campus",
+      "count": 1
+     },
+     {
+      "ngram": "recruitment",
+      "count": 1
+     },
+     {
+      "ngram": "drive",
+      "count": 1
+     },
+     {
+      "ngram": "technova",
+      "count": 1
+     },
+     {
+      "ngram": "solutions",
+      "count": 1
+     },
+     {
+      "ngram": "take",
+      "count": 1
+     },
+     {
+      "ngram": "place",
+      "count": 1
+     },
+     {
+      "ngram": "seminar",
+      "count": 1
+     },
+     {
+      "ngram": "hall",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "label": "Bigrams",
+    "total": 25,
+    "distinct": 25,
+    "top": [
+     {
+      "ngram": "notice third",
+      "count": 1
+     },
+     {
+      "ngram": "third year",
+      "count": 1
+     },
+     {
+      "ngram": "year student",
+      "count": 1
+     },
+     {
+      "ngram": "student campus",
+      "count": 1
+     },
+     {
+      "ngram": "campus recruitment",
+      "count": 1
+     },
+     {
+      "ngram": "recruitment drive",
+      "count": 1
+     },
+     {
+      "ngram": "drive technova",
+      "count": 1
+     },
+     {
+      "ngram": "technova solutions",
+      "count": 1
+     },
+     {
+      "ngram": "solutions take",
+      "count": 1
+     },
+     {
+      "ngram": "take place",
+      "count": 1
+     },
+     {
+      "ngram": "place november",
+      "count": 1
+     },
+     {
+      "ngram": "november seminar",
+      "count": 1
+     },
+     {
+      "ngram": "seminar hall",
+      "count": 1
+     },
+     {
+      "ngram": "interested student",
+      "count": 1
+     },
+     {
+      "ngram": "student must",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "label": "Trigrams",
+    "total": 22,
+    "distinct": 22,
+    "top": [
+     {
+      "ngram": "notice third year",
+      "count": 1
+     },
+     {
+      "ngram": "third year student",
+      "count": 1
+     },
+     {
+      "ngram": "year student campus",
+      "count": 1
+     },
+     {
+      "ngram": "student campus recruitment",
+      "count": 1
+     },
+     {
+      "ngram": "campus recruitment drive",
+      "count": 1
+     },
+     {
+      "ngram": "recruitment drive technova",
+      "count": 1
+     },
+     {
+      "ngram": "drive technova solutions",
+      "count": 1
+     },
+     {
+      "ngram": "technova solutions take",
+      "count": 1
+     },
+     {
+      "ngram": "solutions take place",
+      "count": 1
+     },
+     {
+      "ngram": "take place november",
+      "count": 1
+     },
+     {
+      "ngram": "place november seminar",
+      "count": 1
+     },
+     {
+      "ngram": "november seminar hall",
+      "count": 1
+     },
+     {
+      "ngram": "interested student must",
+      "count": 1
+     },
+     {
+      "ngram": "student must register",
+      "count": 1
+     },
+     {
+      "ngram": "must register name",
+      "count": 1
+     }
+    ]
+   }
+  ],
+  "note": "Built from lemmatised content words within sentences (stop words removed first)."
+ },
+ "entities": {
+  "model": "en_core_web_sm",
+  "total_entities": 5,
+  "unique_entities": 5,
+  "groups": [
+   {
+    "label": "DATE",
+    "description": "Absolute or relative dates or periods",
+    "total": 2,
+    "unique": 2,
+    "top": [
+     {
+      "text": "12 November",
+      "count": 1
+     },
+     {
+      "text": "21 November",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "label": "CARDINAL",
+    "description": "Numerals that do not fall under another type",
+    "total": 1,
+    "unique": 1,
+    "top": [
+     {
+      "text": "two",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "label": "ORDINAL",
+    "description": "\"first\", \"second\", etc.",
+    "total": 1,
+    "unique": 1,
+    "top": [
+     {
+      "text": "third",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "label": "PRODUCT",
+    "description": "Objects, vehicles, foods, etc. (not services)",
+    "total": 1,
+    "unique": 1,
+    "top": [
+     {
+      "text": "TechNova Solutions",
+      "count": 1
+     }
+    ]
+   }
+  ]
+ },
+ "classification": {
+  "label": "notice",
+  "display_name": "Notice",
+  "confidence": 0.7547,
+  "is_confident": true,
+  "confidence_threshold": 0.5,
+  "probabilities": [
+   {
+    "label": "notice",
+    "display_name": "Notice",
+    "probability": 0.7547
+   },
+   {
+    "label": "study_material",
+    "display_name": "Study Material",
+    "probability": 0.0785
+   },
+   {
+    "label": "assignment",
+    "display_name": "Assignment",
+    "probability": 0.0772
+   },
+   {
+    "label": "question_paper",
+    "display_name": "Question Paper",
+    "probability": 0.0589
+   },
+   {
+    "label": "project_report",
+    "display_name": "Project Report",
+    "probability": 0.0307
+   }
+  ],
+  "explanation": [
+   {
+    "term": "students",
+    "contribution": 0.1538
+   },
+   {
+    "term": "their",
+    "contribution": 0.1267
+   },
+   {
+    "term": "notice",
+    "contribution": 0.1144
+   },
+   {
+    "term": "all",
+    "contribution": 0.0894
+   },
+   {
+    "term": "year",
+    "contribution": 0.0862
+   },
+   {
+    "term": "year students",
+    "contribution": 0.0862
+   },
+   {
+    "term": "placement",
+    "contribution": 0.0762
+   },
+   {
+    "term": "interested",
+    "contribution": 0.0749
+   }
+  ],
+  "model": {
+   "classifier": "logistic_regression",
+   "feature_set": "cleaned_text",
+   "trained_at": "2026-10-07T01:55:47+00:00",
+   "n_training_documents": 240
+  },
+  "disclaimer": "This is a single prediction for the uploaded document. Accuracy, precision, recall and F1 are measured on held-out test sets and are reported separately by /api/model/metrics."
+ },
+ "classification_error": null,
+ "summary": {
+  "method": "TF-IDF sentence scoring with position bonus and redundancy filter",
+  "idf_mode": "reference_corpus",
+  "sentences_in_document": 3,
+  "sentences_eligible": 2,
+  "sentences_selected": 1,
+  "compression_ratio": 0.5111,
+  "summary": [
+   {
+    "index": 0,
+    "text": "Notice to all third year students The campus recruitment drive by TechNova Solutions will take place on 21 November in the seminar hall.",
+    "score": 0.979204,
+    "relative_score": 1.0,
+    "words": 23
+   }
+  ],
+  "summary_text": "Notice to all third year students The campus recruitment drive by TechNova Solutions will take place on 21 November in the seminar hall.",
+  "sentence_scores": [
+   {
+    "index": 0,
+    "score": 0.979204,
+    "selected": true,
+    "words": 23
+   },
+   {
+    "index": 1,
+    "score": 0.667866,
+    "selected": false,
+    "words": 20
+   },
+   {
+    "index": 2,
+    "score": 0.0,
+    "selected": false,
+    "words": 2
+   }
+  ],
+  "parameters": {
+   "position_bonus": 0.25,
+   "redundancy_threshold": 0.6,
+   "min_words": 5,
+   "max_words": 60
+  },
+  "note": null
+ },
+ "summary_error": null,
+ "readability": {
+  "reliable": false,
+  "warning": "Only 43 words in 3 sentence(s): readability formulas need at least 100 words and 3 sentences to be meaningful.",
+  "counts": {
+   "words": 43,
+   "sentences": 3,
+   "syllables": 73,
+   "complex_words": 11,
+   "letters": 231
+  },
+  "averages": {
+   "words_per_sentence": 14.33,
+   "syllables_per_word": 1.698,
+   "letters_per_word": 5.37
+  },
+  "scores": [
+   {
+    "name": "Flesch Reading Ease",
+    "value": 48.66,
+    "interpretation": "Difficult (college level)",
+    "formula": "206.835 - 1.015 x (words/sentences) - 84.6 x (syllables/words); higher = easier"
+   },
+   {
+    "name": "Flesch-Kincaid Grade Level",
+    "value": 10.03,
+    "interpretation": "About US school grade 10.0",
+    "formula": "0.39 x (words/sentences) + 11.8 x (syllables/words) - 15.59"
+   },
+   {
+    "name": "Gunning Fog Index",
+    "value": 15.97,
+    "interpretation": "About 16.0 years of formal education",
+    "formula": "0.4 x ((words/sentences) + 100 x (words of 3+ syllables / words))"
+   },
+   {
+    "name": "Automated Readability Index",
+    "value": 11.04,
+    "interpretation": "About US school grade 11.0",
+    "formula": "4.71 x (letters/words) + 0.5 x (words/sentences) - 21.43"
+   }
+  ],
+  "reading_level": "Difficult (college level)",
+  "note": "Syllables are estimated with a vowel-group heuristic, so scores are approximate."
+ },
+ "vocabulary": {
+  "reliable": false,
+  "warning": "Only 43 words: diversity measures depend strongly on length and are unstable below 100.",
+  "tokens": 43,
+  "types": 37,
+  "lemma_types": 37,
+  "hapax_count": 32,
+  "dis_legomena_count": 4,
+  "measures": [
+   {
+    "key": "ttr",
+    "name": "Type-Token Ratio (TTR)",
+    "value": 0.8605,
+    "description": "Distinct words divided by total words. Falls as documents get longer."
+   },
+   {
+    "key": "root_ttr",
+    "name": "Root TTR (Guiraud)",
+    "value": 5.642,
+    "description": "Distinct words divided by the square root of total words; less sensitive to length."
+   },
+   {
+    "key": "corrected_ttr",
+    "name": "Corrected TTR (Carroll)",
+    "value": 3.99,
+    "description": "Distinct words divided by the square root of twice the total words."
+   },
+   {
+    "key": "mattr",
+    "name": "MATTR (window 50)",
+    "value": 0.8605,
+    "description": "Average TTR over every window of 50 consecutive words; comparable between documents of different length."
+   },
+   {
+    "key": "hapax_ratio",
+    "name": "Hapax legomena ratio",
+    "value": 0.8649,
+    "description": "Share of distinct words that occur exactly once."
+   },
+   {
+    "key": "lexical_density",
+    "name": "Lexical density",
+    "value": 0.6512,
+    "description": "Share of words that are content words (stop words excluded)."
+   }
+  ],
+  "frequency_spectrum": [
+   {
+    "occurrences": "1",
+    "count": 32
+   },
+   {
+    "occurrences": "2",
+    "count": 4
+   },
+   {
+    "occurrences": "3",
+    "count": 1
+   },
+   {
+    "occurrences": "4",
+    "count": 0
+   },
+   {
+    "occurrences": "5+",
+    "count": 0
+   }
+  ],
+  "zipf": [
+   {
+    "rank": 1,
+    "word": "the",
+    "count": 3
+   },
+   {
+    "rank": 2,
+    "word": "november",
+    "count": 2
+   },
+   {
+    "rank": 3,
+    "word": "placement",
+    "count": 2
+   },
+   {
+    "rank": 4,
+    "word": "students",
+    "count": 2
+   },
+   {
+    "rank": 5,
+    "word": "their",
+    "count": 2
+   },
+   {
+    "rank": 6,
+    "word": "all",
+    "count": 1
+   },
+   {
+    "rank": 7,
+    "word": "and",
+    "count": 1
+   },
+   {
+    "rank": 8,
+    "word": "before",
+    "count": 1
+   },
+   {
+    "rank": 9,
+    "word": "by",
+    "count": 1
+   },
+   {
+    "rank": 10,
+    "word": "campus",
+    "count": 1
+   },
+   {
+    "rank": 11,
+    "word": "carry",
+    "count": 1
+   },
+   {
+    "rank": 12,
+    "word": "cell",
+    "count": 1
+   },
+   {
+    "rank": 13,
+    "word": "copies",
+    "count": 1
+   },
+   {
+    "rank": 14,
+    "word": "drive",
+    "count": 1
+   },
+   {
+    "rank": 15,
+    "word": "hall",
+    "count": 1
+   },
+   {
+    "rank": 16,
+    "word": "in",
+    "count": 1
+   },
+   {
+    "rank": 17,
+    "word": "interested",
+    "count": 1
+   },
+   {
+    "rank": 18,
+    "word": "must",
+    "count": 1
+   },
+   {
+    "rank": 19,
+    "word": "names",
+    "count": 1
+   },
+   {
+    "rank": 20,
+    "word": "notice",
+    "count": 1
+   },
+   {
+    "rank": 21,
+    "word": "of",
+    "count": 1
+   },
+   {
+    "rank": 22,
+    "word": "officer",
+    "count": 1
+   },
+   {
+    "rank": 23,
+    "word": "on",
+    "count": 1
+   },
+   {
+    "rank": 24,
+    "word": "place",
+    "count": 1
+   },
+   {
+    "rank": 25,
+    "word": "recruitment",
+    "count": 1
+   },
+   {
+    "rank": 26,
+    "word": "register",
+    "count": 1
+   },
+   {
+    "rank": 27,
+    "word": "resume",
+    "count": 1
+   },
+   {
+    "rank": 28,
+    "word": "seminar",
+    "count": 1
+   },
+   {
+    "rank": 29,
+    "word": "solutions",
+    "count": 1
+   },
+   {
+    "rank": 30,
+    "word": "take",
+    "count": 1
+   }
+  ]
+ },
+ "topic_similarity": {
+  "method": "Cosine similarity of TF-IDF vectors; IDF computed over 11 documents (10 topic profiles + this document)",
+  "topics_compared": 10,
+  "best_topic": null,
+  "best_similarity": 0.043,
+  "is_weak_match": true,
+  "weak_match_threshold": 0.1,
+  "similarities": [
+   {
+    "topic": "Natural Language Processing",
+    "similarity": 0.043
+   },
+   {
+    "topic": "Thermodynamics",
+    "similarity": 0.0337
+   },
+   {
+    "topic": "Database Management Systems",
+    "similarity": 0.0242
+   },
+   {
+    "topic": "Digital Electronics",
+    "similarity": 0.023
+   },
+   {
+    "topic": "Software Engineering",
+    "similarity": 0.0147
+   },
+   {
+    "topic": "Computer Networks",
+    "similarity": 0.0117
+   },
+   {
+    "topic": "Cloud Computing",
+    "similarity": 0.0085
+   },
+   {
+    "topic": "Data Structures",
+    "similarity": 0.0
+   },
+   {
+    "topic": "Machine Learning",
+    "similarity": 0.0
+   },
+   {
+    "topic": "Operating Systems",
+    "similarity": 0.0
+   }
+  ],
+  "matched_terms": [
+   {
+    "term": "name",
+    "weight": 0.0232
+   },
+   {
+    "term": "place",
+    "weight": 0.011
+   },
+   {
+    "term": "two",
+    "weight": 0.0088
+   }
+  ],
+  "note": "Weak match: no topic profile resembles this document."
+ },
+ "topic_similarity_error": null
+}

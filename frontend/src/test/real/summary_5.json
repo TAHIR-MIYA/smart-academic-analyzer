@@ -1,0 +1,302 @@
+{
+ "method": "TF-IDF sentence scoring with position bonus and redundancy filter",
+ "idf_mode": "reference_corpus",
+ "sentences_in_document": 41,
+ "sentences_eligible": 29,
+ "sentences_selected": 5,
+ "compression_ratio": 0.186,
+ "summary": [
+  {
+   "index": 0,
+   "text": "Thread Based Decision Support System for Online Examination.",
+   "score": 0.24604,
+   "relative_score": 1.0,
+   "words": 8
+  },
+  {
+   "index": 2,
+   "text": "This project presents the design and implementation of a decision support system that applies thread and file system to automate routine tasks.",
+   "score": 0.226505,
+   "relative_score": 0.9206,
+   "words": 22
+  },
+  {
+   "index": 8,
+   "text": "The existing system relies on manual effort and does not use thread.",
+   "score": 0.199023,
+   "relative_score": 0.8089,
+   "words": 12
+  },
+  {
+   "index": 14,
+   "text": "Earlier work proposed a method based on file system which improved results on benchmark data.",
+   "score": 0.188771,
+   "relative_score": 0.7672,
+   "words": 15
+  },
+  {
+   "index": 36,
+   "text": "The system demonstrates that thread can be applied effectively to this problem.",
+   "score": 0.222373,
+   "relative_score": 0.9038,
+   "words": 12
+  }
+ ],
+ "summary_text": "Thread Based Decision Support System for Online Examination. This project presents the design and implementation of a decision support system that applies thread and file system to automate routine tasks. The existing system relies on manual effort and does not use thread. Earlier work proposed a method based on file system which improved results on benchmark data. The system demonstrates that thread can be applied effectively to this problem.",
+ "sentence_scores": [
+  {
+   "index": 0,
+   "score": 0.24604,
+   "selected": true,
+   "words": 8
+  },
+  {
+   "index": 1,
+   "score": 0.104606,
+   "selected": false,
+   "words": 39
+  },
+  {
+   "index": 2,
+   "score": 0.226505,
+   "selected": true,
+   "words": 22
+  },
+  {
+   "index": 3,
+   "score": 0.16302,
+   "selected": false,
+   "words": 16
+  },
+  {
+   "index": 4,
+   "score": 0.15748,
+   "selected": false,
+   "words": 15
+  },
+  {
+   "index": 5,
+   "score": 0.11788,
+   "selected": false,
+   "words": 12
+  },
+  {
+   "index": 6,
+   "score": 0.0,
+   "selected": false,
+   "words": 1
+  },
+  {
+   "index": 7,
+   "score": 0.0,
+   "selected": false,
+   "words": 2
+  },
+  {
+   "index": 8,
+   "score": 0.199023,
+   "selected": true,
+   "words": 12
+  },
+  {
+   "index": 9,
+   "score": 0.091476,
+   "selected": false,
+   "words": 9
+  },
+  {
+   "index": 10,
+   "score": 0.153809,
+   "selected": false,
+   "words": 13
+  },
+  {
+   "index": 11,
+   "score": 0.0,
+   "selected": false,
+   "words": 1
+  },
+  {
+   "index": 12,
+   "score": 0.0,
+   "selected": false,
+   "words": 2
+  },
+  {
+   "index": 13,
+   "score": 0.131769,
+   "selected": false,
+   "words": 11
+  },
+  {
+   "index": 14,
+   "score": 0.188771,
+   "selected": true,
+   "words": 15
+  },
+  {
+   "index": 15,
+   "score": 0.052492,
+   "selected": false,
+   "words": 10
+  },
+  {
+   "index": 16,
+   "score": 0.0,
+   "selected": false,
+   "words": 1
+  },
+  {
+   "index": 17,
+   "score": 0.0,
+   "selected": false,
+   "words": 1
+  },
+  {
+   "index": 18,
+   "score": 0.079325,
+   "selected": false,
+   "words": 9
+  },
+  {
+   "index": 19,
+   "score": 0.040778,
+   "selected": false,
+   "words": 8
+  },
+  {
+   "index": 20,
+   "score": 0.143419,
+   "selected": false,
+   "words": 9
+  },
+  {
+   "index": 21,
+   "score": 0.171648,
+   "selected": false,
+   "words": 15
+  },
+  {
+   "index": 22,
+   "score": 0.0,
+   "selected": false,
+   "words": 1
+  },
+  {
+   "index": 23,
+   "score": 0.0,
+   "selected": false,
+   "words": 3
+  },
+  {
+   "index": 24,
+   "score": 0.118953,
+   "selected": false,
+   "words": 15
+  },
+  {
+   "index": 25,
+   "score": 0.083256,
+   "selected": false,
+   "words": 7
+  },
+  {
+   "index": 26,
+   "score": 0.036482,
+   "selected": false,
+   "words": 8
+  },
+  {
+   "index": 27,
+   "score": 0.062592,
+   "selected": false,
+   "words": 9
+  },
+  {
+   "index": 28,
+   "score": 0.0,
+   "selected": false,
+   "words": 1
+  },
+  {
+   "index": 29,
+   "score": 0.0,
+   "selected": false,
+   "words": 2
+  },
+  {
+   "index": 30,
+   "score": 0.132544,
+   "selected": false,
+   "words": 13
+  },
+  {
+   "index": 31,
+   "score": 0.032573,
+   "selected": false,
+   "words": 9
+  },
+  {
+   "index": 32,
+   "score": 0.161829,
+   "selected": false,
+   "words": 8
+  },
+  {
+   "index": 33,
+   "score": 0.0,
+   "selected": false,
+   "words": 1
+  },
+  {
+   "index": 34,
+   "score": 0.0,
+   "selected": false,
+   "words": 1
+  },
+  {
+   "index": 35,
+   "score": 0.041538,
+   "selected": false,
+   "words": 6
+  },
+  {
+   "index": 36,
+   "score": 0.222373,
+   "selected": true,
+   "words": 12
+  },
+  {
+   "index": 37,
+   "score": 0.056973,
+   "selected": false,
+   "words": 9
+  },
+  {
+   "index": 38,
+   "score": 0.063549,
+   "selected": false,
+   "words": 12
+  },
+  {
+   "index": 39,
+   "score": 0.117493,
+   "selected": false,
+   "words": 16
+  },
+  {
+   "index": 40,
+   "score": 0.061013,
+   "selected": false,
+   "words": 7
+  }
+ ],
+ "parameters": {
+  "position_bonus": 0.25,
+  "redundancy_threshold": 0.6,
+  "min_words": 5,
+  "max_words": 60
+ },
+ "note": null,
+ "document_id": 1
+}

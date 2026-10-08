@@ -74,4 +74,11 @@ describe("system status in the sidebar", () => {
     expect(screen.getByText(/python -m app.ml.train/)).toBeInTheDocument();
     expect(screen.getByText(/python -m scripts.setup_nlp/)).toBeInTheDocument();
   });
+
+  it("does not suggest the language-data fix when spaCy itself is blocked or broken", async () => {
+    api.health.mockResolvedValue(health({ nlp_resources: { ready: false, spacy_problem: "spaCy is installed but cannot be loaded: DLL load failed" } }));
+    at("/upload");
+    expect(await screen.findByText(/spaCy cannot be used/)).toBeInTheDocument();
+    expect(screen.queryByText(/python -m scripts.setup_nlp/)).not.toBeInTheDocument();
+  });
 });
