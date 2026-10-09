@@ -1,0 +1,22 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Local configuration, data and logs
+.env
+backend/data/
+backend/logs/
+
+# Trained model (machine specific; recreate with: python -m app.ml.train)
+backend/app/ml/artifacts/*.joblib
+
+# Frontend
+node_modules/
+dist/
+
+# Editor / OS
+.vscode/
+.DS_Store

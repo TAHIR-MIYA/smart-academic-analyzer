@@ -24,3 +24,65 @@
 2026-10-05 17:39:34,603 | INFO     | app.db.database | Database ready at sqlite:///./data/analyzer.db
 2026-10-05 17:40:20,460 | INFO     | app.nlp.resources | Loaded spaCy model en_core_web_sm (pipeline: ['tok2vec', 'tagger', 'parser', 'attribute_ruler', 'lemmatizer', 'ner'])
 2026-10-05 17:40:20,547 | INFO     | app.nlp.pipeline | Pipeline: 11 sentences, 343 tokens, 197 content lemmas
+2026-10-08 07:09:09,630 | INFO     | app.main | Starting Smart Academic Document Analyzer v0.1.0
+2026-10-08 07:09:09,642 | INFO     | app.db.database | Database ready at sqlite:///./data/analyzer.db
+2026-10-08 07:11:11,534 | INFO     | app.main | GET /api/analysis/2 -> not_found: Document 2 has not been analysed yet.
+2026-10-08 07:11:11,548 | INFO     | app.main | GET /api/analysis/2 -> not_found: Document 2 has not been analysed yet.
+2026-10-08 07:11:31,444 | INFO     | app.nlp.resources | Loaded spaCy model en_core_web_sm (pipeline: ['tok2vec', 'tagger', 'parser', 'attribute_ruler', 'lemmatizer', 'ner'])
+2026-10-08 07:11:31,507 | INFO     | app.nlp.pipeline | Pipeline: 26 sentences, 358 tokens, 197 content lemmas
+2026-10-08 07:11:31,615 | INFO     | app.nlp.pipeline | Pipeline: 9 sentences, 175 tokens, 100 content lemmas
+2026-10-08 07:11:31,654 | INFO     | app.nlp.pipeline | Pipeline: 9 sentences, 165 tokens, 92 content lemmas
+2026-10-08 07:11:31,683 | INFO     | app.nlp.pipeline | Pipeline: 9 sentences, 186 tokens, 107 content lemmas
+2026-10-08 07:11:31,718 | INFO     | app.nlp.pipeline | Pipeline: 9 sentences, 181 tokens, 96 content lemmas
+2026-10-08 07:11:31,755 | INFO     | app.nlp.pipeline | Pipeline: 9 sentences, 172 tokens, 100 content lemmas
+2026-10-08 07:11:31,816 | INFO     | app.nlp.pipeline | Pipeline: 9 sentences, 200 tokens, 116 content lemmas
+2026-10-08 07:11:31,888 | INFO     | app.nlp.pipeline | Pipeline: 9 sentences, 184 tokens, 99 content lemmas
+2026-10-08 07:11:31,948 | INFO     | app.nlp.pipeline | Pipeline: 9 sentences, 178 tokens, 102 content lemmas
+2026-10-08 07:11:32,006 | INFO     | app.nlp.pipeline | Pipeline: 9 sentences, 186 tokens, 103 content lemmas
+2026-10-08 07:11:32,037 | INFO     | app.nlp.pipeline | Pipeline: 9 sentences, 164 tokens, 91 content lemmas
+2026-10-08 07:11:32,124 | INFO     | app.services.analysis_store | Saved analysis for document id=2
+2026-10-08 07:16:31,243 | INFO     | app.utils.file_validation | Validated upload 'CD.pdf' (pdf, 1904015 bytes)
+2026-10-08 07:16:31,520 | INFO     | app.main | POST /api/documents/upload -> empty_document: No extractable text found. The PDF may be a scanned image (OCR is not supported in this version).
+2026-10-08 07:18:23,282 | INFO     | app.utils.file_validation | Validated upload 'Natural Language Processing unit 1 notes.pdf' (pdf, 1438763 bytes)
+2026-10-08 07:18:23,394 | INFO     | app.services.extraction | Extracted 31758 characters from pdf via pymupdf
+2026-10-08 07:18:23,429 | INFO     | app.services.document_service | Stored document id=3 name='Natural Language Processing unit 1 notes.pdf'
+2026-10-08 07:18:24,625 | INFO     | app.nlp.pipeline | Pipeline: 286 sentences, 6231 tokens, 2509 content lemmas
+2026-10-08 07:18:25,844 | INFO     | app.services.analysis_store | Saved analysis for document id=3
+2026-10-08 07:31:01,868 | INFO     | app.utils.file_validation | Validated upload 'Smart_Contract_Vulnerabilities_OWASP_Review_v2.pdf' (pdf, 28429 bytes)
+2026-10-08 07:31:01,928 | INFO     | app.services.extraction | Extracted 24130 characters from pdf via pymupdf
+2026-10-08 07:31:01,939 | INFO     | app.services.document_service | Stored document id=4 name='Smart_Contract_Vulnerabilities_OWASP_Review_v2.pdf'
+2026-10-08 07:31:03,282 | INFO     | app.nlp.pipeline | Pipeline: 364 sentences, 4856 tokens, 2119 content lemmas
+2026-10-08 07:31:04,431 | INFO     | app.services.analysis_store | Saved analysis for document id=4
+2026-10-08 07:31:11,953 | INFO     | app.services.analysis_store | Saved analysis for document id=4
+2026-10-08 07:31:15,949 | INFO     | app.services.analysis_store | Saved analysis for document id=4
+2026-10-08 07:31:16,986 | INFO     | app.services.analysis_store | Saved analysis for document id=4
+2026-10-08 07:31:17,610 | INFO     | app.services.analysis_store | Saved analysis for document id=4
+2026-10-08 07:31:18,759 | INFO     | app.services.analysis_store | Saved analysis for document id=4
+2026-10-08 07:31:19,347 | INFO     | app.services.analysis_store | Saved analysis for document id=4
+2026-10-08 07:31:19,730 | INFO     | app.services.analysis_store | Saved analysis for document id=4
+2026-10-08 07:31:20,212 | INFO     | app.services.analysis_store | Saved analysis for document id=4
+2026-10-08 07:31:20,732 | INFO     | app.services.analysis_store | Saved analysis for document id=4
+2026-10-08 07:31:21,271 | INFO     | app.services.analysis_store | Saved analysis for document id=4
+2026-10-08 07:31:21,841 | INFO     | app.services.analysis_store | Saved analysis for document id=4
+2026-10-08 07:40:02,721 | INFO     | app.utils.file_validation | Validated upload 'ins mid paper .pdf' (pdf, 4088172 bytes)
+2026-10-08 07:40:02,728 | INFO     | app.main | POST /api/documents/upload -> empty_document: No extractable text found. The PDF may be a scanned image (OCR is not supported in this version).
+2026-10-08 07:40:13,453 | INFO     | app.utils.file_validation | Validated upload 'ins mid paper .pdf' (pdf, 4088172 bytes)
+2026-10-08 07:40:13,457 | INFO     | app.main | POST /api/documents/upload -> empty_document: No extractable text found. The PDF may be a scanned image (OCR is not supported in this version).
+2026-10-08 07:41:20,012 | INFO     | app.utils.file_validation | Validated upload 'Computer_Science.pdf' (pdf, 1495659 bytes)
+2026-10-08 07:41:20,097 | INFO     | app.services.extraction | Extracted 40194 characters from pdf via pymupdf
+2026-10-08 07:41:20,110 | INFO     | app.services.document_service | Stored document id=5 name='Computer_Science.pdf'
+2026-10-08 07:41:21,390 | INFO     | app.nlp.pipeline | Pipeline: 593 sentences, 9347 tokens, 1992 content lemmas
+2026-10-08 07:41:23,364 | INFO     | app.services.analysis_store | Saved analysis for document id=5
+2026-10-08 07:44:33,134 | INFO     | app.services.analysis_store | Saved analysis for document id=5
+2026-10-08 07:44:34,260 | INFO     | app.services.analysis_store | Saved analysis for document id=5
+2026-10-08 07:44:34,848 | INFO     | app.services.analysis_store | Saved analysis for document id=5
+2026-10-08 07:46:03,426 | INFO     | app.utils.file_validation | Validated upload 'NLP_External_Exam_Question_Paper.pdf' (pdf, 31030 bytes)
+2026-10-08 07:46:03,439 | INFO     | app.services.extraction | Extracted 3643 characters from pdf via pymupdf
+2026-10-08 07:46:03,447 | INFO     | app.services.document_service | Stored document id=6 name='NLP_External_Exam_Question_Paper.pdf'
+2026-10-08 07:46:03,601 | INFO     | app.nlp.pipeline | Pipeline: 62 sentences, 711 tokens, 318 content lemmas
+2026-10-08 07:46:03,761 | INFO     | app.services.analysis_store | Saved analysis for document id=6
+2026-10-08 07:50:26,080 | INFO     | app.utils.file_validation | Validated upload 'Software_Engineering_External_Exam.pdf' (pdf, 30714 bytes)
+2026-10-08 07:50:26,090 | INFO     | app.services.extraction | Extracted 3675 characters from pdf via pymupdf
+2026-10-08 07:50:26,102 | INFO     | app.services.document_service | Stored document id=7 name='Software_Engineering_External_Exam.pdf'
+2026-10-08 07:50:26,263 | INFO     | app.nlp.pipeline | Pipeline: 62 sentences, 688 tokens, 319 content lemmas
+2026-10-08 07:50:26,498 | INFO     | app.services.analysis_store | Saved analysis for document id=7
